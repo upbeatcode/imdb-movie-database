@@ -1,0 +1,898 @@
+/* Root Styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #root {
+    padding: 2rem;
+  }
+}
+
+/* Logo Styles */
+.logo {
+  height: 4em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+  }
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card Styles */
+.card {
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 2em;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Enhanced Movie Table Styles */
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-size: 14px;
+  table-layout: fixed;
+  min-width: 800px;
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #444;
+  padding: 12px 8px;
+  text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.movie-table td:nth-child(1) {
+  text-align: left;
+}
+
+.movie-table th {
+  background-color: goldenrod;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.movie-table tr:nth-child(even) {
+  background-color: #292929;
+}
+
+.movie-table tr:hover {
+  background-color: #444;
+}
+
+/* Table Row Animations */
+.movie-table tbody tr {
+  animation: fadeIn 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.movie-table tbody tr:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+/* Staggered animation delays */
+.movie-table tbody tr:nth-child(1) { animation-delay: 0.1s; }
+.movie-table tbody tr:nth-child(2) { animation-delay: 0.15s; }
+.movie-table tbody tr:nth-child(3) { animation-delay: 0.2s; }
+.movie-table tbody tr:nth-child(4) { animation-delay: 0.25s; }
+.movie-table tbody tr:nth-child(5) { animation-delay: 0.3s; }
+.movie-table tbody tr:nth-child(6) { animation-delay: 0.35s; }
+.movie-table tbody tr:nth-child(7) { animation-delay: 0.4s; }
+.movie-table tbody tr:nth-child(8) { animation-delay: 0.45s; }
+.movie-table tbody tr:nth-child(9) { animation-delay: 0.5s; }
+.movie-table tbody tr:nth-child(10) { animation-delay: 0.55s; }
+
+/* Enhanced Table Container */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabs (horizontal) */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.tabs button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  min-width: 80px;
+  flex: 0 1 auto;
+}
+
+.tabs button:hover {
+  background-color: #444;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.tabs .active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Container and Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Filter Tabs Container */
+.filter-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-toggle,
+.sidebar-toggle {
+  padding: 12px 16px;
+  border: none;
+  background-color: #555;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.filter-toggle:hover,
+.sidebar-toggle:hover {
+  background-color: #666;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.filter-toggle.active,
+.sidebar-toggle.active {
+  background-color: #f3218a;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(243, 33, 138, 0.5);
+}
+
+/* Vertical Tabs */
+.vertical-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vertical-tabs button {
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: left;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.vertical-tabs button:hover {
+  background-color: #444;
+  color: white;
+}
+
+.vertical-tabs .active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Filter Mode Buttons */
+.filter-mode-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.filter-mode-buttons button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #555;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 140px;
+  max-width: 200px;
+}
+
+.filter-mode-buttons button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.filter-mode-buttons button:hover {
+  background-color: #666;
+  transform: translateY(-1px);
+}
+
+/* Clear Filters Button */
+.clear-filters {
+  padding: 12px 20px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  min-width: 140px;
+}
+
+.clear-filters:hover {
+  background-color: #cc0000;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header and Breadcrumbs */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.breadcrumb-separator {
+  margin: 0 8px;
+  color: #666;
+}
+
+.breadcrumb-item {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.breadcrumb-item:hover {
+  color: #0056b3;
+}
+
+.breadcrumb-item.active {
+  color: #ffffff;
+  cursor: default;
+}
+
+/* Enhanced Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.pagination-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  min-width: 100px;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pagination-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.pagination-info {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* Enhanced Movie Modal */
+.movie-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.movie-modal-content {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.movie-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.movie-details p {
+  margin: 12px 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.movie-details strong {
+  color: #007bff;
+}
+
+/* Data Visualization Styles */
+.data-visualization {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.chart-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.chart-selector button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #333;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 120px;
+  max-width: 180px;
+}
+
+.chart-selector button:hover {
+  background-color: #444;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.chart-selector button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+}
+
+.chart-container {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.visualization-toggle {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+.visualization-toggle button {
+  padding: 12px 24px;
+  border: none;
+  background-color: #555;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.visualization-toggle button:hover {
+  background-color: #666;
+  transform: translateY(-1px);
+}
+
+.visualization-toggle button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Tooltip styles for charts */
+.recharts-tooltip-wrapper {
+  background-color: rgba(30, 30, 30, 0.9) !important;
+  border: 1px solid #444 !important;
+  border-radius: 4px !important;
+  color: white !important;
+}
+
+.recharts-default-tooltip {
+  background-color: #1e1e1e !important;
+  border-color: #444 !important;
+  color: white !important;
+}
+
+/* Legend styles */
+.recharts-legend-item-text {
+  color: #ddd !important;
+}
+
+/* Axis styles */
+.recharts-cartesian-axis-tick-value {
+  fill: #ddd !important;
+}
+
+/* Grid styles */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #444 !important;
+}
+
+/* Header and Typography */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Filter Header */
+.filter-header {
+  margin: 20px 0;
+  padding: 0 10px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/* Links */
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+/* Utility Button Class */
+.button {
+  background-color: #333;
+  color: #bbb;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #444;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Loading and Error States */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.error {
+  color: #ff4d4d;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 77, 77, 0.1);
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* Utility classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.hidden { display: none; }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .movie-table {
+    min-width: 300px;
+    font-size: 12px;
+  }
+  
+  .movie-table th,
+  .movie-table td {
+    padding: 8px 4px;
+  }
+  
+  /* Hide less critical columns on very small screens */
+  .movie-table th:nth-child(3),
+  .movie-table td:nth-child(3) {
+    display: none;
+  }
+  
+  /* Make title column wider */
+  .movie-table th:nth-child(1),
+  .movie-table td:nth-child(1) {
+    width: 60%;
+  }
+  
+  .filter-mode-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filter-mode-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .pagination {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .pagination-button {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .chart-container {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-table {
+    min-width: 500px;
+    font-size: 12px;
+  }
+  
+  .movie-table th,
+  .movie-table td {
+    padding: 8px 4px;
+  }
+  
+  /* Hide less important columns on mobile */
+  .movie-table th:nth-child(4), /* Runtime */
+  .movie-table td:nth-child(4),
+  .movie-table th:nth-child(6), /* My Rating */
+  .movie-table td:nth-child(6),
+  .movie-table th:nth-child(7), /* Date Rated */
+  .movie-table td:nth-child(7),
+  .movie-table th:nth-child(8), /* Number of Votes */
+  .movie-table td:nth-child(8),
+  .movie-table th:nth-child(9), /* Release Date */
+  .movie-table td:nth-child(9) {
+    display: none;
+  }
+  
+  /* Mobile tabs - stack vertically */
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tabs button {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  .filter-tabs {
+    padding: 0 10px;
+  }
+  
+  .filter-toggle {
+    font-size: 14px;
+    padding: 14px;
+  }
+  
+  /* Mobile modal adjustments */
+  .movie-modal {
+    padding: 10px;
+  }
+  
+  .movie-modal-content {
+    padding: 20px;
+    max-height: 95vh;
+    border-radius: 8px;
+  }
+  
+  .close-button {
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+  }
+  
+  .movie-details p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  /* Mobile visualization adjustments */
+  .data-visualization {
+    margin: 20px 0;
+    padding: 15px;
+  }
+  
+  .chart-selector {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-selector button {
+    width: 100%;
+    max-width: 250px;
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  .chart-container {
+    height: 300px;
+  }
+  
+  .visualization-toggle button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    width: 200px;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects on touch devices */
+  .tabs button:hover,
+  .filter-toggle:hover,
+  .pagination-button:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  /* Make buttons larger for touch */
+  .tabs button,
+  .filter-toggle,
+  .pagination-button {
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus styles for keyboard navigation */
+button:focus,
+.movie-table th:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
