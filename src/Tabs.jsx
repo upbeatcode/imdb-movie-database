@@ -1,4 +1,5 @@
 import { data } from './assets/data.js';
+import { useState } from 'react';
 
 import {
   GenreTabsProps,
@@ -10,7 +11,7 @@ import {
 import {
   getUniqueGenres,
   getUniqueDecades,
-  getUniqueYears,
+  // getUniqueYears,
   getUniqueRatings,
   getUniqueDateRatedYears,
   // generateFilterHeader
@@ -68,29 +69,101 @@ export function DecadeTabs({ currentDecade, onSelect }) {
 
 DecadeTabs.propTypes = DecadeTabsProps;
 
-export function YearTabs({ currentYear, onSelect }) {
-  const years = getUniqueYears(data);
+export const YearTabs = ({ currentYear, onSelect }) => {
+  const [expandedDecade, setExpandedDecade] = useState(null);
+  
+  // Get unique years from data
+  const uniqueYears = [...new Set(data.map(movie => movie.year))];
+  
+  // Group years by decade
+  const yearsByDecade = {};
+  uniqueYears.forEach(year => {
+    const decade = `${Math.floor(year / 10) * 10}s`;
+    if (!yearsByDecade[decade]) {
+      yearsByDecade[decade] = [];
+    }
+    yearsByDecade[decade].push(year);
+  });
+
+  // Sort decades and years within each decade
+  const sortedDecades = Object.keys(yearsByDecade).sort((a, b) => {
+    const yearA = parseInt(a.replace('s', ''));
+    const yearB = parseInt(b.replace('s', ''));
+    return yearB - yearA; // Newest first
+  });
+
+  sortedDecades.forEach(decade => {
+    yearsByDecade[decade].sort((a, b) => b - a); // Newest first within decade
+  });
+
+  const handleDecadeClick = (decade) => {
+    if (expandedDecade === decade) {
+      setExpandedDecade(null);
+    } else {
+      setExpandedDecade(decade);
+    }
+  };
+
+  const handleYearClick = (year) => {
+    onSelect(year);
+    setExpandedDecade(null); // Collapse after selection
+  };
 
   return (
-    <div className="tabs">
+    <div className="filter-options">
       <button
-        className={!currentYear ? 'active' : ''}
-        onClick={() => onSelect(null)} // Clear year filter
+        className={`filter-option ${!currentYear ? 'active' : ''}`}
+        onClick={() => onSelect(null)}
       >
         All Years
       </button>
-      {years.map((year) => (
-        <button
-          key={year}
-          className={currentYear === year ? 'active' : ''} // Fix: Compare with number instead of string
-          onClick={() => onSelect(year)} // Select year filter
-        >
-          {year}
-        </button>
-      ))}
+      
+      {/* Desktop view - all years */}
+      <div className="desktop-year-tabs">
+        {uniqueYears
+          .sort((a, b) => b - a)
+          .map((year) => (
+            <button
+              key={year}
+              className={`filter-option ${currentYear === year ? 'active' : ''}`}
+              onClick={() => onSelect(year)}
+            >
+              {year}
+            </button>
+          ))}
+      </div>
+      
+      {/* Mobile view - decade grouping */}
+      <div className="mobile-year-tabs">
+        {sortedDecades.map((decade) => (
+          <div key={decade} className="decade-group">
+            <button
+              className={`decade-button ${expandedDecade === decade ? 'expanded' : ''}`}
+              onClick={() => handleDecadeClick(decade)}
+            >
+              {decade} {expandedDecade === decade ? '−' : '+'}
+              <span className="year-count">({yearsByDecade[decade].length})</span>
+            </button>
+            
+            {expandedDecade === decade && (
+              <div className="decade-years">
+                {yearsByDecade[decade].map((year) => (
+                  <button
+                    key={year}
+                    className={`year-option ${currentYear === year ? 'active' : ''}`}
+                    onClick={() => handleYearClick(year)}
+                  >
+                    {year}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
     </div>
   );
-}
+};
 
 YearTabs.propTypes = YearTabsProps;
 

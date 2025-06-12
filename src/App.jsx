@@ -1,12 +1,15 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from 'react-router-dom';
-import Header from './Header.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Header';
 import { useState } from 'react';
-import { YearPage, DecadePage, GenrePage, RatingPage, DateRatedPage } from './Pages.jsx';
-import {HomePage} from './HomePage';
+import {
+  YearPage,
+  DecadePage,
+  GenrePage,
+  RatingPage,
+  DateRatedPage
+} from './Pages.jsx';
+import { HomePage } from './HomePage';
+import Analytics from './Analytics.jsx';
 
 function App() {
   const [activeFilter, setActiveFilter] = useState('genres'); // Current filter type (genres, decades, years, etc.)
@@ -115,6 +118,17 @@ function App() {
         <Route path="/year/:year" element={<YearPage />} />
         <Route path="/rating/:rating" element={<RatingPage />} />
         <Route path="/date-rated/:year" element={<DateRatedPage />} />
+        <Route
+          path="/analytics"
+          element={
+            <Analytics
+              activeFilters={activeFilters}
+              filterMovies={filterMovies}
+              updateActiveFilters={updateActiveFilters}
+              clearFilters={clearFilters}
+            />
+          }
+        />
       </Routes>
     </Router>
   );

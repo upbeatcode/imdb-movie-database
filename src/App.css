@@ -12,44 +12,6 @@
   }
 }
 
-/* Logo Styles */
-.logo {
-  height: 4em;
-  padding: 1em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-@media (min-width: 768px) {
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-  }
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 /* Card Styles */
 .card {
   padding: 1em;
@@ -895,4 +857,462 @@ button:focus,
 .movie-table th:focus {
   outline: 2px solid #007bff;
   outline-offset: 2px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Hide desktop table, show mobile cards */
+  .desktop-view {
+    display: none;
+  }
+  
+  .mobile-view {
+    display: block;
+  }
+  
+  Mobile movie cards
+  .movie-card {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  
+  .movie-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .movie-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .movie-year {
+    color: #666;
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+  
+  .movie-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .movie-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+  }
+  
+  .movie-card-row .label {
+    font-weight: bold;
+    /* color: #495057; */
+    min-width: 80px;
+  }
+  
+  /* Filter buttons responsive */
+  .filter-mode-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-toggle {
+    flex: 1;
+    min-width: 120px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Show short text on mobile */
+  .filter-text-full {
+    display: none;
+  }
+  
+  .filter-text-short {
+    display: inline;
+  }
+  
+  /* Modal responsive */
+  .movie-modal-content {
+    width: 95%;
+    max-width: none;
+    margin: 5% auto;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  /* Pagination responsive */
+  .pagination {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .pagination-info {
+    order: -1;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Hide mobile cards, show desktop table */
+  .mobile-view {
+    display: none;
+  }
+  
+  .desktop-view {
+    display: table;
+  }
+  
+  /* Show full text on desktop */
+  .filter-text-full {
+    display: inline;
+  }
+  
+  .filter-text-short {
+    display: none;
+  }
+  
+  /* Desktop filter layout */
+  .filter-mode-buttons,
+  .filter-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-toggle {
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Base styles for both views */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-weight: bold;
+}
+
+/* Dark mode optimized mobile cards */
+.movie-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  color: #e2e8f0;
+}
+
+.movie-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background: #374151;
+}
+
+.movie-card-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  flex: 1;
+  min-width: 200px;
+  color: #f7fafc;
+}
+
+.movie-year {
+  color: #a0aec0;
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+
+.movie-card-row .label {
+  font-weight: bold;
+  color: #cbd5e0;
+  min-width: 80px;
+}
+
+.movie-card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0;
+  color: #e2e8f0;
+}
+
+/* Year tabs responsive design */
+@media (max-width: 768px) {
+  .desktop-year-tabs {
+    display: none;
+  }
+  
+  .mobile-year-tabs {
+    display: block;
+  }
+  
+  .decade-group {
+    margin-bottom: 0.5rem;
+  }
+  
+  .decade-button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: #374151;
+    border: 1px solid #4a5568;
+    color: #e2e8f0;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .decade-button:hover {
+    background: #4a5568;
+  }
+  
+  .decade-button.expanded {
+    background: #4338ca;
+    border-color: #6366f1;
+  }
+  
+  .year-count {
+    font-size: 0.8rem;
+    color: #a0aec0;
+    font-weight: normal;
+  }
+  
+  .decade-years {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: #2d3748;
+    border-radius: 6px;
+    border: 1px solid #4a5568;
+  }
+  
+  .year-option {
+    padding: 0.5rem;
+    background: #4a5568;
+    border: 1px solid #6b7280;
+    color: #e2e8f0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+  
+  .year-option:hover {
+    background: #6b7280;
+  }
+  
+  .year-option.active {
+    background: #10b981;
+    border-color: #059669;
+    color: white;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-year-tabs {
+    display: none;
+  }
+  
+  .desktop-year-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+/* Analytics Page Styles */
+.analytics-page {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.analytics-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.analytics-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #f7fafc;
+}
+
+.analytics-header p {
+  font-size: 1.1rem;
+  color: #a0aec0;
+}
+
+.analytics-filters {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.analytics-filters h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #f7fafc;
+}
+
+.filter-tabs-content {
+  margin-top: 1rem;
+}
+
+.filter-status {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #374151;
+  border-radius: 6px;
+  border-left: 4px solid #10b981;
+}
+
+.filter-status h3 {
+  margin: 0;
+  color: #f7fafc;
+  font-size: 1.2rem;
+}
+
+.analytics-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.analytics-section {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.analytics-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #f7fafc;
+  font-size: 1.8rem;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 3rem;
+  color: #a0aec0;
+  background: #374151;
+  border-radius: 6px;
+  border: 2px dashed #4a5568;
+}
+
+.coming-soon p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Header Navigation Styles */
+.header-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header-nav a {
+  color: #e2e8f0;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.header-nav a:hover {
+  background: #374151;
+  color: #f7fafc;
+}
+
+.header-nav a.active {
+  background: #10b981;
+  color: white;
+}
+
+/* Mobile responsiveness for analytics */
+@media (max-width: 768px) {
+  .analytics-page {
+    padding: 1rem;
+  }
+  
+  .analytics-header h1 {
+    font-size: 2rem;
+  }
+  
+  .analytics-filters {
+    padding: 1rem;
+  }
+  
+  .analytics-section {
+    padding: 1rem;
+  }
+  
+  .header-nav {
+    gap: 1rem;
+  }
+  
+  .header-nav a {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
 }

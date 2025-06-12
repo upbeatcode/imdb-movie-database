@@ -1,9 +1,9 @@
 import { HomePageProps } from './componentProps.js';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { data } from './assets/data.js';
 import MovieTable from './MovieTable.jsx';
-import DataVisualization from './DataVisualization.jsx';
+// import DataVisualization from './DataVisualization.jsx';
 import { generateFilterHeader } from './utilities.js';
 import {
   GenreTabs,
@@ -24,7 +24,6 @@ export function HomePage({
   clearFilters
 }) {
   const navigate = useNavigate();
-  const [showVisualization, setShowVisualization] = useState(false);
 
   // Handle filter selection
   const handleFilterSelect = (filterType, value) => {
@@ -85,19 +84,6 @@ export function HomePage({
         )}
       </div>
 
-      {/* Visualization Toggle Button */}
-      <div className="visualization-toggle">
-        <button
-          className={`filter-toggle ${showVisualization ? 'active' : ''}`}
-          onClick={() => setShowVisualization(!showVisualization)}
-        >
-          {showVisualization ? 'Hide Visualization' : 'Show Visualization'}
-        </button>
-      </div>
-
-      {/* Data Visualization Section */}
-      {showVisualization && <DataVisualization data={filteredMovies} />}
-
       {/* Filter Toggles */}
       <div className="filter-tabs">
         <button
@@ -106,7 +92,8 @@ export function HomePage({
           }`}
           onClick={() => setActiveFilter('genres')}
         >
-          Filter by Genre
+          <span className="filter-text-full">Filter by Genre</span>
+          <span className="filter-text-short">Genre</span>
         </button>
         <button
           className={`filter-toggle ${
@@ -114,7 +101,8 @@ export function HomePage({
           }`}
           onClick={() => setActiveFilter('decades')}
         >
-          Filter by Decade
+          <span className="filter-text-full">Filter by Decade</span>
+          <span className="filter-text-short">Decade</span>
         </button>
         <button
           className={`filter-toggle ${
@@ -122,7 +110,8 @@ export function HomePage({
           }`}
           onClick={() => setActiveFilter('years')}
         >
-          Filter by Year
+          <span className="filter-text-full">Filter by Year</span>
+          <span className="filter-text-short">Year</span>
         </button>
         <button
           className={`filter-toggle ${
@@ -130,7 +119,8 @@ export function HomePage({
           }`}
           onClick={() => setActiveFilter('ratings')}
         >
-          Filter by Rating
+          <span className="filter-text-full">Filter by Rating</span>
+          <span className="filter-text-short">Rating</span>
         </button>
         <button
           className={`filter-toggle ${
@@ -138,7 +128,8 @@ export function HomePage({
           }`}
           onClick={() => setActiveFilter('dateRated')}
         >
-          Filter by Date Rated
+          <span className="filter-text-full">Filter by Date Rated</span>
+          <span className="filter-text-short">Date</span>
         </button>
       </div>
 

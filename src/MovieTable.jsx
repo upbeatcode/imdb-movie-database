@@ -4,7 +4,6 @@ import './App.css';
 // import {data} from './assets/data.js';
 import { formatRuntime, formatNumber, formatDate } from './utilities.js';
 
-
 const MovieTable = ({ data }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
   const [currentPage, setCurrentPage] = useState(1);
@@ -57,7 +56,42 @@ const MovieTable = ({ data }) => {
   return (
     <>
       <div className="table-container">
-        <table className="movie-table">
+        {/* Mobile Card View */}
+        <div className="mobile-view">
+          {currentMovies.map((movie) => (
+            <div
+              key={movie.id}
+              className="movie-card"
+              onClick={() => setSelectedMovie(movie)}
+            >
+              <div className="movie-card-header">
+                <h3>{movie.title}</h3>
+                <span className="movie-year">({movie.year})</span>
+              </div>
+              <div className="movie-card-content">
+                <div className="movie-card-row">
+                  <span className="label">Genres:</span>
+                  <span>{movie.genres.join(', ')}</span>
+                </div>
+                <div className="movie-card-row">
+                  <span className="label">Runtime:</span>
+                  <span>{formatRuntime(movie.runtime)}</span>
+                </div>
+                <div className="movie-card-row">
+                  <span className="label">My Rating:</span>
+                  <span>{movie.myRating}</span>
+                </div>
+                <div className="movie-card-row">
+                  <span className="label">IMDb:</span>
+                  <span>{movie.imdbRating}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Desktop Table View */}
+        <table className="movie-table desktop-view">
           <thead>
             <tr>
               <th style={{ width: '25%' }} onClick={() => handleSort('title')}>
@@ -67,7 +101,10 @@ const MovieTable = ({ data }) => {
                 Year{getSortIndicator('year')}
               </th>
               <th style={{ width: '15%' }}>Genres</th>
-              <th style={{ width: '10%' }} onClick={() => handleSort('runtime')}>
+              <th
+                style={{ width: '10%' }}
+                onClick={() => handleSort('runtime')}
+              >
                 Runtime{getSortIndicator('runtime')}
               </th>
               <th
@@ -76,7 +113,10 @@ const MovieTable = ({ data }) => {
               >
                 IMDb Rating{getSortIndicator('imdbRating')}
               </th>
-              <th style={{ width: '5%' }} onClick={() => handleSort('myRating')}>
+              <th
+                style={{ width: '5%' }}
+                onClick={() => handleSort('myRating')}
+              >
                 My Rating{getSortIndicator('myRating')}
               </th>
               <th
@@ -85,7 +125,10 @@ const MovieTable = ({ data }) => {
               >
                 Date Rated{getSortIndicator('dataRated')}
               </th>
-              <th style={{ width: '10%' }} onClick={() => handleSort('numVotes')}>
+              <th
+                style={{ width: '10%' }}
+                onClick={() => handleSort('numVotes')}
+              >
                 Number of Votes{getSortIndicator('numVotes')}
               </th>
               <th
@@ -94,12 +137,15 @@ const MovieTable = ({ data }) => {
               >
                 Release Date{getSortIndicator('releaseDate')}
               </th>
-              {/* <th>Directors</th> */}
             </tr>
           </thead>
           <tbody>
             {currentMovies.map((movie) => (
-              <tr key={movie.id} onClick={() => setSelectedMovie(movie)} style={{ cursor: 'pointer' }}>
+              <tr
+                key={movie.id}
+                onClick={() => setSelectedMovie(movie)}
+                style={{ cursor: 'pointer' }}
+              >
                 <td>{movie.title}</td>
                 <td>{movie.year}</td>
                 <td>{movie.genres.join(', ')}</td>
@@ -109,7 +155,6 @@ const MovieTable = ({ data }) => {
                 <td>{movie.dataRated}</td>
                 <td>{formatNumber(movie.numVotes)}</td>
                 <td>{formatDate(movie.releaseDate)}</td>
-                {/* <td>{movie.directors.join(', ')}</td> */}
               </tr>
             ))}
           </tbody>
@@ -118,16 +163,20 @@ const MovieTable = ({ data }) => {
 
       {/* Pagination Controls */}
       <div className="pagination">
-        <button 
-          onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+        <button
+          onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
           disabled={currentPage === 1}
           className="pagination-button"
         >
           Previous
         </button>
-        <span className="pagination-info">{currentPage} of {totalPages}</span>
-        <button 
-          onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+        <span className="pagination-info">
+          {currentPage} of {totalPages}
+        </span>
+        <button
+          onClick={() =>
+            setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+          }
           disabled={currentPage === totalPages || totalPages === 0}
           className="pagination-button"
         >
@@ -139,18 +188,43 @@ const MovieTable = ({ data }) => {
       {selectedMovie && (
         <div className="movie-modal">
           <div className="movie-modal-content">
-            <button className="close-button" onClick={() => setSelectedMovie(null)}>×</button>
-            <h2>{selectedMovie.title} ({selectedMovie.year})</h2>
+            <button
+              className="close-button"
+              onClick={() => setSelectedMovie(null)}
+            >
+              ×
+            </button>
+            <h2>
+              {selectedMovie.title} ({selectedMovie.year})
+            </h2>
             <div className="movie-details">
-              <p><strong>Genres:</strong> {selectedMovie.genres.join(', ')}</p>
-              <p><strong>Runtime:</strong> {formatRuntime(selectedMovie.runtime)}</p>
-              <p><strong>IMDb Rating:</strong> {selectedMovie.imdbRating}</p>
-              <p><strong>My Rating:</strong> {selectedMovie.myRating}</p>
-              <p><strong>Date Rated:</strong> {selectedMovie.dataRated}</p>
-              <p><strong>Release Date:</strong> {formatDate(selectedMovie.releaseDate)}</p>
-              <p><strong>Votes:</strong> {formatNumber(selectedMovie.numVotes)}</p>
+              <p>
+                <strong>Genres:</strong> {selectedMovie.genres.join(', ')}
+              </p>
+              <p>
+                <strong>Runtime:</strong> {formatRuntime(selectedMovie.runtime)}
+              </p>
+              <p>
+                <strong>IMDb Rating:</strong> {selectedMovie.imdbRating}
+              </p>
+              <p>
+                <strong>My Rating:</strong> {selectedMovie.myRating}
+              </p>
+              <p>
+                <strong>Date Rated:</strong> {selectedMovie.dataRated}
+              </p>
+              <p>
+                <strong>Release Date:</strong>{' '}
+                {formatDate(selectedMovie.releaseDate)}
+              </p>
+              <p>
+                <strong>Votes:</strong> {formatNumber(selectedMovie.numVotes)}
+              </p>
               {selectedMovie.directors && (
-                <p><strong>Directors:</strong> {selectedMovie.directors.join(', ')}</p>
+                <p>
+                  <strong>Directors:</strong>{' '}
+                  {selectedMovie.directors.join(', ')}
+                </p>
               )}
             </div>
           </div>
