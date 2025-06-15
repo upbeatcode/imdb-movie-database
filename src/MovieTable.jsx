@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { MovieTableProps } from './componentProps';
-import './App.css';
+// import './App.css';
 // import {data} from './assets/data.js';
 import { formatRuntime, formatNumber, formatDate } from './utilities.js';
 

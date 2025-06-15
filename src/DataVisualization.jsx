@@ -1,12 +1,36 @@
 import { useState } from 'react';
 import { DataVisualizationProps } from './componentProps';
 import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
-  PieChart, Pie, Cell, LineChart, Line, AreaChart, Area
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+  PieChart,
+  Pie,
+  Cell,
+  LineChart,
+  Line,
+  AreaChart,
+  Area
 } from 'recharts';
-import './App.css';
+// import './App.css';
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d', '#ffc658', '#8dd1e1', '#a4de6c', '#d0ed57'];
+const COLORS = [
+  '#0088FE',
+  '#00C49F',
+  '#FFBB28',
+  '#FF8042',
+  '#8884d8',
+  '#82ca9d',
+  '#ffc658',
+  '#8dd1e1',
+  '#a4de6c',
+  '#d0ed57'
+];
 
 const DataVisualization = ({ data }) => {
   const [activeChart, setActiveChart] = useState('ratings');
@@ -14,13 +38,13 @@ const DataVisualization = ({ data }) => {
   // Prepare data for ratings distribution chart
   const prepareRatingsData = () => {
     const ratingsCount = {};
-    data.forEach(movie => {
+    data.forEach((movie) => {
       const rating = movie.myRating;
       ratingsCount[rating] = (ratingsCount[rating] || 0) + 1;
     });
 
     return Object.keys(ratingsCount)
-      .map(rating => ({
+      .map((rating) => ({
         rating: `${rating}★`,
         count: ratingsCount[rating]
       }))
@@ -30,14 +54,14 @@ const DataVisualization = ({ data }) => {
   // Prepare data for decades chart
   const prepareDecadesData = () => {
     const decadesCount = {};
-    data.forEach(movie => {
+    data.forEach((movie) => {
       const decade = Math.floor(movie.year / 10) * 10;
       const decadeLabel = `${decade}s`;
       decadesCount[decadeLabel] = (decadesCount[decadeLabel] || 0) + 1;
     });
 
     return Object.keys(decadesCount)
-      .map(decade => ({
+      .map((decade) => ({
         decade,
         count: decadesCount[decade]
       }))
@@ -51,14 +75,14 @@ const DataVisualization = ({ data }) => {
   // Prepare data for genres chart
   const prepareGenresData = () => {
     const genresCount = {};
-    data.forEach(movie => {
-      movie.genres.forEach(genre => {
+    data.forEach((movie) => {
+      movie.genres.forEach((genre) => {
         genresCount[genre] = (genresCount[genre] || 0) + 1;
       });
     });
 
     return Object.keys(genresCount)
-      .map(genre => ({
+      .map((genre) => ({
         genre,
         count: genresCount[genre]
       }))
@@ -66,11 +90,11 @@ const DataVisualization = ({ data }) => {
       .slice(0, 10); // Show top 10 genres
   };
 
-  // Prepare data for IMDb vs My Ratings chart
+  // Fixed: Prepare data for IMDb vs My Ratings chart
   const prepareRatingsComparisonData = () => {
     // Group by my rating and calculate average IMDb rating for each group
     const ratingGroups = {};
-    data.forEach(movie => {
+    data.forEach((movie) => {
       const myRating = movie.myRating;
       if (!ratingGroups[myRating]) {
         ratingGroups[myRating] = {
@@ -83,18 +107,26 @@ const DataVisualization = ({ data }) => {
     });
 
     return Object.keys(ratingGroups)
-      .map(myRating => ({
+      .map((myRating) => ({
         myRating: `${myRating}★`,
-        averageImdbRating: parseFloat((ratingGroups[myRating].totalImdbRating / ratingGroups[myRating].count).toFixed(1)),
+        myRatingValue: parseFloat(myRating), // Add the numeric value
+        averageImdbRating: parseFloat(
+          (
+            ratingGroups[myRating].totalImdbRating /
+            ratingGroups[myRating].count
+          ).toFixed(1)
+        ),
         count: ratingGroups[myRating].count
       }))
-      .sort((a, b) => parseFloat(a.myRating) - parseFloat(b.myRating));
+      .sort(
+        (a, b) => parseFloat(a.myRatingValue) - parseFloat(b.myRatingValue)
+      );
   };
 
   // Prepare data for movies watched by year chart
   const prepareWatchedByYearData = () => {
     const yearCounts = {};
-    data.forEach(movie => {
+    data.forEach((movie) => {
       if (movie.dataRated) {
         try {
           const year = new Date(movie.dataRated).getFullYear();
@@ -102,14 +134,14 @@ const DataVisualization = ({ data }) => {
             yearCounts[year] = (yearCounts[year] || 0) + 1;
           }
         } catch (error) {
-          console.error("Invalid date format:", movie.dataRated);
+          console.error('Invalid date format:', movie.dataRated);
           console.error(error);
         }
       }
     });
 
     return Object.keys(yearCounts)
-      .map(year => ({
+      .map((year) => ({
         year,
         count: yearCounts[year]
       }))
@@ -120,7 +152,10 @@ const DataVisualization = ({ data }) => {
     const ratingsData = prepareRatingsData();
     return (
       <ResponsiveContainer width="100%" height={400}>
-        <BarChart data={ratingsData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+        <BarChart
+          data={ratingsData}
+          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+        >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="rating" />
           <YAxis />
@@ -136,7 +171,10 @@ const DataVisualization = ({ data }) => {
     const decadesData = prepareDecadesData();
     return (
       <ResponsiveContainer width="100%" height={400}>
-        <BarChart data={decadesData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+        <BarChart
+          data={decadesData}
+          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+        >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="decade" />
           <YAxis />
@@ -162,13 +200,23 @@ const DataVisualization = ({ data }) => {
             fill="#8884d8"
             dataKey="count"
             nameKey="genre"
-            label={({ genre, count, percent }) => `${genre}: ${count} (${(percent * 100).toFixed(0)}%)`}
+            label={({ genre, count, percent }) =>
+              `${genre}: ${count} (${(percent * 100).toFixed(0)}%)`
+            }
           >
             {genresData.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+              <Cell
+                key={`cell-${index}`}
+                fill={COLORS[index % COLORS.length]}
+              />
             ))}
           </Pie>
-          <Tooltip formatter={(value, name, props) => [`${value} movies`, props.payload.genre]} />
+          <Tooltip
+            formatter={(value, name, props) => [
+              `${value} movies`,
+              props.payload.genre
+            ]}
+          />
           <Legend />
         </PieChart>
       </ResponsiveContainer>
@@ -179,14 +227,36 @@ const DataVisualization = ({ data }) => {
     const comparisonData = prepareRatingsComparisonData();
     return (
       <ResponsiveContainer width="100%" height={400}>
-        <LineChart data={comparisonData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+        <LineChart
+          data={comparisonData}
+          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+        >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="myRating" />
           <YAxis domain={[0, 10]} />
-          <Tooltip />
+          <Tooltip
+            formatter={(value, name, props) => {
+              if (name === 'Average IMDb Rating') {
+                return [`${value} (${props.payload.count} movies)`, name];
+              }
+              return [value, name];
+            }}
+          />
           <Legend />
-          <Line type="monotone" dataKey="averageImdbRating" name="Average IMDb Rating" stroke="#FF8042" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="myRating" name="My Rating" stroke="#8884d8" activeDot={{ r: 8 }} />
+          <Line
+            type="monotone"
+            dataKey="averageImdbRating"
+            name="Average IMDb Rating"
+            stroke="#FF8042"
+            activeDot={{ r: 8 }}
+          />
+          <Line
+            type="monotone"
+            dataKey="myRatingValue"
+            name="My Rating"
+            stroke="#8884d8"
+            activeDot={{ r: 8 }}
+          />
         </LineChart>
       </ResponsiveContainer>
     );
@@ -196,13 +266,24 @@ const DataVisualization = ({ data }) => {
     const watchedData = prepareWatchedByYearData();
     return (
       <ResponsiveContainer width="100%" height={400}>
-        <AreaChart data={watchedData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+        <AreaChart
+          data={watchedData}
+          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+        >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="year" />
           <YAxis />
-          <Tooltip formatter={(value) => [`${value} movies`, 'Movies Watched']} />
+          <Tooltip
+            formatter={(value) => [`${value} movies`, 'Movies Watched']}
+          />
           <Legend />
-          <Area type="monotone" dataKey="count" name="Movies Watched" stroke="#8884d8" fill="#8884d8" />
+          <Area
+            type="monotone"
+            dataKey="count"
+            name="Movies Watched"
+            stroke="#8884d8"
+            fill="#8884d8"
+          />
         </AreaChart>
       </ResponsiveContainer>
     );
@@ -229,40 +310,38 @@ const DataVisualization = ({ data }) => {
     <div className="data-visualization">
       <h2>Movie Data Visualization</h2>
       <div className="chart-selector">
-        <button 
+        <button
           className={activeChart === 'ratings' ? 'active' : ''}
           onClick={() => setActiveChart('ratings')}
         >
           Ratings Distribution
         </button>
-        <button 
+        <button
           className={activeChart === 'decades' ? 'active' : ''}
           onClick={() => setActiveChart('decades')}
         >
           Movies by Decade
         </button>
-        <button 
+        <button
           className={activeChart === 'genres' ? 'active' : ''}
           onClick={() => setActiveChart('genres')}
         >
           Top Genres
         </button>
-        <button 
+        <button
           className={activeChart === 'comparison' ? 'active' : ''}
           onClick={() => setActiveChart('comparison')}
         >
           IMDb vs My Ratings
         </button>
-        <button 
+        <button
           className={activeChart === 'watched' ? 'active' : ''}
           onClick={() => setActiveChart('watched')}
         >
           Movies Watched by Year
         </button>
       </div>
-      <div className="chart-container">
-        {renderActiveChart()}
-      </div>
+      <div className="chart-container">{renderActiveChart()}</div>
     </div>
   );
 };
@@ -270,4 +349,3 @@ const DataVisualization = ({ data }) => {
 DataVisualization.propTypes = DataVisualizationProps;
 
 export default DataVisualization;
-

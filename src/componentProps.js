@@ -169,3 +169,16 @@ export const MovieTableProps = {
     })
   ).isRequired
 };
+
+export const AnalyticsProps = {
+  activeFilters: PropTypes.shape({
+    genre: PropTypes.string,
+    decade: PropTypes.string,
+    year: PropTypes.number,
+    rating: PropTypes.number,
+    dateRatedYear: PropTypes.number
+  }).isRequired,
+  filterMovies: PropTypes.func.isRequired,
+  updateActiveFilters: PropTypes.func.isRequired,
+  clearFilters: PropTypes.func.isRequired
+};

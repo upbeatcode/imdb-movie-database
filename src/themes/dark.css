@@ -1,0 +1,355 @@
+/* Dark Theme Variables and Styles */
+
+/* Enhanced Movie Table Dark Theme */
+.movie-table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #444;
+}
+
+.movie-table th {
+  background-color: goldenrod;
+}
+
+.movie-table tr:nth-child(even) {
+  background-color: #292929;
+}
+
+.movie-table tr:hover {
+  background-color: #444;
+}
+
+/* Tabs Dark Theme */
+.tabs button {
+  background-color: #333;
+  color: #bbb;
+}
+
+.tabs button:hover {
+  background-color: #444;
+  color: white;
+}
+
+.tabs .active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Filter Tabs Dark Theme */
+.filter-toggle,
+.sidebar-toggle {
+  background-color: #555;
+  color: #bbb;
+}
+
+.filter-toggle:hover,
+.sidebar-toggle:hover {
+  background-color: #666;
+  color: white;
+}
+
+.filter-toggle.active,
+.sidebar-toggle.active {
+  background-color: #f3218a;
+  color: white;
+}
+
+/* Vertical Tabs Dark Theme */
+.vertical-tabs button {
+  background-color: #333;
+  color: #bbb;
+}
+
+.vertical-tabs button:hover {
+  background-color: #444;
+  color: white;
+}
+
+.vertical-tabs .active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Filter Mode Buttons Dark Theme */
+.filter-mode-buttons button {
+  background-color: #555;
+  color: #bbb;
+}
+
+.filter-mode-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.filter-mode-buttons button:hover {
+  background-color: #666;
+}
+
+/* Clear Filters Button Dark Theme */
+.clear-filters {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.clear-filters:hover {
+  background-color: #cc0000;
+}
+
+/* Breadcrumb Dark Theme */
+.breadcrumb-separator {
+  color: #666;
+}
+
+.breadcrumb-item.active {
+  color: #ffffff;
+}
+
+/* Pagination Dark Theme */
+.pagination-info {
+  color: #ffffff;
+}
+
+/* Enhanced Movie Modal Dark Theme */
+.movie-modal {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.movie-modal-content {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.close-button {
+  color: #ffffff;
+}
+
+.close-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.movie-details strong {
+  color: #007bff;
+}
+
+/* Data Visualization Dark Theme */
+.data-visualization {
+  background-color: #1e1e1e;
+}
+
+.chart-selector button {
+  background-color: #333;
+  color: #bbb;
+}
+
+.chart-selector button:hover {
+  background-color: #444;
+  color: white;
+}
+
+.chart-selector button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.visualization-toggle button {
+  background-color: #555;
+  color: #bbb;
+}
+
+.visualization-toggle button:hover {
+  background-color: #666;
+}
+
+.visualization-toggle button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Tooltip styles for charts - Dark Theme */
+.recharts-tooltip-wrapper {
+  background-color: rgba(30, 30, 30, 0.9) !important;
+  border: 1px solid #444 !important;
+  color: white !important;
+}
+
+.recharts-default-tooltip {
+  background-color: #1e1e1e !important;
+  border-color: #444 !important;
+  color: white !important;
+}
+
+/* Legend styles - Dark Theme */
+.recharts-legend-item-text {
+  color: #ddd !important;
+}
+
+/* Axis styles - Dark Theme */
+.recharts-cartesian-axis-tick-value {
+  fill: #ddd !important;
+}
+
+/* Grid styles - Dark Theme */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #444 !important;
+}
+
+/* Typography Dark Theme */
+h1, h2 {
+  color: #ffffff;
+}
+
+/* Filter Header Dark Theme */
+.filter-header {
+  color: #ffffff;
+}
+
+/* Loading and Error States Dark Theme */
+.loading {
+  color: #ffffff;
+}
+
+.error {
+  color: #ff4d4d;
+  background-color: rgba(255, 77, 77, 0.1);
+}
+
+/* Utility Button Class Dark Theme */
+.button {
+  background-color: #333;
+  color: #bbb;
+}
+
+.button:hover {
+  background-color: #444;
+  color: white;
+}
+
+/* Mobile Movie Cards Dark Theme */
+.movie-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  color: #e2e8f0;
+}
+
+.movie-card:hover {
+  background: #374151;
+}
+
+.movie-card-header h3 {
+  color: #f7fafc;
+}
+
+.movie-year {
+  color: #a0aec0;
+}
+
+.movie-card-row .label {
+  color: #cbd5e0;
+}
+
+.movie-card-row {
+  color: #e2e8f0;
+}
+
+/* Year tabs Dark Theme */
+.decade-button {
+  background: #374151;
+  border: 1px solid #4a5568;
+  color: #e2e8f0;
+}
+
+.decade-button:hover {
+  background: #4a5568;
+}
+
+.decade-button.expanded {
+  background: #4338ca;
+  border-color: #6366f1;
+}
+
+.year-count {
+  color: #a0aec0;
+}
+
+.decade-years {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+}
+
+.year-option {
+  background: #4a5568;
+  border: 1px solid #6b7280;
+  color: #e2e8f0;
+}
+
+.year-option:hover {
+  background: #6b7280;
+}
+
+.year-option.active {
+  background: #10b981;
+  border-color: #059669;
+  color: white;
+}
+
+/* Analytics Page Dark Theme */
+.analytics-header h1 {
+  color: #f7fafc;
+}
+
+.analytics-header p {
+  color: #a0aec0;
+}
+
+.analytics-filters {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+}
+
+.analytics-filters h3 {
+  color: #f7fafc;
+}
+
+.filter-status {
+  background: #374151;
+  border-left: 4px solid #10b981;
+}
+
+.filter-status h3 {
+  color: #f7fafc;
+}
+
+.analytics-section {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+}
+
+.analytics-section h2 {
+  color: #f7fafc;
+}
+
+.coming-soon {
+  color: #a0aec0;
+  background: #374151;
+  border: 2px dashed #4a5568;
+}
+
+/* Header Navigation Dark Theme */
+.header-nav a {
+  color: #e2e8f0;
+}
+
+.header-nav a:hover {
+  background: #374151;
+  color: #f7fafc;
+}
+
+.header-nav a.active {
+  background: #10b981;
+  color: white;
+}

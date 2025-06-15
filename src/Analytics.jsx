@@ -9,6 +9,8 @@ import {
   RatingTabs,
   DateRatedTabs
 } from './Tabs.jsx';
+import { AnalyticsProps } from './componentProps.js';
+
 
 const Analytics = ({
   activeFilters,
@@ -17,7 +19,6 @@ const Analytics = ({
   clearFilters
 }) => {
   const [activeFilter, setActiveFilter] = useState('genres');
-  const [filterMode] = useState('cumulative'); // Analytics always uses cumulative filtering
 
   // Handle filter selection (always cumulative in analytics)
   const handleFilterSelect = (filterType, value) => {
@@ -153,5 +154,7 @@ const Analytics = ({
     </div>
   );
 };
+
+Analytics.propTypes = AnalyticsProps;
 
 export default Analytics;

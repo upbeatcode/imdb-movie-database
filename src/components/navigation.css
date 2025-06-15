@@ -1,0 +1,70 @@
+/* Header and Breadcrumbs */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.breadcrumb-separator {
+  margin: 0 8px;
+  color: #666;
+}
+
+.breadcrumb-item {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.breadcrumb-item:hover {
+  color: #0056b3;
+}
+
+.breadcrumb-item.active {
+  color: #ffffff;
+  cursor: default;
+}
+
+/* Header Navigation Styles */
+.header-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header-nav a {
+  color: #e2e8f0;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.header-nav a:hover {
+  background: #374151;
+  color: #f7fafc;
+}
+
+.header-nav a.active {
+  background: #10b981;
+  color: white;
+}
+
+/* Links */
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+/* Mobile navigation responsiveness */
+@media (max-width: 768px) {
+  .header-nav {
+    gap: 1rem;
+  }
+  
+  .header-nav a {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,224 @@
+/* ===== TABS ===== */
+
+/* Tabs (horizontal) */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.tabs button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  min-width: 80px;
+  flex: 0 1 auto;
+}
+
+.tabs button:hover {
+  background-color: #444;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.tabs .active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Vertical Tabs */
+.vertical-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vertical-tabs button {
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: left;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.vertical-tabs button:hover {
+  background-color: #444;
+  color: white;
+}
+
+.vertical-tabs .active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Filter Tabs Container */
+.filter-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Year Tabs - Desktop */
+.desktop-year-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Year Tabs - Mobile */
+.mobile-year-tabs {
+  display: block;
+}
+
+.decade-group {
+  margin-bottom: 0.5rem;
+}
+
+.year-count {
+  font-size: 0.8rem;
+  color: #a0aec0;
+  font-weight: normal;
+}
+
+.decade-years {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: #2d3748;
+  border-radius: 6px;
+  border: 1px solid #4a5568;
+}
+
+/* Responsive Tab Behavior */
+@media (max-width: 768px) {
+  .desktop-year-tabs {
+    display: none;
+  }
+  
+  .mobile-year-tabs {
+    display: block;
+  }
+  
+  /* Mobile tabs - stack vertically */
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tabs button {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  .filter-tabs {
+    padding: 0 10px;
+  }
+  
+  .filter-toggle {
+    font-size: 14px;
+    padding: 14px;
+  }
+  
+  /* Show short text on mobile */
+  .filter-text-full {
+    display: none;
+  }
+  
+  .filter-text-short {
+    display: inline;
+  }
+  
+  /* Filter buttons responsive */
+  .filter-mode-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-toggle {
+    flex: 1;
+    min-width: 120px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-year-tabs {
+    display: none;
+  }
+  
+  .desktop-year-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  /* Show full text on desktop */
+  .filter-text-full {
+    display: inline;
+  }
+  
+  .filter-text-short {
+    display: none;
+  }
+  
+  /* Desktop filter layout */
+  .filter-mode-buttons,
+  .filter-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-toggle {
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects on touch devices */
+  .tabs button:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  /* Make buttons larger for touch */
+  .tabs button {
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+}

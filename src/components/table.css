@@ -1,0 +1,153 @@
+/* ===== TABLE & CARDS ===== */
+
+/* Enhanced Movie Table Styles */
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-size: 14px;
+  table-layout: fixed;
+  min-width: 800px;
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #444;
+  padding: 12px 8px;
+  text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.movie-table td:nth-child(1) {
+  text-align: left;
+}
+
+.movie-table th {
+  background-color: goldenrod;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.movie-table tr:nth-child(even) {
+  background-color: #292929;
+}
+
+.movie-table tr:hover {
+  background-color: #444;
+}
+
+/* Mobile Movie Cards */
+.movie-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  color: #e2e8f0;
+}
+
+.movie-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background: #374151;
+}
+
+.movie-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.movie-card-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  flex: 1;
+  min-width: 200px;
+  color: #f7fafc;
+}
+
+.movie-year {
+  color: #a0aec0;
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+
+.movie-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.movie-card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0;
+  color: #e2e8f0;
+}
+
+.movie-card-row .label {
+  font-weight: bold;
+  color: #cbd5e0;
+  min-width: 80px;
+}
+
+/* Mobile Table Responsive Design */
+@media (max-width: 480px) {
+  .movie-table {
+    min-width: 300px;
+    font-size: 12px;
+  }
+  
+  .movie-table th,
+  .movie-table td {
+    padding: 8px 4px;
+  }
+  
+  /* Hide less critical columns on very small screens */
+  .movie-table th:nth-child(3),
+  .movie-table td:nth-child(3) {
+    display: none;
+  }
+  
+  /* Make title column wider */
+  .movie-table th:nth-child(1),
+  .movie-table td:nth-child(1) {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-table {
+    min-width: 500px;
+    font-size: 12px;
+  }
+  
+  .movie-table th,
+  .movie-table td {
+    padding: 8px 4px;
+  }
+  
+  /* Hide less important columns on mobile */
+  .movie-table th:nth-child(4), /* Runtime */
+  .movie-table td:nth-child(4),
+  .movie-table th:nth-child(6), /* My Rating */
+  .movie-table td:nth-child(6),
+  .movie-table th:nth-child(7), /* Date Rated */
+  .movie-table td:nth-child(7),
+  .movie-table th:nth-child(8), /* Number of Votes */
+  .movie-table td:nth-child(8),
+  .movie-table th:nth-child(9), /* Release Date */
+  .movie-table td:nth-child(9) {
+    display: none;
+  }
+}

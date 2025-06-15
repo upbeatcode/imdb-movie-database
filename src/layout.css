@@ -1,0 +1,73 @@
+/* ===== LAYOUT ===== */
+
+/* Container and Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Filter Header */
+.filter-header {
+  margin: 20px 0;
+  padding: 0 10px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/* Enhanced Table Container */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design - Desktop/Mobile Views */
+@media (max-width: 768px) {
+  /* Hide desktop table, show mobile cards */
+  .desktop-view {
+    display: none;
+  }
+  
+  .mobile-view {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Hide mobile cards, show desktop table */
+  .mobile-view {
+    display: none;
+  }
+  
+  .desktop-view {
+    display: table;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    width: 200px;
+  }
+}

@@ -1,0 +1,186 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Hide desktop table, show mobile cards */
+  .desktop-view {
+    display: none;
+  }
+  
+  .mobile-view {
+    display: block;
+  }
+  
+  /* Mobile movie cards */
+  .movie-card {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  
+  .movie-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .movie-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .movie-year {
+    color: #666;
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+  
+  .movie-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .movie-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+  }
+  
+  .movie-card-row .label {
+    font-weight: bold;
+    min-width: 80px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Hide mobile cards, show desktop table */
+  .mobile-view {
+    display: none;
+  }
+  
+  .desktop-view {
+    display: table;
+  }
+}
+
+/* Base styles for both views */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .movie-table {
+    min-width: 300px;
+    font-size: 12px;
+  }
+  
+  .movie-table th,
+  .movie-table td {
+    padding: 8px 4px;
+  }
+  
+  /* Hide less critical columns on very small screens */
+  .movie-table th:nth-child(3),
+  .movie-table td:nth-child(3) {
+    display: none;
+  }
+  
+  /* Make title column wider */
+  .movie-table th:nth-child(1),
+  .movie-table td:nth-child(1) {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-table {
+    min-width: 500px;
+    font-size: 12px;
+  }
+  
+  .movie-table th,
+  .movie-table td {
+    padding: 8px 4px;
+  }
+  
+  /* Hide less important columns on mobile */
+  .movie-table th:nth-child(4), /* Runtime */
+  .movie-table td:nth-child(4),
+  .movie-table th:nth-child(6), /* My Rating */
+  .movie-table td:nth-child(6),
+  .movie-table th:nth-child(7), /* Date Rated */
+  .movie-table td:nth-child(7),
+  .movie-table th:nth-child(8), /* Number of Votes */
+  .movie-table td:nth-child(8),
+  .movie-table th:nth-child(9), /* Release Date */
+  .movie-table td:nth-child(9) {
+    display: none;
+  }
+  
+  /* Mobile tabs - stack vertically */
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tabs button {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    width: 200px;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects on touch devices */
+  .tabs button:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  /* Make buttons larger for touch */
+  .tabs button {
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus styles for keyboard navigation */
+button:focus,
+.movie-table th:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
