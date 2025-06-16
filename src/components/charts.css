@@ -145,3 +145,290 @@
     max-width: 300px;
   }
 }
+
+/* Enhanced mobile chart responsiveness */
+@media (max-width: 768px) {
+  .chart-container {
+    height: 300px;
+    padding: 0 5px;
+  }
+  
+  .chart-selector {
+    gap: 8px;
+    padding: 0 5px;
+  }
+  
+  .chart-selector button {
+    font-size: 12px;
+    padding: 8px 12px;
+    min-width: 100px;
+  }
+  
+  /* Ensure charts don't overflow on very small screens */
+  .data-visualization {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-container {
+    height: 280px;
+  }
+  
+  .chart-selector button {
+    font-size: 11px;
+    padding: 6px 10px;
+    min-width: 80px;
+  }
+}
+
+/* Add to src/components/charts.css */
+
+/* Chart Modal Styles */
+.chart-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+.chart-modal-content {
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chart-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+  background-color: #1a1a1a;
+}
+
+.chart-modal-header h3 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.chart-modal-close {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 32px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.chart-modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.chart-modal-chart {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.chart-modal-chart .chart-container {
+  width: 100%;
+  height: 100%;
+  max-height: 60vh;
+}
+
+.chart-modal-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+}
+
+.chart-nav-button {
+  background-color: #333;
+  color: #bbb;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  min-width: 80px;
+}
+
+.chart-nav-button:hover {
+  background-color: #444;
+  color: white;
+}
+
+.chart-nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chart-indicators {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.chart-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.chart-indicator.active {
+  background-color: #007bff;
+  transform: scale(1.2);
+}
+
+.chart-indicator:hover {
+  background-color: #666;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .chart-modal-header h3 {
+    font-size: 16px;
+  }
+  
+  .chart-modal-close {
+    font-size: 28px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .chart-modal-chart {
+    padding: 15px;
+  }
+  
+  .chart-modal-navigation {
+    padding: 15px;
+  }
+  
+  .chart-nav-button {
+    padding: 10px 16px;
+    font-size: 13px;
+    min-width: 70px;
+  }
+}
+
+/* Show modal only on mobile */
+@media (min-width: 769px) {
+  .chart-modal-overlay {
+    display: none;
+  }
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add to src/components/charts.css - Mobile Chart Selector */
+
+.mobile-chart-selector {
+  display: none;
+}
+
+.mobile-chart-button {
+  width: 100%;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  border: none;
+  background-color: #333;
+  color: #bbb;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.mobile-chart-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s;
+}
+
+.mobile-chart-button:hover:before {
+  left: 100%;
+}
+
+.mobile-chart-button:hover {
+  background-color: #444;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  border-color: rgba(0, 123, 255, 0.3);
+}
+
+.mobile-chart-button:active {
+  transform: translateY(0);
+}
+
+/* Show mobile chart selector only on mobile */
+@media (max-width: 768px) {
+  .mobile-chart-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0 10px;
+  }
+  
+  .chart-selector:not(.mobile-chart-selector) {
+    display: none;
+  }
+}
+
+/* Ensure desktop behavior remains unchanged */
+@media (min-width: 769px) {
+  .mobile-view {
+    display: none;
+  }
+  
+  .desktop-view {
+    display: block;
+  }
+}

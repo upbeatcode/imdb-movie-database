@@ -1,5 +1,5 @@
+// Update src/DataVisualization.jsx
 import { useState } from 'react';
-import { DataVisualizationProps } from './componentProps';
 import {
   BarChart,
   Bar,
@@ -7,345 +7,242 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
   PieChart,
   Pie,
   Cell,
   LineChart,
-  Line,
-  AreaChart,
-  Area
+  Line
 } from 'recharts';
-// import './App.css';
-
-const COLORS = [
-  '#0088FE',
-  '#00C49F',
-  '#FFBB28',
-  '#FF8042',
-  '#8884d8',
-  '#82ca9d',
-  '#ffc658',
-  '#8dd1e1',
-  '#a4de6c',
-  '#d0ed57'
-];
+import ChartModal from './ChartModal';
 
 const DataVisualization = ({ data }) => {
   const [activeChart, setActiveChart] = useState('ratings');
+  const [showModal, setShowModal] = useState(false);
+  const [modalChart, setModalChart] = useState('ratings');
 
-  // Prepare data for ratings distribution chart
-  const prepareRatingsData = () => {
-    const ratingsCount = {};
-    data.forEach((movie) => {
+  // Chart configuration
+  const chartTypes = [
+    { key: 'ratings', label: 'Ratings Distribution' },
+    { key: 'genres', label: 'Genre Distribution' },
+    { key: 'decades', label: 'Movies by Decade' },
+    { key: 'years', label: 'Movies by Year' },
+    { key: 'timeline', label: 'Rating Timeline' }
+  ];
+
+  // Handle mobile chart selection
+  const handleMobileChartSelect = (chartType) => {
+    setModalChart(chartType);
+    setShowModal(true);
+  };
+
+  // Handle desktop chart selection
+  const handleDesktopChartSelect = (chartType) => {
+    setActiveChart(chartType);
+  };
+
+  // Data processing functions
+  const getRatingsData = () => {
+    const ratings = {};
+    data.forEach(movie => {
       const rating = movie.myRating;
-      ratingsCount[rating] = (ratingsCount[rating] || 0) + 1;
+      ratings[rating] = (ratings[rating] || 0) + 1;
     });
-
-    return Object.keys(ratingsCount)
-      .map((rating) => ({
-        rating: `${rating}★`,
-        count: ratingsCount[rating]
-      }))
-      .sort((a, b) => parseFloat(a.rating) - parseFloat(b.rating));
+    return Object.entries(ratings)
+      .map(([rating, count]) => ({ rating: parseFloat(rating), count }))
+      .sort((a, b) => a.rating - b.rating);
   };
 
-  // Prepare data for decades chart
-  const prepareDecadesData = () => {
-    const decadesCount = {};
-    data.forEach((movie) => {
-      const decade = Math.floor(movie.year / 10) * 10;
-      const decadeLabel = `${decade}s`;
-      decadesCount[decadeLabel] = (decadesCount[decadeLabel] || 0) + 1;
-    });
-
-    return Object.keys(decadesCount)
-      .map((decade) => ({
-        decade,
-        count: decadesCount[decade]
-      }))
-      .sort((a, b) => {
-        const decadeA = parseInt(a.decade);
-        const decadeB = parseInt(b.decade);
-        return decadeA - decadeB;
-      });
-  };
-
-  // Prepare data for genres chart
-  const prepareGenresData = () => {
-    const genresCount = {};
-    data.forEach((movie) => {
-      movie.genres.forEach((genre) => {
-        genresCount[genre] = (genresCount[genre] || 0) + 1;
+  const getGenresData = () => {
+    const genres = {};
+    data.forEach(movie => {
+      movie.genres.forEach(genre => {
+        genres[genre] = (genres[genre] || 0) + 1;
       });
     });
-
-    return Object.keys(genresCount)
-      .map((genre) => ({
-        genre,
-        count: genresCount[genre]
-      }))
+    return Object.entries(genres)
+      .map(([genre, count]) => ({ genre, count }))
       .sort((a, b) => b.count - a.count)
-      .slice(0, 10); // Show top 10 genres
+      .slice(0, 10);
   };
 
-  // Fixed: Prepare data for IMDb vs My Ratings chart
-  const prepareRatingsComparisonData = () => {
-    // Group by my rating and calculate average IMDb rating for each group
-    const ratingGroups = {};
-    data.forEach((movie) => {
-      const myRating = movie.myRating;
-      if (!ratingGroups[myRating]) {
-        ratingGroups[myRating] = {
-          totalImdbRating: 0,
-          count: 0
-        };
-      }
-      ratingGroups[myRating].totalImdbRating += movie.imdbRating;
-      ratingGroups[myRating].count += 1;
+  const getDecadesData = () => {
+    const decades = {};
+    data.forEach(movie => {
+      const decade = `${Math.floor(movie.year / 10) * 10}s`;
+      decades[decade] = (decades[decade] || 0) + 1;
     });
-
-    return Object.keys(ratingGroups)
-      .map((myRating) => ({
-        myRating: `${myRating}★`,
-        myRatingValue: parseFloat(myRating), // Add the numeric value
-        averageImdbRating: parseFloat(
-          (
-            ratingGroups[myRating].totalImdbRating /
-            ratingGroups[myRating].count
-          ).toFixed(1)
-        ),
-        count: ratingGroups[myRating].count
-      }))
-      .sort(
-        (a, b) => parseFloat(a.myRatingValue) - parseFloat(b.myRatingValue)
-      );
+    return Object.entries(decades)
+      .map(([decade, count]) => ({ decade, count }))
+      .sort((a, b) => parseInt(a.decade) - parseInt(b.decade));
   };
 
-  // Prepare data for movies watched by year chart
-  const prepareWatchedByYearData = () => {
-    const yearCounts = {};
-    data.forEach((movie) => {
-      if (movie.dataRated) {
-        try {
-          const year = new Date(movie.dataRated).getFullYear();
-          if (!isNaN(year)) {
-            yearCounts[year] = (yearCounts[year] || 0) + 1;
-          }
-        } catch (error) {
-          console.error('Invalid date format:', movie.dataRated);
-          console.error(error);
-        }
-      }
+  const getYearsData = () => {
+    const years = {};
+    data.forEach(movie => {
+      years[movie.year] = (years[movie.year] || 0) + 1;
     });
+    return Object.entries(years)
+      .map(([year, count]) => ({ year: parseInt(year), count }))
+      .sort((a, b) => a.year - b.year);
+  };
 
-    return Object.keys(yearCounts)
-      .map((year) => ({
-        year,
-        count: yearCounts[year]
+  const getTimelineData = () => {
+    return data
+      .filter(movie => movie.dataRated)
+      .map(movie => ({
+        date: new Date(movie.dataRated).toLocaleDateString(),
+        rating: movie.myRating,
+        title: movie.title
       }))
-      .sort((a, b) => parseInt(a.year) - parseInt(b.year));
+      .sort((a, b) => new Date(a.date) - new Date(b.date));
   };
 
-  const renderRatingsDistributionChart = () => {
-    const ratingsData = prepareRatingsData();
-    return (
-      <ResponsiveContainer width="100%" height={400}>
-        <BarChart
-          data={ratingsData}
-          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="rating" />
-          <YAxis />
-          <Tooltip formatter={(value) => [`${value} movies`, 'Count']} />
-          <Legend />
-          <Bar dataKey="count" name="Number of Movies" fill="#8884d8" />
-        </BarChart>
-      </ResponsiveContainer>
-    );
-  };
+  // Chart rendering function
+  const renderChart = (chartType, chartData) => {
+    const colors = ['#007bff', '#28a745', '#ffc107', '#dc3545', '#6f42c1', '#20c997', '#fd7e14', '#e83e8c'];
 
-  const renderDecadesChart = () => {
-    const decadesData = prepareDecadesData();
-    return (
-      <ResponsiveContainer width="100%" height={400}>
-        <BarChart
-          data={decadesData}
-          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="decade" />
-          <YAxis />
-          <Tooltip formatter={(value) => [`${value} movies`, 'Count']} />
-          <Legend />
-          <Bar dataKey="count" name="Number of Movies" fill="#82ca9d" />
-        </BarChart>
-      </ResponsiveContainer>
-    );
-  };
+    switch (chartType) {
+      case 'ratings': {
+        const ratingsData = getRatingsData();
+        return (
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={ratingsData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="rating" />
+              <YAxis />
+              <Tooltip />
+              <Bar dataKey="count" fill="#007bff" />
+            </BarChart>
+          </ResponsiveContainer>
+        );
+      }
 
-  const renderGenresChart = () => {
-    const genresData = prepareGenresData();
-    return (
-      <ResponsiveContainer width="100%" height={400}>
-        <PieChart>
-          <Pie
-            data={genresData}
-            cx="50%"
-            cy="50%"
-            labelLine={true}
-            outerRadius={150}
-            fill="#8884d8"
-            dataKey="count"
-            nameKey="genre"
-            label={({ genre, count, percent }) =>
-              `${genre}: ${count} (${(percent * 100).toFixed(0)}%)`
-            }
-          >
-            {genresData.map((entry, index) => (
-              <Cell
-                key={`cell-${index}`}
-                fill={COLORS[index % COLORS.length]}
-              />
-            ))}
-          </Pie>
-          <Tooltip
-            formatter={(value, name, props) => [
-              `${value} movies`,
-              props.payload.genre
-            ]}
-          />
-          <Legend />
-        </PieChart>
-      </ResponsiveContainer>
-    );
-  };
+      case 'genres': {
+        const genresData = getGenresData();
+        return (
+          <ResponsiveContainer width="100%" height="100%">
+            <PieChart>
+              <Pie
+                data={genresData}
+                cx="50%"
+                cy="50%"
+                labelLine={false}
+                label={({ genre, percent }) => `${genre} (${(percent * 100).toFixed(0)}%)`}
+                outerRadius={80}
+                fill="#8884d8"
+                dataKey="count"
+              >
+                {genresData.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
+                ))}
+              </Pie>
+              <Tooltip />
+            </PieChart>
+          </ResponsiveContainer>
+        );
+      }
 
-  const renderRatingsComparisonChart = () => {
-    const comparisonData = prepareRatingsComparisonData();
-    return (
-      <ResponsiveContainer width="100%" height={400}>
-        <LineChart
-          data={comparisonData}
-          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="myRating" />
-          <YAxis domain={[0, 10]} />
-          <Tooltip
-            formatter={(value, name, props) => {
-              if (name === 'Average IMDb Rating') {
-                return [`${value} (${props.payload.count} movies)`, name];
-              }
-              return [value, name];
-            }}
-          />
-          <Legend />
-          <Line
-            type="monotone"
-            dataKey="averageImdbRating"
-            name="Average IMDb Rating"
-            stroke="#FF8042"
-            activeDot={{ r: 8 }}
-          />
-          <Line
-            type="monotone"
-            dataKey="myRatingValue"
-            name="My Rating"
-            stroke="#8884d8"
-            activeDot={{ r: 8 }}
-          />
-        </LineChart>
-      </ResponsiveContainer>
-    );
-  };
+      case 'decades': {
+        const decadesData = getDecadesData();
+        return (
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={decadesData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="decade" />
+              <YAxis />
+              <Tooltip />
+              <Bar dataKey="count" fill="#28a745" />
+            </BarChart>
+          </ResponsiveContainer>
+        );
+      }
 
-  const renderWatchedByYearChart = () => {
-    const watchedData = prepareWatchedByYearData();
-    return (
-      <ResponsiveContainer width="100%" height={400}>
-        <AreaChart
-          data={watchedData}
-          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="year" />
-          <YAxis />
-          <Tooltip
-            formatter={(value) => [`${value} movies`, 'Movies Watched']}
-          />
-          <Legend />
-          <Area
-            type="monotone"
-            dataKey="count"
-            name="Movies Watched"
-            stroke="#8884d8"
-            fill="#8884d8"
-          />
-        </AreaChart>
-      </ResponsiveContainer>
-    );
-  };
+      case 'years': {
+        const yearsData = getYearsData();
+        return (
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={yearsData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="year" />
+              <YAxis />
+              <Tooltip />
+              <Line type="monotone" dataKey="count" stroke="#ffc107" strokeWidth={2} />
+            </LineChart>
+          </ResponsiveContainer>
+        );
+      }
 
-  const renderActiveChart = () => {
-    switch (activeChart) {
-      case 'ratings':
-        return renderRatingsDistributionChart();
-      case 'decades':
-        return renderDecadesChart();
-      case 'genres':
-        return renderGenresChart();
-      case 'comparison':
-        return renderRatingsComparisonChart();
-      case 'watched':
-        return renderWatchedByYearChart();
+      case 'timeline': {
+        const timelineData = getTimelineData();
+        return (
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={timelineData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="date" />
+              <YAxis domain={[0, 10]} />
+              <Tooltip />
+              <Line type="monotone" dataKey="rating" stroke="#dc3545" strokeWidth={2} />
+            </LineChart>
+          </ResponsiveContainer>
+        );
+      }
+
       default:
-        return renderRatingsDistributionChart();
+        return null;
     }
   };
 
+  if (!data || data.length === 0) {
+    return <div className="no-data">No data available for visualization</div>;
+  }
+
   return (
     <div className="data-visualization">
-      <h2>Movie Data Visualization</h2>
-      <div className="chart-selector">
-        <button
-          className={activeChart === 'ratings' ? 'active' : ''}
-          onClick={() => setActiveChart('ratings')}
-        >
-          Ratings Distribution
-        </button>
-        <button
-          className={activeChart === 'decades' ? 'active' : ''}
-          onClick={() => setActiveChart('decades')}
-        >
-          Movies by Decade
-        </button>
-        <button
-          className={activeChart === 'genres' ? 'active' : ''}
-          onClick={() => setActiveChart('genres')}
-        >
-          Top Genres
-        </button>
-        <button
-          className={activeChart === 'comparison' ? 'active' : ''}
-          onClick={() => setActiveChart('comparison')}
-        >
-          IMDb vs My Ratings
-        </button>
-        <button
-          className={activeChart === 'watched' ? 'active' : ''}
-          onClick={() => setActiveChart('watched')}
-        >
-          Movies Watched by Year
-        </button>
+      {/* Desktop View */}
+      <div className="desktop-view">
+        <div className="chart-selector">
+          {chartTypes.map(chart => (
+            <button
+              key={chart.key}
+              className={activeChart === chart.key ? 'active' : ''}
+              onClick={() => handleDesktopChartSelect(chart.key)}
+            >
+              {chart.label}
+            </button>
+          ))}
+        </div>
+        <div className="chart-container">
+          {renderChart(activeChart, data)}
+        </div>
       </div>
-      <div className="chart-container">{renderActiveChart()}</div>
+
+      {/* Mobile View */}
+      <div className="mobile-view">
+        <div className="chart-selector mobile-chart-selector">
+          {chartTypes.map(chart => (
+            <button
+              key={chart.key}
+              onClick={() => handleMobileChartSelect(chart.key)}
+              className="mobile-chart-button"
+            >
+              {chart.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Chart Modal for Mobile */}
+      <ChartModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        chartTypes={chartTypes}
+        initialChart={modalChart}
+        renderChart={renderChart}
+        data={data}
+      />
     </div>
   );
 };
-
-DataVisualization.propTypes = DataVisualizationProps;
 
 export default DataVisualization;
