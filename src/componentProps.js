@@ -52,14 +52,14 @@ export const YearPageProps = {
       dataRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
-      runtime: PropTypes.number,
+      runtime: PropTypes.string,
       year: PropTypes.number,
       genres: PropTypes.arrayOf(PropTypes.string),
       numVotes: PropTypes.number,
       releaseDate: PropTypes.string,
       directors: PropTypes.arrayOf(PropTypes.string)
     })
-  ).isRequired
+  )
 };
 
 export const GenrePageProps = {
@@ -70,14 +70,14 @@ export const GenrePageProps = {
       dataRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
-      runtime: PropTypes.number,
+      runtime: PropTypes.string,
       year: PropTypes.number,
       genres: PropTypes.arrayOf(PropTypes.string),
       numVotes: PropTypes.number,
       releaseDate: PropTypes.string,
       directors: PropTypes.arrayOf(PropTypes.string)
     })
-  ).isRequired
+  )
 };
 
 export const DecadePageProps = {
@@ -88,14 +88,14 @@ export const DecadePageProps = {
       dataRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
-      runtime: PropTypes.number,
+      runtime: PropTypes.string,
       year: PropTypes.number,
       genres: PropTypes.arrayOf(PropTypes.string),
       numVotes: PropTypes.number,
       releaseDate: PropTypes.string,
       directors: PropTypes.arrayOf(PropTypes.string)
     })
-  ).isRequired
+  )
 };
 
 export const RatingPageProps = {
@@ -106,14 +106,14 @@ export const RatingPageProps = {
       dataRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
-      runtime: PropTypes.number,
+      runtime: PropTypes.string,
       year: PropTypes.number,
       genres: PropTypes.arrayOf(PropTypes.string),
       numVotes: PropTypes.number,
       releaseDate: PropTypes.string,
       directors: PropTypes.arrayOf(PropTypes.string)
     })
-  ).isRequired
+  )
 };
 
 export const DateRatedPageProps = {
@@ -124,14 +124,14 @@ export const DateRatedPageProps = {
       dataRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
-      runtime: PropTypes.number,
+      runtime: PropTypes.string,
       year: PropTypes.number,
       genres: PropTypes.arrayOf(PropTypes.string),
       numVotes: PropTypes.number,
       releaseDate: PropTypes.string,
       directors: PropTypes.arrayOf(PropTypes.string)
     })
-  ).isRequired
+  )
 };
 
 export const DataVisualizationProps = {
@@ -142,14 +142,14 @@ export const DataVisualizationProps = {
       dataRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
-      runtime: PropTypes.number,
+      runtime: PropTypes.string,
       year: PropTypes.number,
       genres: PropTypes.arrayOf(PropTypes.string),
       numVotes: PropTypes.number,
       releaseDate: PropTypes.string,
       directors: PropTypes.arrayOf(PropTypes.string)
     })
-  ).isRequired
+  )
 };
 
 export const MovieTableProps = {
@@ -160,14 +160,14 @@ export const MovieTableProps = {
       dataRated: PropTypes.string,
       title: PropTypes.string.isRequired,
       imdbRating: PropTypes.number.isRequired,
-      runtime: PropTypes.number.isRequired,
+      runtime: PropTypes.string.isRequired,
       year: PropTypes.number.isRequired,
       genres: PropTypes.arrayOf(PropTypes.string).isRequired,
       numVotes: PropTypes.number.isRequired,
       releaseDate: PropTypes.string.isRequired,
       directors: PropTypes.arrayOf(PropTypes.string)
     })
-  ).isRequired
+  )
 };
 
 export const AnalyticsProps = {

@@ -44,12 +44,14 @@
 }
 
 .chart-container {
-  width: 100%;
+  width: 70rem;
   height: 400px;
-  margin: 0 auto;
+  margin: 0;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .visualization-toggle {
   display: flex;
   justify-content: center;
@@ -430,5 +432,153 @@
   
   .desktop-view {
     display: block;
+  }
+}
+
+
+/* Enhanced mobile portrait optimization */
+@media (max-width: 768px) and (orientation: portrait) {
+  .chart-modal-header {
+    padding: 15px 20px 10px 20px !important;
+    min-height: auto;
+  }
+  
+  .chart-modal-header h3 {
+    font-size: 16px !important;
+    line-height: 1.2;
+  }
+  
+  .chart-modal-chart {
+    padding: 10px 15px !important;
+    flex: 1;
+  }
+  
+  .chart-modal-chart .chart-container {
+    max-height: 70vh !important; /* Use more vertical space */
+    min-height: 50vh;
+  }
+  
+  .chart-modal-navigation {
+    padding: 15px 20px !important;
+  }
+  
+  /* Make navigation more compact */
+  .chart-nav-button {
+    padding: 10px 14px !important;
+    font-size: 12px !important;
+    min-width: 60px !important;
+  }
+  
+  .chart-indicators {
+    gap: 6px !important;
+  }
+  
+  .chart-indicator {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+
+/* Optimize for landscape when it happens */
+@media (max-width: 768px) and (orientation: landscape) {
+  .chart-modal-chart .chart-container {
+    max-height: 85vh !important; /* Use even more space in landscape */
+  }
+}
+
+
+/* Fullscreen button styles */
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fullscreen-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.fullscreen-button:active {
+  transform: scale(0.95);
+}
+
+/* Fullscreen mode optimizations */
+.chart-modal-content:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.chart-modal-content:fullscreen .chart-modal-chart {
+  padding: 20px;
+}
+
+.chart-modal-content:fullscreen .chart-modal-chart .chart-container {
+  max-height: 80vh;
+  height: 80vh;
+}
+
+/* Webkit fullscreen support */
+.chart-modal-content:-webkit-full-screen {
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.chart-modal-content:-webkit-full-screen .chart-modal-chart {
+  padding: 20px;
+}
+
+.chart-modal-content:-webkit-full-screen .chart-modal-chart .chart-container {
+  max-height: 80vh;
+  height: 80vh;
+}
+
+/* Hide fullscreen button on desktop since it's mainly for mobile */
+@media (min-width: 769px) {
+  .fullscreen-button {
+    display: none;
+  }
+}
+
+/* Mobile fullscreen adjustments */
+@media (max-width: 768px) {
+  .fullscreen-button {
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .chart-modal-content:fullscreen .chart-modal-header,
+  .chart-modal-content:-webkit-full-screen .chart-modal-header {
+    padding: 15px 20px;
+  }
+  
+  .chart-modal-content:fullscreen .chart-modal-navigation,
+  .chart-modal-content:-webkit-full-screen .chart-modal-navigation {
+    padding: 15px 20px;
   }
 }

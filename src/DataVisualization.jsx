@@ -1,5 +1,6 @@
 // Update src/DataVisualization.jsx
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import {
   BarChart,
   Bar,
@@ -44,7 +45,7 @@ const DataVisualization = ({ data }) => {
   // Data processing functions
   const getRatingsData = () => {
     const ratings = {};
-    data.forEach(movie => {
+    data.forEach((movie) => {
       const rating = movie.myRating;
       ratings[rating] = (ratings[rating] || 0) + 1;
     });
@@ -55,8 +56,8 @@ const DataVisualization = ({ data }) => {
 
   const getGenresData = () => {
     const genres = {};
-    data.forEach(movie => {
-      movie.genres.forEach(genre => {
+    data.forEach((movie) => {
+      movie.genres.forEach((genre) => {
         genres[genre] = (genres[genre] || 0) + 1;
       });
     });
@@ -68,7 +69,7 @@ const DataVisualization = ({ data }) => {
 
   const getDecadesData = () => {
     const decades = {};
-    data.forEach(movie => {
+    data.forEach((movie) => {
       const decade = `${Math.floor(movie.year / 10) * 10}s`;
       decades[decade] = (decades[decade] || 0) + 1;
     });
@@ -79,7 +80,7 @@ const DataVisualization = ({ data }) => {
 
   const getYearsData = () => {
     const years = {};
-    data.forEach(movie => {
+    data.forEach((movie) => {
       years[movie.year] = (years[movie.year] || 0) + 1;
     });
     return Object.entries(years)
@@ -89,8 +90,8 @@ const DataVisualization = ({ data }) => {
 
   const getTimelineData = () => {
     return data
-      .filter(movie => movie.dataRated)
-      .map(movie => ({
+      .filter((movie) => movie.dataRated)
+      .map((movie) => ({
         date: new Date(movie.dataRated).toLocaleDateString(),
         rating: movie.myRating,
         title: movie.title
@@ -99,8 +100,17 @@ const DataVisualization = ({ data }) => {
   };
 
   // Chart rendering function
-  const renderChart = (chartType, chartData) => {
-    const colors = ['#007bff', '#28a745', '#ffc107', '#dc3545', '#6f42c1', '#20c997', '#fd7e14', '#e83e8c'];
+  const renderChart = (chartType) => {
+    const colors = [
+      '#007bff',
+      '#28a745',
+      '#ffc107',
+      '#dc3545',
+      '#6f42c1',
+      '#20c997',
+      '#fd7e14',
+      '#e83e8c'
+    ];
 
     switch (chartType) {
       case 'ratings': {
@@ -120,6 +130,15 @@ const DataVisualization = ({ data }) => {
 
       case 'genres': {
         const genresData = getGenresData();
+        // Responsive radius - larger on desktop, smaller on mobile
+        const getResponsiveRadius = () => {
+          if (window.innerWidth >= 769) {
+            return 150; // Desktop radius
+          } else {
+            return 80; // Mobile radius (original size)
+          }
+        };
+
         return (
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
@@ -128,21 +147,24 @@ const DataVisualization = ({ data }) => {
                 cx="50%"
                 cy="50%"
                 labelLine={false}
-                label={({ genre, percent }) => `${genre} (${(percent * 100).toFixed(0)}%)`}
-                outerRadius={80}
+                label={({ genre, percent }) =>
+                  `${genre} (${(percent * 100).toFixed(0)}%)`
+                }
+                outerRadius={getResponsiveRadius()}
                 fill="#8884d8"
                 dataKey="count"
               >
                 {genresData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
+                  <Cell
+                    key={`cell-${index}`}
+                    fill={colors[index % colors.length]}
+                  />
                 ))}
               </Pie>
-              <Tooltip />
             </PieChart>
           </ResponsiveContainer>
         );
       }
-
       case 'decades': {
         const decadesData = getDecadesData();
         return (
@@ -167,7 +189,12 @@ const DataVisualization = ({ data }) => {
               <XAxis dataKey="year" />
               <YAxis />
               <Tooltip />
-              <Line type="monotone" dataKey="count" stroke="#ffc107" strokeWidth={2} />
+              <Line
+                type="monotone"
+                dataKey="count"
+                stroke="#ffc107"
+                strokeWidth={2}
+              />
             </LineChart>
           </ResponsiveContainer>
         );
@@ -182,7 +209,12 @@ const DataVisualization = ({ data }) => {
               <XAxis dataKey="date" />
               <YAxis domain={[0, 10]} />
               <Tooltip />
-              <Line type="monotone" dataKey="rating" stroke="#dc3545" strokeWidth={2} />
+              <Line
+                type="monotone"
+                dataKey="rating"
+                stroke="#dc3545"
+                strokeWidth={2}
+              />
             </LineChart>
           </ResponsiveContainer>
         );
@@ -202,7 +234,7 @@ const DataVisualization = ({ data }) => {
       {/* Desktop View */}
       <div className="desktop-view">
         <div className="chart-selector">
-          {chartTypes.map(chart => (
+          {chartTypes.map((chart) => (
             <button
               key={chart.key}
               className={activeChart === chart.key ? 'active' : ''}
@@ -212,15 +244,13 @@ const DataVisualization = ({ data }) => {
             </button>
           ))}
         </div>
-        <div className="chart-container">
-          {renderChart(activeChart, data)}
-        </div>
+        <div className="chart-container">{renderChart(activeChart, data)}</div>
       </div>
 
       {/* Mobile View */}
       <div className="mobile-view">
         <div className="chart-selector mobile-chart-selector">
-          {chartTypes.map(chart => (
+          {chartTypes.map((chart) => (
             <button
               key={chart.key}
               onClick={() => handleMobileChartSelect(chart.key)}
@@ -243,6 +273,24 @@ const DataVisualization = ({ data }) => {
       />
     </div>
   );
+};
+
+DataVisualization.propTypes = {
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      myRating: PropTypes.number.isRequired,
+      dataRated: PropTypes.string, // Optional - used in timeline chart
+      title: PropTypes.string.isRequired,
+      imdbRating: PropTypes.number,
+      runtime: PropTypes.number,
+      year: PropTypes.number.isRequired,
+      genres: PropTypes.arrayOf(PropTypes.string).isRequired,
+      numVotes: PropTypes.number,
+      releaseDate: PropTypes.string,
+      directors: PropTypes.arrayOf(PropTypes.string)
+    })
+  ).isRequired
 };
 
 export default DataVisualization;

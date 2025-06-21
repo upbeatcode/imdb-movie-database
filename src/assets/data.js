@@ -1,5 +1,187 @@
 export const data = [
   {
+    id: 'tt36436543',
+    myRating: 8,
+    dataRated: '2025-06-21',
+    title: 'Joe List: Small Ball',
+    imdbRating: 7.4,
+    runtime: '',
+    year: 2025,
+    genres: ['Documentary', 'Comedy'],
+    numVotes: 47,
+    releaseDate: '2025-06-06',
+    directors: ['Willie Rockefeller']
+  },
+  {
+    id: 'tt0082537',
+    myRating: 5,
+    dataRated: '2025-06-21',
+    title: 'Humongous',
+    imdbRating: 4.8,
+    runtime: 97,
+    year: 1982,
+    genres: ['Thriller', 'Horror'],
+    numVotes: 2306,
+    releaseDate: '1982-06-11',
+    directors: ['Paul Lynch']
+  },
+  {
+    id: 'tt27054481',
+    myRating: 6,
+    dataRated: '2025-06-20',
+    title: 'Jim Gaffigan: Dark Pale',
+    imdbRating: 6.4,
+    runtime: 64,
+    year: 2023,
+    genres: ['Comedy'],
+    numVotes: 1328,
+    releaseDate: '2023-07-25',
+    directors: ['Jim Gaffigan']
+  },
+  {
+    id: 'tt0082806',
+    myRating: 6,
+    dataRated: '2025-06-19',
+    title: "New Year's Evil",
+    imdbRating: 4.9,
+    runtime: 85,
+    year: 1980,
+    genres: ['Thriller', 'Horror'],
+    numVotes: 4289,
+    releaseDate: '1980-12-19',
+    directors: ['Emmett Alston']
+  },
+  {
+    id: 'tt0084694',
+    myRating: 7,
+    dataRated: '2025-06-18',
+    title: 'The Slayer',
+    imdbRating: 5.2,
+    runtime: 90,
+    year: 1982,
+    genres: ['Mystery', 'Thriller', 'Horror'],
+    numVotes: 3305,
+    releaseDate: '1982-10-01',
+    directors: ['J.S. Cardone']
+  },
+  {
+    id: 'tt0180274',
+    myRating: 5,
+    dataRated: '2025-06-16',
+    title: 'Unhinged',
+    imdbRating: 4.9,
+    runtime: 79,
+    year: 1982,
+    genres: ['Horror'],
+    numVotes: 2130,
+    releaseDate: '1982-10-15',
+    directors: ['Don Gronquist']
+  },
+  {
+    id: 'tt0084739',
+    myRating: 6,
+    dataRated: '2025-06-14',
+    title: 'Superstition',
+    imdbRating: 5.7,
+    runtime: 85,
+    year: 1982,
+    genres: ['Horror'],
+    numVotes: 3561,
+    releaseDate: '1985-01-02',
+    directors: ['James W. Roberson']
+  },
+  {
+    id: 'tt21106500',
+    myRating: 8,
+    dataRated: '2025-06-13',
+    title: 'Bill Burr: Live at Red Rocks',
+    imdbRating: 7.6,
+    runtime: 82,
+    year: 2022,
+    genres: ['Documentary', 'Comedy'],
+    numVotes: 7737,
+    releaseDate: '2022-07-12',
+    directors: ['Mike Binder']
+  },
+  {
+    id: 'tt0088116',
+    myRating: 6,
+    dataRated: '2025-06-12',
+    title: 'Silent Madness',
+    imdbRating: 5.2,
+    runtime: 93,
+    year: 1984,
+    genres: ['Thriller', 'Horror'],
+    numVotes: 1855,
+    releaseDate: '1984-10-26',
+    directors: ['Simon Nuchtern']
+  },
+  {
+    id: 'tt0087746',
+    myRating: 6,
+    dataRated: '2025-06-12',
+    title: 'Mortuary',
+    imdbRating: 5.1,
+    runtime: 93,
+    year: 1982,
+    genres: ['Horror'],
+    numVotes: 3313,
+    releaseDate: '1983-09-02',
+    directors: ['Howard Avedis']
+  },
+  {
+    id: 'tt28692116',
+    myRating: 8,
+    dataRated: '2025-06-11',
+    title: 'Joe List: Enough for Everybody',
+    imdbRating: 7.5,
+    runtime: 59,
+    year: 2023,
+    genres: ['Comedy'],
+    numVotes: 135,
+    releaseDate: '2023-08-18',
+    directors: ['Jason Katz,Jason Katz']
+  },
+  {
+    id: 'tt19887218',
+    myRating: 8,
+    dataRated: '2025-06-02',
+    title: "Joe List: This Year's Material",
+    imdbRating: 7.6,
+    runtime: 60,
+    year: 2022,
+    genres: ['Comedy'],
+    numVotes: 217,
+    releaseDate: '2022-04-29',
+    directors: ['Jason Katz']
+  },
+  {
+    id: 'tt12837478',
+    myRating: 9,
+    dataRated: '2025-05-28',
+    title: 'Joe List: I Hate Myself',
+    imdbRating: 7.4,
+    runtime: 56,
+    year: 2020,
+    genres: ['Comedy'],
+    numVotes: 400,
+    releaseDate: '2020-08-06',
+    directors: ['Jason Katz']
+  },
+  {
+    id: 'tt14857528',
+    myRating: 4,
+    dataRated: '2025-01-28',
+    title: 'Time Cut',
+    imdbRating: 5,
+    runtime: 91,
+    year: 2024,
+    genres: ['Horror', 'Thriller', 'Sci-Fi', 'Mystery'],
+    numVotes: 19845,
+    releaseDate: '2024-10-30',
+    directors: ['Hannah Macpherson']
+  },
+  {
     id: 'tt0045920',
     myRating: 7,
     dataRated: '2025-01-19',
@@ -8,7 +190,7 @@ export const data = [
     runtime: 81,
     year: 1953,
     genres: ['Horror', 'Sci-Fi'],
-    numVotes: 11827,
+    numVotes: 12183,
     releaseDate: '1953-06-05',
     directors: ['Jack Arnold']
   },
@@ -21,7 +203,7 @@ export const data = [
     runtime: 111,
     year: 1976,
     genres: ['Mystery', 'Horror'],
-    numVotes: 139830,
+    numVotes: 141613,
     releaseDate: '1976-06-25',
     directors: ['Richard Donner']
   },
@@ -34,7 +216,7 @@ export const data = [
     runtime: 96,
     year: 1957,
     genres: ['Mystery', 'Thriller', 'Fantasy', 'Horror'],
-    numVotes: 16246,
+    numVotes: 16527,
     releaseDate: '1958-03-30',
     directors: ['Jacques Tourneur']
   },
@@ -46,8 +228,8 @@ export const data = [
     imdbRating: 6.5,
     runtime: 119,
     year: 2024,
-    genres: ['Action', 'Thriller', 'Crime', 'Mystery', 'Drama'],
-    numVotes: 140991,
+    genres: ['Action', 'Thriller', 'Crime'],
+    numVotes: 171480,
     releaseDate: '2024-12-13',
     directors: ['Jaume Collet-Serra']
   },
@@ -60,7 +242,7 @@ export const data = [
     runtime: 110,
     year: 2024,
     genres: ['Action', 'Adventure', 'Sci-Fi', 'Thriller'],
-    numVotes: 85673,
+    numVotes: 129182,
     releaseDate: '2024-10-25',
     directors: ['Kelly Marcel']
   },
@@ -73,7 +255,7 @@ export const data = [
     runtime: 106,
     year: 2012,
     genres: ['Comedy'],
-    numVotes: 675277,
+    numVotes: 686459,
     releaseDate: '2012-06-29',
     directors: ['Seth MacFarlane']
   },
@@ -86,7 +268,7 @@ export const data = [
     runtime: 148,
     year: 2021,
     genres: ['Action', 'Adventure', 'Sci-Fi', 'Fantasy'],
-    numVotes: 929843,
+    numVotes: 958084,
     releaseDate: '2021-12-17',
     directors: ['Jon Watts']
   },
@@ -99,7 +281,7 @@ export const data = [
     runtime: 70,
     year: 1941,
     genres: ['Romance', 'Mystery', 'Horror'],
-    numVotes: 32403,
+    numVotes: 33005,
     releaseDate: '1941-12-12',
     directors: ['George Waggner']
   },
@@ -112,7 +294,7 @@ export const data = [
     runtime: 69,
     year: 1943,
     genres: ['Fantasy', 'Drama', 'Romance', 'Horror'],
-    numVotes: 14453,
+    numVotes: 14755,
     releaseDate: '1943-04-30',
     directors: ['Jacques Tourneur']
   },
@@ -121,11 +303,11 @@ export const data = [
     myRating: 8,
     dataRated: '2024-07-11',
     title: 'Island of Lost Souls',
-    imdbRating: 7.4,
+    imdbRating: 7.3,
     runtime: 70,
     year: 1932,
     genres: ['Film-Noir', 'Sci-Fi', 'Horror'],
-    numVotes: 11535,
+    numVotes: 11756,
     releaseDate: '1932-12',
     directors: ['Erle C. Kenton']
   },
@@ -138,7 +320,7 @@ export const data = [
     runtime: 139,
     year: 2024,
     genres: ['Action', 'Thriller', 'Comedy'],
-    numVotes: 89451,
+    numVotes: 93961,
     releaseDate: '2024-02-02',
     directors: ['Matthew Vaughn']
   },
@@ -151,7 +333,7 @@ export const data = [
     runtime: 118,
     year: 2023,
     genres: ['Action', 'Comedy'],
-    numVotes: 50890,
+    numVotes: 54008,
     releaseDate: '2023-12-15',
     directors: ['Simon Cellan Jones']
   },
@@ -164,9 +346,9 @@ export const data = [
     runtime: 134,
     year: 2023,
     genres: ['Adventure', 'Fantasy', 'Action', 'Comedy'],
-    numVotes: 251447,
+    numVotes: 261883,
     releaseDate: '2023-03-31',
-    directors: ['John Francis Daley', 'Jonathan Goldstein']
+    directors: ['John Francis Daley,Jonathan Goldstein']
   },
   {
     id: 'tt0439572',
@@ -177,7 +359,7 @@ export const data = [
     runtime: 144,
     year: 2023,
     genres: ['Action', 'Adventure', 'Fantasy', 'Sci-Fi'],
-    numVotes: 227778,
+    numVotes: 234391,
     releaseDate: '2023-06-16',
     directors: ['Andy Muschietti']
   },
@@ -190,7 +372,7 @@ export const data = [
     runtime: 106,
     year: 2023,
     genres: ['Comedy', 'Horror', 'Sci-Fi'],
-    numVotes: 60380,
+    numVotes: 63466,
     releaseDate: '2023-10-06',
     directors: ['Nahnatchka Khan']
   },
@@ -203,7 +385,7 @@ export const data = [
     runtime: 114,
     year: 2023,
     genres: ['Comedy', 'Adventure', 'Fantasy'],
-    numVotes: 589883,
+    numVotes: 612523,
     releaseDate: '2023-07-21',
     directors: ['Greta Gerwig']
   },
@@ -216,7 +398,7 @@ export const data = [
     runtime: 95,
     year: 2022,
     genres: ['Documentary'],
-    numVotes: 46048,
+    numVotes: 46768,
     releaseDate: '2022-06-01',
     directors: ['Justin Folk']
   },
@@ -229,7 +411,7 @@ export const data = [
     runtime: 98,
     year: 2005,
     genres: ['Drama'],
-    numVotes: 6710,
+    numVotes: 7097,
     releaseDate: '2005-01-30',
     directors: ['Brent Shields']
   },
@@ -242,8 +424,8 @@ export const data = [
     runtime: 100,
     year: 2022,
     genres: ['Comedy', 'Drama'],
-    numVotes: 20190,
-    releaseDate: '2022-09-16',
+    numVotes: 20779,
+    releaseDate: '2022-09-13',
     directors: ['Kevin Smith']
   },
   {
@@ -255,7 +437,7 @@ export const data = [
     runtime: 75,
     year: 1959,
     genres: ['Mystery', 'Crime', 'Horror'],
-    numVotes: 32303,
+    numVotes: 32802,
     releaseDate: '1959-02-17',
     directors: ['William Castle']
   },
@@ -268,7 +450,7 @@ export const data = [
     runtime: 85,
     year: 2017,
     genres: ['Horror', 'Comedy'],
-    numVotes: 113600,
+    numVotes: 116334,
     releaseDate: '2017-10-13',
     directors: ['McG']
   },
@@ -281,7 +463,7 @@ export const data = [
     runtime: 66,
     year: 1937,
     genres: ['Family', 'Comedy', 'Western'],
-    numVotes: 9224,
+    numVotes: 9349,
     releaseDate: '1937-04-16',
     directors: ['James W. Horne']
   },
@@ -294,7 +476,7 @@ export const data = [
     runtime: 94,
     year: 1980,
     genres: ['Thriller', 'Horror'],
-    numVotes: 2238,
+    numVotes: 2289,
     releaseDate: '1980-02-29',
     directors: ['Robert Hammer']
   },
@@ -307,7 +489,7 @@ export const data = [
     runtime: 72,
     year: 1932,
     genres: ['Horror', 'Comedy', 'Thriller', 'Adventure', 'Drama'],
-    numVotes: 13779,
+    numVotes: 14088,
     releaseDate: '1932-10-20',
     directors: ['James Whale']
   },
@@ -320,7 +502,7 @@ export const data = [
     runtime: 101,
     year: 2022,
     genres: ['Action', 'Comedy', 'Romance'],
-    numVotes: 39998,
+    numVotes: 41135,
     releaseDate: '2023-01-27',
     directors: ['Jason Moore']
   },
@@ -333,7 +515,7 @@ export const data = [
     runtime: 123,
     year: 1962,
     genres: ['Drama', 'Western'],
-    numVotes: 84740,
+    numVotes: 86083,
     releaseDate: '1962-04-22',
     directors: ['John Ford']
   },
@@ -346,7 +528,7 @@ export const data = [
     runtime: 134,
     year: 2022,
     genres: ['Drama', 'History', 'Comedy', 'Mystery', 'Thriller'],
-    numVotes: 98804,
+    numVotes: 100973,
     releaseDate: '2022-10-07',
     directors: ['David O. Russell']
   },
@@ -359,7 +541,7 @@ export const data = [
     runtime: 78,
     year: 1979,
     genres: ['Documentary', 'Comedy'],
-    numVotes: 5959,
+    numVotes: 6022,
     releaseDate: '1979-01-26',
     directors: ['Jeff Margolis']
   },
@@ -372,9 +554,9 @@ export const data = [
     runtime: 118,
     year: 2011,
     genres: ['Comedy', 'Romance', 'Drama'],
-    numVotes: 583921,
+    numVotes: 595140,
     releaseDate: '2011-07-29',
-    directors: ['Glenn Ficarra', 'John Requa']
+    directors: ['Glenn Ficarra,John Requa']
   },
   {
     id: 'tt1421373',
@@ -385,7 +567,7 @@ export const data = [
     runtime: 82,
     year: 2010,
     genres: ['Comedy'],
-    numVotes: 13000,
+    numVotes: 13096,
     releaseDate: '2010-01-26',
     directors: ['Louis C.K.']
   },
@@ -398,7 +580,7 @@ export const data = [
     runtime: 56,
     year: 2007,
     genres: ['Comedy'],
-    numVotes: 9193,
+    numVotes: 9249,
     releaseDate: '2007-01-13',
     directors: ['Steven J. Santos']
   },
@@ -411,7 +593,7 @@ export const data = [
     runtime: 62,
     year: 2016,
     genres: ['Comedy'],
-    numVotes: 972,
+    numVotes: 988,
     releaseDate: '2016-04',
     directors: ['Marcus Raboy']
   },
@@ -424,7 +606,7 @@ export const data = [
     runtime: 60,
     year: 2007,
     genres: ['Comedy'],
-    numVotes: 3196,
+    numVotes: 3203,
     releaseDate: '2007-06-17',
     directors: ['Manny Rodriguez']
   },
@@ -437,7 +619,7 @@ export const data = [
     runtime: 58,
     year: 1996,
     genres: ['Comedy'],
-    numVotes: 4302,
+    numVotes: 4354,
     releaseDate: '1996-06-01',
     directors: ['Keith Truesdell']
   },
@@ -450,7 +632,7 @@ export const data = [
     runtime: 75,
     year: 2005,
     genres: ['Documentary', 'Comedy'],
-    numVotes: 5096,
+    numVotes: 5141,
     releaseDate: '2005-11-05',
     directors: ['Rocco Urbisci']
   },
@@ -463,7 +645,7 @@ export const data = [
     runtime: 136,
     year: 2001,
     genres: ['Mystery', 'Fantasy', 'Sci-Fi', 'Romance', 'Thriller'],
-    numVotes: 291818,
+    numVotes: 296587,
     releaseDate: '2001-12-14',
     directors: ['Cameron Crowe']
   },
@@ -476,9 +658,9 @@ export const data = [
     runtime: 61,
     year: 2008,
     genres: ['Documentary', 'Comedy'],
-    numVotes: 11226,
+    numVotes: 11298,
     releaseDate: '2008-10',
-    directors: ['Louis C.K.', 'Shannon Hartman']
+    directors: ['Louis C.K.,Shannon Hartman']
   },
   {
     id: 'tt1853533',
@@ -489,7 +671,7 @@ export const data = [
     runtime: 60,
     year: 2011,
     genres: ['Comedy'],
-    numVotes: 2514,
+    numVotes: 2527,
     releaseDate: '2011-03-06',
     directors: ['Beth McCarthy-Miller']
   },
@@ -502,7 +684,7 @@ export const data = [
     runtime: 62,
     year: 2015,
     genres: ['Comedy'],
-    numVotes: 9832,
+    numVotes: 9940,
     releaseDate: '2015-11-13',
     directors: ['Rhys Thomas']
   },
@@ -515,7 +697,7 @@ export const data = [
     runtime: 49,
     year: 2017,
     genres: ['Comedy'],
-    numVotes: 11095,
+    numVotes: 11162,
     releaseDate: '2017-12-31',
     directors: ['Stan Lathan']
   },
@@ -528,7 +710,7 @@ export const data = [
     runtime: 118,
     year: 2022,
     genres: ['Adventure', 'Romance', 'Sci-Fi', 'Comedy', 'Action'],
-    numVotes: 423843,
+    numVotes: 436530,
     releaseDate: '2022-07-08',
     directors: ['Taika Waititi']
   },
@@ -541,7 +723,7 @@ export const data = [
     runtime: 67,
     year: 2017,
     genres: ['Comedy'],
-    numVotes: 13686,
+    numVotes: 13785,
     releaseDate: '2017-03-21',
     directors: ['Stan Lathan']
   },
@@ -554,7 +736,7 @@ export const data = [
     runtime: 60,
     year: 2017,
     genres: ['Comedy'],
-    numVotes: 13852,
+    numVotes: 13955,
     releaseDate: '2017-12-31',
     directors: ['Stan Lathan']
   },
@@ -567,7 +749,7 @@ export const data = [
     runtime: 70,
     year: 2021,
     genres: ['Comedy'],
-    numVotes: 2140,
+    numVotes: 2171,
     releaseDate: '2021-12-21',
     directors: ['Jim Gaffigan']
   },
@@ -580,7 +762,7 @@ export const data = [
     runtime: 72,
     year: 2021,
     genres: ['Comedy'],
-    numVotes: 29178,
+    numVotes: 29290,
     releaseDate: '2021-10-05',
     directors: ['Stan Lathan']
   },
@@ -593,7 +775,7 @@ export const data = [
     runtime: 57,
     year: 2000,
     genres: ['Comedy'],
-    numVotes: 11133,
+    numVotes: 11271,
     releaseDate: '2000-07-26',
     directors: ['Stan Lathan']
   },
@@ -606,7 +788,7 @@ export const data = [
     runtime: 77,
     year: 2017,
     genres: ['Comedy'],
-    numVotes: 8370,
+    numVotes: 8477,
     releaseDate: '2017-01-31',
     directors: ['Jaime Eliezer Karas']
   },
@@ -619,7 +801,7 @@ export const data = [
     runtime: 130,
     year: 2022,
     genres: ['Action', 'Drama'],
-    numVotes: 753522,
+    numVotes: 783425,
     releaseDate: '2022-05-27',
     directors: ['Joseph Kosinski']
   },
@@ -632,7 +814,7 @@ export const data = [
     runtime: 75,
     year: 2019,
     genres: ['Comedy'],
-    numVotes: 1526,
+    numVotes: 1577,
     releaseDate: '2019-08-16',
     directors: ['Jeannie Gaffigan']
   },
@@ -645,7 +827,7 @@ export const data = [
     runtime: 73,
     year: 2017,
     genres: ['Comedy'],
-    numVotes: 2652,
+    numVotes: 2680,
     releaseDate: '2017-01-10',
     directors: ['Jeannie Gaffigan']
   },
@@ -658,9 +840,9 @@ export const data = [
     runtime: 122,
     year: 2022,
     genres: ['Thriller', 'Mystery', 'Action'],
-    numVotes: 253154,
+    numVotes: 259744,
     releaseDate: '2022-07-22',
-    directors: ['Joe Russo', 'Anthony Russo']
+    directors: ['Joe Russo,Anthony Russo']
   },
   {
     id: 'tt14114802',
@@ -671,7 +853,7 @@ export const data = [
     runtime: 105,
     year: 2022,
     genres: ['Crime', 'Drama', 'Thriller', 'Mystery'],
-    numVotes: 79050,
+    numVotes: 81728,
     releaseDate: '2022-03-18',
     directors: ['Graham Moore']
   },
@@ -684,7 +866,7 @@ export const data = [
     runtime: 136,
     year: 2012,
     genres: ['Action', 'Sci-Fi'],
-    numVotes: 723990,
+    numVotes: 735955,
     releaseDate: '2012-07-03',
     directors: ['Marc Webb']
   },
@@ -697,7 +879,7 @@ export const data = [
     runtime: 94,
     year: 2019,
     genres: ['Thriller', 'Sci-Fi', 'Horror', 'Mystery'],
-    numVotes: 300651,
+    numVotes: 308783,
     releaseDate: '2020-03-20',
     directors: ['Galder Gaztelu-Urrutia']
   },
@@ -706,11 +888,11 @@ export const data = [
     myRating: 7,
     dataRated: '2022-08-01',
     title: 'Eternals',
-    imdbRating: 6.3,
+    imdbRating: 6.2,
     runtime: 156,
     year: 2021,
     genres: ['Action', 'Fantasy', 'Sci-Fi', 'Adventure'],
-    numVotes: 400899,
+    numVotes: 410294,
     releaseDate: '2021-11-05',
     directors: ['Chloé Zhao']
   },
@@ -723,7 +905,7 @@ export const data = [
     runtime: 98,
     year: 2017,
     genres: ['Horror', 'Comedy', 'Crime'],
-    numVotes: 12434,
+    numVotes: 12854,
     releaseDate: '2017-10-20',
     directors: ['Tyler MacIntyre']
   },
@@ -736,7 +918,7 @@ export const data = [
     runtime: 116,
     year: 2022,
     genres: ['Action', 'Adventure'],
-    numVotes: 275607,
+    numVotes: 284188,
     releaseDate: '2022-02-18',
     directors: ['Ruben Fleischer']
   },
@@ -749,7 +931,7 @@ export const data = [
     runtime: 90,
     year: 2018,
     genres: ['Comedy'],
-    numVotes: 1566,
+    numVotes: 1596,
     releaseDate: '2018-07-13',
     directors: ['Jeannie Gaffigan']
   },
@@ -762,7 +944,7 @@ export const data = [
     runtime: 106,
     year: 2022,
     genres: ['Sci-Fi', 'Action', 'Adventure', 'Comedy'],
-    numVotes: 242750,
+    numVotes: 247696,
     releaseDate: '2022-03-11',
     directors: ['Shawn Levy']
   },
@@ -775,7 +957,7 @@ export const data = [
     runtime: 139,
     year: 2007,
     genres: ['Action', 'Sci-Fi', 'Adventure'],
-    numVotes: 659323,
+    numVotes: 671714,
     releaseDate: '2007-05-04',
     directors: ['Sam Raimi']
   },
@@ -788,7 +970,7 @@ export const data = [
     runtime: 127,
     year: 2004,
     genres: ['Sci-Fi', 'Adventure', 'Action'],
-    numVotes: 734822,
+    numVotes: 749889,
     releaseDate: '2004-06-30',
     directors: ['Sam Raimi']
   },
@@ -801,7 +983,7 @@ export const data = [
     runtime: 121,
     year: 2002,
     genres: ['Adventure', 'Sci-Fi', 'Action'],
-    numVotes: 909898,
+    numVotes: 927085,
     releaseDate: '2002-05-03',
     directors: ['Sam Raimi']
   },
@@ -814,9 +996,9 @@ export const data = [
     runtime: 102,
     year: 2021,
     genres: ['Animation', 'Musical', 'Family', 'Fantasy', 'Comedy'],
-    numVotes: 276558,
+    numVotes: 283277,
     releaseDate: '2021-11-24',
-    directors: ['Jared Bush', 'Byron Howard', 'Charise Castro Smith']
+    directors: ['Jared Bush,Byron Howard,Charise Castro Smith']
   },
   {
     id: 'tt2802144',
@@ -827,7 +1009,7 @@ export const data = [
     runtime: 129,
     year: 2014,
     genres: ['Adventure', 'Action', 'Comedy', 'Thriller'],
-    numVotes: 742790,
+    numVotes: 755223,
     releaseDate: '2015-02-13',
     directors: ['Matthew Vaughn']
   },
@@ -840,7 +1022,7 @@ export const data = [
     runtime: 106,
     year: 2016,
     genres: ['Thriller', 'Crime', 'Mystery', 'Drama'],
-    numVotes: 199598,
+    numVotes: 203503,
     releaseDate: '2017-01-06',
     directors: ['Oriol Paulo']
   },
@@ -853,7 +1035,7 @@ export const data = [
     runtime: 128,
     year: 2018,
     genres: ['Drama', 'Thriller', 'Romance', 'Mystery', 'Fantasy'],
-    numVotes: 67105,
+    numVotes: 68445,
     releaseDate: '2019-03-22',
     directors: ['Oriol Paulo']
   },
@@ -866,7 +1048,7 @@ export const data = [
     runtime: 131,
     year: 2021,
     genres: ['Action', 'Adventure', 'Thriller'],
-    numVotes: 183575,
+    numVotes: 187991,
     releaseDate: '2021-12-22',
     directors: ['Matthew Vaughn']
   },
@@ -878,8 +1060,8 @@ export const data = [
     imdbRating: 7.8,
     runtime: 119,
     year: 1956,
-    genres: ['Adventure', 'Drama', 'Western'],
-    numVotes: 99109,
+    genres: ['Adventure', 'Western'],
+    numVotes: 100658,
     releaseDate: '1956-05-26',
     directors: ['John Ford']
   },
@@ -892,7 +1074,7 @@ export const data = [
     runtime: 87,
     year: 2021,
     genres: ['Documentary', 'Comedy', 'Drama', 'Music'],
-    numVotes: 56586,
+    numVotes: 57532,
     releaseDate: '2021-05-30',
     directors: ['Bo Burnham']
   },
@@ -905,7 +1087,7 @@ export const data = [
     runtime: 59,
     year: 1992,
     genres: ['Documentary', 'Comedy'],
-    numVotes: 4173,
+    numVotes: 4228,
     releaseDate: '1992-04-25',
     directors: ['Rocco Urbisci']
   },
@@ -914,11 +1096,11 @@ export const data = [
     myRating: 8,
     dataRated: '2022-01-09',
     title: 'Jim Gaffigan: Obsessed',
-    imdbRating: 7.6,
+    imdbRating: 7.5,
     runtime: 60,
     year: 2014,
     genres: ['Documentary', 'Comedy'],
-    numVotes: 2505,
+    numVotes: 2526,
     releaseDate: '2014-04-27',
     directors: ['Jay Chapman']
   },
@@ -931,7 +1113,7 @@ export const data = [
     runtime: 78,
     year: 2012,
     genres: ['Comedy'],
-    numVotes: 3798,
+    numVotes: 3817,
     releaseDate: '2012-04-11',
     directors: ['Jaime Eliezer Karas']
   },
@@ -944,7 +1126,7 @@ export const data = [
     runtime: 60,
     year: 2009,
     genres: ['Comedy'],
-    numVotes: 2784,
+    numVotes: 2813,
     releaseDate: '2009-03-29',
     directors: ['Troy Miller']
   },
@@ -957,7 +1139,7 @@ export const data = [
     runtime: 77,
     year: 1990,
     genres: ['Fantasy', 'Thriller', 'Horror', 'Comedy', 'Action'],
-    numVotes: 1536,
+    numVotes: 1580,
     releaseDate: '1993-03-10',
     directors: ['Jim Wynorski']
   },
@@ -970,7 +1152,7 @@ export const data = [
     runtime: 104,
     year: 2021,
     genres: ['Comedy', 'Romance'],
-    numVotes: 65234,
+    numVotes: 65858,
     releaseDate: '2021-11-05',
     directors: ['Hernán Jiménez']
   },
@@ -983,7 +1165,7 @@ export const data = [
     runtime: 97,
     year: 2021,
     genres: ['Action', 'Thriller', 'Sci-Fi'],
-    numVotes: 280635,
+    numVotes: 289779,
     releaseDate: '2021-10-01',
     directors: ['Andy Serkis']
   },
@@ -996,7 +1178,7 @@ export const data = [
     runtime: 112,
     year: 2018,
     genres: ['Action', 'Sci-Fi', 'Adventure'],
-    numVotes: 567958,
+    numVotes: 580677,
     releaseDate: '2018-10-05',
     directors: ['Ruben Fleischer']
   },
@@ -1009,7 +1191,7 @@ export const data = [
     runtime: 118,
     year: 2021,
     genres: ['Action', 'Comedy', 'Thriller'],
-    numVotes: 333524,
+    numVotes: 341522,
     releaseDate: '2021-11-12',
     directors: ['Rawson Marshall Thurber']
   },
@@ -1022,7 +1204,7 @@ export const data = [
     runtime: 132,
     year: 2021,
     genres: ['Action', 'Adventure', 'Fantasy', 'Sci-Fi'],
-    numVotes: 454574,
+    numVotes: 466130,
     releaseDate: '2021-09-03',
     directors: ['Destin Daniel Cretton']
   },
@@ -1035,7 +1217,7 @@ export const data = [
     runtime: 90,
     year: 1982,
     genres: ['Drama', 'Comedy'],
-    numVotes: 119595,
+    numVotes: 121225,
     releaseDate: '1982-08-13',
     directors: ['Amy Heckerling']
   },
@@ -1048,7 +1230,7 @@ export const data = [
     runtime: 155,
     year: 2021,
     genres: ['Sci-Fi', 'Adventure', 'Drama', 'Action'],
-    numVotes: 933244,
+    numVotes: 962028,
     releaseDate: '2021-10-22',
     directors: ['Denis Villeneuve']
   },
@@ -1061,7 +1243,7 @@ export const data = [
     runtime: 113,
     year: 2020,
     genres: ['Crime', 'Drama', 'Thriller', 'Mystery'],
-    numVotes: 221099,
+    numVotes: 225931,
     releaseDate: '2020-12-25',
     directors: ['Emerald Fennell']
   },
@@ -1074,7 +1256,7 @@ export const data = [
     runtime: 90,
     year: 2021,
     genres: ['Drama', 'Thriller', 'Crime'],
-    numVotes: 158565,
+    numVotes: 163628,
     releaseDate: '2021-10-01',
     directors: ['Antoine Fuqua']
   },
@@ -1087,7 +1269,7 @@ export const data = [
     runtime: 115,
     year: 2021,
     genres: ['Action', 'Comedy', 'Sci-Fi', 'Adventure', 'Fantasy', 'Romance'],
-    numVotes: 452738,
+    numVotes: 465752,
     releaseDate: '2021-08-13',
     directors: ['Shawn Levy']
   },
@@ -1100,7 +1282,7 @@ export const data = [
     runtime: 112,
     year: 2021,
     genres: ['Musical', 'Comedy', 'Fantasy', 'Romance', 'Family'],
-    numVotes: 48310,
+    numVotes: 49013,
     releaseDate: '2021-09-03',
     directors: ['Kay Cannon']
   },
@@ -1113,7 +1295,7 @@ export const data = [
     runtime: 134,
     year: 2021,
     genres: ['Action', 'Adventure', 'Sci-Fi'],
-    numVotes: 443626,
+    numVotes: 455862,
     releaseDate: '2021-07-09',
     directors: ['Cate Shortland']
   },
@@ -1126,9 +1308,9 @@ export const data = [
     runtime: 89,
     year: 2009,
     genres: ['Action', 'Drama', 'Thriller'],
-    numVotes: 27749,
+    numVotes: 28076,
     releaseDate: '2009-07-21',
-    directors: ['Kevin Hooks', 'Brad Turner']
+    directors: ['Kevin Hooks,Brad Turner']
   },
   {
     id: 'tt9777666',
@@ -1139,7 +1321,7 @@ export const data = [
     runtime: 138,
     year: 2021,
     genres: ['Action', 'Sci-Fi', 'Adventure', 'Thriller', 'Drama'],
-    numVotes: 236845,
+    numVotes: 242329,
     releaseDate: '2021-07-02',
     directors: ['Chris McKay']
   },
@@ -1152,7 +1334,7 @@ export const data = [
     runtime: 85,
     year: 1952,
     genres: ['Thriller', 'Drama', 'Western'],
-    numVotes: 112662,
+    numVotes: 113990,
     releaseDate: '1952-07-30',
     directors: ['Fred Zinnemann']
   },
@@ -1165,7 +1347,7 @@ export const data = [
     runtime: 96,
     year: 1986,
     genres: ['Horror', 'Drama', 'Sci-Fi'],
-    numVotes: 211543,
+    numVotes: 215399,
     releaseDate: '1986-08-15',
     directors: ['David Cronenberg']
   },
@@ -1179,7 +1361,7 @@ export const data = [
     runtime: 66,
     year: 2017,
     genres: ['Comedy'],
-    numVotes: 12568,
+    numVotes: 12640,
     releaseDate: '2017-03-21',
     directors: ['Stan Lathan']
   },
@@ -1192,7 +1374,7 @@ export const data = [
     runtime: 53,
     year: 2013,
     genres: ['Comedy'],
-    numVotes: 1671,
+    numVotes: 1692,
     releaseDate: '2013-11-23',
     directors: ['Liam Lynch']
   },
@@ -1205,9 +1387,9 @@ export const data = [
     runtime: 101,
     year: 2021,
     genres: ['Comedy', 'Romance'],
-    numVotes: 3582,
+    numVotes: 3733,
     releaseDate: '2021-06-04',
-    directors: ['Kae-Byeok Lee', 'Kate Jopson']
+    directors: ['Kae-Byeok Lee,Kate Jopson']
   },
   {
     id: 'tt10847306',
@@ -1218,7 +1400,7 @@ export const data = [
     runtime: 67,
     year: 2019,
     genres: ['Comedy'],
-    numVotes: 12910,
+    numVotes: 13120,
     releaseDate: '2019-09-10',
     directors: ['Mike Binder']
   },
@@ -1231,7 +1413,7 @@ export const data = [
     runtime: 65,
     year: 2010,
     genres: ['Comedy'],
-    numVotes: 5957,
+    numVotes: 6061,
     releaseDate: '2010-09-18',
     directors: ['Shannon Hartman']
   },
@@ -1244,7 +1426,7 @@ export const data = [
     runtime: 72,
     year: 2006,
     genres: ['Comedy'],
-    numVotes: 4323,
+    numVotes: 4359,
     releaseDate: '2023-11-15',
     directors: ['Michael Drumm']
   },
@@ -1257,9 +1439,9 @@ export const data = [
     runtime: 104,
     year: 2021,
     genres: ['Documentary', 'Comedy', 'Biography', 'History'],
-    numVotes: 66319,
+    numVotes: 66973,
     releaseDate: '2021-05-27',
-    directors: ['Russell Norman', 'Ben Winston']
+    directors: ['Russell Norman,Ben Winston']
   },
   {
     id: 'tt3228774',
@@ -1270,7 +1452,7 @@ export const data = [
     runtime: 134,
     year: 2021,
     genres: ['Comedy', 'Crime', 'Drama', 'Adventure'],
-    numVotes: 277052,
+    numVotes: 282979,
     releaseDate: '2021-05-28',
     directors: ['Craig Gillespie']
   },
@@ -1283,7 +1465,7 @@ export const data = [
     runtime: 55,
     year: 2008,
     genres: ['Comedy'],
-    numVotes: 5009,
+    numVotes: 5084,
     releaseDate: '2008-08-23',
     directors: ['Shannon Hartman']
   },
@@ -1296,7 +1478,7 @@ export const data = [
     runtime: 69,
     year: 2012,
     genres: ['Comedy'],
-    numVotes: 8174,
+    numVotes: 8266,
     releaseDate: '2012-08-16',
     directors: ['Jaime Eliezer Karas']
   },
@@ -1309,7 +1491,7 @@ export const data = [
     runtime: 65,
     year: 2019,
     genres: ['Comedy'],
-    numVotes: 28448,
+    numVotes: 28577,
     releaseDate: '2019-08-26',
     directors: ['Stan Lathan']
   },
@@ -1322,7 +1504,7 @@ export const data = [
     runtime: 60,
     year: 2020,
     genres: ['Comedy'],
-    numVotes: 5806,
+    numVotes: 5878,
     releaseDate: '2020-05-05',
     directors: ['Joe DeMaio']
   },
@@ -1335,7 +1517,7 @@ export const data = [
     runtime: 97,
     year: 1985,
     genres: ['Comedy', 'Drama'],
-    numVotes: 450898,
+    numVotes: 458951,
     releaseDate: '1985-02-15',
     directors: ['John Hughes']
   },
@@ -1348,7 +1530,7 @@ export const data = [
     runtime: 77,
     year: 1990,
     genres: ['Comedy', 'Crime', 'Thriller', 'Horror'],
-    numVotes: 2463,
+    numVotes: 2507,
     releaseDate: '1990-10-05',
     directors: ['Jim Wynorski']
   },
@@ -1361,7 +1543,7 @@ export const data = [
     runtime: 117,
     year: 2017,
     genres: ['Crime', 'Action'],
-    numVotes: 2533,
+    numVotes: 2594,
     releaseDate: '2017-12-01',
     directors: ['Chang Won Jang']
   },
@@ -1373,8 +1555,8 @@ export const data = [
     imdbRating: 7.1,
     runtime: 112,
     year: 2020,
-    genres: ['Thriller', 'Mystery', 'Crime', 'Sci-Fi'],
-    numVotes: 47072,
+    genres: ['Thriller', 'Mystery', 'Crime', 'Sci-Fi', 'Horror'],
+    numVotes: 48995,
     releaseDate: '2020-11-27',
     directors: ['Chung-Hyun Lee']
   },
@@ -1387,7 +1569,7 @@ export const data = [
     runtime: 151,
     year: 2020,
     genres: ['Action', 'Adventure', 'Fantasy'],
-    numVotes: 298743,
+    numVotes: 303076,
     releaseDate: '2020-12-25',
     directors: ['Patty Jenkins']
   },
@@ -1400,7 +1582,7 @@ export const data = [
     runtime: 99,
     year: 2020,
     genres: ['Thriller', 'Action', 'Crime', 'Drama'],
-    numVotes: 59854,
+    numVotes: 60839,
     releaseDate: '2020-10-16',
     directors: ['Mark Williams']
   },
@@ -1413,7 +1595,7 @@ export const data = [
     runtime: 102,
     year: 1942,
     genres: ['Romance', 'War', 'Drama'],
-    numVotes: 624353,
+    numVotes: 634519,
     releaseDate: '1943-01-23',
     directors: ['Michael Curtiz']
   },
@@ -1426,7 +1608,7 @@ export const data = [
     runtime: 96,
     year: 2020,
     genres: ['Action', 'Thriller', 'Drama', 'Crime'],
-    numVotes: 65161,
+    numVotes: 66218,
     releaseDate: '2020-09-25',
     directors: ['Tate Taylor']
   },
@@ -1439,7 +1621,7 @@ export const data = [
     runtime: 123,
     year: 2020,
     genres: ['Drama', 'Mystery', 'Crime', 'Adventure'],
-    numVotes: 229340,
+    numVotes: 234552,
     releaseDate: '2020-09-23',
     directors: ['Harry Bradbeer']
   },
@@ -1451,8 +1633,8 @@ export const data = [
     imdbRating: 7.1,
     runtime: 115,
     year: 2017,
-    genres: ['Crime', 'Action', 'Comedy', 'Drama'],
-    numVotes: 216721,
+    genres: ['Crime', 'Action', 'Comedy', 'Drama', 'Thriller'],
+    numVotes: 221450,
     releaseDate: '2017-09-29',
     directors: ['Doug Liman']
   },
@@ -1465,7 +1647,7 @@ export const data = [
     runtime: 115,
     year: 2020,
     genres: ['Adventure', 'Drama', 'Action', 'Fantasy'],
-    numVotes: 162373,
+    numVotes: 164524,
     releaseDate: '2020-09-04',
     directors: ['Niki Caro']
   },
@@ -1478,7 +1660,7 @@ export const data = [
     runtime: 132,
     year: 2019,
     genres: ['Fantasy', 'Action', 'Adventure', 'Comedy'],
-    numVotes: 395916,
+    numVotes: 401691,
     releaseDate: '2019-04-05',
     directors: ['David F. Sandberg']
   },
@@ -1491,7 +1673,7 @@ export const data = [
     runtime: 105,
     year: 2019,
     genres: ['Comedy', 'Adventure', 'Action'],
-    numVotes: 29170,
+    numVotes: 29654,
     releaseDate: '2019-11-29',
     directors: ['Kevin Smith']
   },
@@ -1504,9 +1686,9 @@ export const data = [
     runtime: 113,
     year: 2020,
     genres: ['Thriller', 'Sci-Fi', 'Action', 'Crime'],
-    numVotes: 99981,
+    numVotes: 101424,
     releaseDate: '2020-08-14',
-    directors: ['Henry Joost', 'Ariel Schulman']
+    directors: ['Henry Joost,Ariel Schulman']
   },
   {
     id: 'tt0424345',
@@ -1517,7 +1699,7 @@ export const data = [
     runtime: 97,
     year: 2006,
     genres: ['Comedy'],
-    numVotes: 142201,
+    numVotes: 142933,
     releaseDate: '2006-07-21',
     directors: ['Kevin Smith']
   },
@@ -1530,7 +1712,7 @@ export const data = [
     runtime: 104,
     year: 2001,
     genres: ['Comedy'],
-    numVotes: 163126,
+    numVotes: 164287,
     releaseDate: '2001-08-24',
     directors: ['Kevin Smith']
   },
@@ -1543,7 +1725,7 @@ export const data = [
     runtime: 125,
     year: 2020,
     genres: ['Action', 'Thriller'],
-    numVotes: 189715,
+    numVotes: 193755,
     releaseDate: '2020-07-10',
     directors: ['Gina Prince-Bythewood']
   },
@@ -1556,7 +1738,7 @@ export const data = [
     runtime: 130,
     year: 1999,
     genres: ['Fantasy', 'Adventure', 'Drama', 'Comedy'],
-    numVotes: 232853,
+    numVotes: 235399,
     releaseDate: '1999-11-12',
     directors: ['Kevin Smith']
   },
@@ -1569,7 +1751,7 @@ export const data = [
     runtime: 109,
     year: 2017,
     genres: ['Action', 'Comedy'],
-    numVotes: 10508,
+    numVotes: 11023,
     releaseDate: '2017-08-25',
     directors: ['Joo-hwan Kim']
   },
@@ -1582,7 +1764,7 @@ export const data = [
     runtime: 126,
     year: 2017,
     genres: ['Action', 'Crime'],
-    numVotes: 7035,
+    numVotes: 7203,
     releaseDate: '2017-02-24',
     directors: ['Kwang-Hyun Park']
   },
@@ -1595,7 +1777,7 @@ export const data = [
     runtime: 101,
     year: 2009,
     genres: ['Thriller', 'Mystery', 'Crime'],
-    numVotes: 129354,
+    numVotes: 131339,
     releaseDate: '2010-06-17',
     directors: ['Stuart Hazeldine']
   },
@@ -1608,7 +1790,7 @@ export const data = [
     runtime: 101,
     year: 2018,
     genres: ['Thriller', 'Action'],
-    numVotes: 72777,
+    numVotes: 73733,
     releaseDate: '2018-09-07',
     directors: ['Pierre Morel']
   },
@@ -1621,7 +1803,7 @@ export const data = [
     runtime: 116,
     year: 2000,
     genres: ['Mystery', 'Horror'],
-    numVotes: 171366,
+    numVotes: 174604,
     releaseDate: '2000-02-04',
     directors: ['Wes Craven']
   },
@@ -1634,7 +1816,7 @@ export const data = [
     runtime: 120,
     year: 1997,
     genres: ['Mystery', 'Horror'],
-    numVotes: 219545,
+    numVotes: 223698,
     releaseDate: '1997-12-12',
     directors: ['Wes Craven']
   },
@@ -1647,7 +1829,7 @@ export const data = [
     runtime: 111,
     year: 1996,
     genres: ['Mystery', 'Horror'],
-    numVotes: 410780,
+    numVotes: 419521,
     releaseDate: '1996-12-20',
     directors: ['Wes Craven']
   },
@@ -1660,7 +1842,7 @@ export const data = [
     runtime: 109,
     year: 2010,
     genres: ['Comedy', 'Action', 'Adventure'],
-    numVotes: 215201,
+    numVotes: 219107,
     releaseDate: '2010-06-23',
     directors: ['James Mangold']
   },
@@ -1673,7 +1855,7 @@ export const data = [
     runtime: 113,
     year: 1997,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 145692,
+    numVotes: 146607,
     releaseDate: '1997-04-18',
     directors: ['Kevin Smith']
   },
@@ -1686,7 +1868,7 @@ export const data = [
     runtime: 118,
     year: 2017,
     genres: ['Action', 'Comedy', 'Thriller', 'Crime'],
-    numVotes: 253477,
+    numVotes: 256393,
     releaseDate: '2017-08-18',
     directors: ['Patrick Hughes']
   },
@@ -1699,7 +1881,7 @@ export const data = [
     runtime: 113,
     year: 2019,
     genres: ['Action', 'Crime'],
-    numVotes: 425385,
+    numVotes: 436075,
     releaseDate: '2020-01-24',
     directors: ['Guy Ritchie']
   },
@@ -1712,7 +1894,7 @@ export const data = [
     runtime: 94,
     year: 1995,
     genres: ['Romance', 'Comedy'],
-    numVotes: 130847,
+    numVotes: 132130,
     releaseDate: '1995-10-20',
     directors: ['Kevin Smith']
   },
@@ -1725,7 +1907,7 @@ export const data = [
     runtime: 89,
     year: 2013,
     genres: ['Sci-Fi', 'Thriller', 'Mystery'],
-    numVotes: 155731,
+    numVotes: 161127,
     releaseDate: '2014-08-06',
     directors: ['James Ward Byrkit']
   },
@@ -1738,7 +1920,7 @@ export const data = [
     runtime: 79,
     year: 1954,
     genres: ['Sci-Fi', 'Horror'],
-    numVotes: 35964,
+    numVotes: 36588,
     releaseDate: '1954-03-05',
     directors: ['Jack Arnold']
   },
@@ -1751,9 +1933,9 @@ export const data = [
     runtime: 95,
     year: 2019,
     genres: ['Thriller', 'Horror', 'Mystery', 'Comedy', 'Action'],
-    numVotes: 207952,
+    numVotes: 217640,
     releaseDate: '2019-08-21',
-    directors: ['Matt Bettinelli-Olpin', 'Tyler Gillett']
+    directors: ['Matt Bettinelli-Olpin,Tyler Gillett']
   },
   {
     id: 'tt1631867',
@@ -1764,7 +1946,7 @@ export const data = [
     runtime: 113,
     year: 2014,
     genres: ['Action', 'Sci-Fi', 'Adventure'],
-    numVotes: 762637,
+    numVotes: 776585,
     releaseDate: '2014-06-06',
     directors: ['Doug Liman']
   },
@@ -1777,7 +1959,7 @@ export const data = [
     runtime: 144,
     year: 2015,
     genres: ['Sci-Fi', 'Adventure', 'Drama'],
-    numVotes: 956232,
+    numVotes: 971282,
     releaseDate: '2015-10-02',
     directors: ['Ridley Scott']
   },
@@ -1790,7 +1972,7 @@ export const data = [
     runtime: 129,
     year: 2019,
     genres: ['Action', 'Adventure', 'Sci-Fi', 'Comedy', 'Fantasy'],
-    numVotes: 584724,
+    numVotes: 601153,
     releaseDate: '2019-07-02',
     directors: ['Jon Watts']
   },
@@ -1802,10 +1984,10 @@ export const data = [
     imdbRating: 8.4,
     runtime: 181,
     year: 2019,
-    genres: ['Action', 'Sci-Fi', 'Adventure', 'Drama'],
-    numVotes: 1328331,
+    genres: ['Action', 'Sci-Fi', 'Adventure'],
+    numVotes: 1365478,
     releaseDate: '2019-04-26',
-    directors: ['Anthony Russo', 'Joe Russo']
+    directors: ['Anthony Russo,Joe Russo']
   },
   {
     id: 'tt5095030',
@@ -1816,7 +1998,7 @@ export const data = [
     runtime: 118,
     year: 2018,
     genres: ['Action', 'Adventure', 'Sci-Fi', 'Comedy'],
-    numVotes: 465836,
+    numVotes: 475168,
     releaseDate: '2018-07-06',
     directors: ['Peyton Reed']
   },
@@ -1829,9 +2011,9 @@ export const data = [
     runtime: 149,
     year: 2018,
     genres: ['Action', 'Sci-Fi', 'Adventure'],
-    numVotes: 1262471,
+    numVotes: 1294818,
     releaseDate: '2018-04-27',
-    directors: ['Anthony Russo', 'Joe Russo']
+    directors: ['Anthony Russo,Joe Russo']
   },
   {
     id: 'tt3501632',
@@ -1842,7 +2024,7 @@ export const data = [
     runtime: 130,
     year: 2017,
     genres: ['Action', 'Sci-Fi', 'Adventure', 'Comedy', 'Fantasy'],
-    numVotes: 843206,
+    numVotes: 859457,
     releaseDate: '2017-11-03',
     directors: ['Taika Waititi']
   },
@@ -1855,7 +2037,7 @@ export const data = [
     runtime: 134,
     year: 2018,
     genres: ['Action', 'Adventure', 'Sci-Fi'],
-    numVotes: 861925,
+    numVotes: 878055,
     releaseDate: '2018-02-16',
     directors: ['Ryan Coogler']
   },
@@ -1868,7 +2050,7 @@ export const data = [
     runtime: 115,
     year: 2016,
     genres: ['Fantasy', 'Adventure', 'Action', 'Sci-Fi'],
-    numVotes: 831970,
+    numVotes: 846578,
     releaseDate: '2016-11-04',
     directors: ['Scott Derrickson']
   },
@@ -1881,7 +2063,7 @@ export const data = [
     runtime: 133,
     year: 2017,
     genres: ['Action', 'Sci-Fi', 'Adventure'],
-    numVotes: 745533,
+    numVotes: 760844,
     releaseDate: '2017-07-07',
     directors: ['Jon Watts']
   },
@@ -1894,9 +2076,9 @@ export const data = [
     runtime: 147,
     year: 2016,
     genres: ['Action', 'Sci-Fi'],
-    numVotes: 876803,
+    numVotes: 892523,
     releaseDate: '2016-05-06',
-    directors: ['Anthony Russo', 'Joe Russo']
+    directors: ['Anthony Russo,Joe Russo']
   },
   {
     id: 'tt0478970',
@@ -1907,7 +2089,7 @@ export const data = [
     runtime: 117,
     year: 2015,
     genres: ['Action', 'Sci-Fi', 'Comedy'],
-    numVotes: 741978,
+    numVotes: 754098,
     releaseDate: '2015-07-17',
     directors: ['Peyton Reed']
   },
@@ -1920,7 +2102,7 @@ export const data = [
     runtime: 141,
     year: 2015,
     genres: ['Action', 'Adventure', 'Sci-Fi'],
-    numVotes: 947995,
+    numVotes: 963673,
     releaseDate: '2015-05-01',
     directors: ['Joss Whedon']
   },
@@ -1933,7 +2115,7 @@ export const data = [
     runtime: 136,
     year: 2017,
     genres: ['Action', 'Sci-Fi', 'Adventure', 'Comedy'],
-    numVotes: 783756,
+    numVotes: 798367,
     releaseDate: '2017-05-05',
     directors: ['James Gunn']
   },
@@ -1946,7 +2128,7 @@ export const data = [
     runtime: 121,
     year: 2014,
     genres: ['Sci-Fi', 'Action', 'Adventure', 'Comedy'],
-    numVotes: 1303660,
+    numVotes: 1321164,
     releaseDate: '2014-08-01',
     directors: ['James Gunn']
   },
@@ -1959,9 +2141,9 @@ export const data = [
     runtime: 136,
     year: 2014,
     genres: ['Action', 'Adventure', 'Sci-Fi', 'Thriller'],
-    numVotes: 922115,
+    numVotes: 938680,
     releaseDate: '2014-04-04',
-    directors: ['Anthony Russo', 'Joe Russo']
+    directors: ['Anthony Russo,Joe Russo']
   },
   {
     id: 'tt1981115',
@@ -1971,8 +2153,8 @@ export const data = [
     imdbRating: 6.7,
     runtime: 112,
     year: 2013,
-    genres: ['Action', 'Adventure'],
-    numVotes: 743255,
+    genres: ['Action', 'Adventure', 'Fantasy', 'Sci-Fi'],
+    numVotes: 754278,
     releaseDate: '2013-11-08',
     directors: ['Alan Taylor']
   },
@@ -1985,7 +2167,7 @@ export const data = [
     runtime: 130,
     year: 2013,
     genres: ['Action', 'Adventure', 'Sci-Fi'],
-    numVotes: 921699,
+    numVotes: 935296,
     releaseDate: '2013-05-03',
     directors: ['Shane Black']
   },
@@ -1998,7 +2180,7 @@ export const data = [
     runtime: 143,
     year: 2012,
     genres: ['Action', 'Sci-Fi'],
-    numVotes: 1492719,
+    numVotes: 1513149,
     releaseDate: '2012-05-04',
     directors: ['Joss Whedon']
   },
@@ -2011,7 +2193,7 @@ export const data = [
     runtime: 115,
     year: 2011,
     genres: ['Action', 'Fantasy'],
-    numVotes: 922949,
+    numVotes: 936662,
     releaseDate: '2011-05-06',
     directors: ['Kenneth Branagh']
   },
@@ -2024,7 +2206,7 @@ export const data = [
     runtime: 124,
     year: 2010,
     genres: ['Action', 'Sci-Fi'],
-    numVotes: 891651,
+    numVotes: 906374,
     releaseDate: '2010-05-07',
     directors: ['Jon Favreau']
   },
@@ -2037,7 +2219,7 @@ export const data = [
     runtime: 126,
     year: 2008,
     genres: ['Action', 'Sci-Fi', 'Adventure'],
-    numVotes: 1157592,
+    numVotes: 1178434,
     releaseDate: '2008-05-02',
     directors: ['Jon Favreau']
   },
@@ -2050,7 +2232,7 @@ export const data = [
     runtime: 132,
     year: 2019,
     genres: ['Drama'],
-    numVotes: 58202,
+    numVotes: 59561,
     releaseDate: '2019-10-11',
     directors: ['Mehmet Ada Öztekin']
   },
@@ -2059,13 +2241,13 @@ export const data = [
     myRating: 7,
     dataRated: '2020-03-20',
     title: 'Captain Marvel',
-    imdbRating: 6.8,
+    imdbRating: 6.7,
     runtime: 123,
     year: 2019,
     genres: ['Action', 'Adventure', 'Sci-Fi'],
-    numVotes: 629021,
+    numVotes: 639492,
     releaseDate: '2019-03-08',
-    directors: ['Anna Boden', 'Ryan Fleck']
+    directors: ['Anna Boden,Ryan Fleck']
   },
   {
     id: 'tt0458339',
@@ -2076,7 +2258,7 @@ export const data = [
     runtime: 124,
     year: 2011,
     genres: ['Action', 'Adventure', 'Sci-Fi'],
-    numVotes: 920787,
+    numVotes: 936457,
     releaseDate: '2011-07-22',
     directors: ['Joe Johnston']
   },
@@ -2089,7 +2271,7 @@ export const data = [
     runtime: 92,
     year: 1994,
     genres: ['Comedy'],
-    numVotes: 235661,
+    numVotes: 237240,
     releaseDate: '1994-11-09',
     directors: ['Kevin Smith']
   },
@@ -2102,7 +2284,7 @@ export const data = [
     runtime: 101,
     year: 1978,
     genres: ['Horror', 'Thriller'],
-    numVotes: 32301,
+    numVotes: 32937,
     releaseDate: '1978-11-22',
     directors: ['Meir Zarchi']
   },
@@ -2115,7 +2297,7 @@ export const data = [
     runtime: 142,
     year: 1994,
     genres: ['Romance', 'Drama'],
-    numVotes: 2343641,
+    numVotes: 2389909,
     releaseDate: '1994-07-06',
     directors: ['Robert Zemeckis']
   },
@@ -2124,11 +2306,11 @@ export const data = [
     myRating: 10,
     dataRated: '2019-11-04',
     title: 'Vertigo',
-    imdbRating: 8.3,
+    imdbRating: 8.2,
     runtime: 128,
     year: 1958,
     genres: ['Romance', 'Thriller', 'Mystery'],
-    numVotes: 440122,
+    numVotes: 446630,
     releaseDate: '1958-05-28',
     directors: ['Alfred Hitchcock']
   },
@@ -2141,7 +2323,7 @@ export const data = [
     runtime: 132,
     year: 1935,
     genres: ['History', 'Romance', 'Biography', 'Drama', 'Adventure'],
-    numVotes: 25458,
+    numVotes: 25877,
     releaseDate: '1936-01-12',
     directors: ['Frank Lloyd']
   },
@@ -2154,7 +2336,7 @@ export const data = [
     runtime: 92,
     year: 2011,
     genres: ['Comedy', 'Romance'],
-    numVotes: 216084,
+    numVotes: 218060,
     releaseDate: '2011-06-24',
     directors: ['Jake Kasdan']
   },
@@ -2167,7 +2349,7 @@ export const data = [
     runtime: 81,
     year: 1995,
     genres: ['Animation', 'Adventure', 'Comedy', 'Family', 'Fantasy'],
-    numVotes: 1107191,
+    numVotes: 1127058,
     releaseDate: '1995-11-22',
     directors: ['John Lasseter']
   },
@@ -2180,9 +2362,9 @@ export const data = [
     runtime: 112,
     year: 2011,
     genres: ['Comedy', 'Drama'],
-    numVotes: 963676,
+    numVotes: 982859,
     releaseDate: '2011-11-02',
-    directors: ['Olivier Nakache', 'Éric Toledano']
+    directors: ['Olivier Nakache,Éric Toledano']
   },
   {
     id: 'tt0094721',
@@ -2193,7 +2375,7 @@ export const data = [
     runtime: 92,
     year: 1988,
     genres: ['Fantasy', 'Comedy'],
-    numVotes: 397908,
+    numVotes: 404720,
     releaseDate: '1988-03-30',
     directors: ['Tim Burton']
   },
@@ -2206,7 +2388,7 @@ export const data = [
     runtime: 180,
     year: 2013,
     genres: ['Drama', 'Romance'],
-    numVotes: 167139,
+    numVotes: 169212,
     releaseDate: '2013-10-09',
     directors: ['Abdellatif Kechiche']
   },
@@ -2218,8 +2400,8 @@ export const data = [
     imdbRating: 8.6,
     runtime: 118,
     year: 1991,
-    genres: ['Crime', 'Drama', 'Thriller'],
-    numVotes: 1608157,
+    genres: ['Crime', 'Drama', 'Horror', 'Thriller'],
+    numVotes: 1643554,
     releaseDate: '1991-02-14',
     directors: ['Jonathan Demme']
   },
@@ -2232,7 +2414,7 @@ export const data = [
     runtime: 106,
     year: 1985,
     genres: ['Horror'],
-    numVotes: 83259,
+    numVotes: 84567,
     releaseDate: '1985-08-02',
     directors: ['Tom Holland']
   },
@@ -2245,9 +2427,9 @@ export const data = [
     runtime: 136,
     year: 1999,
     genres: ['Action', 'Sci-Fi'],
-    numVotes: 2125316,
+    numVotes: 2163855,
     releaseDate: '1999-03-31',
-    directors: ['Lana Wachowski', 'Lilly Wachowski']
+    directors: ['Lana Wachowski,Lilly Wachowski']
   },
   {
     id: 'tt0206636',
@@ -2258,7 +2440,7 @@ export const data = [
     runtime: 65,
     year: 1999,
     genres: ['Documentary', 'Comedy'],
-    numVotes: 7625,
+    numVotes: 7683,
     releaseDate: '1999-07-10',
     directors: ['Keith Truesdell']
   },
@@ -2271,7 +2453,7 @@ export const data = [
     runtime: 91,
     year: 2001,
     genres: ['Adventure', 'Drama', 'Comedy'],
-    numVotes: 62568,
+    numVotes: 63607,
     releaseDate: '2001-04-11',
     directors: ['Dennie Gordon']
   },
@@ -2284,7 +2466,7 @@ export const data = [
     runtime: 103,
     year: 1993,
     genres: ['Comedy'],
-    numVotes: 205770,
+    numVotes: 209718,
     releaseDate: '1993-09-24',
     directors: ['Richard Linklater']
   },
@@ -2297,9 +2479,9 @@ export const data = [
     runtime: 73,
     year: 2018,
     genres: ['Comedy', 'Music'],
-    numVotes: 6034,
+    numVotes: 6090,
     releaseDate: '2018-10-23',
-    directors: ['Steven Brill', 'Nicholaus Goossen']
+    directors: ['Steven Brill,Nicholaus Goossen']
   },
   {
     id: 'tt3823690',
@@ -2310,7 +2492,7 @@ export const data = [
     runtime: 80,
     year: 2014,
     genres: ['Comedy'],
-    numVotes: 9280,
+    numVotes: 9432,
     releaseDate: '2014-12-05',
     directors: ['Jaime Eliezer Karas']
   },
@@ -2323,7 +2505,7 @@ export const data = [
     runtime: 91,
     year: 1980,
     genres: ['Horror', 'Thriller'],
-    numVotes: 6153,
+    numVotes: 6247,
     releaseDate: '1985-02-22',
     directors: ['Ruggero Deodato']
   },
@@ -2336,7 +2518,7 @@ export const data = [
     runtime: 94,
     year: 1987,
     genres: ['Thriller', 'Horror'],
-    numVotes: 146066,
+    numVotes: 148512,
     releaseDate: '1987-09-18',
     directors: ['Clive Barker']
   },
@@ -2349,7 +2531,7 @@ export const data = [
     runtime: 60,
     year: 2004,
     genres: ['Comedy'],
-    numVotes: 9275,
+    numVotes: 9344,
     releaseDate: '2004-09-04',
     directors: ['Stan Lathan']
   },
@@ -2362,7 +2544,7 @@ export const data = [
     runtime: 75,
     year: 1963,
     genres: ['Thriller', 'Horror'],
-    numVotes: 9489,
+    numVotes: 9727,
     releaseDate: '1963-08-31',
     directors: ['Francis Ford Coppola']
   },
@@ -2375,7 +2557,7 @@ export const data = [
     runtime: 94,
     year: 1980,
     genres: ['Thriller', 'Horror'],
-    numVotes: 4388,
+    numVotes: 4464,
     releaseDate: '1980-08-29',
     directors: ['Armand Mastroianni']
   },
@@ -2388,7 +2570,7 @@ export const data = [
     runtime: 82,
     year: 1986,
     genres: ['Horror', 'Comedy', 'Fantasy'],
-    numVotes: 12143,
+    numVotes: 12294,
     releaseDate: '1986-01-17',
     directors: ['John Carl Buechler']
   },
@@ -2401,7 +2583,7 @@ export const data = [
     runtime: 62,
     year: 2017,
     genres: ['Comedy'],
-    numVotes: 6204,
+    numVotes: 6259,
     releaseDate: '2017-09-19',
     directors: ['Michael Bonfiglio']
   },
@@ -2414,7 +2596,7 @@ export const data = [
     runtime: 119,
     year: 1935,
     genres: ['History', 'Romance', 'Adventure', 'Action'],
-    numVotes: 16502,
+    numVotes: 16758,
     releaseDate: '1935-12-28',
     directors: ['Michael Curtiz']
   },
@@ -2427,7 +2609,7 @@ export const data = [
     runtime: 84,
     year: 1983,
     genres: ['Horror'],
-    numVotes: 3969,
+    numVotes: 4119,
     releaseDate: '1983-07-14',
     directors: ['Andrew Davis']
   },
@@ -2440,7 +2622,7 @@ export const data = [
     runtime: 81,
     year: 1989,
     genres: ['Comedy', 'Mystery', 'Horror'],
-    numVotes: 8923,
+    numVotes: 9077,
     releaseDate: '1989-01-27',
     directors: ['Bob Balaban']
   },
@@ -2453,7 +2635,7 @@ export const data = [
     runtime: 56,
     year: 1925,
     genres: ['Romance', 'Comedy'],
-    numVotes: 12094,
+    numVotes: 12479,
     releaseDate: '1925-03-15',
     directors: ['Buster Keaton']
   },
@@ -2466,7 +2648,7 @@ export const data = [
     runtime: 97,
     year: 1986,
     genres: ['Romance', 'Drama', 'Comedy'],
-    numVotes: 91420,
+    numVotes: 92656,
     releaseDate: '1986-02-28',
     directors: ['Howard Deutch']
   },
@@ -2479,7 +2661,7 @@ export const data = [
     runtime: 83,
     year: 1989,
     genres: ['Thriller', 'Horror'],
-    numVotes: 11803,
+    numVotes: 12385,
     releaseDate: '1989-01-13',
     directors: ['Scott Spiegel']
   },
@@ -2492,7 +2674,7 @@ export const data = [
     runtime: 83,
     year: 1988,
     genres: ['Thriller', 'Action', 'Crime', 'Horror'],
-    numVotes: 5868,
+    numVotes: 5947,
     releaseDate: '1991-03-26',
     directors: ['William Wesley']
   },
@@ -2505,9 +2687,9 @@ export const data = [
     runtime: 97,
     year: 1984,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 4704,
+    numVotes: 4783,
     releaseDate: '1984-12-07',
-    directors: ['Larry Stewart', 'Peter Crane']
+    directors: ['Larry Stewart,Peter Crane']
   },
   {
     id: 'tt0094701',
@@ -2518,7 +2700,7 @@ export const data = [
     runtime: 84,
     year: 1988,
     genres: ['Thriller', 'Horror'],
-    numVotes: 4501,
+    numVotes: 4572,
     releaseDate: '1988-04-08',
     directors: ['Andrew Fleming']
   },
@@ -2531,7 +2713,7 @@ export const data = [
     runtime: 97,
     year: 1986,
     genres: ['Mystery', 'Thriller'],
-    numVotes: 55224,
+    numVotes: 56471,
     releaseDate: '1986-02-21',
     directors: ['Robert Harmon']
   },
@@ -2544,9 +2726,9 @@ export const data = [
     runtime: 88,
     year: 1982,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 2590,
+    numVotes: 2637,
     releaseDate: '1982-04-02',
-    directors: ['Stephen Carpenter', 'Jeffrey Obrow']
+    directors: ['Stephen Carpenter,Jeffrey Obrow']
   },
   {
     id: 'tt0085253',
@@ -2557,7 +2739,7 @@ export const data = [
     runtime: 82,
     year: 1987,
     genres: ['Horror'],
-    numVotes: 6059,
+    numVotes: 6182,
     releaseDate: '1987-05-01',
     directors: ['John Grissmer']
   },
@@ -2570,7 +2752,7 @@ export const data = [
     runtime: 74,
     year: 1986,
     genres: ['Horror'],
-    numVotes: 4195,
+    numVotes: 4347,
     releaseDate: '1986-10-10',
     directors: ['Carol Frank']
   },
@@ -2583,7 +2765,7 @@ export const data = [
     runtime: 97,
     year: 1987,
     genres: ['Thriller', 'Horror'],
-    numVotes: 8233,
+    numVotes: 8459,
     releaseDate: '1987-10-16',
     directors: ['Bruce Pittman']
   },
@@ -2596,7 +2778,7 @@ export const data = [
     runtime: 111,
     year: 2009,
     genres: ['Comedy', 'Drama', 'Music', 'Family', 'Romance'],
-    numVotes: 15362,
+    numVotes: 15465,
     releaseDate: '2009-08-14',
     directors: ['Todd Graff']
   },
@@ -2609,7 +2791,7 @@ export const data = [
     runtime: 113,
     year: 1994,
     genres: ['Comedy'],
-    numVotes: 16295,
+    numVotes: 16455,
     releaseDate: '1994-03-04',
     directors: ['Jonathan Lynn']
   },
@@ -2622,7 +2804,7 @@ export const data = [
     runtime: 117,
     year: 2002,
     genres: ['Comedy', 'Sci-Fi', 'Drama'],
-    numVotes: 63146,
+    numVotes: 63485,
     releaseDate: '2002-08-23',
     directors: ['Andrew Niccol']
   },
@@ -2635,7 +2817,7 @@ export const data = [
     runtime: 90,
     year: 2008,
     genres: ['Drama', 'Comedy', 'Music', 'Romance'],
-    numVotes: 96126,
+    numVotes: 96550,
     releaseDate: '2008-10-03',
     directors: ['Peter Sollett']
   },
@@ -2648,7 +2830,7 @@ export const data = [
     runtime: 95,
     year: 2004,
     genres: ['Romance', 'Comedy'],
-    numVotes: 30007,
+    numVotes: 30206,
     releaseDate: '2004-01-23',
     directors: ['Robert Luketic']
   },
@@ -2661,7 +2843,7 @@ export const data = [
     runtime: 106,
     year: 2003,
     genres: ['Comedy'],
-    numVotes: 233162,
+    numVotes: 235546,
     releaseDate: '2003-04-11',
     directors: ['Peter Segal']
   },
@@ -2674,7 +2856,7 @@ export const data = [
     runtime: 91,
     year: 1980,
     genres: ['Thriller', 'Comedy', 'Horror'],
-    numVotes: 6549,
+    numVotes: 6732,
     releaseDate: '1980-09-19',
     directors: ['Charles Kaufman']
   },
@@ -2687,7 +2869,7 @@ export const data = [
     runtime: 89,
     year: 1988,
     genres: ['Thriller', 'Comedy', 'Horror'],
-    numVotes: 4091,
+    numVotes: 4224,
     releaseDate: '1988-06-21',
     directors: ['John Quinn']
   },
@@ -2700,7 +2882,7 @@ export const data = [
     runtime: 87,
     year: 1990,
     genres: ['Comedy', 'Horror'],
-    numVotes: 3599,
+    numVotes: 3677,
     releaseDate: '1990-09-07',
     directors: ['Sally Mattison']
   },
@@ -2712,8 +2894,8 @@ export const data = [
     imdbRating: 6,
     runtime: 92,
     year: 1982,
-    genres: ['Thriller', 'Horror'],
-    numVotes: 7326,
+    genres: ['Thriller', 'Drama', 'Horror'],
+    numVotes: 7473,
     releaseDate: '1982-11-19',
     directors: ['Jack Sholder']
   },
@@ -2726,7 +2908,7 @@ export const data = [
     runtime: 101,
     year: 1986,
     genres: ['Comedy', 'Horror'],
-    numVotes: 40316,
+    numVotes: 41130,
     releaseDate: '1986-08-22',
     directors: ['Tobe Hooper']
   },
@@ -2739,7 +2921,7 @@ export const data = [
     runtime: 77,
     year: 1987,
     genres: ['Musical', 'Horror', 'Comedy'],
-    numVotes: 7952,
+    numVotes: 8176,
     releaseDate: '1987-10-16',
     directors: ['Deborah Brock']
   },
@@ -2752,9 +2934,9 @@ export const data = [
     runtime: 86,
     year: 1981,
     genres: ['Mystery', 'Horror', 'Comedy'],
-    numVotes: 5598,
+    numVotes: 5708,
     releaseDate: '1981-08-07',
-    directors: ['Mickey Rose', 'Michael Ritchie']
+    directors: ['Mickey Rose,Michael Ritchie']
   },
   {
     id: 'tt0065143',
@@ -2764,8 +2946,8 @@ export const data = [
     imdbRating: 7.1,
     runtime: 96,
     year: 1970,
-    genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 25376,
+    genres: ['Horror', 'Drama', 'Thriller', 'Mystery'],
+    numVotes: 25914,
     releaseDate: '1970-06-12',
     directors: ['Dario Argento']
   },
@@ -2778,7 +2960,7 @@ export const data = [
     runtime: 84,
     year: 1981,
     genres: ['Thriller', 'Horror'],
-    numVotes: 3345,
+    numVotes: 3436,
     releaseDate: '1981-03-27',
     directors: ['Ken Wiederhorn']
   },
@@ -2791,7 +2973,7 @@ export const data = [
     runtime: 110,
     year: 1973,
     genres: ['Drama', 'Mystery', 'Horror', 'Thriller'],
-    numVotes: 65436,
+    numVotes: 66419,
     releaseDate: '1974-01',
     directors: ['Nicolas Roeg']
   },
@@ -2804,7 +2986,7 @@ export const data = [
     runtime: 89,
     year: 1980,
     genres: ['Thriller', 'Horror'],
-    numVotes: 86560,
+    numVotes: 88095,
     releaseDate: '1980-02-08',
     directors: ['John Carpenter']
   },
@@ -2817,7 +2999,7 @@ export const data = [
     runtime: 96,
     year: 1939,
     genres: ['Adventure', 'Drama', 'Western'],
-    numVotes: 55712,
+    numVotes: 56792,
     releaseDate: '1939-03-03',
     directors: ['John Ford']
   },
@@ -2830,7 +3012,7 @@ export const data = [
     runtime: 95,
     year: 1925,
     genres: ['Adventure', 'Drama', 'Western', 'Romance', 'Comedy'],
-    numVotes: 122173,
+    numVotes: 124467,
     releaseDate: '1925-08-16',
     directors: ['Charles Chaplin']
   },
@@ -2843,7 +3025,7 @@ export const data = [
     runtime: 90,
     year: 1977,
     genres: ['Thriller', 'Horror'],
-    numVotes: 40684,
+    numVotes: 41313,
     releaseDate: '1977-07-22',
     directors: ['Wes Craven']
   },
@@ -2856,7 +3038,7 @@ export const data = [
     runtime: 45,
     year: 1924,
     genres: ['Action', 'Romance', 'Comedy'],
-    numVotes: 60306,
+    numVotes: 62531,
     releaseDate: '1924-05-11',
     directors: ['Buster Keaton']
   },
@@ -2869,7 +3051,7 @@ export const data = [
     runtime: 100,
     year: 1980,
     genres: ['Thriller', 'Horror'],
-    numVotes: 9130,
+    numVotes: 9228,
     releaseDate: '1980-11',
     directors: ['Lewis Jackson']
   },
@@ -2882,7 +3064,7 @@ export const data = [
     runtime: 77,
     year: 1986,
     genres: ['Sci-Fi', 'Horror'],
-    numVotes: 18295,
+    numVotes: 18793,
     releaseDate: '1987-03-20',
     directors: ['Jim Wynorski']
   },
@@ -2895,7 +3077,7 @@ export const data = [
     runtime: 127,
     year: 1975,
     genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 44629,
+    numVotes: 45487,
     releaseDate: '1976-06-11',
     directors: ['Dario Argento']
   },
@@ -2908,7 +3090,7 @@ export const data = [
     runtime: 89,
     year: 1987,
     genres: ['Horror', 'Thriller'],
-    numVotes: 19381,
+    numVotes: 19874,
     releaseDate: '1987-06-05',
     directors: ['Joseph Ruben']
   },
@@ -2921,7 +3103,7 @@ export const data = [
     runtime: 90,
     year: 1979,
     genres: ['Horror'],
-    numVotes: 13819,
+    numVotes: 14208,
     releaseDate: '1979-03-16',
     directors: ['David Schmoeller']
   },
@@ -2934,7 +3116,7 @@ export const data = [
     runtime: 86,
     year: 1988,
     genres: ['Fantasy', 'Horror'],
-    numVotes: 29367,
+    numVotes: 29768,
     releaseDate: '1989-01-13',
     directors: ['Stan Winston']
   },
@@ -2947,7 +3129,7 @@ export const data = [
     runtime: 107,
     year: 1980,
     genres: ['Mystery', 'Horror'],
-    numVotes: 41921,
+    numVotes: 42652,
     releaseDate: '1980-03-28',
     directors: ['Peter Medak']
   },
@@ -2960,7 +3142,7 @@ export const data = [
     runtime: 119,
     year: 1998,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 235572,
+    numVotes: 238381,
     releaseDate: '1998-12-18',
     directors: ['Nora Ephron']
   },
@@ -2973,7 +3155,7 @@ export const data = [
     runtime: 105,
     year: 1993,
     genres: ['Romance', 'Drama', 'Comedy'],
-    numVotes: 196461,
+    numVotes: 199383,
     releaseDate: '1993-06-25',
     directors: ['Nora Ephron']
   },
@@ -2986,7 +3168,7 @@ export const data = [
     runtime: 95,
     year: 1989,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 252019,
+    numVotes: 256540,
     releaseDate: '1989-07-21',
     directors: ['Rob Reiner']
   },
@@ -2999,7 +3181,7 @@ export const data = [
     runtime: 97,
     year: 1995,
     genres: ['Romance', 'Comedy'],
-    numVotes: 258503,
+    numVotes: 264628,
     releaseDate: '1995-07-19',
     directors: ['Amy Heckerling']
   },
@@ -3012,7 +3194,7 @@ export const data = [
     runtime: 75,
     year: 1988,
     genres: ['Horror', 'Comedy'],
-    numVotes: 4187,
+    numVotes: 4268,
     releaseDate: '1988-03',
     directors: ['Fred Olen Ray']
   },
@@ -3025,7 +3207,7 @@ export const data = [
     runtime: 110,
     year: 1983,
     genres: ['Thriller', 'Horror'],
-    numVotes: 96322,
+    numVotes: 97795,
     releaseDate: '1983-12-09',
     directors: ['John Carpenter']
   },
@@ -3038,7 +3220,7 @@ export const data = [
     runtime: 105,
     year: 2009,
     genres: ['Comedy', 'Romance'],
-    numVotes: 220432,
+    numVotes: 222080,
     releaseDate: '2009-03-20',
     directors: ['John Hamburg']
   },
@@ -3051,7 +3233,7 @@ export const data = [
     runtime: 84,
     year: 1985,
     genres: ['Comedy', 'Sci-Fi', 'Horror'],
-    numVotes: 74112,
+    numVotes: 75282,
     releaseDate: '1985-10-18',
     directors: ['Stuart Gordon']
   },
@@ -3064,7 +3246,7 @@ export const data = [
     runtime: 83,
     year: 1974,
     genres: ['Horror'],
-    numVotes: 195015,
+    numVotes: 199418,
     releaseDate: '1974-10-11',
     directors: ['Tobe Hooper']
   },
@@ -3077,7 +3259,7 @@ export const data = [
     runtime: 85,
     year: 1982,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 13111,
+    numVotes: 13402,
     releaseDate: '1982-03-04',
     directors: ['Lucio Fulci']
   },
@@ -3090,7 +3272,7 @@ export const data = [
     runtime: 101,
     year: 1980,
     genres: ['Thriller', 'Comedy', 'Horror'],
-    numVotes: 14158,
+    numVotes: 14402,
     releaseDate: '1980-10-24',
     directors: ['Kevin Connor']
   },
@@ -3103,9 +3285,9 @@ export const data = [
     runtime: 86,
     year: 1984,
     genres: ['Thriller', 'Horror'],
-    numVotes: 6586,
+    numVotes: 6710,
     releaseDate: '1984-10-05',
-    directors: ['Buddy Cooper', 'John Douglass']
+    directors: ['Buddy Cooper,John Douglass']
   },
   {
     id: 'tt0081515',
@@ -3116,7 +3298,7 @@ export const data = [
     runtime: 87,
     year: 1979,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 2222,
+    numVotes: 2307,
     releaseDate: '1980-01-18',
     directors: ['Denny Harris']
   },
@@ -3125,11 +3307,11 @@ export const data = [
     myRating: 10,
     dataRated: '2017-10-05',
     title: 'The Crowd',
-    imdbRating: 8.1,
+    imdbRating: 8,
     runtime: 98,
     year: 1928,
     genres: ['Romance', 'Drama'],
-    numVotes: 9508,
+    numVotes: 9711,
     releaseDate: '1928-03-03',
     directors: ['King Vidor']
   },
@@ -3141,21 +3323,21 @@ export const data = [
     imdbRating: 8.1,
     runtime: 74,
     year: 1923,
-    genres: ['Thriller', 'Action', 'Comedy'],
-    numVotes: 23661,
+    genres: ['Thriller', 'Action', 'Romance', 'Comedy'],
+    numVotes: 24069,
     releaseDate: '1923-04-01',
-    directors: ['Fred C. Newmeyer', 'Sam Taylor']
+    directors: ['Fred C. Newmeyer,Sam Taylor']
   },
   {
     id: 'tt0085385',
     myRating: 5,
     dataRated: '2017-09-20',
     title: 'Curtains',
-    imdbRating: 5.6,
+    imdbRating: 5.5,
     runtime: 89,
     year: 1983,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 6111,
+    numVotes: 6331,
     releaseDate: '1983-03-04',
     directors: ['Richard Ciupka']
   },
@@ -3168,9 +3350,9 @@ export const data = [
     runtime: 90,
     year: 1986,
     genres: ['Thriller', 'Horror'],
-    numVotes: 7327,
+    numVotes: 7486,
     releaseDate: '1986-11-14',
-    directors: ['George Dugdale', 'Mark Ezra', 'Peter Mackenzie Litten']
+    directors: ['George Dugdale,Mark Ezra,Peter Mackenzie Litten']
   },
   {
     id: 'tt0017925',
@@ -3181,9 +3363,9 @@ export const data = [
     runtime: 78,
     year: 1926,
     genres: ['Action', 'Adventure', 'Drama', 'War', 'Comedy'],
-    numVotes: 101294,
+    numVotes: 103203,
     releaseDate: '1927-01-02',
-    directors: ['Clyde Bruckman', 'Buster Keaton']
+    directors: ['Clyde Bruckman,Buster Keaton']
   },
   {
     id: 'tt0085694',
@@ -3194,7 +3376,7 @@ export const data = [
     runtime: 91,
     year: 1982,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 10497,
+    numVotes: 10735,
     releaseDate: '1983-01-21',
     directors: ['Mark Rosman']
   },
@@ -3207,7 +3389,7 @@ export const data = [
     runtime: 103,
     year: 1982,
     genres: ['Thriller', 'Horror'],
-    numVotes: 5063,
+    numVotes: 5168,
     releaseDate: '1982-05-28',
     directors: ['Jean-Claude Lord']
   },
@@ -3220,7 +3402,7 @@ export const data = [
     runtime: 113,
     year: 2007,
     genres: ['Comedy'],
-    numVotes: 654915,
+    numVotes: 666582,
     releaseDate: '2007-08-17',
     directors: ['Greg Mottola']
   },
@@ -3233,7 +3415,7 @@ export const data = [
     runtime: 92,
     year: 2010,
     genres: ['Comedy', 'Romance', 'Drama'],
-    numVotes: 428171,
+    numVotes: 432877,
     releaseDate: '2010-09-17',
     directors: ['Will Gluck']
   },
@@ -3246,7 +3428,7 @@ export const data = [
     runtime: 110,
     year: 1978,
     genres: ['Musical', 'Comedy', 'Romance'],
-    numVotes: 310342,
+    numVotes: 315881,
     releaseDate: '1978-06-16',
     directors: ['Randal Kleiser']
   },
@@ -3259,7 +3441,7 @@ export const data = [
     runtime: 85,
     year: 1982,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 13521,
+    numVotes: 13834,
     releaseDate: '1983-09-23',
     directors: ['Juan Piquer Simón']
   },
@@ -3272,7 +3454,7 @@ export const data = [
     runtime: 107,
     year: 1976,
     genres: ['Thriller', 'Crime', 'Drama', 'Mystery', 'Horror'],
-    numVotes: 13696,
+    numVotes: 14228,
     releaseDate: '1976-11-13',
     directors: ['Alfred Sole']
   },
@@ -3285,7 +3467,7 @@ export const data = [
     runtime: 88,
     year: 1981,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 3417,
+    numVotes: 3515,
     releaseDate: '1981-09-11',
     directors: ['Ken Hughes']
   },
@@ -3298,7 +3480,7 @@ export const data = [
     runtime: 101,
     year: 1981,
     genres: ['Thriller', 'Horror'],
-    numVotes: 9210,
+    numVotes: 9412,
     releaseDate: '1981-08-28',
     directors: ['Tom DeSimone']
   },
@@ -3311,7 +3493,7 @@ export const data = [
     runtime: 90,
     year: 1987,
     genres: ['Thriller', 'Drama', 'Horror'],
-    numVotes: 9893,
+    numVotes: 10123,
     releaseDate: '1987-08-21',
     directors: ['Michele Soavi']
   },
@@ -3324,7 +3506,7 @@ export const data = [
     runtime: 97,
     year: 1979,
     genres: ['Mystery', 'Horror', 'Thriller'],
-    numVotes: 14922,
+    numVotes: 15210,
     releaseDate: '1979-10-26',
     directors: ['Fred Walton']
   },
@@ -3337,7 +3519,7 @@ export const data = [
     runtime: 98,
     year: 1974,
     genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 52172,
+    numVotes: 52974,
     releaseDate: '1974-12-20',
     directors: ['Bob Clark']
   },
@@ -3350,7 +3532,7 @@ export const data = [
     runtime: 86,
     year: 2014,
     genres: ['Thriller', 'Horror', 'Mystery'],
-    numVotes: 17785,
+    numVotes: 18048,
     releaseDate: '2014-10-17',
     directors: ['Alfonso Gomez-Rejon']
   },
@@ -3363,7 +3545,7 @@ export const data = [
     runtime: 90,
     year: 1976,
     genres: ['Crime', 'Horror', 'Drama', 'Mystery', 'Thriller'],
-    numVotes: 10301,
+    numVotes: 10527,
     releaseDate: '1976-12-24',
     directors: ['Charles B. Pierce']
   },
@@ -3376,7 +3558,7 @@ export const data = [
     runtime: 88,
     year: 1981,
     genres: ['Thriller', 'Horror'],
-    numVotes: 7166,
+    numVotes: 7387,
     releaseDate: '1983-02-18',
     directors: ['Joe Giannone']
   },
@@ -3389,7 +3571,7 @@ export const data = [
     runtime: 89,
     year: 1981,
     genres: ['Thriller', 'Horror'],
-    numVotes: 3581,
+    numVotes: 3679,
     releaseDate: '1982-07-16',
     directors: ['Boaz Davidson']
   },
@@ -3402,7 +3584,7 @@ export const data = [
     runtime: 107,
     year: 2005,
     genres: ['Mystery', 'Thriller', 'Crime'],
-    numVotes: 19039,
+    numVotes: 19222,
     releaseDate: '2005-10-07',
     directors: ['Atom Egoyan']
   },
@@ -3415,7 +3597,7 @@ export const data = [
     runtime: 87,
     year: 1980,
     genres: ['Thriller', 'Drama', 'Crime', 'Horror'],
-    numVotes: 21151,
+    numVotes: 21514,
     releaseDate: '1981-03-06',
     directors: ['William Lustig']
   },
@@ -3428,7 +3610,7 @@ export const data = [
     runtime: 90,
     year: 1981,
     genres: ['Thriller', 'Horror'],
-    numVotes: 7413,
+    numVotes: 7544,
     releaseDate: '1981-11-27',
     directors: ['Jeff Lieberman']
   },
@@ -3441,7 +3623,7 @@ export const data = [
     runtime: 85,
     year: 1988,
     genres: ['Mystery', 'Crime', 'Horror', 'Action'],
-    numVotes: 21427,
+    numVotes: 22066,
     releaseDate: '1988-05-13',
     directors: ['William Lustig']
   },
@@ -3454,9 +3636,9 @@ export const data = [
     runtime: 98,
     year: 2013,
     genres: ['Animation', 'Comedy', 'Family', 'Sci-Fi', 'Adventure', 'Crime'],
-    numVotes: 439071,
+    numVotes: 445566,
     releaseDate: '2013-07-03',
-    directors: ['Pierre Coffin', 'Chris Renaud']
+    directors: ['Pierre Coffin,Chris Renaud']
   },
   {
     id: 'tt0082084',
@@ -3467,7 +3649,7 @@ export const data = [
     runtime: 85,
     year: 1981,
     genres: ['Thriller', 'Horror'],
-    numVotes: 5960,
+    numVotes: 6087,
     releaseDate: '1981-04-28',
     directors: ['Ed Hunt']
   },
@@ -3480,7 +3662,7 @@ export const data = [
     runtime: 96,
     year: 1981,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 5435,
+    numVotes: 5623,
     releaseDate: '1981-05-01',
     directors: ['Herb Freed']
   },
@@ -3493,7 +3675,7 @@ export const data = [
     runtime: 85,
     year: 1986,
     genres: ['Sci-Fi', 'Horror'],
-    numVotes: 32823,
+    numVotes: 33354,
     releaseDate: '1986-10-24',
     directors: ['Stuart Gordon']
   },
@@ -3506,7 +3688,7 @@ export const data = [
     runtime: 101,
     year: 2011,
     genres: ['Drama', 'Romance', 'Thriller', 'Mystery'],
-    numVotes: 35202,
+    numVotes: 35612,
     releaseDate: '2011-12-02',
     directors: ['Julia Leigh']
   },
@@ -3519,7 +3701,7 @@ export const data = [
     runtime: 96,
     year: 1981,
     genres: ['Horror'],
-    numVotes: 17102,
+    numVotes: 17360,
     releaseDate: '1981-03-13',
     directors: ['Tobe Hooper']
   },
@@ -3532,7 +3714,7 @@ export const data = [
     runtime: 84,
     year: 1971,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 13465,
+    numVotes: 13793,
     releaseDate: '1972-05-03',
     directors: ['Mario Bava']
   },
@@ -3545,7 +3727,7 @@ export const data = [
     runtime: 97,
     year: 1981,
     genres: ['Horror'],
-    numVotes: 4651,
+    numVotes: 4757,
     releaseDate: '1981-10-23',
     directors: ['Romano Scavolini']
   },
@@ -3558,7 +3740,7 @@ export const data = [
     runtime: 101,
     year: 1960,
     genres: ['Drama', 'Horror', 'Thriller'],
-    numVotes: 41388,
+    numVotes: 42143,
     releaseDate: '1960-05-16',
     directors: ['Michael Powell']
   },
@@ -3571,7 +3753,7 @@ export const data = [
     runtime: 98,
     year: 1974,
     genres: ['Drama'],
-    numVotes: 1281,
+    numVotes: 1315,
     releaseDate: '1974-09-10',
     directors: ['Donald Wrye']
   },
@@ -3584,9 +3766,9 @@ export const data = [
     runtime: 93,
     year: 1984,
     genres: ['Crime', 'Drama', 'Thriller', 'Action'],
-    numVotes: 5937,
+    numVotes: 6034,
     releaseDate: '1984-10-05',
-    directors: ['Danny Steinmann', 'Tom DeSimone']
+    directors: ['Danny Steinmann,Tom DeSimone']
   },
   {
     id: 'tt0085318',
@@ -3597,7 +3779,7 @@ export const data = [
     runtime: 95,
     year: 1983,
     genres: ['Thriller', 'Crime', 'Action', 'Drama'],
-    numVotes: 2705,
+    numVotes: 2753,
     releaseDate: '1983-05-27',
     directors: ['Paul Nicholas']
   },
@@ -3610,7 +3792,7 @@ export const data = [
     runtime: 97,
     year: 1980,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 14479,
+    numVotes: 14767,
     releaseDate: '1980-10-03',
     directors: ['Roger Spottiswoode']
   },
@@ -3623,7 +3805,7 @@ export const data = [
     runtime: 89,
     year: 1981,
     genres: ['Thriller', 'Horror'],
-    numVotes: 4841,
+    numVotes: 4945,
     releaseDate: '1981-06-05',
     directors: ['Jimmy Huston']
   },
@@ -3636,7 +3818,7 @@ export const data = [
     runtime: 100,
     year: 1934,
     genres: ['Biography', 'History', 'War', 'Drama'],
-    numVotes: 4792,
+    numVotes: 4966,
     releaseDate: '1934-10-05',
     directors: ['Cecil B. DeMille']
   },
@@ -3648,8 +3830,8 @@ export const data = [
     imdbRating: 6.7,
     runtime: 75,
     year: 1934,
-    genres: ['Mystery', 'Crime', 'Thriller'],
-    numVotes: 22059,
+    genres: ['Mystery', 'Crime', 'Drama', 'Thriller'],
+    numVotes: 22573,
     releaseDate: '1935-03-21',
     directors: ['Alfred Hitchcock']
   },
@@ -3662,9 +3844,9 @@ export const data = [
     runtime: 77,
     year: 1934,
     genres: ['Musical', 'Family', 'Fantasy', 'Comedy'],
-    numVotes: 7846,
+    numVotes: 7927,
     releaseDate: '1934-12-14',
-    directors: ['Gus Meins', 'Charley Rogers']
+    directors: ['Gus Meins,Charley Rogers']
   },
   {
     id: 'tt0024894',
@@ -3675,7 +3857,7 @@ export const data = [
     runtime: 65,
     year: 1934,
     genres: ['Thriller', 'Romance', 'Crime', 'Horror'],
-    numVotes: 13541,
+    numVotes: 13776,
     releaseDate: '1934-05-07',
     directors: ['Edgar G. Ulmer']
   },
@@ -3688,7 +3870,7 @@ export const data = [
     runtime: 73,
     year: 1934,
     genres: ['Action', 'Drama', 'War', 'Adventure'],
-    numVotes: 3685,
+    numVotes: 3809,
     releaseDate: '1934-02-16',
     directors: ['John Ford']
   },
@@ -3701,9 +3883,9 @@ export const data = [
     runtime: 93,
     year: 1934,
     genres: ['Romance', 'Crime', 'Drama'],
-    numVotes: 4971,
+    numVotes: 5054,
     releaseDate: '1934-05-04',
-    directors: ['W.S. Van Dyke', 'Jack Conway', 'George Cukor']
+    directors: ['W.S. Van Dyke,Jack Conway,George Cukor']
   },
   {
     id: 'tt0090917',
@@ -3714,7 +3896,7 @@ export const data = [
     runtime: 91,
     year: 1986,
     genres: ['Drama', 'Thriller', 'Sci-Fi', 'Horror'],
-    numVotes: 9070,
+    numVotes: 9214,
     releaseDate: '1986-10-10',
     directors: ['Wes Craven']
   },
@@ -3727,7 +3909,7 @@ export const data = [
     runtime: 104,
     year: 1934,
     genres: ['History', 'Romance', 'War', 'Drama'],
-    numVotes: 7477,
+    numVotes: 7587,
     releaseDate: '1934-09-07',
     directors: ['Josef von Sternberg']
   },
@@ -3740,7 +3922,7 @@ export const data = [
     runtime: 97,
     year: 1934,
     genres: ['Drama', 'Adventure'],
-    numVotes: 4916,
+    numVotes: 4989,
     releaseDate: '1935-02-07',
     directors: ['Harold Young']
   },
@@ -3753,7 +3935,7 @@ export const data = [
     runtime: 89,
     year: 1934,
     genres: ['Comedy', 'Romance', 'Drama'],
-    numVotes: 17933,
+    numVotes: 18197,
     releaseDate: '1947-06-21',
     directors: ['Jean Vigo']
   },
@@ -3766,7 +3948,7 @@ export const data = [
     runtime: 105,
     year: 1934,
     genres: ['Romance', 'Comedy'],
-    numVotes: 115503,
+    numVotes: 117059,
     releaseDate: '1934-02-22',
     directors: ['Frank Capra']
   },
@@ -3779,7 +3961,7 @@ export const data = [
     runtime: 91,
     year: 1934,
     genres: ['Romance', 'Crime', 'Mystery', 'Comedy'],
-    numVotes: 33481,
+    numVotes: 33935,
     releaseDate: '1934-05-25',
     directors: ['W.S. Van Dyke']
   },
@@ -3792,7 +3974,7 @@ export const data = [
     runtime: 83,
     year: 1934,
     genres: ['Romance', 'Film-Noir', 'Drama'],
-    numVotes: 8681,
+    numVotes: 8820,
     releaseDate: '1934-07-20',
     directors: ['John Cromwell']
   },
@@ -3805,7 +3987,7 @@ export const data = [
     runtime: 111,
     year: 1934,
     genres: ['Romance', 'Comedy', 'Drama'],
-    numVotes: 5814,
+    numVotes: 6007,
     releaseDate: '1934-11-26',
     directors: ['John M. Stahl']
   },
@@ -3818,9 +4000,9 @@ export const data = [
     runtime: 65,
     year: 1923,
     genres: ['Thriller', 'Romance', 'Comedy'],
-    numVotes: 12857,
+    numVotes: 13122,
     releaseDate: '1923-11-19',
-    directors: ['John G. Blystone', 'Buster Keaton']
+    directors: ['John G. Blystone,Buster Keaton']
   },
   {
     id: 'tt0122689',
@@ -3831,7 +4013,7 @@ export const data = [
     runtime: 65,
     year: 1996,
     genres: ['Documentary', 'Music'],
-    numVotes: 2375,
+    numVotes: 2431,
     releaseDate: '1996-10-12',
     directors: ['Michael Lindsay-Hogg']
   },
@@ -3844,7 +4026,7 @@ export const data = [
     runtime: 90,
     year: 1973,
     genres: ['Documentary', 'Music'],
-    numVotes: 803,
+    numVotes: 813,
     releaseDate: '1974-01-01',
     directors: ['Rollin Binzer']
   },
@@ -3857,7 +4039,7 @@ export const data = [
     runtime: 92,
     year: 1980,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 22193,
+    numVotes: 22694,
     releaseDate: '1980-07-18',
     directors: ['Paul Lynch']
   },
@@ -3866,11 +4048,11 @@ export const data = [
     myRating: 6,
     dataRated: '2016-09-28',
     title: 'The Burning',
-    imdbRating: 6.3,
+    imdbRating: 6.2,
     runtime: 91,
     year: 1981,
     genres: ['Horror'],
-    numVotes: 23394,
+    numVotes: 23883,
     releaseDate: '1981-05-08',
     directors: ['Tony Maylam']
   },
@@ -3883,7 +4065,7 @@ export const data = [
     runtime: 89,
     year: 1981,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 13573,
+    numVotes: 13795,
     releaseDate: '1981-11-10',
     directors: ['Joseph Zito']
   },
@@ -3896,7 +4078,7 @@ export const data = [
     runtime: 110,
     year: 1981,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 11754,
+    numVotes: 11961,
     releaseDate: '1981-05-15',
     directors: ['J. Lee Thompson']
   },
@@ -3909,7 +4091,7 @@ export const data = [
     runtime: 114,
     year: 1928,
     genres: ['History', 'Biography', 'Drama'],
-    numVotes: 63471,
+    numVotes: 65539,
     releaseDate: '1928-10-25',
     directors: ['Carl Theodor Dreyer']
   },
@@ -3922,7 +4104,7 @@ export const data = [
     runtime: 111,
     year: 2012,
     genres: ['Documentary', 'Music', 'Biography'],
-    numVotes: 2781,
+    numVotes: 2795,
     releaseDate: '2012-10-18',
     directors: ['Brett Morgen']
   },
@@ -3935,7 +4117,7 @@ export const data = [
     runtime: 100,
     year: 1989,
     genres: ['Adventure', 'Thriller', 'Horror'],
-    numVotes: 45140,
+    numVotes: 46012,
     releaseDate: '1989-07-28',
     directors: ['Rob Hedden']
   },
@@ -3948,7 +4130,7 @@ export const data = [
     runtime: 86,
     year: 1986,
     genres: ['Thriller', 'Horror'],
-    numVotes: 53709,
+    numVotes: 54698,
     releaseDate: '1986-08-01',
     directors: ['Tom McLoughlin']
   },
@@ -3961,7 +4143,7 @@ export const data = [
     runtime: 91,
     year: 1984,
     genres: ['Thriller', 'Horror'],
-    numVotes: 62132,
+    numVotes: 63337,
     releaseDate: '1984-04-13',
     directors: ['Joseph Zito']
   },
@@ -3974,7 +4156,7 @@ export const data = [
     runtime: 87,
     year: 1981,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 81637,
+    numVotes: 83192,
     releaseDate: '1981-05-01',
     directors: ['Steve Miner']
   },
@@ -3987,7 +4169,7 @@ export const data = [
     runtime: 95,
     year: 1980,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 164594,
+    numVotes: 167558,
     releaseDate: '1980-05-09',
     directors: ['Sean S. Cunningham']
   },
@@ -4000,9 +4182,9 @@ export const data = [
     runtime: 91,
     year: 1970,
     genres: ['Documentary', 'Music', 'Thriller'],
-    numVotes: 13225,
+    numVotes: 13408,
     releaseDate: '1971-05-13',
-    directors: ['Albert Maysles', 'David Maysles', 'Charlotte Zwerin']
+    directors: ['Albert Maysles,David Maysles,Charlotte Zwerin']
   },
   {
     id: 'tt0012349',
@@ -4013,7 +4195,7 @@ export const data = [
     runtime: 68,
     year: 1921,
     genres: ['Family', 'Drama', 'Comedy'],
-    numVotes: 139484,
+    numVotes: 141792,
     releaseDate: '1921-02-06',
     directors: ['Charles Chaplin']
   },
@@ -4026,7 +4208,7 @@ export const data = [
     runtime: 94,
     year: 1927,
     genres: ['Romance', 'Drama'],
-    numVotes: 54934,
+    numVotes: 55566,
     releaseDate: '1927-11-04',
     directors: ['F.W. Murnau']
   },
@@ -4035,11 +4217,11 @@ export const data = [
     myRating: 10,
     dataRated: '2016-08-13',
     title: '7th Heaven',
-    imdbRating: 7.6,
+    imdbRating: 7.5,
     runtime: 110,
     year: 1927,
     genres: ['Romance', 'Drama'],
-    numVotes: 4337,
+    numVotes: 4458,
     releaseDate: '1927-10-30',
     directors: ['Frank Borzage']
   },
@@ -4052,9 +4234,9 @@ export const data = [
     runtime: 144,
     year: 1927,
     genres: ['Action', 'Romance', 'Drama', 'War'],
-    numVotes: 15127,
+    numVotes: 15523,
     releaseDate: '1929-01-05',
-    directors: ['William A. Wellman', "Harry d'Abbadie d'Arrast"]
+    directors: ["William A. Wellman,Harry d'Abbadie d'Arrast"]
   },
   {
     id: 'tt0309987',
@@ -4065,7 +4247,7 @@ export const data = [
     runtime: 115,
     year: 2003,
     genres: ['Romance', 'Drama'],
-    numVotes: 135998,
+    numVotes: 138158,
     releaseDate: '2004-02-20',
     directors: ['Bernardo Bertolucci']
   },
@@ -4085,7 +4267,7 @@ export const data = [
       'Adventure',
       'Romance'
     ],
-    numVotes: 150045,
+    numVotes: 153640,
     releaseDate: '2015-09-25',
     directors: ['Genndy Tartakovsky']
   },
@@ -4098,7 +4280,7 @@ export const data = [
     runtime: 91,
     year: 2012,
     genres: ['Animation', 'Comedy', 'Family', 'Fantasy'],
-    numVotes: 292849,
+    numVotes: 298741,
     releaseDate: '2012-09-28',
     directors: ['Genndy Tartakovsky']
   },
@@ -4107,11 +4289,11 @@ export const data = [
     myRating: 8,
     dataRated: '2016-06-06',
     title: 'The Gay Divorcee',
-    imdbRating: 7.4,
+    imdbRating: 7.3,
     runtime: 107,
     year: 1934,
     genres: ['Musical', 'Romance', 'Comedy'],
-    numVotes: 8929,
+    numVotes: 9071,
     releaseDate: '1934-10-12',
     directors: ['Mark Sandrich']
   },
@@ -4124,7 +4306,7 @@ export const data = [
     runtime: 75,
     year: 1998,
     genres: ['Comedy'],
-    numVotes: 6314,
+    numVotes: 6329,
     releaseDate: '1998-08-09',
     directors: ['Marty Callner']
   },
@@ -4137,7 +4319,7 @@ export const data = [
     runtime: 109,
     year: 2004,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 248263,
+    numVotes: 253399,
     releaseDate: '2004-04-09',
     directors: ['Luke Greenfield']
   },
@@ -4150,7 +4332,7 @@ export const data = [
     runtime: 100,
     year: 1998,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 80945,
+    numVotes: 82284,
     releaseDate: '1998-11-13',
     directors: ['Danny Cannon']
   },
@@ -4163,7 +4345,7 @@ export const data = [
     runtime: 101,
     year: 1997,
     genres: ['Mystery', 'Horror'],
-    numVotes: 163598,
+    numVotes: 167601,
     releaseDate: '1997-10-17',
     directors: ['Jim Gillespie']
   },
@@ -4176,9 +4358,9 @@ export const data = [
     runtime: 113,
     year: 2012,
     genres: ['Comedy'],
-    numVotes: 227605,
+    numVotes: 229738,
     releaseDate: '2012-04-06',
-    directors: ['Jon Hurwitz', 'Hayden Schlossberg']
+    directors: ['Jon Hurwitz,Hayden Schlossberg']
   },
   {
     id: 'tt0328828',
@@ -4189,7 +4371,7 @@ export const data = [
     runtime: 96,
     year: 2003,
     genres: ['Comedy'],
-    numVotes: 221480,
+    numVotes: 223981,
     releaseDate: '2003-08-01',
     directors: ['Jesse Dylan']
   },
@@ -4198,11 +4380,11 @@ export const data = [
     myRating: 7,
     dataRated: '2016-02-20',
     title: 'American Pie 2',
-    imdbRating: 6.4,
+    imdbRating: 6.5,
     runtime: 108,
     year: 2001,
     genres: ['Comedy'],
-    numVotes: 276075,
+    numVotes: 279813,
     releaseDate: '2001-08-10',
     directors: ['J.B. Rogers']
   },
@@ -4215,7 +4397,7 @@ export const data = [
     runtime: 95,
     year: 1999,
     genres: ['Comedy'],
-    numVotes: 446327,
+    numVotes: 453292,
     releaseDate: '1999-07-09',
     directors: ['Paul Weitz']
   },
@@ -4228,7 +4410,7 @@ export const data = [
     runtime: 108,
     year: 2000,
     genres: ['War', 'Romance', 'Drama'],
-    numVotes: 117018,
+    numVotes: 120054,
     releaseDate: '2001-02-02',
     directors: ['Giuseppe Tornatore']
   },
@@ -4241,7 +4423,7 @@ export const data = [
     runtime: 109,
     year: 2013,
     genres: ['Drama', 'Romance'],
-    numVotes: 177257,
+    numVotes: 179885,
     releaseDate: '2013-06-14',
     directors: ['Richard Linklater']
   },
@@ -4254,7 +4436,7 @@ export const data = [
     runtime: 117,
     year: 2013,
     genres: ['Comedy', 'Action', 'Crime'],
-    numVotes: 184073,
+    numVotes: 185458,
     releaseDate: '2013-06-28',
     directors: ['Paul Feig']
   },
@@ -4267,7 +4449,7 @@ export const data = [
     runtime: 109,
     year: 2015,
     genres: ['Mystery', 'Romance', 'Drama', 'Comedy', 'Adventure'],
-    numVotes: 109490,
+    numVotes: 110169,
     releaseDate: '2015-07-24',
     directors: ['Jake Schreier']
   },
@@ -4280,7 +4462,7 @@ export const data = [
     runtime: 132,
     year: 1965,
     genres: ['Drama', 'Western'],
-    numVotes: 284243,
+    numVotes: 289926,
     releaseDate: '1967-05-10',
     directors: ['Sergio Leone']
   },
@@ -4293,9 +4475,9 @@ export const data = [
     runtime: 109,
     year: 1996,
     genres: ['Crime', 'Thriller'],
-    numVotes: 63177,
+    numVotes: 64502,
     releaseDate: '1996-10-04',
-    directors: ['Lana Wachowski', 'Lilly Wachowski']
+    directors: ['Lana Wachowski,Lilly Wachowski']
   },
   {
     id: 'tt2230358',
@@ -4306,7 +4488,7 @@ export const data = [
     runtime: 97,
     year: 2013,
     genres: ['Horror', 'Thriller'],
-    numVotes: 45378,
+    numVotes: 46043,
     releaseDate: '2013-09-24',
     directors: ['Don Mancini']
   },
@@ -4319,7 +4501,7 @@ export const data = [
     runtime: 87,
     year: 2004,
     genres: ['Horror', 'Comedy', 'Thriller'],
-    numVotes: 51797,
+    numVotes: 52543,
     releaseDate: '2004-11-12',
     directors: ['Don Mancini']
   },
@@ -4332,7 +4514,7 @@ export const data = [
     runtime: 89,
     year: 1998,
     genres: ['Thriller', 'Horror', 'Comedy'],
-    numVotes: 66752,
+    numVotes: 67732,
     releaseDate: '1998-10-16',
     directors: ['Ronny Yu']
   },
@@ -4345,7 +4527,7 @@ export const data = [
     runtime: 90,
     year: 1991,
     genres: ['Thriller', 'Horror'],
-    numVotes: 48342,
+    numVotes: 49179,
     releaseDate: '1991-08-30',
     directors: ['Jack Bender']
   },
@@ -4358,7 +4540,7 @@ export const data = [
     runtime: 84,
     year: 1990,
     genres: ['Thriller', 'Horror'],
-    numVotes: 60421,
+    numVotes: 61498,
     releaseDate: '1990-11-09',
     directors: ['John Lafia']
   },
@@ -4371,7 +4553,7 @@ export const data = [
     runtime: 87,
     year: 1988,
     genres: ['Thriller', 'Horror'],
-    numVotes: 123152,
+    numVotes: 125607,
     releaseDate: '1988-11-09',
     directors: ['Tom Holland']
   },
@@ -4384,7 +4566,7 @@ export const data = [
     runtime: 87,
     year: 1995,
     genres: ['Thriller', 'Horror'],
-    numVotes: 43908,
+    numVotes: 44545,
     releaseDate: '1995-09-29',
     directors: ['Joe Chappelle']
   },
@@ -4397,7 +4579,7 @@ export const data = [
     runtime: 80,
     year: 1956,
     genres: ['Drama', 'Sci-Fi', 'Horror'],
-    numVotes: 56809,
+    numVotes: 57667,
     releaseDate: '1956-02-05',
     directors: ['Don Siegel']
   },
@@ -4410,7 +4592,7 @@ export const data = [
     runtime: 95,
     year: 1988,
     genres: ['Thriller', 'Sci-Fi', 'Horror'],
-    numVotes: 46127,
+    numVotes: 47059,
     releaseDate: '1988-08-05',
     directors: ['Chuck Russell']
   },
@@ -4423,7 +4605,7 @@ export const data = [
     runtime: 88,
     year: 1973,
     genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 98111,
+    numVotes: 100319,
     releaseDate: '1974-08-07',
     directors: ['Robin Hardy']
   },
@@ -4436,7 +4618,7 @@ export const data = [
     runtime: 95,
     year: 1992,
     genres: ['Romance', 'Comedy', 'Drama'],
-    numVotes: 15571,
+    numVotes: 15933,
     releaseDate: '1994-02-04',
     directors: ['Bigas Luna']
   },
@@ -4449,7 +4631,7 @@ export const data = [
     runtime: 84,
     year: 2006,
     genres: ['Comedy'],
-    numVotes: 455500,
+    numVotes: 461723,
     releaseDate: '2006-11-03',
     directors: ['Larry Charles']
   },
@@ -4462,7 +4644,7 @@ export const data = [
     runtime: 81,
     year: 1992,
     genres: ['Comedy', 'Horror'],
-    numVotes: 200354,
+    numVotes: 202760,
     releaseDate: '1993-02-19',
     directors: ['Sam Raimi']
   },
@@ -4475,7 +4657,7 @@ export const data = [
     runtime: 79,
     year: 1984,
     genres: ['Thriller', 'Horror'],
-    numVotes: 19958,
+    numVotes: 20228,
     releaseDate: '1984-11-09',
     directors: ['Charles E. Sellier Jr.']
   },
@@ -4488,7 +4670,7 @@ export const data = [
     runtime: 84,
     year: 1987,
     genres: ['Comedy', 'Horror'],
-    numVotes: 187805,
+    numVotes: 190151,
     releaseDate: '1987-03-13',
     directors: ['Sam Raimi']
   },
@@ -4501,7 +4683,7 @@ export const data = [
     runtime: 102,
     year: 1938,
     genres: ['Comedy'],
-    numVotes: 67607,
+    numVotes: 68489,
     releaseDate: '1938-02-18',
     directors: ['Howard Hawks']
   },
@@ -4514,7 +4696,7 @@ export const data = [
     runtime: 96,
     year: 1989,
     genres: ['Thriller', 'Horror'],
-    numVotes: 49072,
+    numVotes: 49721,
     releaseDate: '1989-10-13',
     directors: ['Dominique Othenin-Girard']
   },
@@ -4527,7 +4709,7 @@ export const data = [
     runtime: 88,
     year: 1988,
     genres: ['Thriller', 'Horror'],
-    numVotes: 61090,
+    numVotes: 61844,
     releaseDate: '1988-10-21',
     directors: ['Dwight H. Little']
   },
@@ -4540,7 +4722,7 @@ export const data = [
     runtime: 98,
     year: 1982,
     genres: ['Sci-Fi', 'Mystery', 'Thriller', 'Horror'],
-    numVotes: 63845,
+    numVotes: 64606,
     releaseDate: '1982-10-22',
     directors: ['Tommy Lee Wallace']
   },
@@ -4553,7 +4735,7 @@ export const data = [
     runtime: 80,
     year: 1989,
     genres: ['Comedy', 'Horror'],
-    numVotes: 9834,
+    numVotes: 9992,
     releaseDate: '1989-08-04',
     directors: ['Michael A. Simpson']
   },
@@ -4566,7 +4748,7 @@ export const data = [
     runtime: 80,
     year: 1988,
     genres: ['Comedy', 'Horror'],
-    numVotes: 13974,
+    numVotes: 14218,
     releaseDate: '1990-03-03',
     directors: ['Michael A. Simpson']
   },
@@ -4579,7 +4761,7 @@ export const data = [
     runtime: 92,
     year: 1981,
     genres: ['Horror'],
-    numVotes: 106053,
+    numVotes: 107392,
     releaseDate: '1981-10-30',
     directors: ['Rick Rosenthal']
   },
@@ -4592,7 +4774,7 @@ export const data = [
     runtime: 91,
     year: 1978,
     genres: ['Thriller', 'Horror'],
-    numVotes: 320269,
+    numVotes: 324574,
     releaseDate: '1978-10-27',
     directors: ['John Carpenter']
   },
@@ -4605,7 +4787,7 @@ export const data = [
     runtime: 89,
     year: 1986,
     genres: ['Mystery', 'Horror'],
-    numVotes: 18938,
+    numVotes: 19472,
     releaseDate: '1986-03-28',
     directors: ['Fred Walton']
   },
@@ -4618,7 +4800,7 @@ export const data = [
     runtime: 84,
     year: 1983,
     genres: ['Horror'],
-    numVotes: 40382,
+    numVotes: 41370,
     releaseDate: '1983-11-18',
     directors: ['Robert Hiltzik']
   },
@@ -4627,11 +4809,11 @@ export const data = [
     myRating: 5,
     dataRated: '2015-08-12',
     title: 'My Bloody Valentine',
-    imdbRating: 6.2,
+    imdbRating: 6.3,
     runtime: 90,
     year: 1981,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 26035,
+    numVotes: 26751,
     releaseDate: '1981-02-11',
     directors: ['George Mihalka']
   },
@@ -4644,7 +4826,7 @@ export const data = [
     runtime: 77,
     year: 1982,
     genres: ['Horror'],
-    numVotes: 19349,
+    numVotes: 19905,
     releaseDate: '1982-11-12',
     directors: ['Amy Holden Jones']
   },
@@ -4657,9 +4839,9 @@ export const data = [
     runtime: 117,
     year: 1977,
     genres: ['Horror'],
-    numVotes: 29357,
+    numVotes: 29725,
     releaseDate: '1977-06-17',
-    directors: ['John Boorman', 'Rospo Pallenberg']
+    directors: ['John Boorman,Rospo Pallenberg']
   },
   {
     id: 'tt0031385',
@@ -4670,9 +4852,9 @@ export const data = [
     runtime: 114,
     year: 1939,
     genres: ['Romance', 'Drama'],
-    numVotes: 11833,
+    numVotes: 12014,
     releaseDate: '1939-07-28',
-    directors: ['Sam Wood', 'Sidney Franklin']
+    directors: ['Sam Wood,Sidney Franklin']
   },
   {
     id: 'tt0365265',
@@ -4683,7 +4865,7 @@ export const data = [
     runtime: 94,
     year: 2004,
     genres: ['Horror', 'Drama', 'Thriller'],
-    numVotes: 11965,
+    numVotes: 12112,
     releaseDate: '2004-08-27',
     directors: ['Grant Harvey']
   },
@@ -4696,7 +4878,7 @@ export const data = [
     runtime: 94,
     year: 2004,
     genres: ['Thriller', 'Horror'],
-    numVotes: 15831,
+    numVotes: 16070,
     releaseDate: '2004-01-30',
     directors: ['Brett Sullivan']
   },
@@ -4709,7 +4891,7 @@ export const data = [
     runtime: 99,
     year: 1964,
     genres: ['Drama', 'Western'],
-    numVotes: 240547,
+    numVotes: 245246,
     releaseDate: '1967-01-18',
     directors: ['Sergio Leone']
   },
@@ -4722,7 +4904,7 @@ export const data = [
     runtime: 90,
     year: 2009,
     genres: ['Documentary', 'Horror'],
-    numVotes: 3219,
+    numVotes: 3237,
     releaseDate: '2009-02-13',
     directors: ['Daniel Farrands']
   },
@@ -4735,9 +4917,9 @@ export const data = [
     runtime: 239,
     year: 2010,
     genres: ['Documentary', 'Horror'],
-    numVotes: 5328,
+    numVotes: 5383,
     releaseDate: '2010-05-04',
-    directors: ['Daniel Farrands', 'Andrew Kasch']
+    directors: ['Daniel Farrands,Andrew Kasch']
   },
   {
     id: 'tt0142342',
@@ -4748,7 +4930,7 @@ export const data = [
     runtime: 93,
     year: 1999,
     genres: ['Drama', 'Comedy'],
-    numVotes: 240558,
+    numVotes: 243843,
     releaseDate: '1999-06-25',
     directors: ['Dennis Dugan']
   },
@@ -4761,7 +4943,7 @@ export const data = [
     runtime: 107,
     year: 2006,
     genres: ['Comedy', 'Drama', 'Romance', 'Fantasy'],
-    numVotes: 367376,
+    numVotes: 372893,
     releaseDate: '2006-06-23',
     directors: ['Frank Coraci']
   },
@@ -4774,9 +4956,9 @@ export const data = [
     runtime: 114,
     year: 2001,
     genres: ['Fantasy', 'Romance', 'Drama', 'Comedy'],
-    numVotes: 148339,
+    numVotes: 150233,
     releaseDate: '2001-11-09',
-    directors: ['Bobby Farrelly', 'Peter Farrelly']
+    directors: ['Bobby Farrelly,Peter Farrelly']
   },
   {
     id: 'tt0452594',
@@ -4787,7 +4969,7 @@ export const data = [
     runtime: 106,
     year: 2006,
     genres: ['Comedy', 'Romance', 'Drama'],
-    numVotes: 141223,
+    numVotes: 142490,
     releaseDate: '2006-06-02',
     directors: ['Peyton Reed']
   },
@@ -4800,7 +4982,7 @@ export const data = [
     runtime: 108,
     year: 2006,
     genres: ['Comedy', 'Family', 'Fantasy', 'Adventure'],
-    numVotes: 389049,
+    numVotes: 394902,
     releaseDate: '2006-12-22',
     directors: ['Shawn Levy']
   },
@@ -4809,11 +4991,11 @@ export const data = [
     myRating: 3,
     dataRated: '2015-05-28',
     title: 'White Chicks',
-    imdbRating: 5.8,
+    imdbRating: 5.9,
     runtime: 109,
     year: 2004,
     genres: ['Crime', 'Comedy'],
-    numVotes: 173299,
+    numVotes: 179622,
     releaseDate: '2004-06-23',
     directors: ['Keenen Ivory Wayans']
   },
@@ -4826,7 +5008,7 @@ export const data = [
     runtime: 108,
     year: 2000,
     genres: ['Horror', 'Drama', 'Fantasy', 'Thriller'],
-    numVotes: 54644,
+    numVotes: 55465,
     releaseDate: '2001-05-11',
     directors: ['John Fawcett']
   },
@@ -4839,7 +5021,7 @@ export const data = [
     runtime: 95,
     year: 2010,
     genres: ['Horror', 'Mystery', 'Crime', 'Drama'],
-    numVotes: 110243,
+    numVotes: 111682,
     releaseDate: '2010-04-30',
     directors: ['Samuel Bayer']
   },
@@ -4852,7 +5034,7 @@ export const data = [
     runtime: 97,
     year: 2009,
     genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 120891,
+    numVotes: 122441,
     releaseDate: '2009-02-13',
     directors: ['Marcus Nispel']
   },
@@ -4865,7 +5047,7 @@ export const data = [
     runtime: 97,
     year: 2003,
     genres: ['Action', 'Horror'],
-    numVotes: 130828,
+    numVotes: 132196,
     releaseDate: '2003-08-15',
     directors: ['Ronny Yu']
   },
@@ -4878,8 +5060,8 @@ export const data = [
     runtime: 94,
     year: 1922,
     genres: ['Fantasy', 'Horror'],
-    numVotes: 115385,
-    releaseDate: '1922-05-18',
+    numVotes: 119328,
+    releaseDate: '1922-12-19',
     directors: ['F.W. Murnau']
   },
   {
@@ -4891,7 +5073,7 @@ export const data = [
     runtime: 73,
     year: 1932,
     genres: ['Fantasy', 'Horror'],
-    numVotes: 31507,
+    numVotes: 31974,
     releaseDate: '1932-12-22',
     directors: ['Karl Freund']
   },
@@ -4904,7 +5086,7 @@ export const data = [
     runtime: 75,
     year: 1935,
     genres: ['Drama', 'Sci-Fi', 'Horror'],
-    numVotes: 55279,
+    numVotes: 56009,
     releaseDate: '1935-05-06',
     directors: ['James Whale']
   },
@@ -4917,7 +5099,7 @@ export const data = [
     runtime: 71,
     year: 1933,
     genres: ['Sci-Fi', 'Horror'],
-    numVotes: 41627,
+    numVotes: 42237,
     releaseDate: '1933-11-13',
     directors: ['James Whale']
   },
@@ -4930,7 +5112,7 @@ export const data = [
     runtime: 92,
     year: 2001,
     genres: ['Thriller', 'Action', 'Sci-Fi', 'Horror'],
-    numVotes: 63546,
+    numVotes: 64494,
     releaseDate: '2002-04-26',
     directors: ['James Isaac']
   },
@@ -4943,7 +5125,7 @@ export const data = [
     runtime: 71,
     year: 2011,
     genres: ['Documentary', 'Horror'],
-    numVotes: 431,
+    numVotes: 437,
     releaseDate: '2011-04-29',
     directors: ['Arlene Marechal']
   },
@@ -4956,7 +5138,7 @@ export const data = [
     runtime: 104,
     year: 1939,
     genres: ['Romance', 'Drama'],
-    numVotes: 12815,
+    numVotes: 13040,
     releaseDate: '1939-04-22',
     directors: ['Edmund Goulding']
   },
@@ -4964,12 +5146,12 @@ export const data = [
     id: 'tt0107254',
     myRating: 2,
     dataRated: '2015-05-18',
-    title: 'Jason Goes to Hell',
+    title: 'Jason Goes to Hell: The Final Friday',
     imdbRating: 4.1,
     runtime: 87,
     year: 1993,
     genres: ['Thriller', 'Fantasy', 'Horror'],
-    numVotes: 38411,
+    numVotes: 39155,
     releaseDate: '1993-08-13',
     directors: ['Adam Marcus']
   },
@@ -4982,7 +5164,7 @@ export const data = [
     runtime: 88,
     year: 1988,
     genres: ['Thriller', 'Horror'],
-    numVotes: 44381,
+    numVotes: 45256,
     releaseDate: '1988-05-13',
     directors: ['John Carl Buechler']
   },
@@ -4995,7 +5177,7 @@ export const data = [
     runtime: 92,
     year: 1985,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 46154,
+    numVotes: 47093,
     releaseDate: '1985-03-22',
     directors: ['Danny Steinmann']
   },
@@ -5008,7 +5190,7 @@ export const data = [
     runtime: 95,
     year: 1982,
     genres: ['Thriller', 'Horror'],
-    numVotes: 63320,
+    numVotes: 64525,
     releaseDate: '1982-08-13',
     directors: ['Steve Miner']
   },
@@ -5021,7 +5203,7 @@ export const data = [
     runtime: 96,
     year: 1987,
     genres: ['Fantasy', 'Horror'],
-    numVotes: 94200,
+    numVotes: 95663,
     releaseDate: '1987-02-27',
     directors: ['Chuck Russell']
   },
@@ -5034,7 +5216,7 @@ export const data = [
     runtime: 112,
     year: 1994,
     genres: ['Fantasy', 'Mystery', 'Thriller', 'Horror'],
-    numVotes: 66488,
+    numVotes: 67278,
     releaseDate: '1994-10-14',
     directors: ['Wes Craven']
   },
@@ -5047,9 +5229,9 @@ export const data = [
     runtime: 93,
     year: 2013,
     genres: ['Biography', 'Drama'],
-    numVotes: 43464,
+    numVotes: 43870,
     releaseDate: '2013-08-08',
-    directors: ['Rob Epstein', 'Jeffrey Friedman']
+    directors: ['Rob Epstein,Jeffrey Friedman']
   },
   {
     id: 'tt0101917',
@@ -5060,7 +5242,7 @@ export const data = [
     runtime: 89,
     year: 1991,
     genres: ['Fantasy', 'Horror'],
-    numVotes: 52884,
+    numVotes: 53614,
     releaseDate: '1991-09-13',
     directors: ['Rachel Talalay']
   },
@@ -5073,7 +5255,7 @@ export const data = [
     runtime: 89,
     year: 1989,
     genres: ['Fantasy', 'Horror'],
-    numVotes: 52778,
+    numVotes: 53528,
     releaseDate: '1989-08-11',
     directors: ['Stephen Hopkins']
   },
@@ -5086,7 +5268,7 @@ export const data = [
     runtime: 99,
     year: 2009,
     genres: ['Thriller', 'Mystery', 'Sci-Fi', 'Fantasy'],
-    numVotes: 136676,
+    numVotes: 141035,
     releaseDate: '2009-10-16',
     directors: ['Christopher Smith']
   },
@@ -5099,7 +5281,7 @@ export const data = [
     runtime: 93,
     year: 1988,
     genres: ['Horror'],
-    numVotes: 64191,
+    numVotes: 65121,
     releaseDate: '1988-08-19',
     directors: ['Renny Harlin']
   },
@@ -5112,7 +5294,7 @@ export const data = [
     runtime: 109,
     year: 2011,
     genres: ['Comedy', 'Romance'],
-    numVotes: 405146,
+    numVotes: 410304,
     releaseDate: '2011-07-22',
     directors: ['Will Gluck']
   },
@@ -5125,7 +5307,7 @@ export const data = [
     runtime: 87,
     year: 1985,
     genres: ['Horror'],
-    numVotes: 80965,
+    numVotes: 82245,
     releaseDate: '1985-11-01',
     directors: ['Jack Sholder']
   },
@@ -5138,7 +5320,7 @@ export const data = [
     runtime: 91,
     year: 1984,
     genres: ['Horror'],
-    numVotes: 274456,
+    numVotes: 278861,
     releaseDate: '1984-11-16',
     directors: ['Wes Craven']
   },
@@ -5151,9 +5333,9 @@ export const data = [
     runtime: 95,
     year: 2010,
     genres: ['Animation', 'Family', 'Comedy', 'Sci-Fi', 'Crime', 'Adventure'],
-    numVotes: 602989,
+    numVotes: 612256,
     releaseDate: '2010-07-09',
-    directors: ['Pierre Coffin', 'Chris Renaud']
+    directors: ['Pierre Coffin,Chris Renaud']
   },
   {
     id: 'tt0314431',
@@ -5164,7 +5346,7 @@ export const data = [
     runtime: 92,
     year: 2003,
     genres: ['Romance', 'Comedy'],
-    numVotes: 8041,
+    numVotes: 8177,
     releaseDate: '2003-05-09',
     directors: ['Mark Herman']
   },
@@ -5177,7 +5359,7 @@ export const data = [
     runtime: 98,
     year: 2007,
     genres: ['Drama', 'Crime', 'Biography', 'Horror'],
-    numVotes: 38441,
+    numVotes: 39041,
     releaseDate: '2007-12-07',
     directors: ["Tommy O'Haver"]
   },
@@ -5190,7 +5372,7 @@ export const data = [
     runtime: 73,
     year: 1942,
     genres: ['Thriller', 'Fantasy', 'Horror'],
-    numVotes: 27063,
+    numVotes: 27531,
     releaseDate: '1942-12-25',
     directors: ['Jacques Tourneur']
   },
@@ -5203,7 +5385,7 @@ export const data = [
     runtime: 122,
     year: 2004,
     genres: ['Documentary', 'Drama', 'War'],
-    numVotes: 133399,
+    numVotes: 133913,
     releaseDate: '2004-06-25',
     directors: ['Michael Moore']
   },
@@ -5216,7 +5398,7 @@ export const data = [
     runtime: 91,
     year: 2007,
     genres: ['Drama', 'Thriller', 'Crime', 'Horror'],
-    numVotes: 30394,
+    numVotes: 30950,
     releaseDate: '2008-10-17',
     directors: ['Gregory Wilson']
   },
@@ -5229,7 +5411,7 @@ export const data = [
     runtime: 100,
     year: 2003,
     genres: ['Drama'],
-    numVotes: 101804,
+    numVotes: 103905,
     releaseDate: '2003-09-19',
     directors: ['Catherine Hardwicke']
   },
@@ -5242,7 +5424,7 @@ export const data = [
     runtime: 100,
     year: 2013,
     genres: ['Drama', 'Horror', 'Thriller'],
-    numVotes: 151321,
+    numVotes: 152671,
     releaseDate: '2013-10-18',
     directors: ['Kimberly Peirce']
   },
@@ -5255,7 +5437,7 @@ export const data = [
     runtime: 98,
     year: 1976,
     genres: ['Mystery', 'Horror'],
-    numVotes: 215750,
+    numVotes: 218884,
     releaseDate: '1976-11-16',
     directors: ['Brian De Palma']
   },
@@ -5268,7 +5450,7 @@ export const data = [
     runtime: 89,
     year: 1996,
     genres: ['Comedy'],
-    numVotes: 5427,
+    numVotes: 5502,
     releaseDate: '1996-08-23',
     directors: ['Arthur Hiller']
   },
@@ -5281,7 +5463,7 @@ export const data = [
     runtime: 77,
     year: 2002,
     genres: ['Adventure', 'Family', 'Comedy', 'Fantasy'],
-    numVotes: 59816,
+    numVotes: 60439,
     releaseDate: '2002-07-19',
     directors: ['Rob Minkoff']
   },
@@ -5294,9 +5476,9 @@ export const data = [
     runtime: 111,
     year: 2007,
     genres: ['Animation', 'Comedy', 'Family', 'Fantasy', 'Adventure'],
-    numVotes: 867761,
-    releaseDate: '2007-06-27',
-    directors: ['Brad Bird', 'Jan Pinkava']
+    numVotes: 890867,
+    releaseDate: '2007-06-29',
+    directors: ['Brad Bird,Jan Pinkava']
   },
   {
     id: 'tt0164912',
@@ -5307,7 +5489,7 @@ export const data = [
     runtime: 84,
     year: 1999,
     genres: ['Family', 'Comedy', 'Adventure', 'Fantasy'],
-    numVotes: 153670,
+    numVotes: 155855,
     releaseDate: '1999-12-17',
     directors: ['Rob Minkoff']
   },
@@ -5320,9 +5502,9 @@ export const data = [
     runtime: 88,
     year: 2012,
     genres: ['Animation', 'Comedy', 'Adventure', 'Family'],
-    numVotes: 231925,
+    numVotes: 235687,
     releaseDate: '2012-07-13',
-    directors: ['Steve Martino', 'Michael Thurmeier']
+    directors: ['Steve Martino,Michael Thurmeier']
   },
   {
     id: 'tt1772341',
@@ -5341,7 +5523,7 @@ export const data = [
       'Sci-Fi',
       'Sport'
     ],
-    numVotes: 473712,
+    numVotes: 481387,
     releaseDate: '2012-11-02',
     directors: ['Rich Moore']
   },
@@ -5362,7 +5544,7 @@ export const data = [
       'Fantasy',
       'Sci-Fi'
     ],
-    numVotes: 26946,
+    numVotes: 27358,
     releaseDate: '2013-11-01',
     directors: ['Jimmy Hayward']
   },
@@ -5375,7 +5557,7 @@ export const data = [
     runtime: 59,
     year: 2004,
     genres: ['Biography'],
-    numVotes: 112,
+    numVotes: 113,
     releaseDate: '2004-02-26',
     directors: ['Chris Rodley']
   },
@@ -5388,7 +5570,7 @@ export const data = [
     runtime: 95,
     year: 1966,
     genres: ['Drama'],
-    numVotes: 23629,
+    numVotes: 24097,
     releaseDate: '1966-05-25',
     directors: ['Robert Bresson']
   },
@@ -5401,7 +5583,7 @@ export const data = [
     runtime: 90,
     year: 1960,
     genres: ['Horror', 'Drama'],
-    numVotes: 36754,
+    numVotes: 37389,
     releaseDate: '1962-10-24',
     directors: ['Georges Franju']
   },
@@ -5414,7 +5596,7 @@ export const data = [
     runtime: 111,
     year: 2011,
     genres: ['Thriller', 'Action', 'Drama', 'Adventure'],
-    numVotes: 209681,
+    numVotes: 211626,
     releaseDate: '2011-04-08',
     directors: ['Joe Wright']
   },
@@ -5427,7 +5609,7 @@ export const data = [
     runtime: 113,
     year: 1983,
     genres: ['Crime', 'Thriller', 'Mystery', 'Horror'],
-    numVotes: 32776,
+    numVotes: 33403,
     releaseDate: '1983-06-03',
     directors: ['Richard Franklin']
   },
@@ -5440,7 +5622,7 @@ export const data = [
     runtime: 105,
     year: 2005,
     genres: ['Comedy', 'Romance'],
-    numVotes: 46807,
+    numVotes: 47282,
     releaseDate: '2005-03-25',
     directors: ['Kevin Rodney Sullivan']
   },
@@ -5453,7 +5635,7 @@ export const data = [
     runtime: 92,
     year: 1996,
     genres: ['Romance', 'Comedy'],
-    numVotes: 4390,
+    numVotes: 4425,
     releaseDate: '1996-03-08',
     directors: ['Eric Schaeffer']
   },
@@ -5466,7 +5648,7 @@ export const data = [
     runtime: 16,
     year: 1929,
     genres: ['Short', 'Fantasy', 'Horror'],
-    numVotes: 54893,
+    numVotes: 55536,
     releaseDate: '1929-06-06',
     directors: ['Luis Buñuel']
   },
@@ -5479,7 +5661,7 @@ export const data = [
     runtime: 109,
     year: 2008,
     genres: ['Drama', 'Music', 'Biography'],
-    numVotes: 23590,
+    numVotes: 23891,
     releaseDate: '2008-12-05',
     directors: ['Darnell Martin']
   },
@@ -5492,7 +5674,7 @@ export const data = [
     runtime: 94,
     year: 2009,
     genres: ['Action', 'Sci-Fi'],
-    numVotes: 4528,
+    numVotes: 4567,
     releaseDate: '2009-11-03',
     directors: ['Ernie Barbarash']
   },
@@ -5505,7 +5687,7 @@ export const data = [
     runtime: 86,
     year: 2003,
     genres: ['Mystery', 'Fantasy', 'Thriller', 'Horror'],
-    numVotes: 34216,
+    numVotes: 34587,
     releaseDate: '2003-01-24',
     directors: ['Jonathan Liebesman']
   },
@@ -5518,7 +5700,7 @@ export const data = [
     runtime: 96,
     year: 1957,
     genres: ['Crime', 'Drama'],
-    numVotes: 906933,
+    numVotes: 932386,
     releaseDate: '1957-04-10',
     directors: ['Sidney Lumet']
   },
@@ -5531,7 +5713,7 @@ export const data = [
     runtime: 111,
     year: 2002,
     genres: ['History', 'War', 'Drama'],
-    numVotes: 26075,
+    numVotes: 26295,
     releaseDate: '2002-04-19',
     directors: ['Paul Greengrass']
   },
@@ -5544,7 +5726,7 @@ export const data = [
     runtime: 104,
     year: 2006,
     genres: ['Drama', 'Comedy', 'Romance'],
-    numVotes: 42454,
+    numVotes: 42558,
     releaseDate: '2006-09-15',
     directors: ['Tony Goldwyn']
   },
@@ -5557,7 +5739,7 @@ export const data = [
     runtime: 124,
     year: 1999,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 358769,
+    numVotes: 367101,
     releaseDate: '1999-05-28',
     directors: ['Roger Michell']
   },
@@ -5570,7 +5752,7 @@ export const data = [
     runtime: 81,
     year: 2003,
     genres: ['Musical', 'Comedy', 'Romance', 'Music'],
-    numVotes: 27151,
+    numVotes: 27211,
     releaseDate: '2003-06-20',
     directors: ['Robert Iscove']
   },
@@ -5583,9 +5765,9 @@ export const data = [
     runtime: 120,
     year: 2008,
     genres: ['Drama', 'Romance', 'Crime'],
-    numVotes: 890158,
+    numVotes: 896579,
     releaseDate: '2008-12-25',
-    directors: ['Danny Boyle', 'Loveleen Tandan']
+    directors: ['Danny Boyle,Loveleen Tandan']
   },
   {
     id: 'tt0175142',
@@ -5596,7 +5778,7 @@ export const data = [
     runtime: 88,
     year: 2000,
     genres: ['Comedy'],
-    numVotes: 298776,
+    numVotes: 304707,
     releaseDate: '2000-07-07',
     directors: ['Keenen Ivory Wayans']
   },
@@ -5609,7 +5791,7 @@ export const data = [
     runtime: 96,
     year: 1968,
     genres: ['Thriller', 'Horror'],
-    numVotes: 143961,
+    numVotes: 145791,
     releaseDate: '1968-10-04',
     directors: ['George A. Romero']
   },
@@ -5622,7 +5804,7 @@ export const data = [
     runtime: 99,
     year: 2005,
     genres: ['Horror', 'Adventure', 'Thriller'],
-    numVotes: 256806,
+    numVotes: 261348,
     releaseDate: '2006-08-04',
     directors: ['Neil Marshall']
   },
@@ -5635,7 +5817,7 @@ export const data = [
     runtime: 96,
     year: 2007,
     genres: ['Comedy', 'Drama'],
-    numVotes: 559020,
+    numVotes: 563671,
     releaseDate: '2007-12-25',
     directors: ['Jason Reitman']
   },
@@ -5644,11 +5826,11 @@ export const data = [
     myRating: 9,
     dataRated: '2013-12-16',
     title: '10 Things I Hate About You',
-    imdbRating: 7.3,
+    imdbRating: 7.4,
     runtime: 97,
     year: 1999,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 409104,
+    numVotes: 421817,
     releaseDate: '1999-03-31',
     directors: ['Gil Junger']
   },
@@ -5661,7 +5843,7 @@ export const data = [
     runtime: 135,
     year: 2002,
     genres: ['Drama'],
-    numVotes: 186810,
+    numVotes: 188129,
     releaseDate: '2003-01-10',
     directors: ['Spike Lee']
   },
@@ -5674,7 +5856,7 @@ export const data = [
     runtime: 108,
     year: 2005,
     genres: ['Romance', 'Family', 'Drama'],
-    numVotes: 34736,
+    numVotes: 35034,
     releaseDate: '2005-09-16',
     directors: ['Lasse Hallström']
   },
@@ -5687,7 +5869,7 @@ export const data = [
     runtime: 80,
     year: 2004,
     genres: ['Drama', 'Romance'],
-    numVotes: 297994,
+    numVotes: 303504,
     releaseDate: '2004-07-30',
     directors: ['Richard Linklater']
   },
@@ -5699,8 +5881,8 @@ export const data = [
     imdbRating: 8.1,
     runtime: 101,
     year: 1995,
-    genres: ['Romance', 'Drama'],
-    numVotes: 353180,
+    genres: ['Comedy', 'Romance', 'Drama'],
+    numVotes: 360910,
     releaseDate: '1995-01-27',
     directors: ['Richard Linklater']
   },
@@ -5713,7 +5895,7 @@ export const data = [
     runtime: 90,
     year: 1999,
     genres: ['Comedy', 'Drama'],
-    numVotes: 15203,
+    numVotes: 15292,
     releaseDate: '2000-05-19',
     directors: ['John Swanbeck']
   },
@@ -5726,7 +5908,7 @@ export const data = [
     runtime: 119,
     year: 2005,
     genres: ['Drama', 'Horror', 'Thriller'],
-    numVotes: 143473,
+    numVotes: 145354,
     releaseDate: '2005-09-09',
     directors: ['Scott Derrickson']
   },
@@ -5739,7 +5921,7 @@ export const data = [
     runtime: 108,
     year: 2009,
     genres: ['Comedy', 'Romance', 'Drama'],
-    numVotes: 375509,
+    numVotes: 382108,
     releaseDate: '2009-06-19',
     directors: ['Anne Fletcher']
   },
@@ -5752,7 +5934,7 @@ export const data = [
     runtime: 84,
     year: 2007,
     genres: ['Comedy', 'Sport'],
-    numVotes: 12174,
+    numVotes: 12227,
     releaseDate: '2007-10-19',
     directors: ['Tom Brady']
   },
@@ -5765,9 +5947,9 @@ export const data = [
     runtime: 86,
     year: 2011,
     genres: ['Drama'],
-    numVotes: 4084,
+    numVotes: 4131,
     releaseDate: '2011-04-23',
-    directors: ['Shari Springer Berman', 'Robert Pulcini']
+    directors: ['Shari Springer Berman,Robert Pulcini']
   },
   {
     id: 'tt0338751',
@@ -5778,7 +5960,7 @@ export const data = [
     runtime: 170,
     year: 2004,
     genres: ['Biography', 'Drama'],
-    numVotes: 391800,
+    numVotes: 396210,
     releaseDate: '2004-12-25',
     directors: ['Martin Scorsese']
   },
@@ -5791,7 +5973,7 @@ export const data = [
     runtime: 107,
     year: 2008,
     genres: ['Crime', 'Drama', 'Comedy', 'Thriller'],
-    numVotes: 474120,
+    numVotes: 480560,
     releaseDate: '2008-02-29',
     directors: ['Martin McDonagh']
   },
@@ -5804,7 +5986,7 @@ export const data = [
     runtime: 103,
     year: 2010,
     genres: ['Drama', 'Romance'],
-    numVotes: 155753,
+    numVotes: 157021,
     releaseDate: '2010-10-15',
     directors: ['Mark Romanek']
   },
@@ -5813,11 +5995,11 @@ export const data = [
     myRating: 7,
     dataRated: '2013-11-07',
     title: 'The Bounty Hunter',
-    imdbRating: 5.5,
+    imdbRating: 5.6,
     runtime: 110,
     year: 2010,
     genres: ['Action', 'Comedy', 'Romance'],
-    numVotes: 136387,
+    numVotes: 137564,
     releaseDate: '2010-03-19',
     directors: ['Andy Tennant']
   },
@@ -5830,7 +6012,7 @@ export const data = [
     runtime: 110,
     year: 1962,
     genres: ['Adventure', 'Thriller', 'Action'],
-    numVotes: 184435,
+    numVotes: 186777,
     releaseDate: '1962-10-10',
     directors: ['Terence Young']
   },
@@ -5843,7 +6025,7 @@ export const data = [
     runtime: 99,
     year: 2008,
     genres: ['Documentary', 'Crime'],
-    numVotes: 5271,
+    numVotes: 5297,
     releaseDate: '2008-12-11',
     directors: ['Marina Zenovich']
   },
@@ -5856,7 +6038,7 @@ export const data = [
     runtime: 109,
     year: 2003,
     genres: ['Music', 'Comedy'],
-    numVotes: 341386,
+    numVotes: 346409,
     releaseDate: '2003-10-03',
     directors: ['Richard Linklater']
   },
@@ -5869,7 +6051,7 @@ export const data = [
     runtime: 145,
     year: 2000,
     genres: ['History', 'Drama', 'Thriller'],
-    numVotes: 64208,
+    numVotes: 64986,
     releaseDate: '2001-01-12',
     directors: ['Roger Donaldson']
   },
@@ -5882,9 +6064,9 @@ export const data = [
     runtime: 82,
     year: 2010,
     genres: ['Comedy', 'Horror'],
-    numVotes: 52726,
+    numVotes: 53358,
     releaseDate: '2010-08-18',
-    directors: ['Jason Friedberg', 'Aaron Seltzer']
+    directors: ['Jason Friedberg,Aaron Seltzer']
   },
   {
     id: 'tt0426615',
@@ -5895,7 +6077,7 @@ export const data = [
     runtime: 95,
     year: 2005,
     genres: ['Music', 'Romance', 'Comedy', 'Crime', 'Drama'],
-    numVotes: 8685,
+    numVotes: 8705,
     releaseDate: '2005-11-23',
     directors: ['Ron Underwood']
   },
@@ -5908,7 +6090,7 @@ export const data = [
     runtime: 124,
     year: 2000,
     genres: ['Drama', 'Sport', 'Thriller', 'Adventure', 'Action'],
-    numVotes: 66541,
+    numVotes: 67353,
     releaseDate: '2000-12-08',
     directors: ['Martin Campbell']
   },
@@ -5921,7 +6103,7 @@ export const data = [
     runtime: 138,
     year: 1997,
     genres: ['Crime', 'Drama', 'Thriller', 'Mystery'],
-    numVotes: 635068,
+    numVotes: 643265,
     releaseDate: '1997-09-19',
     directors: ['Curtis Hanson']
   },
@@ -5934,7 +6116,7 @@ export const data = [
     runtime: 134,
     year: 2007,
     genres: ['Drama', 'Romance'],
-    numVotes: 5695,
+    numVotes: 5733,
     releaseDate: '2007-03-14',
     directors: ['François Ozon']
   },
@@ -5947,7 +6129,7 @@ export const data = [
     runtime: 90,
     year: 2007,
     genres: ['Thriller', 'Crime', 'Drama'],
-    numVotes: 399,
+    numVotes: 405,
     releaseDate: '2007-05-20',
     directors: ['Robert Malenfant']
   },
@@ -5960,7 +6142,7 @@ export const data = [
     runtime: 89,
     year: 2006,
     genres: ['Comedy', 'Romance'],
-    numVotes: 89836,
+    numVotes: 90794,
     releaseDate: '2006-07-28',
     directors: ['Betty Thomas']
   },
@@ -5973,7 +6155,7 @@ export const data = [
     runtime: 110,
     year: 2006,
     genres: ['Comedy', 'Fantasy', 'Family', 'Romance'],
-    numVotes: 46331,
+    numVotes: 46951,
     releaseDate: '2006-03-03',
     directors: ['Elizabeth Allen Rosenbaum']
   },
@@ -5986,9 +6168,9 @@ export const data = [
     runtime: 87,
     year: 2008,
     genres: ['Comedy', 'Sci-Fi'],
-    numVotes: 95736,
+    numVotes: 96585,
     releaseDate: '2008-08-29',
-    directors: ['Jason Friedberg', 'Aaron Seltzer']
+    directors: ['Jason Friedberg,Aaron Seltzer']
   },
   {
     id: 'tt0117091',
@@ -5999,7 +6181,7 @@ export const data = [
     runtime: 104,
     year: 1996,
     genres: ['Drama', 'Comedy'],
-    numVotes: 7079,
+    numVotes: 7182,
     releaseDate: '1997-01-24',
     directors: ['Albert Brooks']
   },
@@ -6012,7 +6194,7 @@ export const data = [
     runtime: 100,
     year: 2008,
     genres: ['Crime', 'Drama', 'Thriller', 'Action', 'Mystery'],
-    numVotes: 131575,
+    numVotes: 132336,
     releaseDate: '2008-10-17',
     directors: ['John Moore']
   },
@@ -6021,11 +6203,11 @@ export const data = [
     myRating: 9,
     dataRated: '2013-10-11',
     title: '500 Days of Summer',
-    imdbRating: 7.7,
+    imdbRating: 7.6,
     runtime: 95,
     year: 2009,
     genres: ['Comedy', 'Drama', 'Romance'],
-    numVotes: 581272,
+    numVotes: 593391,
     releaseDate: '2009-08-07',
     directors: ['Marc Webb']
   },
@@ -6038,22 +6220,9 @@ export const data = [
     runtime: 106,
     year: 2008,
     genres: ['Comedy', 'Romance'],
-    numVotes: 45983,
+    numVotes: 46454,
     releaseDate: '2008-02-27',
     directors: ['Dany Boon']
-  },
-  {
-    id: 'tt0477311',
-    myRating: 6,
-    dataRated: '2013-10-07',
-    title: 'To Let',
-    imdbRating: 6.2,
-    runtime: 68,
-    year: 2006,
-    genres: ['Horror', 'Thriller', 'Drama'],
-    numVotes: 3041,
-    releaseDate: '2007-01-19',
-    directors: ['Jaume Balagueró']
   },
   {
     id: 'tt0449467',
@@ -6064,7 +6233,7 @@ export const data = [
     runtime: 143,
     year: 2006,
     genres: ['Drama'],
-    numVotes: 321876,
+    numVotes: 324278,
     releaseDate: '2006-11-10',
     directors: ['Alejandro G. Iñárritu']
   },
@@ -6077,7 +6246,7 @@ export const data = [
     runtime: 104,
     year: 2008,
     genres: ['Sci-Fi', 'Drama', 'Thriller', 'Adventure'],
-    numVotes: 181520,
+    numVotes: 183366,
     releaseDate: '2008-12-12',
     directors: ['Scott Derrickson']
   },
@@ -6086,11 +6255,11 @@ export const data = [
     myRating: 8,
     dataRated: '2013-09-25',
     title: 'Fireproof',
-    imdbRating: 6.4,
+    imdbRating: 6.5,
     runtime: 122,
     year: 2008,
     genres: ['Drama', 'Romance'],
-    numVotes: 24709,
+    numVotes: 25036,
     releaseDate: '2008-09-26',
     directors: ['Alex Kendrick']
   },
@@ -6103,7 +6272,7 @@ export const data = [
     runtime: 113,
     year: 2006,
     genres: ['Fantasy', 'Drama', 'Romance', 'Comedy'],
-    numVotes: 239303,
+    numVotes: 241335,
     releaseDate: '2006-11-10',
     directors: ['Marc Forster']
   },
@@ -6116,7 +6285,7 @@ export const data = [
     runtime: 116,
     year: 1970,
     genres: ['Adventure', 'Romance', 'Drama', 'War', 'Western'],
-    numVotes: 31713,
+    numVotes: 32439,
     releaseDate: '1970-06-16',
     directors: ['Don Siegel']
   },
@@ -6129,7 +6298,7 @@ export const data = [
     runtime: 120,
     year: 2010,
     genres: ['Drama', 'Biography'],
-    numVotes: 780171,
+    numVotes: 793457,
     releaseDate: '2010-10-01',
     directors: ['David Fincher']
   },
@@ -6142,7 +6311,7 @@ export const data = [
     runtime: 90,
     year: 2004,
     genres: ['Comedy', 'Drama'],
-    numVotes: 1293,
+    numVotes: 1310,
     releaseDate: '2007-03-30',
     directors: ['Tom Cairns']
   },
@@ -6155,7 +6324,7 @@ export const data = [
     runtime: 108,
     year: 2000,
     genres: ['Romance', 'Comedy'],
-    numVotes: 364488,
+    numVotes: 369036,
     releaseDate: '2000-10-06',
     directors: ['Jay Roach']
   },
@@ -6168,7 +6337,7 @@ export const data = [
     runtime: 94,
     year: 2013,
     genres: ['Thriller', 'Horror'],
-    numVotes: 6817,
+    numVotes: 6940,
     releaseDate: '2013-03-13',
     directors: ['Malik Bader']
   },
@@ -6177,11 +6346,11 @@ export const data = [
     myRating: 9,
     dataRated: '2013-09-20',
     title: 'The Devil Wears Prada',
-    imdbRating: 6.9,
+    imdbRating: 7,
     runtime: 109,
     year: 2006,
     genres: ['Drama', 'Comedy'],
-    numVotes: 491451,
+    numVotes: 502472,
     releaseDate: '2006-06-30',
     directors: ['David Frankel']
   },
@@ -6194,7 +6363,7 @@ export const data = [
     runtime: 90,
     year: 2008,
     genres: ['Crime', 'Drama', 'Mystery', 'Thriller'],
-    numVotes: 365,
+    numVotes: 371,
     releaseDate: '2008-03-01',
     directors: ['Robert Malenfant']
   },
@@ -6207,7 +6376,7 @@ export const data = [
     runtime: 98,
     year: 2008,
     genres: ['Animation', 'Sci-Fi', 'Adventure', 'Family'],
-    numVotes: 1243128,
+    numVotes: 1266557,
     releaseDate: '2008-06-27',
     directors: ['Andrew Stanton']
   },
@@ -6220,7 +6389,7 @@ export const data = [
     runtime: 99,
     year: 2008,
     genres: ['Comedy', 'Family', 'Fantasy', 'Romance', 'Adventure', 'Sci-Fi'],
-    numVotes: 103088,
+    numVotes: 104104,
     releaseDate: '2008-12-25',
     directors: ['Adam Shankman']
   },
@@ -6233,7 +6402,7 @@ export const data = [
     runtime: 140,
     year: 2003,
     genres: ['Sport', 'History', 'Drama'],
-    numVotes: 77939,
+    numVotes: 78646,
     releaseDate: '2003-07-25',
     directors: ['Gary Ross']
   },
@@ -6254,9 +6423,9 @@ export const data = [
       'Drama',
       'Music'
     ],
-    numVotes: 153438,
+    numVotes: 155041,
     releaseDate: '2008-03-14',
-    directors: ['Jimmy Hayward', 'Steve Martino']
+    directors: ['Jimmy Hayward,Steve Martino']
   },
   {
     id: 'tt0975684',
@@ -6267,7 +6436,7 @@ export const data = [
     runtime: 72,
     year: 2008,
     genres: ['Drama'],
-    numVotes: 1991,
+    numVotes: 2010,
     releaseDate: '2008-11-21',
     directors: ['Lance Daly']
   },
@@ -6280,7 +6449,7 @@ export const data = [
     runtime: 95,
     year: 2006,
     genres: ['Drama', 'Family', 'Adventure'],
-    numVotes: 8669,
+    numVotes: 8758,
     releaseDate: '2006-10-20',
     directors: ['Michael Mayer']
   },
@@ -6293,7 +6462,7 @@ export const data = [
     runtime: 123,
     year: 2007,
     genres: ['Drama', 'Romance', 'Mystery', 'War'],
-    numVotes: 309145,
+    numVotes: 315824,
     releaseDate: '2008-01-11',
     directors: ['Joe Wright']
   },
@@ -6306,7 +6475,7 @@ export const data = [
     runtime: 88,
     year: 2006,
     genres: ['Drama', 'Biography', 'Romance'],
-    numVotes: 32769,
+    numVotes: 33082,
     releaseDate: '2007-03-09',
     directors: ['Chris Noonan']
   },
@@ -6319,7 +6488,7 @@ export const data = [
     runtime: 86,
     year: 2008,
     genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 150289,
+    numVotes: 151891,
     releaseDate: '2008-05-30',
     directors: ['Bryan Bertino']
   },
@@ -6328,11 +6497,11 @@ export const data = [
     myRating: 7,
     dataRated: '2013-09-12',
     title: 'Bring It On',
-    imdbRating: 6.1,
+    imdbRating: 6.2,
     runtime: 98,
     year: 2000,
     genres: ['Sport', 'Romance', 'Comedy'],
-    numVotes: 109052,
+    numVotes: 110536,
     releaseDate: '2000-08-25',
     directors: ['Peyton Reed']
   },
@@ -6345,7 +6514,7 @@ export const data = [
     runtime: 101,
     year: 2010,
     genres: ['Drama', 'Mystery', 'Thriller', 'Crime', 'Romance'],
-    numVotes: 61946,
+    numVotes: 62648,
     releaseDate: '2010-12-03',
     directors: ['Andrew Jarecki']
   },
@@ -6358,7 +6527,7 @@ export const data = [
     runtime: 114,
     year: 2005,
     genres: ['Drama', 'Romance', 'Thriller'],
-    numVotes: 19182,
+    numVotes: 19305,
     releaseDate: '2005-12-09',
     directors: ['David Jacobson']
   },
@@ -6371,7 +6540,7 @@ export const data = [
     runtime: 158,
     year: 2009,
     genres: ['Action', 'Sci-Fi', 'Adventure'],
-    numVotes: 406842,
+    numVotes: 411615,
     releaseDate: '2009-11-13',
     directors: ['Roland Emmerich']
   },
@@ -6384,7 +6553,7 @@ export const data = [
     runtime: 104,
     year: 2010,
     genres: ['Comedy', 'Romance'],
-    numVotes: 53218,
+    numVotes: 53922,
     releaseDate: '2010-04-23',
     directors: ['Alan Poul']
   },
@@ -6397,7 +6566,7 @@ export const data = [
     runtime: 102,
     year: 1995,
     genres: ['Romance', 'Drama'],
-    numVotes: 37462,
+    numVotes: 37969,
     releaseDate: '1995-08-11',
     directors: ['Alfonso Arau']
   },
@@ -6410,7 +6579,7 @@ export const data = [
     runtime: 99,
     year: 2004,
     genres: ['Action', 'Comedy', 'Fantasy'],
-    numVotes: 155158,
+    numVotes: 157654,
     releaseDate: '2005-04-22',
     directors: ['Stephen Chow']
   },
@@ -6423,7 +6592,7 @@ export const data = [
     runtime: 97,
     year: 2010,
     genres: ['Drama', 'Thriller', 'Crime'],
-    numVotes: 96774,
+    numVotes: 97947,
     releaseDate: '2010-05-26',
     directors: ['Gregor Jordan']
   },
@@ -6436,7 +6605,7 @@ export const data = [
     runtime: 121,
     year: 2004,
     genres: ['Drama', 'War', 'History', 'Biography'],
-    numVotes: 380800,
+    numVotes: 384750,
     releaseDate: '2005-02-04',
     directors: ['Terry George']
   },
@@ -6449,7 +6618,7 @@ export const data = [
     runtime: 103,
     year: 1996,
     genres: ['Adventure', 'Family', 'Crime', 'Comedy'],
-    numVotes: 120027,
+    numVotes: 121473,
     releaseDate: '1996-11-27',
     directors: ['Stephen Herek']
   },
@@ -6462,7 +6631,7 @@ export const data = [
     runtime: 165,
     year: 2000,
     genres: ['History', 'Drama', 'War', 'Action'],
-    numVotes: 301194,
+    numVotes: 304698,
     releaseDate: '2000-06-28',
     directors: ['Roland Emmerich']
   },
@@ -6475,7 +6644,7 @@ export const data = [
     runtime: 110,
     year: 2000,
     genres: ['Crime', 'Drama', 'Romance', 'Comedy'],
-    numVotes: 36557,
+    numVotes: 36758,
     releaseDate: '2000-09-08',
     directors: ['Neil LaBute']
   },
@@ -6488,7 +6657,7 @@ export const data = [
     runtime: 95,
     year: 2009,
     genres: ['Comedy', 'Romance'],
-    numVotes: 3565,
+    numVotes: 3594,
     releaseDate: '2010-04-16',
     directors: ['Brian Herzlinger']
   },
@@ -6497,11 +6666,11 @@ export const data = [
     myRating: 7,
     dataRated: '2013-09-03',
     title: "Valentine's Day",
-    imdbRating: 5.7,
+    imdbRating: 5.8,
     runtime: 125,
     year: 2010,
     genres: ['Comedy', 'Romance'],
-    numVotes: 126808,
+    numVotes: 128013,
     releaseDate: '2010-02-12',
     directors: ['Garry Marshall']
   },
@@ -6514,7 +6683,7 @@ export const data = [
     runtime: 136,
     year: 2011,
     genres: ['Action', 'Adventure', 'Fantasy'],
-    numVotes: 579672,
+    numVotes: 588594,
     releaseDate: '2011-05-20',
     directors: ['Rob Marshall']
   },
@@ -6527,7 +6696,7 @@ export const data = [
     runtime: 169,
     year: 2007,
     genres: ['Action', 'Adventure', 'Fantasy'],
-    numVotes: 711722,
+    numVotes: 721692,
     releaseDate: '2007-05-25',
     directors: ['Gore Verbinski']
   },
@@ -6540,7 +6709,7 @@ export const data = [
     runtime: 123,
     year: 2000,
     genres: ['Drama'],
-    numVotes: 125679,
+    numVotes: 126619,
     releaseDate: '2000-10-20',
     directors: ['Mimi Leder']
   },
@@ -6553,7 +6722,7 @@ export const data = [
     runtime: 140,
     year: 2006,
     genres: ['Drama', 'War', 'Action', 'Romance', 'History'],
-    numVotes: 45220,
+    numVotes: 45579,
     releaseDate: '2006-09-22',
     directors: ['Tony Bill']
   },
@@ -6566,9 +6735,9 @@ export const data = [
     runtime: 122,
     year: 2007,
     genres: ['Thriller', 'Crime', 'Drama'],
-    numVotes: 1103488,
+    numVotes: 1127809,
     releaseDate: '2007-11-21',
-    directors: ['Ethan Coen', 'Joel Coen']
+    directors: ['Ethan Coen,Joel Coen']
   },
   {
     id: 'tt1023114',
@@ -6579,7 +6748,7 @@ export const data = [
     runtime: 133,
     year: 2010,
     genres: ['Drama', 'Adventure', 'History'],
-    numVotes: 124027,
+    numVotes: 125000,
     releaseDate: '2011-01-21',
     directors: ['Peter Weir']
   },
@@ -6592,7 +6761,7 @@ export const data = [
     runtime: 96,
     year: 2009,
     genres: ['Animation', 'Drama', 'Family', 'Fantasy', 'Adventure', 'Comedy'],
-    numVotes: 134819,
+    numVotes: 135918,
     releaseDate: '2009-11-06',
     directors: ['Robert Zemeckis']
   },
@@ -6605,9 +6774,9 @@ export const data = [
     runtime: 110,
     year: 2006,
     genres: ['Comedy', 'Romance'],
-    numVotes: 84956,
+    numVotes: 85778,
     releaseDate: '2006-07-14',
-    directors: ['Anthony Russo', 'Joe Russo']
+    directors: ['Anthony Russo,Joe Russo']
   },
   {
     id: 'tt0448157',
@@ -6618,7 +6787,7 @@ export const data = [
     runtime: 92,
     year: 2008,
     genres: ['Action', 'Comedy', 'Fantasy', 'Drama'],
-    numVotes: 523477,
+    numVotes: 528528,
     releaseDate: '2008-07-02',
     directors: ['Peter Berg']
   },
@@ -6631,7 +6800,7 @@ export const data = [
     runtime: 99,
     year: 2004,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 393390,
+    numVotes: 400147,
     releaseDate: '2004-02-13',
     directors: ['Peter Segal']
   },
@@ -6644,7 +6813,7 @@ export const data = [
     runtime: 122,
     year: 2007,
     genres: ['Crime', 'Drama', 'Thriller'],
-    numVotes: 64381,
+    numVotes: 65037,
     releaseDate: '2007-09-14',
     directors: ['Neil Jordan']
   },
@@ -6657,7 +6826,7 @@ export const data = [
     runtime: 103,
     year: 2002,
     genres: ['Romance', 'Comedy'],
-    numVotes: 28560,
+    numVotes: 32466,
     releaseDate: '2002-04-26',
     directors: ['Stephen Herek']
   },
@@ -6670,7 +6839,7 @@ export const data = [
     runtime: 107,
     year: 1999,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 99746,
+    numVotes: 100798,
     releaseDate: '1999-04-09',
     directors: ['Raja Gosnell']
   },
@@ -6683,7 +6852,7 @@ export const data = [
     runtime: 124,
     year: 2007,
     genres: ['Drama'],
-    numVotes: 100692,
+    numVotes: 101330,
     releaseDate: '2007-03-23',
     directors: ['Mike Binder']
   },
@@ -6692,11 +6861,11 @@ export const data = [
     myRating: 6,
     dataRated: '2013-08-15',
     title: 'Volcano',
-    imdbRating: 5.5,
+    imdbRating: 5.6,
     runtime: 104,
     year: 1997,
     genres: ['Sci-Fi', 'Drama', 'Thriller', 'Action'],
-    numVotes: 84003,
+    numVotes: 84964,
     releaseDate: '1997-04-25',
     directors: ['Mick Jackson']
   },
@@ -6709,7 +6878,7 @@ export const data = [
     runtime: 114,
     year: 2004,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 40715,
+    numVotes: 41127,
     releaseDate: '2004-08-20',
     directors: ['Renny Harlin']
   },
@@ -6722,7 +6891,7 @@ export const data = [
     runtime: 96,
     year: 2006,
     genres: ['Comedy', 'Romance', 'Sci-Fi'],
-    numVotes: 67866,
+    numVotes: 68433,
     releaseDate: '2006-07-21',
     directors: ['Ivan Reitman']
   },
@@ -6735,7 +6904,7 @@ export const data = [
     runtime: 97,
     year: 2006,
     genres: ['Family', 'Comedy', 'Fantasy', 'Adventure'],
-    numVotes: 47755,
+    numVotes: 48474,
     releaseDate: '2006-12-15',
     directors: ['Gary Winick']
   },
@@ -6748,7 +6917,7 @@ export const data = [
     runtime: 114,
     year: 2008,
     genres: ['Drama', 'Comedy'],
-    numVotes: 23609,
+    numVotes: 23874,
     releaseDate: '2008-09-12',
     directors: ['Diane English']
   },
@@ -6761,7 +6930,7 @@ export const data = [
     runtime: 121,
     year: 1997,
     genres: ['Crime', 'Adventure', 'Romance', 'Thriller', 'Action'],
-    numVotes: 87645,
+    numVotes: 88464,
     releaseDate: '1997-06-13',
     directors: ['Jan de Bont']
   },
@@ -6774,7 +6943,7 @@ export const data = [
     runtime: 109,
     year: 1997,
     genres: ['Romance', 'Drama', 'Comedy'],
-    numVotes: 40498,
+    numVotes: 40897,
     releaseDate: '1997-02-14',
     directors: ['Andy Tennant']
   },
@@ -6787,7 +6956,7 @@ export const data = [
     runtime: 118,
     year: 2010,
     genres: ['Fantasy', 'Adventure', 'Family'],
-    numVotes: 207651,
+    numVotes: 209834,
     releaseDate: '2010-02-12',
     directors: ['Chris Columbus']
   },
@@ -6800,7 +6969,7 @@ export const data = [
     runtime: 98,
     year: 2000,
     genres: ['Romance', 'Comedy'],
-    numVotes: 30885,
+    numVotes: 31293,
     releaseDate: '2000-07-21',
     directors: ['Amy Heckerling']
   },
@@ -6813,7 +6982,7 @@ export const data = [
     runtime: 88,
     year: 2007,
     genres: ['Comedy', 'Sport'],
-    numVotes: 95532,
+    numVotes: 96735,
     releaseDate: '2007-08-03',
     directors: ['Akiva Schaffer']
   },
@@ -6826,7 +6995,7 @@ export const data = [
     runtime: 91,
     year: 2006,
     genres: ['Animation', 'Family', 'Comedy', 'Mystery'],
-    numVotes: 144912,
+    numVotes: 147755,
     releaseDate: '2006-07-21',
     directors: ['Gil Kenan']
   },
@@ -6839,7 +7008,7 @@ export const data = [
     runtime: 102,
     year: 2006,
     genres: ['Horror', 'Thriller'],
-    numVotes: 52250,
+    numVotes: 52648,
     releaseDate: '2006-10-13',
     directors: ['Takashi Shimizu']
   },
@@ -6852,7 +7021,7 @@ export const data = [
     runtime: 96,
     year: 2004,
     genres: ['Comedy'],
-    numVotes: 244594,
+    numVotes: 248136,
     releaseDate: '2004-08-27',
     directors: ['Jared Hess']
   },
@@ -6865,7 +7034,7 @@ export const data = [
     runtime: 108,
     year: 2002,
     genres: ['Drama', 'Thriller', 'Action'],
-    numVotes: 79045,
+    numVotes: 79609,
     releaseDate: '2002-02-08',
     directors: ['Andrew Davis']
   },
@@ -6878,7 +7047,7 @@ export const data = [
     runtime: 84,
     year: 2003,
     genres: ['Thriller', 'Horror'],
-    numVotes: 137344,
+    numVotes: 140263,
     releaseDate: '2003-05-30',
     directors: ['Rob Schmidt']
   },
@@ -6891,7 +7060,7 @@ export const data = [
     runtime: 113,
     year: 2007,
     genres: ['Horror', 'Thriller'],
-    numVotes: 194077,
+    numVotes: 196022,
     releaseDate: '2007-10-19',
     directors: ['David Slade']
   },
@@ -6904,7 +7073,7 @@ export const data = [
     runtime: 98,
     year: 1998,
     genres: ['Thriller', 'Crime', 'Comedy', 'Action'],
-    numVotes: 306397,
+    numVotes: 313257,
     releaseDate: '1998-09-18',
     directors: ['Brett Ratner']
   },
@@ -6917,7 +7086,7 @@ export const data = [
     runtime: 93,
     year: 1999,
     genres: ['Crime', 'Thriller', 'Comedy', 'Action'],
-    numVotes: 90808,
+    numVotes: 91874,
     releaseDate: '1999-09-17',
     directors: ['Les Mayfield']
   },
@@ -6930,7 +7099,7 @@ export const data = [
     runtime: 94,
     year: 2007,
     genres: ['Horror', 'Mystery', 'Thriller'],
-    numVotes: 2469,
+    numVotes: 2495,
     releaseDate: '2008-10-08',
     directors: ['Robert Kurtzman']
   },
@@ -6943,7 +7112,7 @@ export const data = [
     runtime: 95,
     year: 2005,
     genres: ['Horror', 'Comedy', 'Thriller', 'Action'],
-    numVotes: 34764,
+    numVotes: 35203,
     releaseDate: '2007-01-18',
     directors: ['John Gulager']
   },
@@ -6956,7 +7125,7 @@ export const data = [
     runtime: 88,
     year: 2005,
     genres: ['Comedy', 'Horror', 'Thriller', 'Drama'],
-    numVotes: 1519,
+    numVotes: 1565,
     releaseDate: '2005-10-14',
     directors: ['Kelsey T. Howard']
   },
@@ -6969,7 +7138,7 @@ export const data = [
     runtime: 109,
     year: 1982,
     genres: ['Mystery', 'Sci-Fi', 'Horror'],
-    numVotes: 489522,
+    numVotes: 501259,
     releaseDate: '1982-06-25',
     directors: ['John Carpenter']
   },
@@ -6982,7 +7151,7 @@ export const data = [
     runtime: 146,
     year: 1980,
     genres: ['Drama', 'Horror'],
-    numVotes: 1150568,
+    numVotes: 1171814,
     releaseDate: '1980-06-13',
     directors: ['Stanley Kubrick']
   },
@@ -6995,7 +7164,7 @@ export const data = [
     runtime: 101,
     year: 2005,
     genres: ['Comedy', 'Romance'],
-    numVotes: 66852,
+    numVotes: 67566,
     releaseDate: '2005-05-13',
     directors: ['Robert Luketic']
   },
@@ -7008,7 +7177,7 @@ export const data = [
     runtime: 142,
     year: 2004,
     genres: ['Mystery', 'Family', 'Adventure', 'Fantasy'],
-    numVotes: 719058,
+    numVotes: 732330,
     releaseDate: '2004-06-04',
     directors: ['Alfonso Cuarón']
   },
@@ -7021,7 +7190,7 @@ export const data = [
     runtime: 178,
     year: 1966,
     genres: ['Adventure', 'Drama', 'Western'],
-    numVotes: 840570,
+    numVotes: 858735,
     releaseDate: '1967-12-29',
     directors: ['Sergio Leone']
   },
@@ -7034,7 +7203,7 @@ export const data = [
     runtime: 87,
     year: 2009,
     genres: ['Animation', 'Adventure', 'Comedy', 'Crime', 'Family', 'Drama'],
-    numVotes: 281383,
+    numVotes: 288188,
     releaseDate: '2009-11-25',
     directors: ['Wes Anderson']
   },
@@ -7054,9 +7223,9 @@ export const data = [
       'Adventure',
       'Romance'
     ],
-    numVotes: 761176,
+    numVotes: 776661,
     releaseDate: '2001-05-18',
-    directors: ['Andrew Adamson', 'Vicky Jenson']
+    directors: ['Andrew Adamson,Vicky Jenson']
   },
   {
     id: 'tt0083907',
@@ -7067,7 +7236,7 @@ export const data = [
     runtime: 85,
     year: 1981,
     genres: ['Horror'],
-    numVotes: 240270,
+    numVotes: 243421,
     releaseDate: '1983-04-15',
     directors: ['Sam Raimi']
   },
@@ -7080,7 +7249,7 @@ export const data = [
     runtime: 106,
     year: 1997,
     genres: ['Sci-Fi', 'Drama', 'Thriller'],
-    numVotes: 332492,
+    numVotes: 337058,
     releaseDate: '1997-10-24',
     directors: ['Andrew Niccol']
   },
@@ -7093,7 +7262,7 @@ export const data = [
     runtime: 114,
     year: 2007,
     genres: ['Drama', 'Music'],
-    numVotes: 112413,
+    numVotes: 113102,
     releaseDate: '2007-11-21',
     directors: ['Kirsten Sheridan']
   },
@@ -7106,7 +7275,7 @@ export const data = [
     runtime: 108,
     year: 2006,
     genres: ['Comedy', 'Sport'],
-    numVotes: 205285,
+    numVotes: 207714,
     releaseDate: '2006-08-04',
     directors: ['Adam McKay']
   },
@@ -7119,7 +7288,7 @@ export const data = [
     runtime: 119,
     year: 2001,
     genres: ['Romance', 'Drama'],
-    numVotes: 96248,
+    numVotes: 97046,
     releaseDate: '2001-02-16',
     directors: ["Pat O'Connor"]
   },
@@ -7132,7 +7301,7 @@ export const data = [
     runtime: 89,
     year: 2007,
     genres: ['Horror', 'Thriller'],
-    numVotes: 69107,
+    numVotes: 69756,
     releaseDate: '2007-03-23',
     directors: ['Martin Weisz']
   },
@@ -7145,7 +7314,7 @@ export const data = [
     runtime: 107,
     year: 2006,
     genres: ['Horror', 'Thriller'],
-    numVotes: 188500,
+    numVotes: 190741,
     releaseDate: '2006-03-10',
     directors: ['Alexandre Aja']
   },
@@ -7158,7 +7327,7 @@ export const data = [
     runtime: 94,
     year: 2007,
     genres: ['Action', 'Thriller', 'Crime'],
-    numVotes: 181935,
+    numVotes: 183494,
     releaseDate: '2007-11-21',
     directors: ['Xavier Gens']
   },
@@ -7171,7 +7340,7 @@ export const data = [
     runtime: 101,
     year: 2001,
     genres: ['Sci-Fi', 'Comedy'],
-    numVotes: 138570,
+    numVotes: 139841,
     releaseDate: '2001-06-08',
     directors: ['Ivan Reitman']
   },
@@ -7184,7 +7353,7 @@ export const data = [
     runtime: 103,
     year: 1995,
     genres: ['Romance', 'Comedy'],
-    numVotes: 39188,
+    numVotes: 39508,
     releaseDate: '1995-07-12',
     directors: ['Chris Columbus']
   },
@@ -7197,7 +7366,7 @@ export const data = [
     runtime: 90,
     year: 2001,
     genres: ['Mystery', 'Horror'],
-    numVotes: 148324,
+    numVotes: 151142,
     releaseDate: '2001-08-31',
     directors: ['Victor Salva']
   },
@@ -7210,7 +7379,7 @@ export const data = [
     runtime: 100,
     year: 2003,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 9670,
+    numVotes: 9828,
     releaseDate: '2003-12-12',
     directors: ['Troy Byer']
   },
@@ -7223,7 +7392,7 @@ export const data = [
     runtime: 100,
     year: 2005,
     genres: ['Drama', 'Mystery'],
-    numVotes: 46773,
+    numVotes: 47053,
     releaseDate: '2005-10-07',
     directors: ['John Madden']
   },
@@ -7236,7 +7405,7 @@ export const data = [
     runtime: 112,
     year: 1954,
     genres: ['Drama', 'Mystery', 'Thriller'],
-    numVotes: 539721,
+    numVotes: 549408,
     releaseDate: '1954-09-01',
     directors: ['Alfred Hitchcock']
   },
@@ -7249,7 +7418,7 @@ export const data = [
     runtime: 123,
     year: 2007,
     genres: ['Drama', 'Crime', 'Biography'],
-    numVotes: 87208,
+    numVotes: 89930,
     releaseDate: '2007-01-05',
     directors: ['Richard LaGravenese']
   },
@@ -7262,7 +7431,7 @@ export const data = [
     runtime: 70,
     year: 1931,
     genres: ['Drama', 'Thriller', 'Sci-Fi', 'Horror'],
-    numVotes: 82708,
+    numVotes: 83877,
     releaseDate: '1931-11-21',
     directors: ['James Whale']
   },
@@ -7271,13 +7440,13 @@ export const data = [
     myRating: 8,
     dataRated: '2013-06-23',
     title: 'Dracula',
-    imdbRating: 7.4,
+    imdbRating: 7.3,
     runtime: 75,
     year: 1931,
     genres: ['Fantasy', 'Drama', 'Horror'],
-    numVotes: 61455,
+    numVotes: 62306,
     releaseDate: '1931-02-14',
-    directors: ['Tod Browning', 'Karl Freund']
+    directors: ['Tod Browning,Karl Freund']
   },
   {
     id: 'tt0465670',
@@ -7288,7 +7457,7 @@ export const data = [
     runtime: 93,
     year: 2006,
     genres: ['Horror', 'Action'],
-    numVotes: 10526,
+    numVotes: 10628,
     releaseDate: '2006-08-11',
     directors: ['M.J. Bassett']
   },
@@ -7301,7 +7470,7 @@ export const data = [
     runtime: 116,
     year: 1994,
     genres: ['Adventure', 'Thriller', 'Action'],
-    numVotes: 403403,
+    numVotes: 410125,
     releaseDate: '1994-06-10',
     directors: ['Jan de Bont']
   },
@@ -7314,9 +7483,9 @@ export const data = [
     runtime: 84,
     year: 1991,
     genres: ['Animation', 'Musical', 'Fantasy', 'Romance', 'Family'],
-    numVotes: 489062,
+    numVotes: 494328,
     releaseDate: '1991-11-22',
-    directors: ['Gary Trousdale', 'Kirk Wise']
+    directors: ['Gary Trousdale,Kirk Wise']
   },
   {
     id: 'tt0056869',
@@ -7327,7 +7496,7 @@ export const data = [
     runtime: 119,
     year: 1963,
     genres: ['Drama', 'Mystery', 'Romance', 'Horror'],
-    numVotes: 211094,
+    numVotes: 213707,
     releaseDate: '1963-03-29',
     directors: ['Alfred Hitchcock']
   },
@@ -7339,8 +7508,8 @@ export const data = [
     imdbRating: 8.5,
     runtime: 109,
     year: 1960,
-    genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 743361,
+    genres: ['Mystery', 'Thriller', 'Horror', 'Drama'],
+    numVotes: 755712,
     releaseDate: '1960-09-08',
     directors: ['Alfred Hitchcock']
   },
@@ -7353,7 +7522,7 @@ export const data = [
     runtime: 85,
     year: 2008,
     genres: ['Sci-Fi', 'Horror', 'Thriller', 'Action'],
-    numVotes: 430242,
+    numVotes: 434747,
     releaseDate: '2008-01-18',
     directors: ['Matt Reeves']
   },
@@ -7366,7 +7535,7 @@ export const data = [
     runtime: 86,
     year: 2006,
     genres: ['Musical', 'Music', 'Drama', 'Romance'],
-    numVotes: 122769,
+    numVotes: 123483,
     releaseDate: '2007-06-15',
     directors: ['John Carney']
   },
@@ -7379,7 +7548,7 @@ export const data = [
     runtime: 90,
     year: 1985,
     genres: ['Thriller', 'Adventure', 'Action'],
-    numVotes: 179746,
+    numVotes: 182406,
     releaseDate: '1985-10-04',
     directors: ['Mark L. Lester']
   },
@@ -7392,7 +7561,7 @@ export const data = [
     runtime: 91,
     year: 2006,
     genres: ['Animation', 'Comedy', 'Family', 'Adventure'],
-    numVotes: 304619,
+    numVotes: 308769,
     releaseDate: '2006-03-31',
     directors: ['Carlos Saldanha']
   },
@@ -7405,9 +7574,9 @@ export const data = [
     runtime: 81,
     year: 2002,
     genres: ['Animation', 'Adventure', 'Comedy', 'Family'],
-    numVotes: 536463,
-    releaseDate: '2002-03-27',
-    directors: ['Chris Wedge', 'Carlos Saldanha']
+    numVotes: 545109,
+    releaseDate: '2002-03-15',
+    directors: ['Chris Wedge,Carlos Saldanha']
   },
   {
     id: 'tt0824747',
@@ -7418,7 +7587,7 @@ export const data = [
     runtime: 141,
     year: 2008,
     genres: ['Drama', 'Mystery', 'Thriller', 'Biography', 'Crime', 'History'],
-    numVotes: 269187,
+    numVotes: 271206,
     releaseDate: '2008-10-31',
     directors: ['Clint Eastwood']
   },
@@ -7427,11 +7596,11 @@ export const data = [
     myRating: 5,
     dataRated: '2013-06-08',
     title: 'Showtime',
-    imdbRating: 5.5,
+    imdbRating: 5.6,
     runtime: 95,
     year: 2002,
     genres: ['Crime', 'Comedy', 'Action'],
-    numVotes: 65967,
+    numVotes: 66426,
     releaseDate: '2002-03-15',
     directors: ['Tom Dey']
   },
@@ -7444,7 +7613,7 @@ export const data = [
     runtime: 88,
     year: 2001,
     genres: ['Crime', 'Thriller', 'Comedy', 'Action'],
-    numVotes: 8876,
+    numVotes: 8920,
     releaseDate: '2001-01-12',
     directors: ['George Gallo']
   },
@@ -7457,7 +7626,7 @@ export const data = [
     runtime: 98,
     year: 2009,
     genres: ['Adventure', 'Sci-Fi', 'Thriller', 'Fantasy', 'Family', 'Action'],
-    numVotes: 64226,
+    numVotes: 64909,
     releaseDate: '2009-03-13',
     directors: ['Andy Fickman']
   },
@@ -7470,7 +7639,7 @@ export const data = [
     runtime: 113,
     year: 2000,
     genres: ['Sport', 'Biography', 'Comedy', 'Drama'],
-    numVotes: 238096,
+    numVotes: 241183,
     releaseDate: '2000-09-29',
     directors: ['Boaz Yakin']
   },
@@ -7483,7 +7652,7 @@ export const data = [
     runtime: 112,
     year: 1999,
     genres: ['Sci-Fi', 'Romance', 'Drama', 'Comedy'],
-    numVotes: 73588,
+    numVotes: 74623,
     releaseDate: '1999-02-12',
     directors: ['Hugh Wilson']
   },
@@ -7496,7 +7665,7 @@ export const data = [
     runtime: 113,
     year: 1999,
     genres: ['Crime', 'Romance', 'Action', 'Thriller'],
-    numVotes: 126211,
+    numVotes: 127310,
     releaseDate: '1999-04-30',
     directors: ['Jon Amiel']
   },
@@ -7509,7 +7678,7 @@ export const data = [
     runtime: 84,
     year: 2006,
     genres: ['Adventure', 'Comedy', 'Sci-Fi', 'Thriller'],
-    numVotes: 195491,
+    numVotes: 201605,
     releaseDate: '2007-01-25',
     directors: ['Mike Judge']
   },
@@ -7522,9 +7691,9 @@ export const data = [
     runtime: 94,
     year: 2009,
     genres: ['Animation', 'Comedy', 'Adventure', 'Family'],
-    numVotes: 272567,
+    numVotes: 276716,
     releaseDate: '2009-07-01',
-    directors: ['Carlos Saldanha', 'Michael Thurmeier']
+    directors: ['Carlos Saldanha,Michael Thurmeier']
   },
   {
     id: 'tt0435705',
@@ -7535,7 +7704,7 @@ export const data = [
     runtime: 96,
     year: 2007,
     genres: ['Sci-Fi', 'Action', 'Thriller'],
-    numVotes: 169359,
+    numVotes: 171184,
     releaseDate: '2007-04-27',
     directors: ['Lee Tamahori']
   },
@@ -7548,14 +7717,10 @@ export const data = [
     runtime: 83,
     year: 1981,
     genres: ['Animation', 'Adventure', 'Drama', 'Family'],
-    numVotes: 105125,
+    numVotes: 106791,
     releaseDate: '1981-07-10',
     directors: [
-      'Ted Berman',
-      'Richard Rich',
-      'Art Stevens',
-      'David Hand',
-      'Wolfgang Reitherman'
+      'Ted Berman,Richard Rich,Art Stevens,David Hand,Wolfgang Reitherman'
     ]
   },
   {
@@ -7567,7 +7732,7 @@ export const data = [
     runtime: 91,
     year: 2011,
     genres: ['Horror'],
-    numVotes: 946,
+    numVotes: 964,
     releaseDate: '2011-03-01',
     directors: ['Jude Gerard Prest']
   },
@@ -7580,7 +7745,7 @@ export const data = [
     runtime: 107,
     year: 2010,
     genres: ['Biography', 'Drama'],
-    numVotes: 33958,
+    numVotes: 34975,
     releaseDate: '2010-02-06',
     directors: ['Mick Jackson']
   },
@@ -7593,7 +7758,7 @@ export const data = [
     runtime: 80,
     year: 2003,
     genres: ['Romance', 'Comedy'],
-    numVotes: 4523,
+    numVotes: 4571,
     releaseDate: '2003-04-16',
     directors: ['Linda Mendoza']
   },
@@ -7606,7 +7771,7 @@ export const data = [
     runtime: 82,
     year: 2003,
     genres: ['Fantasy', 'Family', 'Comedy', 'Adventure'],
-    numVotes: 90025,
+    numVotes: 91352,
     releaseDate: '2003-11-21',
     directors: ['Bo Welch']
   },
@@ -7619,7 +7784,7 @@ export const data = [
     runtime: 93,
     year: 1972,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 21849,
+    numVotes: 22360,
     releaseDate: '1973-03-26',
     directors: ['Brian De Palma']
   },
@@ -7632,7 +7797,7 @@ export const data = [
     runtime: 129,
     year: 1992,
     genres: ['Music', 'Romance', 'Thriller', 'Drama'],
-    numVotes: 152238,
+    numVotes: 154410,
     releaseDate: '1992-11-25',
     directors: ['Mick Jackson']
   },
@@ -7645,7 +7810,7 @@ export const data = [
     runtime: 123,
     year: 2009,
     genres: ['Biography', 'Drama', 'Romance'],
-    numVotes: 131451,
+    numVotes: 132782,
     releaseDate: '2009-08-07',
     directors: ['Nora Ephron']
   },
@@ -7658,7 +7823,7 @@ export const data = [
     runtime: 123,
     year: 2006,
     genres: ['Drama', 'Biography', 'History', 'Thriller'],
-    numVotes: 199578,
+    numVotes: 201700,
     releaseDate: '2007-01-19',
     directors: ['Kevin Macdonald']
   },
@@ -7671,8 +7836,8 @@ export const data = [
     runtime: 93,
     year: 1997,
     genres: ['Sci-Fi', 'Comedy', 'Family'],
-    numVotes: 96604,
-    releaseDate: '1997-11-04',
+    numVotes: 97662,
+    releaseDate: '1997-11-26',
     directors: ['Les Mayfield']
   },
   {
@@ -7684,9 +7849,9 @@ export const data = [
     runtime: 92,
     year: 2001,
     genres: ['Animation', 'Adventure', 'Comedy', 'Family', 'Fantasy'],
-    numVotes: 1013480,
+    numVotes: 1032241,
     releaseDate: '2001-11-23',
-    directors: ['Pete Docter', 'David Silverman', 'Lee Unkrich']
+    directors: ['Pete Docter,David Silverman,Lee Unkrich']
   },
   {
     id: 'tt0462519',
@@ -7697,7 +7862,7 @@ export const data = [
     runtime: 100,
     year: 2006,
     genres: ['Comedy'],
-    numVotes: 31172,
+    numVotes: 31384,
     releaseDate: '2006-09-29',
     directors: ['Todd Phillips']
   },
@@ -7710,7 +7875,7 @@ export const data = [
     runtime: 92,
     year: 2000,
     genres: ['Fantasy', 'Romance', 'Comedy'],
-    numVotes: 11058,
+    numVotes: 11118,
     releaseDate: '2000-09-22',
     directors: ['Fina Torres']
   },
@@ -7723,7 +7888,7 @@ export const data = [
     runtime: 100,
     year: 1997,
     genres: ['Romance', 'Comedy'],
-    numVotes: 26124,
+    numVotes: 26330,
     releaseDate: '1997-05-23',
     directors: ['Griffin Dunne']
   },
@@ -7736,7 +7901,7 @@ export const data = [
     runtime: 113,
     year: 1984,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 3492,
+    numVotes: 3534,
     releaseDate: '1984-09-28',
     directors: ['Charles Shyer']
   },
@@ -7749,7 +7914,7 @@ export const data = [
     runtime: 138,
     year: 2010,
     genres: ['Thriller', 'Mystery', 'Drama'],
-    numVotes: 1521690,
+    numVotes: 1557398,
     releaseDate: '2010-02-19',
     directors: ['Martin Scorsese']
   },
@@ -7762,7 +7927,7 @@ export const data = [
     runtime: 97,
     year: 2004,
     genres: ['Comedy', 'Thriller', 'Crime', 'Action'],
-    numVotes: 45839,
+    numVotes: 46289,
     releaseDate: '2004-10-06',
     directors: ['Tim Story']
   },
@@ -7775,7 +7940,7 @@ export const data = [
     runtime: 85,
     year: 1998,
     genres: ['Fantasy', 'Comedy', 'Family'],
-    numVotes: 104184,
+    numVotes: 105253,
     releaseDate: '1998-06-26',
     directors: ['Betty Thomas']
   },
@@ -7788,7 +7953,7 @@ export const data = [
     runtime: 95,
     year: 2005,
     genres: ['Comedy', 'Crime'],
-    numVotes: 3964,
+    numVotes: 3991,
     releaseDate: '2005-04-22',
     directors: ['Jeffrey W. Byrd']
   },
@@ -7800,8 +7965,8 @@ export const data = [
     imdbRating: 7,
     runtime: 93,
     year: 1997,
-    genres: ['Mystery', 'Crime', 'Drama', 'Thriller'],
-    numVotes: 64488,
+    genres: ['Mystery', 'Crime', 'Drama', 'Action', 'Thriller'],
+    numVotes: 66239,
     releaseDate: '1997-05-02',
     directors: ['Jonathan Mostow']
   },
@@ -7814,7 +7979,7 @@ export const data = [
     runtime: 127,
     year: 1995,
     genres: ['Drama', 'Action', 'Thriller'],
-    numVotes: 141135,
+    numVotes: 142757,
     releaseDate: '1995-03-10',
     directors: ['Wolfgang Petersen']
   },
@@ -7827,7 +7992,7 @@ export const data = [
     runtime: 120,
     year: 1992,
     genres: ['Adventure', 'Crime', 'Comedy', 'Family'],
-    numVotes: 424463,
+    numVotes: 430651,
     releaseDate: '1992-11-20',
     directors: ['Chris Columbus']
   },
@@ -7840,7 +8005,7 @@ export const data = [
     runtime: 93,
     year: 2007,
     genres: ['Comedy', 'Romance'],
-    numVotes: 6237,
+    numVotes: 6270,
     releaseDate: '2008-01-10',
     directors: ['Scott Marshall']
   },
@@ -7853,7 +8018,7 @@ export const data = [
     runtime: 103,
     year: 2006,
     genres: ['Comedy', 'Romance'],
-    numVotes: 51127,
+    numVotes: 51685,
     releaseDate: '2006-10-06',
     directors: ['Greg Coolidge']
   },
@@ -7866,7 +8031,7 @@ export const data = [
     runtime: 136,
     year: 2004,
     genres: ['Drama', 'Crime', 'Thriller', 'Biography', 'History', 'Horror'],
-    numVotes: 3723,
+    numVotes: 3756,
     releaseDate: '2004-05-16',
     directors: ['John Gray']
   },
@@ -7879,7 +8044,7 @@ export const data = [
     runtime: 161,
     year: 2002,
     genres: ['Mystery', 'Family', 'Adventure', 'Fantasy'],
-    numVotes: 719392,
+    numVotes: 732483,
     releaseDate: '2002-11-15',
     directors: ['Chris Columbus']
   },
@@ -7892,7 +8057,7 @@ export const data = [
     runtime: 152,
     year: 2001,
     genres: ['Family', 'Adventure', 'Fantasy'],
-    numVotes: 892112,
+    numVotes: 907937,
     releaseDate: '2001-11-16',
     directors: ['Chris Columbus']
   },
@@ -7905,9 +8070,9 @@ export const data = [
     runtime: 105,
     year: 2007,
     genres: ['Comedy', 'Drama', 'Romance'],
-    numVotes: 65368,
+    numVotes: 66240,
     releaseDate: '2007-08-24',
-    directors: ['Shari Springer Berman', 'Robert Pulcini']
+    directors: ['Shari Springer Berman,Robert Pulcini']
   },
   {
     id: 'tt1020558',
@@ -7918,7 +8083,7 @@ export const data = [
     runtime: 97,
     year: 2010,
     genres: ['Action', 'War', 'Drama', 'History'],
-    numVotes: 87670,
+    numVotes: 88267,
     releaseDate: '2010-07-30',
     directors: ['Neil Marshall']
   },
@@ -7931,7 +8096,7 @@ export const data = [
     runtime: 109,
     year: 1993,
     genres: ['Drama', 'Horror', 'Thriller', 'Mystery'],
-    numVotes: 28875,
+    numVotes: 29323,
     releaseDate: '1993-02-05',
     directors: ['George Sluizer']
   },
@@ -7944,7 +8109,7 @@ export const data = [
     runtime: 94,
     year: 2010,
     genres: ['Drama', 'Biography'],
-    numVotes: 410857,
+    numVotes: 415091,
     releaseDate: '2011-01-28',
     directors: ['Danny Boyle']
   },
@@ -7957,7 +8122,7 @@ export const data = [
     runtime: 90,
     year: 2006,
     genres: ['Thriller'],
-    numVotes: 410,
+    numVotes: 413,
     releaseDate: '2006-09-11',
     directors: ['Pritesh Chheda']
   },
@@ -7970,7 +8135,7 @@ export const data = [
     runtime: 83,
     year: 2000,
     genres: ['Mystery', 'Sci-Fi', 'Comedy'],
-    numVotes: 148293,
+    numVotes: 149713,
     releaseDate: '2000-12-15',
     directors: ['Danny Leiner']
   },
@@ -7983,7 +8148,7 @@ export const data = [
     runtime: 102,
     year: 2001,
     genres: ['Drama', 'Romance'],
-    numVotes: 26013,
+    numVotes: 26204,
     releaseDate: '2001-05-18',
     directors: ['Luis Mandoki']
   },
@@ -7996,7 +8161,7 @@ export const data = [
     runtime: 110,
     year: 2008,
     genres: ['Comedy', 'Action', 'Crime'],
-    numVotes: 63063,
+    numVotes: 63419,
     releaseDate: '2008-03-21',
     directors: ['Steven Brill']
   },
@@ -8009,7 +8174,7 @@ export const data = [
     runtime: 100,
     year: 2002,
     genres: ['Action', 'Sci-Fi', 'Family', 'Comedy', 'Adventure'],
-    numVotes: 75614,
+    numVotes: 76705,
     releaseDate: '2002-08-07',
     directors: ['Robert Rodriguez']
   },
@@ -8022,7 +8187,7 @@ export const data = [
     runtime: 75,
     year: 2008,
     genres: ['Action', 'Comedy', 'Sci-Fi'],
-    numVotes: 78502,
+    numVotes: 80423,
     releaseDate: '2008-03-28',
     directors: ['Craig Mazin']
   },
@@ -8035,7 +8200,7 @@ export const data = [
     runtime: 92,
     year: 2012,
     genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 64313,
+    numVotes: 64892,
     releaseDate: '2012-08-31',
     directors: ['Ole Bornedal']
   },
@@ -8048,7 +8213,7 @@ export const data = [
     runtime: 81,
     year: 2002,
     genres: ['Crime', 'Thriller'],
-    numVotes: 292399,
+    numVotes: 295340,
     releaseDate: '2003-04-04',
     directors: ['Joel Schumacher']
   },
@@ -8061,7 +8226,7 @@ export const data = [
     runtime: 107,
     year: 1996,
     genres: ['Drama', 'Mystery', 'Thriller', 'Horror'],
-    numVotes: 15789,
+    numVotes: 16036,
     releaseDate: '1996-03-22',
     directors: ['Jeremiah S. Chechik']
   },
@@ -8074,7 +8239,7 @@ export const data = [
     runtime: 105,
     year: 1984,
     genres: ['Fantasy', 'Comedy', 'Action', 'Sci-Fi'],
-    numVotes: 465794,
+    numVotes: 472000,
     releaseDate: '1984-06-08',
     directors: ['Ivan Reitman']
   },
@@ -8087,7 +8252,7 @@ export const data = [
     runtime: 137,
     year: 2004,
     genres: ['Thriller', 'Crime', 'Action'],
-    numVotes: 828421,
+    numVotes: 839979,
     releaseDate: '2004-04-16',
     directors: ['Quentin Tarantino']
   },
@@ -8100,7 +8265,7 @@ export const data = [
     runtime: 111,
     year: 2003,
     genres: ['Action', 'Thriller', 'Crime'],
-    numVotes: 1233515,
+    numVotes: 1255159,
     releaseDate: '2003-10-10',
     directors: ['Quentin Tarantino']
   },
@@ -8113,7 +8278,7 @@ export const data = [
     runtime: 143,
     year: 2003,
     genres: ['Fantasy', 'Action', 'Adventure'],
-    numVotes: 1248996,
+    numVotes: 1271779,
     releaseDate: '2003-07-09',
     directors: ['Gore Verbinski']
   },
@@ -8126,7 +8291,7 @@ export const data = [
     runtime: 151,
     year: 2006,
     genres: ['Adventure', 'Fantasy', 'Action'],
-    numVotes: 788385,
+    numVotes: 800207,
     releaseDate: '2006-07-07',
     directors: ['Gore Verbinski']
   },
@@ -8139,7 +8304,7 @@ export const data = [
     runtime: 145,
     year: 1990,
     genres: ['Biography', 'Crime', 'Drama'],
-    numVotes: 1304761,
+    numVotes: 1332607,
     releaseDate: '1990-09-21',
     directors: ['Martin Scorsese']
   },
@@ -8152,7 +8317,7 @@ export const data = [
     runtime: 84,
     year: 2000,
     genres: ['Comedy'],
-    numVotes: 14020,
+    numVotes: 14175,
     releaseDate: '2000-10-13',
     directors: ['Reginald Hudlin']
   },
@@ -8161,11 +8326,11 @@ export const data = [
     myRating: 9,
     dataRated: '2013-04-10',
     title: 'War of the Worlds',
-    imdbRating: 6.5,
+    imdbRating: 6.6,
     runtime: 117,
     year: 2005,
     genres: ['Sci-Fi', 'Adventure', 'Action'],
-    numVotes: 485910,
+    numVotes: 492073,
     releaseDate: '2005-06-29',
     directors: ['Steven Spielberg']
   },
@@ -8178,7 +8343,7 @@ export const data = [
     runtime: 123,
     year: 2009,
     genres: ['Thriller', 'Mystery', 'Horror'],
-    numVotes: 262470,
+    numVotes: 268208,
     releaseDate: '2009-07-24',
     directors: ['Jaume Collet-Serra']
   },
@@ -8191,7 +8356,7 @@ export const data = [
     runtime: 97,
     year: 2004,
     genres: ['Comedy'],
-    numVotes: 455029,
+    numVotes: 464113,
     releaseDate: '2004-04-30',
     directors: ['Mark Waters']
   },
@@ -8204,7 +8369,7 @@ export const data = [
     runtime: 98,
     year: 2008,
     genres: ['Comedy'],
-    numVotes: 327756,
+    numVotes: 331931,
     releaseDate: '2008-07-25',
     directors: ['Adam McKay']
   },
@@ -8217,7 +8382,7 @@ export const data = [
     runtime: 103,
     year: 1990,
     genres: ['Comedy', 'Family'],
-    numVotes: 688997,
+    numVotes: 698599,
     releaseDate: '1990-11-16',
     directors: ['Chris Columbus']
   },
@@ -8230,7 +8395,7 @@ export const data = [
     runtime: 95,
     year: 2001,
     genres: ['Fantasy', 'Comedy', 'Adventure'],
-    numVotes: 44252,
+    numVotes: 44835,
     releaseDate: '2001-11-21',
     directors: ['Gil Junger']
   },
@@ -8243,7 +8408,7 @@ export const data = [
     runtime: 95,
     year: 2007,
     genres: ['Drama', 'Sport', 'Biography'],
-    numVotes: 4368,
+    numVotes: 4388,
     releaseDate: '2007-06-01',
     directors: ['Davis Guggenheim']
   },
@@ -8256,7 +8421,7 @@ export const data = [
     runtime: 95,
     year: 2009,
     genres: ['Comedy', 'Romance'],
-    numVotes: 21106,
+    numVotes: 21254,
     releaseDate: '2009-06-05',
     directors: ['Donald Petrie']
   },
@@ -8269,7 +8434,7 @@ export const data = [
     runtime: 93,
     year: 2005,
     genres: ['Horror', 'Mystery', 'Thriller', 'Drama', 'Fantasy'],
-    numVotes: 11604,
+    numVotes: 11700,
     releaseDate: '2006-01-26',
     directors: ['John Fawcett']
   },
@@ -8282,7 +8447,7 @@ export const data = [
     runtime: 131,
     year: 2004,
     genres: ['Comedy', 'Romance', 'Drama'],
-    numVotes: 89873,
+    numVotes: 90912,
     releaseDate: '2004-12-17',
     directors: ['James L. Brooks']
   },
@@ -8291,11 +8456,11 @@ export const data = [
     myRating: 9,
     dataRated: '2013-03-20',
     title: 'Red Eye',
-    imdbRating: 6.5,
+    imdbRating: 6.4,
     runtime: 85,
     year: 2005,
     genres: ['Thriller'],
-    numVotes: 152031,
+    numVotes: 156543,
     releaseDate: '2005-08-19',
     directors: ['Wes Craven']
   },
@@ -8308,20 +8473,20 @@ export const data = [
     runtime: 116,
     year: 2000,
     genres: ['Comedy'],
-    numVotes: 256563,
+    numVotes: 259499,
     releaseDate: '2000-06-23',
-    directors: ['Bobby Farrelly', 'Peter Farrelly']
+    directors: ['Bobby Farrelly,Peter Farrelly']
   },
   {
     id: 'tt0414982',
     myRating: 7,
     dataRated: '2013-03-20',
     title: 'Final Destination 3',
-    imdbRating: 5.8,
+    imdbRating: 5.9,
     runtime: 93,
     year: 2006,
     genres: ['Horror', 'Thriller'],
-    numVotes: 159450,
+    numVotes: 172363,
     releaseDate: '2006-02-10',
     directors: ['James Wong']
   },
@@ -8334,7 +8499,7 @@ export const data = [
     runtime: 98,
     year: 2000,
     genres: ['Thriller', 'Horror'],
-    numVotes: 292362,
+    numVotes: 313449,
     releaseDate: '2000-03-17',
     directors: ['James Wong']
   },
@@ -8347,7 +8512,7 @@ export const data = [
     runtime: 95,
     year: 2008,
     genres: ['Drama', 'Romance'],
-    numVotes: 37796,
+    numVotes: 38014,
     releaseDate: '2008-09-13',
     directors: ['Todd Kessler']
   },
@@ -8360,7 +8525,7 @@ export const data = [
     runtime: 90,
     year: 2005,
     genres: ['Horror'],
-    numVotes: 119543,
+    numVotes: 120547,
     releaseDate: '2005-04-15',
     directors: ['Andrew Douglas']
   },
@@ -8373,7 +8538,7 @@ export const data = [
     runtime: 93,
     year: 1997,
     genres: ['Comedy'],
-    numVotes: 54374,
+    numVotes: 54891,
     releaseDate: '1997-02-14',
     directors: ['Stephen Kessler']
   },
@@ -8386,9 +8551,9 @@ export const data = [
     runtime: 93,
     year: 2007,
     genres: ['Comedy', 'Sport'],
-    numVotes: 180635,
+    numVotes: 181930,
     releaseDate: '2007-03-30',
-    directors: ['Josh Gordon', 'Will Speck']
+    directors: ['Josh Gordon,Will Speck']
   },
   {
     id: 'tt0448011',
@@ -8399,7 +8564,7 @@ export const data = [
     runtime: 121,
     year: 2009,
     genres: ['Thriller', 'Sci-Fi', 'Mystery'],
-    numVotes: 253539,
+    numVotes: 256702,
     releaseDate: '2009-03-20',
     directors: ['Alex Proyas']
   },
@@ -8410,9 +8575,9 @@ export const data = [
     title: 'Heathers',
     imdbRating: 7.1,
     runtime: 103,
-    year: 1988,
+    year: 1989,
     genres: ['Crime', 'Comedy'],
-    numVotes: 121074,
+    numVotes: 122908,
     releaseDate: '1989-03-31',
     directors: ['Michael Lehmann']
   },
@@ -8425,7 +8590,7 @@ export const data = [
     runtime: 130,
     year: 1993,
     genres: ['Crime', 'Action', 'Mystery', 'Drama', 'Thriller'],
-    numVotes: 328848,
+    numVotes: 334656,
     releaseDate: '1993-08-06',
     directors: ['Andrew Davis']
   },
@@ -8438,7 +8603,7 @@ export const data = [
     runtime: 92,
     year: 2009,
     genres: ['Horror', 'Thriller'],
-    numVotes: 6583,
+    numVotes: 6670,
     releaseDate: '2009-09-26',
     directors: ['Donald P. Borchers']
   },
@@ -8451,7 +8616,7 @@ export const data = [
     runtime: 88,
     year: 2009,
     genres: ['Comedy', 'Action', 'Horror'],
-    numVotes: 638881,
+    numVotes: 647462,
     releaseDate: '2009-10-02',
     directors: ['Ruben Fleischer']
   },
@@ -8464,7 +8629,7 @@ export const data = [
     runtime: 150,
     year: 1997,
     genres: ['Mystery', 'Thriller', 'Sci-Fi', 'Drama'],
-    numVotes: 300499,
+    numVotes: 304278,
     releaseDate: '1997-07-11',
     directors: ['Robert Zemeckis']
   },
@@ -8477,9 +8642,9 @@ export const data = [
     runtime: 86,
     year: 2005,
     genres: ['Animation', 'Family', 'Comedy', 'Adventure'],
-    numVotes: 452232,
-    releaseDate: '2005-06-24',
-    directors: ['Eric Darnell', 'Tom McGrath']
+    numVotes: 460558,
+    releaseDate: '2005-05-27',
+    directors: ['Eric Darnell,Tom McGrath']
   },
   {
     id: 'tt1131734',
@@ -8490,7 +8655,7 @@ export const data = [
     runtime: 102,
     year: 2009,
     genres: ['Comedy', 'Horror'],
-    numVotes: 159112,
+    numVotes: 162442,
     releaseDate: '2009-09-18',
     directors: ['Karyn Kusama']
   },
@@ -8503,7 +8668,7 @@ export const data = [
     runtime: 139,
     year: 2006,
     genres: ['Adventure', 'Drama', 'Thriller', 'Action'],
-    numVotes: 340413,
+    numVotes: 346102,
     releaseDate: '2006-12-08',
     directors: ['Mel Gibson']
   },
@@ -8516,7 +8681,7 @@ export const data = [
     runtime: 119,
     year: 1994,
     genres: ['Drama', 'Crime', 'Thriller', 'Mystery'],
-    numVotes: 75736,
+    numVotes: 77168,
     releaseDate: '1994-07-20',
     directors: ['Joel Schumacher']
   },
@@ -8529,7 +8694,7 @@ export const data = [
     runtime: 85,
     year: 2007,
     genres: ['Horror', 'Thriller'],
-    numVotes: 110090,
+    numVotes: 111140,
     releaseDate: '2007-04-20',
     directors: ['Nimród Antal']
   },
@@ -8542,7 +8707,7 @@ export const data = [
     runtime: 93,
     year: 2005,
     genres: ['Horror', 'Mystery'],
-    numVotes: 284905,
+    numVotes: 288689,
     releaseDate: '2005-10-28',
     directors: ['Darren Lynn Bousman']
   },
@@ -8555,7 +8720,7 @@ export const data = [
     runtime: 127,
     year: 2007,
     genres: ['Thriller', 'Drama'],
-    numVotes: 321385,
+    numVotes: 325337,
     releaseDate: '2007-05-31',
     directors: ['Quentin Tarantino']
   },
@@ -8568,7 +8733,7 @@ export const data = [
     runtime: 105,
     year: 2007,
     genres: ['Horror', 'Comedy', 'Action', 'Thriller'],
-    numVotes: 227143,
+    numVotes: 229114,
     releaseDate: '2007-04-06',
     directors: ['Robert Rodriguez']
   },
@@ -8581,7 +8746,7 @@ export const data = [
     runtime: 116,
     year: 1985,
     genres: ['Comedy', 'Sci-Fi', 'Adventure'],
-    numVotes: 1356864,
+    numVotes: 1384042,
     releaseDate: '1985-07-03',
     directors: ['Robert Zemeckis']
   },
@@ -8594,7 +8759,7 @@ export const data = [
     runtime: 117,
     year: 2003,
     genres: ['Fantasy', 'Adventure', 'Action'],
-    numVotes: 147402,
+    numVotes: 148901,
     releaseDate: '2003-07-25',
     directors: ['Jan de Bont']
   },
@@ -8607,9 +8772,9 @@ export const data = [
     runtime: 113,
     year: 2004,
     genres: ['Sci-Fi', 'Drama', 'Thriller'],
-    numVotes: 535285,
+    numVotes: 542012,
     releaseDate: '2004-01-23',
-    directors: ['Eric Bress', 'J. Mackye Gruber']
+    directors: ['Eric Bress,J. Mackye Gruber']
   },
   {
     id: 'tt0119174',
@@ -8620,7 +8785,7 @@ export const data = [
     runtime: 129,
     year: 1997,
     genres: ['Drama', 'Thriller', 'Mystery'],
-    numVotes: 446428,
+    numVotes: 454504,
     releaseDate: '1997-09-12',
     directors: ['David Fincher']
   },
@@ -8633,7 +8798,7 @@ export const data = [
     runtime: 110,
     year: 2006,
     genres: ['Thriller', 'Crime', 'Drama'],
-    numVotes: 330552,
+    numVotes: 333357,
     releaseDate: '2006-04-07',
     directors: ['Paul McGuigan']
   },
@@ -8646,7 +8811,7 @@ export const data = [
     runtime: 135,
     year: 2000,
     genres: ['Drama', 'Action', 'Thriller'],
-    numVotes: 59723,
+    numVotes: 60143,
     releaseDate: '2000-12-08',
     directors: ['Taylor Hackford']
   },
@@ -8659,7 +8824,7 @@ export const data = [
     runtime: 120,
     year: 2004,
     genres: ['Comedy', 'Action', 'Family', 'Western', 'Adventure'],
-    numVotes: 96739,
+    numVotes: 97724,
     releaseDate: '2004-06-16',
     directors: ['Frank Coraci']
   },
@@ -8672,7 +8837,7 @@ export const data = [
     runtime: 102,
     year: 2007,
     genres: ['Comedy', 'Romance'],
-    numVotes: 81890,
+    numVotes: 84393,
     releaseDate: '2007-02-09',
     directors: ['Brian Robbins']
   },
@@ -8685,7 +8850,7 @@ export const data = [
     runtime: 105,
     year: 1995,
     genres: ['Crime', 'Thriller', 'Comedy'],
-    numVotes: 91791,
+    numVotes: 94160,
     releaseDate: '1995-10-20',
     directors: ['Barry Sonnenfeld']
   },
@@ -8698,7 +8863,7 @@ export const data = [
     runtime: 74,
     year: 1998,
     genres: ['Documentary'],
-    numVotes: 835,
+    numVotes: 848,
     releaseDate: '1998-06-13',
     directors: ['Nick Freand Jones']
   },
@@ -8711,7 +8876,7 @@ export const data = [
     runtime: 91,
     year: 2004,
     genres: ['Comedy', 'Crime', 'Family', 'Romance', 'Adventure'],
-    numVotes: 25434,
+    numVotes: 25772,
     releaseDate: '2004-05-07',
     directors: ['Dennie Gordon']
   },
@@ -8724,7 +8889,7 @@ export const data = [
     runtime: 98,
     year: 1997,
     genres: ['Adventure', 'Action', 'Sci-Fi', 'Comedy'],
-    numVotes: 631271,
+    numVotes: 642266,
     releaseDate: '1997-07-02',
     directors: ['Barry Sonnenfeld']
   },
@@ -8737,7 +8902,7 @@ export const data = [
     runtime: 98,
     year: 2003,
     genres: ['Horror'],
-    numVotes: 155964,
+    numVotes: 157778,
     releaseDate: '2003-10-17',
     directors: ['Marcus Nispel']
   },
@@ -8750,7 +8915,7 @@ export const data = [
     runtime: 89,
     year: 1997,
     genres: ['Adventure', 'Horror', 'Action', 'Thriller'],
-    numVotes: 115126,
+    numVotes: 116843,
     releaseDate: '1997-04-11',
     directors: ['Luis Llosa']
   },
@@ -8763,7 +8928,7 @@ export const data = [
     runtime: 132,
     year: 2005,
     genres: ['Thriller', 'Action', 'Drama', 'Sci-Fi'],
-    numVotes: 1204882,
+    numVotes: 1217936,
     releaseDate: '2006-03-17',
     directors: ['James McTeigue']
   },
@@ -8776,7 +8941,7 @@ export const data = [
     runtime: 152,
     year: 1967,
     genres: ['Musical', 'Comedy', 'Romance', 'Adventure', 'Family', 'Fantasy'],
-    numVotes: 10564,
+    numVotes: 10707,
     releaseDate: '1967-12-19',
     directors: ['Richard Fleischer']
   },
@@ -8789,7 +8954,7 @@ export const data = [
     runtime: 127,
     year: 2007,
     genres: ['Adventure', 'Fantasy', 'Romance'],
-    numVotes: 290198,
+    numVotes: 292900,
     releaseDate: '2007-08-10',
     directors: ['Matthew Vaughn']
   },
@@ -8802,7 +8967,7 @@ export const data = [
     runtime: 97,
     year: 1998,
     genres: ['Music', 'Romance', 'Comedy'],
-    numVotes: 166413,
+    numVotes: 168644,
     releaseDate: '1998-02-13',
     directors: ['Frank Coraci']
   },
@@ -8815,7 +8980,7 @@ export const data = [
     runtime: 115,
     year: 1982,
     genres: ['Adventure', 'Sci-Fi', 'Family'],
-    numVotes: 449616,
+    numVotes: 455114,
     releaseDate: '1982-06-11',
     directors: ['Steven Spielberg']
   },
@@ -8828,7 +8993,7 @@ export const data = [
     runtime: 101,
     year: 1994,
     genres: ['Crime', 'Comedy', 'Fantasy'],
-    numVotes: 439260,
+    numVotes: 449172,
     releaseDate: '1994-07-29',
     directors: ['Chuck Russell']
   },
@@ -8840,8 +9005,8 @@ export const data = [
     imdbRating: 7.1,
     runtime: 125,
     year: 1993,
-    genres: ['Drama', 'Comedy'],
-    numVotes: 301011,
+    genres: ['Family', 'Drama', 'Comedy'],
+    numVotes: 305396,
     releaseDate: '1993-11-24',
     directors: ['Chris Columbus']
   },
@@ -8854,9 +9019,9 @@ export const data = [
     runtime: 119,
     year: 1998,
     genres: ['Romance', 'Comedy'],
-    numVotes: 336312,
+    numVotes: 340167,
     releaseDate: '1998-07-15',
-    directors: ['Bobby Farrelly', 'Peter Farrelly']
+    directors: ['Bobby Farrelly,Peter Farrelly']
   },
   {
     id: 'tt0416315',
@@ -8867,7 +9032,7 @@ export const data = [
     runtime: 99,
     year: 2005,
     genres: ['Horror', 'Thriller'],
-    numVotes: 80890,
+    numVotes: 82002,
     releaseDate: '2005-12-25',
     directors: ['Greg McLean']
   },
@@ -8880,7 +9045,7 @@ export const data = [
     runtime: 115,
     year: 2005,
     genres: ['Musical', 'Adventure', 'Comedy', 'Family', 'Fantasy'],
-    numVotes: 545337,
+    numVotes: 552913,
     releaseDate: '2005-07-15',
     directors: ['Tim Burton']
   },
@@ -8893,7 +9058,7 @@ export const data = [
     runtime: 92,
     year: 2007,
     genres: ['Comedy', 'Family'],
-    numVotes: 23030,
+    numVotes: 23328,
     releaseDate: '2007-04-04',
     directors: ['Steve Carr']
   },
@@ -8906,7 +9071,7 @@ export const data = [
     runtime: 104,
     year: 2005,
     genres: ['Comedy'],
-    numVotes: 82885,
+    numVotes: 83470,
     releaseDate: '2005-08-05',
     directors: ['Jay Chandrasekhar']
   },
@@ -8919,7 +9084,7 @@ export const data = [
     runtime: 86,
     year: 2006,
     genres: ['Comedy'],
-    numVotes: 4522,
+    numVotes: 4581,
     releaseDate: '2006-05-01',
     directors: ['Greg Glienna']
   },
@@ -8932,7 +9097,7 @@ export const data = [
     runtime: 102,
     year: 2008,
     genres: ['Comedy'],
-    numVotes: 95151,
+    numVotes: 95535,
     releaseDate: '2008-02-22',
     directors: ['Michel Gondry']
   },
@@ -8945,7 +9110,7 @@ export const data = [
     runtime: 93,
     year: 2004,
     genres: ['Drama', 'Crime', 'Comedy'],
-    numVotes: 26600,
+    numVotes: 26831,
     releaseDate: '2004-01-30',
     directors: ['Brian Robbins']
   },
@@ -8958,7 +9123,7 @@ export const data = [
     runtime: 95,
     year: 2007,
     genres: ['Crime', 'Drama', 'Thriller'],
-    numVotes: 34147,
+    numVotes: 34466,
     releaseDate: '2007-08-23',
     directors: ['Mike Barker']
   },
@@ -8971,7 +9136,7 @@ export const data = [
     runtime: 96,
     year: 2005,
     genres: ['Comedy', 'Romance'],
-    numVotes: 130900,
+    numVotes: 132168,
     releaseDate: '2005-11-23',
     directors: ['Roger Kumble']
   },
@@ -8984,7 +9149,7 @@ export const data = [
     runtime: 119,
     year: 2000,
     genres: ['Thriller', 'Drama', 'Romance', 'Adventure'],
-    numVotes: 259051,
+    numVotes: 261908,
     releaseDate: '2000-02-11',
     directors: ['Danny Boyle']
   },
@@ -8997,9 +9162,9 @@ export const data = [
     runtime: 103,
     year: 2007,
     genres: ['Horror', 'Sci-Fi', 'Thriller'],
-    numVotes: 22146,
+    numVotes: 22276,
     releaseDate: '2008-07-04',
-    directors: ['David Bruckner', 'Dan Bush', 'Jacob Gentry']
+    directors: ['David Bruckner,Dan Bush,Jacob Gentry']
   },
   {
     id: 'tt0795351',
@@ -9010,7 +9175,7 @@ export const data = [
     runtime: 109,
     year: 2009,
     genres: ['Horror', 'Thriller', 'Mystery'],
-    numVotes: 95061,
+    numVotes: 95980,
     releaseDate: '2010-10-01',
     directors: ['Christian Alvart']
   },
@@ -9023,7 +9188,7 @@ export const data = [
     runtime: 109,
     year: 2002,
     genres: ['Drama'],
-    numVotes: 18117,
+    numVotes: 18247,
     releaseDate: '2002-11-22',
     directors: ['Michael Hoffman']
   },
@@ -9036,7 +9201,7 @@ export const data = [
     runtime: 123,
     year: 1994,
     genres: ['Horror', 'Drama', 'Fantasy'],
-    numVotes: 358845,
+    numVotes: 364078,
     releaseDate: '1994-11-11',
     directors: ['Neil Jordan']
   },
@@ -9045,11 +9210,11 @@ export const data = [
     myRating: 6,
     dataRated: '2013-02-08',
     title: 'Book of Shadows: Blair Witch 2',
-    imdbRating: 4,
+    imdbRating: 4.1,
     runtime: 90,
     year: 2000,
     genres: ['Thriller', 'Mystery', 'Adventure', 'Fantasy', 'Horror'],
-    numVotes: 40856,
+    numVotes: 41206,
     releaseDate: '2000-10-27',
     directors: ['Joe Berlinger']
   },
@@ -9062,7 +9227,7 @@ export const data = [
     runtime: 127,
     year: 2000,
     genres: ['Romance', 'Comedy', 'Fantasy'],
-    numVotes: 228673,
+    numVotes: 231746,
     releaseDate: '2000-12-15',
     directors: ['Nancy Meyers']
   },
@@ -9075,7 +9240,7 @@ export const data = [
     runtime: 178,
     year: 1995,
     genres: ['Biography', 'Drama', 'War'],
-    numVotes: 1118490,
+    numVotes: 1132692,
     releaseDate: '1995-05-24',
     directors: ['Mel Gibson']
   },
@@ -9088,7 +9253,7 @@ export const data = [
     runtime: 98,
     year: 2006,
     genres: ['Comedy', 'Crime'],
-    numVotes: 61970,
+    numVotes: 63242,
     releaseDate: '2006-07-14',
     directors: ['Keenen Ivory Wayans']
   },
@@ -9101,7 +9266,7 @@ export const data = [
     runtime: 95,
     year: 2005,
     genres: ['Comedy', 'Family', 'Adventure', 'Romance', 'Fantasy'],
-    numVotes: 35326,
+    numVotes: 35858,
     releaseDate: '2005-01-21',
     directors: ['Brian Levant']
   },
@@ -9114,9 +9279,9 @@ export const data = [
     runtime: 101,
     year: 2006,
     genres: ['Comedy', 'Drama'],
-    numVotes: 531460,
+    numVotes: 539567,
     releaseDate: '2006-08-18',
-    directors: ['Jonathan Dayton', 'Valerie Faris']
+    directors: ['Jonathan Dayton,Valerie Faris']
   },
   {
     id: 'tt0388500',
@@ -9127,7 +9292,7 @@ export const data = [
     runtime: 105,
     year: 2005,
     genres: ['Comedy'],
-    numVotes: 19277,
+    numVotes: 19718,
     releaseDate: '2005-03-30',
     directors: ['Bille Woodruff']
   },
@@ -9140,7 +9305,7 @@ export const data = [
     runtime: 149,
     year: 1996,
     genres: ['Crime', 'Drama', 'Thriller'],
-    numVotes: 187815,
+    numVotes: 190946,
     releaseDate: '1996-07-24',
     directors: ['Joel Schumacher']
   },
@@ -9153,7 +9318,7 @@ export const data = [
     runtime: 93,
     year: 2007,
     genres: ['Horror', 'Mystery', 'Thriller'],
-    numVotes: 169711,
+    numVotes: 171823,
     releaseDate: '2007-10-26',
     directors: ['Darren Lynn Bousman']
   },
@@ -9166,7 +9331,7 @@ export const data = [
     runtime: 128,
     year: 2010,
     genres: ['Mystery', 'Thriller', 'Drama', 'Crime'],
-    numVotes: 173136,
+    numVotes: 174429,
     releaseDate: '2010-03-19',
     directors: ['Roman Polanski']
   },
@@ -9179,9 +9344,9 @@ export const data = [
     runtime: 102,
     year: 1939,
     genres: ['Musical', 'Family', 'Adventure', 'Fantasy'],
-    numVotes: 444862,
+    numVotes: 452234,
     releaseDate: '1939-08-25',
-    directors: ['Victor Fleming', 'King Vidor']
+    directors: ['Victor Fleming,King Vidor']
   },
   {
     id: 'tt0317648',
@@ -9192,7 +9357,7 @@ export const data = [
     runtime: 136,
     year: 2004,
     genres: ['Western', 'Biography', 'Sport', 'Drama', 'Adventure', 'Action'],
-    numVotes: 86836,
+    numVotes: 87442,
     releaseDate: '2004-03-05',
     directors: ['Joe Johnston']
   },
@@ -9205,7 +9370,7 @@ export const data = [
     runtime: 95,
     year: 2005,
     genres: ['Comedy', 'Romance', 'Fantasy', 'Drama'],
-    numVotes: 119552,
+    numVotes: 122414,
     releaseDate: '2005-09-16',
     directors: ['Mark Waters']
   },
@@ -9218,7 +9383,7 @@ export const data = [
     runtime: 100,
     year: 2005,
     genres: ['Comedy', 'Crime'],
-    numVotes: 25763,
+    numVotes: 26059,
     releaseDate: '2005-02-25',
     directors: ['Stephen Herek']
   },
@@ -9231,7 +9396,7 @@ export const data = [
     runtime: 90,
     year: 2009,
     genres: ['Comedy', 'Sport'],
-    numVotes: 46614,
+    numVotes: 47014,
     releaseDate: '2009-02-20',
     directors: ['Will Gluck']
   },
@@ -9244,7 +9409,7 @@ export const data = [
     runtime: 95,
     year: 2003,
     genres: ['Romance', 'Comedy'],
-    numVotes: 75659,
+    numVotes: 76315,
     releaseDate: '2003-01-10',
     directors: ['Shawn Levy']
   },
@@ -9257,7 +9422,7 @@ export const data = [
     runtime: 82,
     year: 2002,
     genres: ['Drama', 'Comedy'],
-    numVotes: 52637,
+    numVotes: 53061,
     releaseDate: '2002-01-11',
     directors: ['Jake Kasdan']
   },
@@ -9270,7 +9435,7 @@ export const data = [
     runtime: 126,
     year: 2007,
     genres: ['Drama', 'Romance', 'Comedy'],
-    numVotes: 221142,
+    numVotes: 222611,
     releaseDate: '2007-12-21',
     directors: ['Richard LaGravenese']
   },
@@ -9283,7 +9448,7 @@ export const data = [
     runtime: 90,
     year: 2006,
     genres: ['Animation', 'Comedy', 'Family', 'Adventure', 'Drama'],
-    numVotes: 35829,
+    numVotes: 36744,
     releaseDate: '2006-08-04',
     directors: ['Steve Oedekerk']
   },
@@ -9296,9 +9461,9 @@ export const data = [
     runtime: 83,
     year: 1998,
     genres: ['Animation', 'Family', 'Comedy', 'Adventure'],
-    numVotes: 166472,
+    numVotes: 167973,
     releaseDate: '1998-10-02',
-    directors: ['Eric Darnell', 'Tim Johnson', 'Lawrence Guterman']
+    directors: ['Eric Darnell,Tim Johnson,Lawrence Guterman']
   },
   {
     id: 'tt0322330',
@@ -9309,7 +9474,7 @@ export const data = [
     runtime: 97,
     year: 2003,
     genres: ['Fantasy', 'Family', 'Music', 'Romance', 'Comedy'],
-    numVotes: 158385,
+    numVotes: 161702,
     releaseDate: '2003-08-06',
     directors: ['Mark Waters']
   },
@@ -9322,7 +9487,7 @@ export const data = [
     runtime: 99,
     year: 2009,
     genres: ['Horror'],
-    numVotes: 222745,
+    numVotes: 224920,
     releaseDate: '2009-05-29',
     directors: ['Sam Raimi']
   },
@@ -9335,7 +9500,7 @@ export const data = [
     runtime: 88,
     year: 2001,
     genres: ['Adventure', 'Sci-Fi', 'Comedy', 'Family', 'Action'],
-    numVotes: 130462,
+    numVotes: 132224,
     releaseDate: '2001-03-30',
     directors: ['Robert Rodriguez']
   },
@@ -9348,7 +9513,7 @@ export const data = [
     runtime: 86,
     year: 1999,
     genres: ['Crime', 'Thriller', 'Comedy'],
-    numVotes: 29976,
+    numVotes: 30498,
     releaseDate: '1999-02-19',
     directors: ['Darren Stein']
   },
@@ -9361,7 +9526,7 @@ export const data = [
     runtime: 98,
     year: 1993,
     genres: ['Thriller', 'War', 'Action'],
-    numVotes: 25927,
+    numVotes: 26327,
     releaseDate: '1993-01-29',
     directors: ['Luis Llosa']
   },
@@ -9374,7 +9539,7 @@ export const data = [
     runtime: 93,
     year: 2007,
     genres: ['Comedy', 'Drama'],
-    numVotes: 3537,
+    numVotes: 3564,
     releaseDate: '2008-06-13',
     directors: ['Christian Charles']
   },
@@ -9387,9 +9552,9 @@ export const data = [
     runtime: 86,
     year: 2007,
     genres: ['Adventure', 'Comedy', 'Fantasy'],
-    numVotes: 110850,
+    numVotes: 111773,
     releaseDate: '2007-01-26',
-    directors: ['Jason Friedberg', 'Aaron Seltzer']
+    directors: ['Jason Friedberg,Aaron Seltzer']
   },
   {
     id: 'tt0185937',
@@ -9400,9 +9565,9 @@ export const data = [
     runtime: 81,
     year: 1999,
     genres: ['Mystery', 'Horror'],
-    numVotes: 298381,
+    numVotes: 303368,
     releaseDate: '1999-07-30',
-    directors: ['Daniel Myrick', 'Eduardo Sánchez']
+    directors: ['Daniel Myrick,Eduardo Sánchez']
   },
   {
     id: 'tt0784972',
@@ -9413,7 +9578,7 @@ export const data = [
     runtime: 93,
     year: 2007,
     genres: ['Comedy'],
-    numVotes: 11573,
+    numVotes: 11676,
     releaseDate: '2007-09-07',
     directors: ['Bob Odenkirk']
   },
@@ -9426,7 +9591,7 @@ export const data = [
     runtime: 102,
     year: 1991,
     genres: ['Family', 'Comedy', 'Romance', 'Drama'],
-    numVotes: 92030,
+    numVotes: 93774,
     releaseDate: '1991-11-27',
     directors: ['Howard Zieff']
   },
@@ -9439,7 +9604,7 @@ export const data = [
     runtime: 86,
     year: 2002,
     genres: ['Comedy'],
-    numVotes: 4572,
+    numVotes: 4594,
     releaseDate: '2002-11-01',
     directors: ['Andrew Gurland']
   },
@@ -9452,7 +9617,7 @@ export const data = [
     runtime: 114,
     year: 1999,
     genres: ['Comedy', 'Drama'],
-    numVotes: 18996,
+    numVotes: 19154,
     releaseDate: '1999-11-12',
     directors: ['Wayne Wang']
   },
@@ -9465,7 +9630,7 @@ export const data = [
     runtime: 104,
     year: 2003,
     genres: ['Horror'],
-    numVotes: 72848,
+    numVotes: 73995,
     releaseDate: '2003-08-29',
     directors: ['Victor Salva']
   },
@@ -9478,7 +9643,7 @@ export const data = [
     runtime: 115,
     year: 2008,
     genres: ['Drama', 'Family'],
-    numVotes: 170907,
+    numVotes: 172378,
     releaseDate: '2008-12-25',
     directors: ['David Frankel']
   },
@@ -9491,7 +9656,7 @@ export const data = [
     runtime: 114,
     year: 2003,
     genres: ['Comedy', 'Adventure', 'Action'],
-    numVotes: 114431,
+    numVotes: 115397,
     releaseDate: '2003-02-07',
     directors: ['David Dobkin']
   },
@@ -9504,7 +9669,7 @@ export const data = [
     runtime: 110,
     year: 2000,
     genres: ['Adventure', 'Comedy', 'Western', 'Action'],
-    numVotes: 137878,
+    numVotes: 139209,
     releaseDate: '2000-05-26',
     directors: ['Tom Dey']
   },
@@ -9513,11 +9678,11 @@ export const data = [
     myRating: 8,
     dataRated: '2013-02-02',
     title: 'Meet the Fockers',
-    imdbRating: 6.3,
+    imdbRating: 6.4,
     runtime: 115,
     year: 2004,
     genres: ['Comedy', 'Romance'],
-    numVotes: 293118,
+    numVotes: 296060,
     releaseDate: '2004-12-22',
     directors: ['Jay Roach']
   },
@@ -9530,7 +9695,7 @@ export const data = [
     runtime: 116,
     year: 2003,
     genres: ['Thriller', 'Crime', 'Comedy', 'Drama'],
-    numVotes: 141123,
+    numVotes: 142479,
     releaseDate: '2003-09-12',
     directors: ['Ridley Scott']
   },
@@ -9543,7 +9708,7 @@ export const data = [
     runtime: 136,
     year: 2005,
     genres: ['Drama', 'Music', 'Biography', 'Romance'],
-    numVotes: 271566,
+    numVotes: 274930,
     releaseDate: '2005-11-18',
     directors: ['James Mangold']
   },
@@ -9556,7 +9721,7 @@ export const data = [
     runtime: 108,
     year: 2004,
     genres: ['Fantasy', 'Family', 'Comedy', 'Adventure'],
-    numVotes: 225043,
+    numVotes: 226897,
     releaseDate: '2004-12-17',
     directors: ['Brad Silberling']
   },
@@ -9569,7 +9734,7 @@ export const data = [
     runtime: 102,
     year: 2008,
     genres: ['Comedy', 'Music'],
-    numVotes: 40562,
+    numVotes: 40757,
     releaseDate: '2008-08-20',
     directors: ['Peter Cattaneo']
   },
@@ -9582,7 +9747,7 @@ export const data = [
     runtime: 84,
     year: 2006,
     genres: ['Horror', 'Thriller', 'Action'],
-    numVotes: 29656,
+    numVotes: 30066,
     releaseDate: '2006-05-19',
     directors: ['Gregory Dark']
   },
@@ -9595,7 +9760,7 @@ export const data = [
     runtime: 90,
     year: 2008,
     genres: ['Action', 'Sci-Fi', 'Adventure', 'Thriller'],
-    numVotes: 99238,
+    numVotes: 99862,
     releaseDate: '2008-08-29',
     directors: ['Mathieu Kassovitz']
   },
@@ -9608,7 +9773,7 @@ export const data = [
     runtime: 96,
     year: 2010,
     genres: ['Drama', 'Thriller'],
-    numVotes: 58086,
+    numVotes: 58693,
     releaseDate: '2010-08-12',
     directors: ['Paul T. Scheuring']
   },
@@ -9621,7 +9786,7 @@ export const data = [
     runtime: 120,
     year: 2001,
     genres: ['Drama', 'Action', 'Crime', 'Thriller'],
-    numVotes: 52508,
+    numVotes: 52827,
     releaseDate: '2001-03-09',
     directors: ['John Herzfeld']
   },
@@ -9642,9 +9807,9 @@ export const data = [
       'Fantasy',
       'Action'
     ],
-    numVotes: 180876,
+    numVotes: 183364,
     releaseDate: '2009-03-27',
-    directors: ['Rob Letterman', 'Conrad Vernon']
+    directors: ['Rob Letterman,Conrad Vernon']
   },
   {
     id: 'tt0405159',
@@ -9655,7 +9820,7 @@ export const data = [
     runtime: 132,
     year: 2004,
     genres: ['Drama', 'Sport'],
-    numVotes: 739053,
+    numVotes: 748389,
     releaseDate: '2005-01-28',
     directors: ['Clint Eastwood']
   },
@@ -9668,7 +9833,7 @@ export const data = [
     runtime: 103,
     year: 1999,
     genres: ['Romance', 'Comedy'],
-    numVotes: 107812,
+    numVotes: 108932,
     releaseDate: '1999-05-07',
     directors: ['Alexander Payne']
   },
@@ -9681,7 +9846,7 @@ export const data = [
     runtime: 83,
     year: 2005,
     genres: ['Thriller', 'Horror', 'Mystery', 'Drama'],
-    numVotes: 27290,
+    numVotes: 27502,
     releaseDate: '2006-05-05',
     directors: ['Courtney Solomon']
   },
@@ -9694,7 +9859,7 @@ export const data = [
     runtime: 87,
     year: 2007,
     genres: ['Animation', 'Comedy', 'Adventure'],
-    numVotes: 355709,
+    numVotes: 358039,
     releaseDate: '2007-07-27',
     directors: ['David Silverman']
   },
@@ -9707,7 +9872,7 @@ export const data = [
     runtime: 142,
     year: 2012,
     genres: ['Adventure', 'Sci-Fi', 'Thriller', 'Action'],
-    numVotes: 1030060,
+    numVotes: 1046936,
     releaseDate: '2012-03-23',
     directors: ['Gary Ross']
   },
@@ -9720,7 +9885,7 @@ export const data = [
     runtime: 93,
     year: 2006,
     genres: ['Comedy'],
-    numVotes: 142111,
+    numVotes: 143024,
     releaseDate: '2006-08-18',
     directors: ['Steve Pink']
   },
@@ -9733,7 +9898,7 @@ export const data = [
     runtime: 116,
     year: 2003,
     genres: ['Romance', 'Comedy'],
-    numVotes: 289536,
+    numVotes: 300185,
     releaseDate: '2003-02-07',
     directors: ['Donald Petrie']
   },
@@ -9746,7 +9911,7 @@ export const data = [
     runtime: 104,
     year: 2001,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 405267,
+    numVotes: 411592,
     releaseDate: '2001-08-10',
     directors: ['Alejandro Amenábar']
   },
@@ -9759,7 +9924,7 @@ export const data = [
     runtime: 104,
     year: 2007,
     genres: ['Horror', 'Mystery', 'Fantasy'],
-    numVotes: 301834,
+    numVotes: 305488,
     releaseDate: '2007-06-22',
     directors: ['Mikael Håfström']
   },
@@ -9772,7 +9937,7 @@ export const data = [
     runtime: 90,
     year: 2003,
     genres: ['Thriller', 'Mystery'],
-    numVotes: 276071,
+    numVotes: 281129,
     releaseDate: '2003-04-25',
     directors: ['James Mangold']
   },
@@ -9785,7 +9950,7 @@ export const data = [
     runtime: 93,
     year: 1999,
     genres: ['Mystery', 'Thriller', 'Horror'],
-    numVotes: 61552,
+    numVotes: 62055,
     releaseDate: '1999-10-29',
     directors: ['William Malone']
   },
@@ -9798,7 +9963,7 @@ export const data = [
     runtime: 91,
     year: 2001,
     genres: ['Fantasy', 'Horror'],
-    numVotes: 96748,
+    numVotes: 97828,
     releaseDate: '2001-10-26',
     directors: ['Steve Beck']
   },
@@ -9811,7 +9976,7 @@ export const data = [
     runtime: 91,
     year: 2004,
     genres: ['Horror', 'Mystery', 'Thriller'],
-    numVotes: 153617,
+    numVotes: 154997,
     releaseDate: '2004-10-22',
     directors: ['Takashi Shimizu']
   },
@@ -9824,7 +9989,7 @@ export const data = [
     runtime: 96,
     year: 2007,
     genres: ['Family', 'Drama', 'Fantasy'],
-    numVotes: 179548,
+    numVotes: 183186,
     releaseDate: '2007-02-16',
     directors: ['Gabor Csupo']
   },
@@ -9837,7 +10002,7 @@ export const data = [
     runtime: 122,
     year: 2001,
     genres: ['Crime', 'Drama', 'Thriller'],
-    numVotes: 489518,
+    numVotes: 497932,
     releaseDate: '2001-10-05',
     directors: ['Antoine Fuqua']
   },
@@ -9850,7 +10015,7 @@ export const data = [
     runtime: 122,
     year: 2000,
     genres: ['Music', 'Comedy', 'Adventure', 'Drama'],
-    numVotes: 300921,
+    numVotes: 305269,
     releaseDate: '2000-09-22',
     directors: ['Cameron Crowe']
   },
@@ -9863,10 +10028,8 @@ export const data = [
     runtime: 122,
     year: 1973,
     genres: ['Horror'],
-    numVotes: 471584,
+    numVotes: 479851,
     releaseDate: '1973-12-26',
     directors: ['William Friedkin']
   }
 ];
-
-// export default data;
