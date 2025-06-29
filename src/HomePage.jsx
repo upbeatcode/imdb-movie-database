@@ -1,6 +1,6 @@
 import { HomePageProps } from './componentProps.js';
 import { useNavigate } from 'react-router-dom';
-// import { useState } from 'react';
+import { useState } from 'react';
 import { data } from './assets/data.js';
 import MovieTable from './MovieTable.jsx';
 // import DataVisualization from './DataVisualization.jsx';
@@ -24,6 +24,7 @@ export function HomePage({
   clearFilters
 }) {
   const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState('');
 
   // Handle filter selection
   const handleFilterSelect = (filterType, value) => {
@@ -56,8 +57,20 @@ export function HomePage({
   };
 
   // Get filtered movies
-  const filteredMovies =
+  let moviesToDisplay =
     filterMode === 'cumulative' ? filterMovies(data) : data;
+
+  // Further filter by searchTerm if searchTerm is not empty
+  if (searchTerm.trim() !== '') {
+    moviesToDisplay = moviesToDisplay.filter((movie) => {
+      // Ensure movie.title is a string and exists before calling toLowerCase
+      if (typeof movie.title === 'string') {
+        return movie.title.toLowerCase().includes(searchTerm.toLowerCase());
+      }
+      // If title is not a string or is missing, don't include it in search results
+      return false;
+    });
+  }
 
   return (
     <div>
@@ -165,13 +178,24 @@ export function HomePage({
         />
       )}
 
+      {/* Search Bar */}
+      <div className="search-bar-container">
+        <input
+          type="text"
+          placeholder="Search movies..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="search-input"
+        />
+      </div>
+
       {/* Display Filtered Movies with Dynamic Header */}
       <div className="filter-results">
         <h2 className="filter-header">
-          {generateFilterHeader(activeFilters, filteredMovies.length)}
+          {generateFilterHeader(activeFilters, moviesToDisplay.length)}
         </h2>
       </div>
-      <MovieTable data={filteredMovies} />
+      <MovieTable data={moviesToDisplay} />
     </div>
   );
 }

@@ -95,6 +95,39 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Search Bar Styling */
+.search-bar-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px; /* Consistent padding with other filter elements */
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px; /* Max width to prevent it from becoming too wide on large screens */
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #444; /* Darker border for dark theme */
+  background-color: #333; /* Dark background */
+  color: #fff; /* Light text color */
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #f3218a; /* Highlight color on focus */
+  box-shadow: 0 0 8px rgba(243, 33, 138, 0.5); /* Glow effect on focus */
+}
+
+.search-input::placeholder {
+  color: #888; /* Placeholder text color */
+}
+
 /* Filter Header */
 .filter-header {
   margin: 20px 0;
