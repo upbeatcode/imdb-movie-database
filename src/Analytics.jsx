@@ -134,21 +134,26 @@ const Analytics = ({
           <DataVisualization data={filteredMovies} />
         </div>
 
-        {/* Placeholder for future analytics */}
+import YourVsImdbRatingsScatterPlot from './components/YourVsImdbRatingsScatterPlot.jsx';
+import MoviesRatedOverTime from './components/MoviesRatedOverTime.jsx';
+import AverageRatingPerGenre from './components/AverageRatingPerGenre.jsx';
+
+        {/* Movies Rated Over Time */}
         <div className="analytics-section">
-          <h2>Rating Trends Over Time</h2>
-          <div className="coming-soon">
-            <p>Rating trends analysis coming soon...</p>
-            <p>This will show how your movie ratings have changed over time.</p>
-          </div>
+          <h2>Movies Rated Per Month/Year</h2>
+          <MoviesRatedOverTime data={filteredMovies} />
         </div>
 
+        {/* Your Ratings vs. IMDB Ratings */}
         <div className="analytics-section">
-          <h2>Advanced Insights</h2>
-          <div className="coming-soon">
-            <p>Advanced insights coming soon...</p>
-            <p>Genre preferences, seasonal patterns, and more detailed analytics.</p>
-          </div>
+          <h2>Your Ratings vs. IMDB Ratings</h2>
+          <YourVsImdbRatingsScatterPlot data={filteredMovies} />
+        </div>
+
+        {/* Average Rating Per Genre */}
+        <div className="analytics-section">
+          <h2>Average Rating Per Genre</h2>
+          <AverageRatingPerGenre data={filteredMovies} />
         </div>
       </div>
     </div>
