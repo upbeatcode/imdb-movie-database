@@ -1,5 +1,373 @@
 [
   {
+    "Const": "tt0079855",
+    "Your Rating": 3,
+    "Date Rated": "2025-06-29",
+    "Title": "Savage Weekend",
+    "Original Title": "Savage Weekend",
+    "URL": "https://www.imdb.com/title/tt0079855",
+    "Title Type": "Movie",
+    "IMDb Rating": 4.5,
+    "Runtime (mins)": 88,
+    "Year": 1979,
+    "Genres": "Horror",
+    "Num Votes": 1906,
+    "Release Date": 1979,
+    "Directors": "David Paulsen,John Mason Kirby"
+  },
+  {
+    "Const": "tt0405832",
+    "Your Rating": 7,
+    "Date Rated": "2025-06-28",
+    "Title": "Chris Rock: Never Scared",
+    "Original Title": "Chris Rock: Never Scared",
+    "URL": "https://www.imdb.com/title/tt0405832",
+    "Title Type": "TV Special",
+    "IMDb Rating": 8,
+    "Runtime (mins)": 80,
+    "Year": 2004,
+    "Genres": "Documentary, Comedy",
+    "Num Votes": 5788,
+    "Release Date": "2004-04-17",
+    "Directors": "Joel Gallen"
+  },
+  {
+    "Const": "tt0083146",
+    "Your Rating": 6,
+    "Date Rated": "2025-06-27",
+    "Title": "Sweet Sixteen",
+    "Original Title": "Sweet Sixteen",
+    "URL": "https://www.imdb.com/title/tt0083146",
+    "Title Type": "Movie",
+    "IMDb Rating": 5.1,
+    "Runtime (mins)": 90,
+    "Year": 1983,
+    "Genres": "Crime, Mystery, Drama, Thriller, Horror",
+    "Num Votes": 2874,
+    "Release Date": "1983-09-16",
+    "Directors": "Jim Sotos"
+  },
+  {
+    "Const": "tt8271714",
+    "Your Rating": 8,
+    "Date Rated": "2025-06-26",
+    "Title": "John Mulaney: Kid Gorgeous at Radio City",
+    "Original Title": "John Mulaney: Kid Gorgeous at Radio City",
+    "URL": "https://www.imdb.com/title/tt8271714",
+    "Title Type": "TV Special",
+    "IMDb Rating": 7.9,
+    "Runtime (mins)": 65,
+    "Year": 2018,
+    "Genres": "Comedy",
+    "Num Votes": 9483,
+    "Release Date": "2018-05-01",
+    "Directors": "Alex Timbers"
+  },
+  {
+    "Const": "tt5087554",
+    "Your Rating": 5,
+    "Date Rated": "2025-06-25",
+    "Title": "Anthony Jeselnik: Thoughts and Prayers",
+    "Original Title": "Anthony Jeselnik: Thoughts and Prayers",
+    "URL": "https://www.imdb.com/title/tt5087554",
+    "Title Type": "TV Special",
+    "IMDb Rating": 7.7,
+    "Runtime (mins)": 59,
+    "Year": 2015,
+    "Genres": "Comedy",
+    "Num Votes": 6317,
+    "Release Date": "2015-10-16",
+    "Directors": "Adam Dubin"
+  },
+  {
+    "Const": "tt0086449",
+    "Your Rating": 5,
+    "Date Rated": "2025-06-25",
+    "Title": "To All a Goodnight",
+    "Original Title": "To All a Goodnight",
+    "URL": "https://www.imdb.com/title/tt0086449",
+    "Title Type": "Movie",
+    "IMDb Rating": 4.6,
+    "Runtime (mins)": 87,
+    "Year": 1980,
+    "Genres": "Mystery, Thriller, Horror",
+    "Num Votes": 2555,
+    "Release Date": "1980-01-30",
+    "Directors": "David Hess"
+  },
+  {
+    "Const": "tt2246779",
+    "Your Rating": 7,
+    "Date Rated": "2025-06-24",
+    "Title": "John Mulaney: New in Town",
+    "Original Title": "John Mulaney: New in Town",
+    "URL": "https://www.imdb.com/title/tt2246779",
+    "Title Type": "TV Special",
+    "IMDb Rating": 8.2,
+    "Runtime (mins)": 60,
+    "Year": 2012,
+    "Genres": "Comedy",
+    "Num Votes": 7774,
+    "Release Date": "2012-01-28",
+    "Directors": "Ryan Polito,Jake Szymanski"
+  },
+  {
+    "Const": "tt0085415",
+    "Your Rating": 4,
+    "Date Rated": "2025-06-24",
+    "Title": "Death Screams",
+    "Original Title": "Death Screams",
+    "URL": "https://www.imdb.com/title/tt0085415",
+    "Title Type": "Movie",
+    "IMDb Rating": 4.4,
+    "Runtime (mins)": 88,
+    "Year": 1982,
+    "Genres": "Horror",
+    "Num Votes": 1428,
+    "Release Date": "1982-05-14",
+    "Directors": "David Nelson"
+  },
+  {
+    "Const": "tt34530166",
+    "Your Rating": 8,
+    "Date Rated": "2025-06-23",
+    "Title": "Jim Gaffigan: The Skinny",
+    "Original Title": "Jim Gaffigan: The Skinny",
+    "URL": "https://www.imdb.com/title/tt34530166",
+    "Title Type": "TV Special",
+    "IMDb Rating": 7.2,
+    "Runtime (mins)": 61,
+    "Year": 2024,
+    "Genres": "Comedy",
+    "Num Votes": 874,
+    "Release Date": "2024-11-22",
+    "Directors": "Jim Gaffigan"
+  },
+  {
+    "Const": "tt36436543",
+    "Your Rating": 8,
+    "Date Rated": "2025-06-21",
+    "Title": "Joe List: Small Ball",
+    "Original Title": "Joe List: Small Ball",
+    "URL": "https://www.imdb.com/title/tt36436543",
+    "Title Type": "Movie",
+    "IMDb Rating": 7.5,
+    "Runtime (mins)": 56,
+    "Year": 2025,
+    "Genres": "Documentary, Comedy",
+    "Num Votes": 56,
+    "Release Date": "2025-06-06",
+    "Directors": "Willie Rockefeller"
+  },
+  {
+    "Const": "tt0082537",
+    "Your Rating": 5,
+    "Date Rated": "2025-06-21",
+    "Title": "Humongous",
+    "Original Title": "Humongous",
+    "URL": "https://www.imdb.com/title/tt0082537",
+    "Title Type": "Movie",
+    "IMDb Rating": 4.8,
+    "Runtime (mins)": 97,
+    "Year": 1982,
+    "Genres": "Thriller, Horror",
+    "Num Votes": 2308,
+    "Release Date": "1982-06-11",
+    "Directors": "Paul Lynch"
+  },
+  {
+    "Const": "tt27054481",
+    "Your Rating": 6,
+    "Date Rated": "2025-06-20",
+    "Title": "Jim Gaffigan: Dark Pale",
+    "Original Title": "Jim Gaffigan: Dark Pale",
+    "URL": "https://www.imdb.com/title/tt27054481",
+    "Title Type": "TV Special",
+    "IMDb Rating": 6.4,
+    "Runtime (mins)": 64,
+    "Year": 2023,
+    "Genres": "Comedy",
+    "Num Votes": 1329,
+    "Release Date": "2023-07-25",
+    "Directors": "Jim Gaffigan"
+  },
+  {
+    "Const": "tt0082806",
+    "Your Rating": 6,
+    "Date Rated": "2025-06-19",
+    "Title": "New Year's Evil",
+    "Original Title": "New Year's Evil",
+    "URL": "https://www.imdb.com/title/tt0082806",
+    "Title Type": "Movie",
+    "IMDb Rating": 4.9,
+    "Runtime (mins)": 85,
+    "Year": 1980,
+    "Genres": "Thriller, Horror",
+    "Num Votes": 4301,
+    "Release Date": "1980-12-19",
+    "Directors": "Emmett Alston"
+  },
+  {
+    "Const": "tt0084694",
+    "Your Rating": 7,
+    "Date Rated": "2025-06-18",
+    "Title": "The Slayer",
+    "Original Title": "The Slayer",
+    "URL": "https://www.imdb.com/title/tt0084694",
+    "Title Type": "Movie",
+    "IMDb Rating": 5.2,
+    "Runtime (mins)": 90,
+    "Year": 1982,
+    "Genres": "Mystery, Thriller, Horror",
+    "Num Votes": 3311,
+    "Release Date": "1982-10-01",
+    "Directors": "J.S. Cardone"
+  },
+  {
+    "Const": "tt0180274",
+    "Your Rating": 5,
+    "Date Rated": "2025-06-16",
+    "Title": "Unhinged",
+    "Original Title": "Unhinged",
+    "URL": "https://www.imdb.com/title/tt0180274",
+    "Title Type": "Movie",
+    "IMDb Rating": 4.9,
+    "Runtime (mins)": 79,
+    "Year": 1982,
+    "Genres": "Horror",
+    "Num Votes": 2132,
+    "Release Date": "1982-10-15",
+    "Directors": "Don Gronquist"
+  },
+  {
+    "Const": "tt0084739",
+    "Your Rating": 6,
+    "Date Rated": "2025-06-14",
+    "Title": "Superstition",
+    "Original Title": "Superstition",
+    "URL": "https://www.imdb.com/title/tt0084739",
+    "Title Type": "Movie",
+    "IMDb Rating": 5.7,
+    "Runtime (mins)": 85,
+    "Year": 1982,
+    "Genres": "Horror",
+    "Num Votes": 3566,
+    "Release Date": "1985-01-02",
+    "Directors": "James W. Roberson"
+  },
+  {
+    "Const": "tt21106500",
+    "Your Rating": 8,
+    "Date Rated": "2025-06-13",
+    "Title": "Bill Burr: Live at Red Rocks",
+    "Original Title": "Bill Burr: Live at Red Rocks",
+    "URL": "https://www.imdb.com/title/tt21106500",
+    "Title Type": "TV Special",
+    "IMDb Rating": 7.6,
+    "Runtime (mins)": 82,
+    "Year": 2022,
+    "Genres": "Documentary, Comedy",
+    "Num Votes": 7740,
+    "Release Date": "2022-07-12",
+    "Directors": "Mike Binder"
+  },
+  {
+    "Const": "tt0088116",
+    "Your Rating": 6,
+    "Date Rated": "2025-06-12",
+    "Title": "Silent Madness",
+    "Original Title": "Silent Madness",
+    "URL": "https://www.imdb.com/title/tt0088116",
+    "Title Type": "Movie",
+    "IMDb Rating": 5.2,
+    "Runtime (mins)": 93,
+    "Year": 1984,
+    "Genres": "Thriller, Horror",
+    "Num Votes": 1861,
+    "Release Date": "1984-10-26",
+    "Directors": "Simon Nuchtern"
+  },
+  {
+    "Const": "tt0087746",
+    "Your Rating": 6,
+    "Date Rated": "2025-06-12",
+    "Title": "Mortuary",
+    "Original Title": "Mortuary",
+    "URL": "https://www.imdb.com/title/tt0087746",
+    "Title Type": "Movie",
+    "IMDb Rating": 5.1,
+    "Runtime (mins)": 93,
+    "Year": 1982,
+    "Genres": "Horror",
+    "Num Votes": 3324,
+    "Release Date": "1983-09-02",
+    "Directors": "Howard Avedis"
+  },
+  {
+    "Const": "tt28692116",
+    "Your Rating": 8,
+    "Date Rated": "2025-06-11",
+    "Title": "Joe List: Enough for Everybody",
+    "Original Title": "Joe List: Enough for Everybody",
+    "URL": "https://www.imdb.com/title/tt28692116",
+    "Title Type": "Movie",
+    "IMDb Rating": 7.6,
+    "Runtime (mins)": 59,
+    "Year": 2023,
+    "Genres": "Comedy",
+    "Num Votes": 135,
+    "Release Date": "2023-08-18",
+    "Directors": "Jason Katz,Jason Katz"
+  },
+  {
+    "Const": "tt19887218",
+    "Your Rating": 8,
+    "Date Rated": "2025-06-02",
+    "Title": "Joe List: This Year's Material",
+    "Original Title": "Joe List: This Year's Material",
+    "URL": "https://www.imdb.com/title/tt19887218",
+    "Title Type": "TV Special",
+    "IMDb Rating": 7.6,
+    "Runtime (mins)": 60,
+    "Year": 2022,
+    "Genres": "Comedy",
+    "Num Votes": 218,
+    "Release Date": "2022-04-29",
+    "Directors": "Jason Katz"
+  },
+  {
+    "Const": "tt12837478",
+    "Your Rating": 9,
+    "Date Rated": "2025-05-28",
+    "Title": "Joe List: I Hate Myself",
+    "Original Title": "Joe List: I Hate Myself",
+    "URL": "https://www.imdb.com/title/tt12837478",
+    "Title Type": "TV Special",
+    "IMDb Rating": 7.4,
+    "Runtime (mins)": 56,
+    "Year": 2020,
+    "Genres": "Comedy",
+    "Num Votes": 402,
+    "Release Date": "2020-08-06",
+    "Directors": "Jason Katz"
+  },
+  {
+    "Const": "tt14857528",
+    "Your Rating": 4,
+    "Date Rated": "2025-01-28",
+    "Title": "Time Cut",
+    "Original Title": "Time Cut",
+    "URL": "https://www.imdb.com/title/tt14857528",
+    "Title Type": "Movie",
+    "IMDb Rating": 5,
+    "Runtime (mins)": 91,
+    "Year": 2024,
+    "Genres": "Horror, Thriller, Sci-Fi, Mystery",
+    "Num Votes": 20045,
+    "Release Date": "2024-10-30",
+    "Directors": "Hannah Macpherson"
+  },
+  {
     "Const": "tt0045920",
     "Your Rating": 7,
     "Date Rated": "2025-01-19",
@@ -11,7 +379,7 @@
     "Runtime (mins)": 81,
     "Year": 1953,
     "Genres": "Horror, Sci-Fi",
-    "Num Votes": 11827,
+    "Num Votes": 12202,
     "Release Date": "1953-06-05",
     "Directors": "Jack Arnold"
   },
@@ -27,7 +395,7 @@
     "Runtime (mins)": 111,
     "Year": 1976,
     "Genres": "Mystery, Horror",
-    "Num Votes": 139830,
+    "Num Votes": 141747,
     "Release Date": "1976-06-25",
     "Directors": "Richard Donner"
   },
@@ -43,7 +411,7 @@
     "Runtime (mins)": 96,
     "Year": 1957,
     "Genres": "Mystery, Thriller, Fantasy, Horror",
-    "Num Votes": 16246,
+    "Num Votes": 16544,
     "Release Date": "1958-03-30",
     "Directors": "Jacques Tourneur"
   },
@@ -58,8 +426,8 @@
     "IMDb Rating": 6.5,
     "Runtime (mins)": 119,
     "Year": 2024,
-    "Genres": "Action, Thriller, Crime, Mystery, Drama",
-    "Num Votes": 140991,
+    "Genres": "Action, Thriller, Crime",
+    "Num Votes": 172577,
     "Release Date": "2024-12-13",
     "Directors": "Jaume Collet-Serra"
   },
@@ -75,7 +443,7 @@
     "Runtime (mins)": 110,
     "Year": 2024,
     "Genres": "Action, Adventure, Sci-Fi, Thriller",
-    "Num Votes": 85673,
+    "Num Votes": 130844,
     "Release Date": "2024-10-25",
     "Directors": "Kelly Marcel"
   },
@@ -91,7 +459,7 @@
     "Runtime (mins)": 106,
     "Year": 2012,
     "Genres": "Comedy",
-    "Num Votes": 675277,
+    "Num Votes": 687062,
     "Release Date": "2012-06-29",
     "Directors": "Seth MacFarlane"
   },
@@ -107,7 +475,7 @@
     "Runtime (mins)": 148,
     "Year": 2021,
     "Genres": "Action, Adventure, Sci-Fi, Fantasy",
-    "Num Votes": 929843,
+    "Num Votes": 959910,
     "Release Date": "2021-12-17",
     "Directors": "Jon Watts"
   },
@@ -123,7 +491,7 @@
     "Runtime (mins)": 70,
     "Year": 1941,
     "Genres": "Romance, Mystery, Horror",
-    "Num Votes": 32403,
+    "Num Votes": 33029,
     "Release Date": "1941-12-12",
     "Directors": "George Waggner"
   },
@@ -139,7 +507,7 @@
     "Runtime (mins)": 69,
     "Year": 1943,
     "Genres": "Fantasy, Drama, Romance, Horror",
-    "Num Votes": 14453,
+    "Num Votes": 14779,
     "Release Date": "1943-04-30",
     "Directors": "Jacques Tourneur"
   },
@@ -151,11 +519,11 @@
     "Original Title": "Island of Lost Souls",
     "URL": "https://www.imdb.com/title/tt0024188",
     "Title Type": "Movie",
-    "IMDb Rating": 7.4,
+    "IMDb Rating": 7.3,
     "Runtime (mins)": 70,
     "Year": 1932,
     "Genres": "Film-Noir, Sci-Fi, Horror",
-    "Num Votes": 11535,
+    "Num Votes": 11771,
     "Release Date": "1932-12",
     "Directors": "Erle C. Kenton"
   },
@@ -171,7 +539,7 @@
     "Runtime (mins)": 139,
     "Year": 2024,
     "Genres": "Action, Thriller, Comedy",
-    "Num Votes": 89451,
+    "Num Votes": 94209,
     "Release Date": "2024-02-02",
     "Directors": "Matthew Vaughn"
   },
@@ -187,7 +555,7 @@
     "Runtime (mins)": 118,
     "Year": 2023,
     "Genres": "Action, Comedy",
-    "Num Votes": 50890,
+    "Num Votes": 54208,
     "Release Date": "2023-12-15",
     "Directors": "Simon Cellan Jones"
   },
@@ -203,7 +571,7 @@
     "Runtime (mins)": 134,
     "Year": 2023,
     "Genres": "Adventure, Fantasy, Action, Comedy",
-    "Num Votes": 251447,
+    "Num Votes": 262300,
     "Release Date": "2023-03-31",
     "Directors": "John Francis Daley,Jonathan Goldstein"
   },
@@ -219,7 +587,7 @@
     "Runtime (mins)": 144,
     "Year": 2023,
     "Genres": "Action, Adventure, Fantasy, Sci-Fi",
-    "Num Votes": 227778,
+    "Num Votes": 234814,
     "Release Date": "2023-06-16",
     "Directors": "Andy Muschietti"
   },
@@ -235,7 +603,7 @@
     "Runtime (mins)": 106,
     "Year": 2023,
     "Genres": "Comedy, Horror, Sci-Fi",
-    "Num Votes": 60380,
+    "Num Votes": 63640,
     "Release Date": "2023-10-06",
     "Directors": "Nahnatchka Khan"
   },
@@ -251,7 +619,7 @@
     "Runtime (mins)": 114,
     "Year": 2023,
     "Genres": "Comedy, Adventure, Fantasy",
-    "Num Votes": 589883,
+    "Num Votes": 613811,
     "Release Date": "2023-07-21",
     "Directors": "Greta Gerwig"
   },
@@ -267,7 +635,7 @@
     "Runtime (mins)": 95,
     "Year": 2022,
     "Genres": "Documentary",
-    "Num Votes": 46048,
+    "Num Votes": 46785,
     "Release Date": "2022-06-01",
     "Directors": "Justin Folk"
   },
@@ -283,7 +651,7 @@
     "Runtime (mins)": 98,
     "Year": 2005,
     "Genres": "Drama",
-    "Num Votes": 6710,
+    "Num Votes": 7130,
     "Release Date": "2005-01-30",
     "Directors": "Brent Shields"
   },
@@ -299,8 +667,8 @@
     "Runtime (mins)": 100,
     "Year": 2022,
     "Genres": "Comedy, Drama",
-    "Num Votes": 20190,
-    "Release Date": "2022-09-16",
+    "Num Votes": 20809,
+    "Release Date": "2022-09-13",
     "Directors": "Kevin Smith"
   },
   {
@@ -315,7 +683,7 @@
     "Runtime (mins)": 75,
     "Year": 1959,
     "Genres": "Mystery, Crime, Horror",
-    "Num Votes": 32303,
+    "Num Votes": 32828,
     "Release Date": "1959-02-17",
     "Directors": "William Castle"
   },
@@ -331,7 +699,7 @@
     "Runtime (mins)": 85,
     "Year": 2017,
     "Genres": "Horror, Comedy",
-    "Num Votes": 113600,
+    "Num Votes": 116516,
     "Release Date": "2017-10-13",
     "Directors": "McG"
   },
@@ -347,7 +715,7 @@
     "Runtime (mins)": 66,
     "Year": 1937,
     "Genres": "Family, Comedy, Western",
-    "Num Votes": 9224,
+    "Num Votes": 9354,
     "Release Date": "1937-04-16",
     "Directors": "James W. Horne"
   },
@@ -363,7 +731,7 @@
     "Runtime (mins)": 94,
     "Year": 1980,
     "Genres": "Thriller, Horror",
-    "Num Votes": 2238,
+    "Num Votes": 2290,
     "Release Date": "1980-02-29",
     "Directors": "Robert Hammer"
   },
@@ -379,7 +747,7 @@
     "Runtime (mins)": 72,
     "Year": 1932,
     "Genres": "Horror, Comedy, Thriller, Adventure, Drama",
-    "Num Votes": 13779,
+    "Num Votes": 14103,
     "Release Date": "1932-10-20",
     "Directors": "James Whale"
   },
@@ -391,11 +759,11 @@
     "Original Title": "Shotgun Wedding",
     "URL": "https://www.imdb.com/title/tt9686790",
     "Title Type": "Movie",
-    "IMDb Rating": 5.5,
+    "IMDb Rating": 5.4,
     "Runtime (mins)": 101,
     "Year": 2022,
     "Genres": "Action, Comedy, Romance",
-    "Num Votes": 39998,
+    "Num Votes": 41178,
     "Release Date": "2023-01-27",
     "Directors": "Jason Moore"
   },
@@ -411,7 +779,7 @@
     "Runtime (mins)": 123,
     "Year": 1962,
     "Genres": "Drama, Western",
-    "Num Votes": 84740,
+    "Num Votes": 86175,
     "Release Date": "1962-04-22",
     "Directors": "John Ford"
   },
@@ -427,7 +795,7 @@
     "Runtime (mins)": 134,
     "Year": 2022,
     "Genres": "Drama, History, Comedy, Mystery, Thriller",
-    "Num Votes": 98804,
+    "Num Votes": 101112,
     "Release Date": "2022-10-07",
     "Directors": "David O. Russell"
   },
@@ -443,7 +811,7 @@
     "Runtime (mins)": 78,
     "Year": 1979,
     "Genres": "Documentary, Comedy",
-    "Num Votes": 5959,
+    "Num Votes": 6023,
     "Release Date": "1979-01-26",
     "Directors": "Jeff Margolis"
   },
@@ -459,7 +827,7 @@
     "Runtime (mins)": 118,
     "Year": 2011,
     "Genres": "Comedy, Romance, Drama",
-    "Num Votes": 583921,
+    "Num Votes": 596015,
     "Release Date": "2011-07-29",
     "Directors": "Glenn Ficarra,John Requa"
   },
@@ -475,7 +843,7 @@
     "Runtime (mins)": 82,
     "Year": 2010,
     "Genres": "Comedy",
-    "Num Votes": 13000,
+    "Num Votes": 13104,
     "Release Date": "2010-01-26",
     "Directors": "Louis C.K."
   },
@@ -491,7 +859,7 @@
     "Runtime (mins)": 56,
     "Year": 2007,
     "Genres": "Comedy",
-    "Num Votes": 9193,
+    "Num Votes": 9253,
     "Release Date": "2007-01-13",
     "Directors": "Steven J. Santos"
   },
@@ -507,7 +875,7 @@
     "Runtime (mins)": 62,
     "Year": 2016,
     "Genres": "Comedy",
-    "Num Votes": 972,
+    "Num Votes": 987,
     "Release Date": "2016-04",
     "Directors": "Marcus Raboy"
   },
@@ -523,7 +891,7 @@
     "Runtime (mins)": 60,
     "Year": 2007,
     "Genres": "Comedy",
-    "Num Votes": 3196,
+    "Num Votes": 3203,
     "Release Date": "2007-06-17",
     "Directors": "Manny Rodriguez"
   },
@@ -539,7 +907,7 @@
     "Runtime (mins)": 58,
     "Year": 1996,
     "Genres": "Comedy",
-    "Num Votes": 4302,
+    "Num Votes": 4355,
     "Release Date": "1996-06-01",
     "Directors": "Keith Truesdell"
   },
@@ -555,7 +923,7 @@
     "Runtime (mins)": 75,
     "Year": 2005,
     "Genres": "Documentary, Comedy",
-    "Num Votes": 5096,
+    "Num Votes": 5142,
     "Release Date": "2005-11-05",
     "Directors": "Rocco Urbisci"
   },
@@ -571,7 +939,7 @@
     "Runtime (mins)": 136,
     "Year": 2001,
     "Genres": "Mystery, Fantasy, Sci-Fi, Romance, Thriller",
-    "Num Votes": 291818,
+    "Num Votes": 297094,
     "Release Date": "2001-12-14",
     "Directors": "Cameron Crowe"
   },
@@ -587,7 +955,7 @@
     "Runtime (mins)": 61,
     "Year": 2008,
     "Genres": "Documentary, Comedy",
-    "Num Votes": 11226,
+    "Num Votes": 11303,
     "Release Date": "2008-10",
     "Directors": "Louis C.K.,Shannon Hartman"
   },
@@ -603,7 +971,7 @@
     "Runtime (mins)": 60,
     "Year": 2011,
     "Genres": "Comedy",
-    "Num Votes": 2514,
+    "Num Votes": 2527,
     "Release Date": "2011-03-06",
     "Directors": "Beth McCarthy-Miller"
   },
@@ -619,7 +987,7 @@
     "Runtime (mins)": 62,
     "Year": 2015,
     "Genres": "Comedy",
-    "Num Votes": 9832,
+    "Num Votes": 9945,
     "Release Date": "2015-11-13",
     "Directors": "Rhys Thomas"
   },
@@ -635,7 +1003,7 @@
     "Runtime (mins)": 49,
     "Year": 2017,
     "Genres": "Comedy",
-    "Num Votes": 11095,
+    "Num Votes": 11166,
     "Release Date": "2017-12-31",
     "Directors": "Stan Lathan"
   },
@@ -647,11 +1015,11 @@
     "Original Title": "Thor: Love and Thunder",
     "URL": "https://www.imdb.com/title/tt10648342",
     "Title Type": "Movie",
-    "IMDb Rating": 6.2,
+    "IMDb Rating": 6.1,
     "Runtime (mins)": 118,
     "Year": 2022,
     "Genres": "Adventure, Romance, Sci-Fi, Comedy, Action",
-    "Num Votes": 423843,
+    "Num Votes": 437282,
     "Release Date": "2022-07-08",
     "Directors": "Taika Waititi"
   },
@@ -667,7 +1035,7 @@
     "Runtime (mins)": 67,
     "Year": 2017,
     "Genres": "Comedy",
-    "Num Votes": 13686,
+    "Num Votes": 13795,
     "Release Date": "2017-03-21",
     "Directors": "Stan Lathan"
   },
@@ -683,7 +1051,7 @@
     "Runtime (mins)": 60,
     "Year": 2017,
     "Genres": "Comedy",
-    "Num Votes": 13852,
+    "Num Votes": 13963,
     "Release Date": "2017-12-31",
     "Directors": "Stan Lathan"
   },
@@ -699,7 +1067,7 @@
     "Runtime (mins)": 70,
     "Year": 2021,
     "Genres": "Comedy",
-    "Num Votes": 2140,
+    "Num Votes": 2172,
     "Release Date": "2021-12-21",
     "Directors": "Jim Gaffigan"
   },
@@ -715,7 +1083,7 @@
     "Runtime (mins)": 72,
     "Year": 2021,
     "Genres": "Comedy",
-    "Num Votes": 29178,
+    "Num Votes": 29293,
     "Release Date": "2021-10-05",
     "Directors": "Stan Lathan"
   },
@@ -731,7 +1099,7 @@
     "Runtime (mins)": 57,
     "Year": 2000,
     "Genres": "Comedy",
-    "Num Votes": 11133,
+    "Num Votes": 11278,
     "Release Date": "2000-07-26",
     "Directors": "Stan Lathan"
   },
@@ -747,7 +1115,7 @@
     "Runtime (mins)": 77,
     "Year": 2017,
     "Genres": "Comedy",
-    "Num Votes": 8370,
+    "Num Votes": 8480,
     "Release Date": "2017-01-31",
     "Directors": "Jaime Eliezer Karas"
   },
@@ -763,7 +1131,7 @@
     "Runtime (mins)": 130,
     "Year": 2022,
     "Genres": "Action, Drama",
-    "Num Votes": 753522,
+    "Num Votes": 786081,
     "Release Date": "2022-05-27",
     "Directors": "Joseph Kosinski"
   },
@@ -779,7 +1147,7 @@
     "Runtime (mins)": 75,
     "Year": 2019,
     "Genres": "Comedy",
-    "Num Votes": 1526,
+    "Num Votes": 1578,
     "Release Date": "2019-08-16",
     "Directors": "Jeannie Gaffigan"
   },
@@ -795,7 +1163,7 @@
     "Runtime (mins)": 73,
     "Year": 2017,
     "Genres": "Comedy",
-    "Num Votes": 2652,
+    "Num Votes": 2683,
     "Release Date": "2017-01-10",
     "Directors": "Jeannie Gaffigan"
   },
@@ -811,7 +1179,7 @@
     "Runtime (mins)": 122,
     "Year": 2022,
     "Genres": "Thriller, Mystery, Action",
-    "Num Votes": 253154,
+    "Num Votes": 260279,
     "Release Date": "2022-07-22",
     "Directors": "Joe Russo,Anthony Russo"
   },
@@ -827,7 +1195,7 @@
     "Runtime (mins)": 105,
     "Year": 2022,
     "Genres": "Crime, Drama, Thriller, Mystery",
-    "Num Votes": 79050,
+    "Num Votes": 81868,
     "Release Date": "2022-03-18",
     "Directors": "Graham Moore"
   },
@@ -843,7 +1211,7 @@
     "Runtime (mins)": 136,
     "Year": 2012,
     "Genres": "Action, Sci-Fi",
-    "Num Votes": 723990,
+    "Num Votes": 736818,
     "Release Date": "2012-07-03",
     "Directors": "Marc Webb"
   },
@@ -859,7 +1227,7 @@
     "Runtime (mins)": 94,
     "Year": 2019,
     "Genres": "Thriller, Sci-Fi, Horror, Mystery",
-    "Num Votes": 300651,
+    "Num Votes": 309170,
     "Release Date": "2020-03-20",
     "Directors": "Galder Gaztelu-Urrutia"
   },
@@ -871,11 +1239,11 @@
     "Original Title": "Eternals",
     "URL": "https://www.imdb.com/title/tt9032400",
     "Title Type": "Movie",
-    "IMDb Rating": 6.3,
+    "IMDb Rating": 6.2,
     "Runtime (mins)": 156,
     "Year": 2021,
     "Genres": "Action, Fantasy, Sci-Fi, Adventure",
-    "Num Votes": 400899,
+    "Num Votes": 410895,
     "Release Date": "2021-11-05",
     "Directors": "Chloé Zhao"
   },
@@ -891,7 +1259,7 @@
     "Runtime (mins)": 98,
     "Year": 2017,
     "Genres": "Horror, Comedy, Crime",
-    "Num Votes": 12434,
+    "Num Votes": 12887,
     "Release Date": "2017-10-20",
     "Directors": "Tyler MacIntyre"
   },
@@ -907,7 +1275,7 @@
     "Runtime (mins)": 116,
     "Year": 2022,
     "Genres": "Action, Adventure",
-    "Num Votes": 275607,
+    "Num Votes": 284705,
     "Release Date": "2022-02-18",
     "Directors": "Ruben Fleischer"
   },
@@ -923,7 +1291,7 @@
     "Runtime (mins)": 90,
     "Year": 2018,
     "Genres": "Comedy",
-    "Num Votes": 1566,
+    "Num Votes": 1596,
     "Release Date": "2018-07-13",
     "Directors": "Jeannie Gaffigan"
   },
@@ -939,7 +1307,7 @@
     "Runtime (mins)": 106,
     "Year": 2022,
     "Genres": "Sci-Fi, Action, Adventure, Comedy",
-    "Num Votes": 242750,
+    "Num Votes": 247961,
     "Release Date": "2022-03-11",
     "Directors": "Shawn Levy"
   },
@@ -955,7 +1323,7 @@
     "Runtime (mins)": 139,
     "Year": 2007,
     "Genres": "Action, Sci-Fi, Adventure",
-    "Num Votes": 659323,
+    "Num Votes": 672513,
     "Release Date": "2007-05-04",
     "Directors": "Sam Raimi"
   },
@@ -971,7 +1339,7 @@
     "Runtime (mins)": 127,
     "Year": 2004,
     "Genres": "Sci-Fi, Adventure, Action",
-    "Num Votes": 734822,
+    "Num Votes": 750637,
     "Release Date": "2004-06-30",
     "Directors": "Sam Raimi"
   },
@@ -987,7 +1355,7 @@
     "Runtime (mins)": 121,
     "Year": 2002,
     "Genres": "Adventure, Sci-Fi, Action",
-    "Num Votes": 909898,
+    "Num Votes": 928071,
     "Release Date": "2002-05-03",
     "Directors": "Sam Raimi"
   },
@@ -1003,7 +1371,7 @@
     "Runtime (mins)": 102,
     "Year": 2021,
     "Genres": "Animation, Musical, Family, Fantasy, Comedy",
-    "Num Votes": 276558,
+    "Num Votes": 283697,
     "Release Date": "2021-11-24",
     "Directors": "Jared Bush,Byron Howard,Charise Castro Smith"
   },
@@ -1019,7 +1387,7 @@
     "Runtime (mins)": 129,
     "Year": 2014,
     "Genres": "Adventure, Action, Comedy, Thriller",
-    "Num Votes": 742790,
+    "Num Votes": 755812,
     "Release Date": "2015-02-13",
     "Directors": "Matthew Vaughn"
   },
@@ -1035,7 +1403,7 @@
     "Runtime (mins)": 106,
     "Year": 2016,
     "Genres": "Thriller, Crime, Mystery, Drama",
-    "Num Votes": 199598,
+    "Num Votes": 203870,
     "Release Date": "2017-01-06",
     "Directors": "Oriol Paulo"
   },
@@ -1051,7 +1419,7 @@
     "Runtime (mins)": 128,
     "Year": 2018,
     "Genres": "Drama, Thriller, Romance, Mystery, Fantasy",
-    "Num Votes": 67105,
+    "Num Votes": 68558,
     "Release Date": "2019-03-22",
     "Directors": "Oriol Paulo"
   },
@@ -1067,7 +1435,7 @@
     "Runtime (mins)": 131,
     "Year": 2021,
     "Genres": "Action, Adventure, Thriller",
-    "Num Votes": 183575,
+    "Num Votes": 188304,
     "Release Date": "2021-12-22",
     "Directors": "Matthew Vaughn"
   },
@@ -1082,8 +1450,8 @@
     "IMDb Rating": 7.8,
     "Runtime (mins)": 119,
     "Year": 1956,
-    "Genres": "Adventure, Drama, Western",
-    "Num Votes": 99109,
+    "Genres": "Adventure, Western",
+    "Num Votes": 100751,
     "Release Date": "1956-05-26",
     "Directors": "John Ford"
   },
@@ -1099,7 +1467,7 @@
     "Runtime (mins)": 87,
     "Year": 2021,
     "Genres": "Documentary, Comedy, Drama, Music",
-    "Num Votes": 56586,
+    "Num Votes": 57582,
     "Release Date": "2021-05-30",
     "Directors": "Bo Burnham"
   },
@@ -1115,7 +1483,7 @@
     "Runtime (mins)": 59,
     "Year": 1992,
     "Genres": "Documentary, Comedy",
-    "Num Votes": 4173,
+    "Num Votes": 4229,
     "Release Date": "1992-04-25",
     "Directors": "Rocco Urbisci"
   },
@@ -1127,11 +1495,11 @@
     "Original Title": "Jim Gaffigan: Obsessed",
     "URL": "https://www.imdb.com/title/tt3481550",
     "Title Type": "TV Special",
-    "IMDb Rating": 7.6,
+    "IMDb Rating": 7.5,
     "Runtime (mins)": 60,
     "Year": 2014,
     "Genres": "Documentary, Comedy",
-    "Num Votes": 2505,
+    "Num Votes": 2528,
     "Release Date": "2014-04-27",
     "Directors": "Jay Chapman"
   },
@@ -1147,7 +1515,7 @@
     "Runtime (mins)": 78,
     "Year": 2012,
     "Genres": "Comedy",
-    "Num Votes": 3798,
+    "Num Votes": 3819,
     "Release Date": "2012-04-11",
     "Directors": "Jaime Eliezer Karas"
   },
@@ -1163,7 +1531,7 @@
     "Runtime (mins)": 60,
     "Year": 2009,
     "Genres": "Comedy",
-    "Num Votes": 2784,
+    "Num Votes": 2812,
     "Release Date": "2009-03-29",
     "Directors": "Troy Miller"
   },
@@ -1179,7 +1547,7 @@
     "Runtime (mins)": 77,
     "Year": 1990,
     "Genres": "Fantasy, Thriller, Horror, Comedy, Action",
-    "Num Votes": 1536,
+    "Num Votes": 1582,
     "Release Date": "1993-03-10",
     "Directors": "Jim Wynorski"
   },
@@ -1195,7 +1563,7 @@
     "Runtime (mins)": 104,
     "Year": 2021,
     "Genres": "Comedy, Romance",
-    "Num Votes": 65234,
+    "Num Votes": 65901,
     "Release Date": "2021-11-05",
     "Directors": "Hernán Jiménez"
   },
@@ -1211,7 +1579,7 @@
     "Runtime (mins)": 97,
     "Year": 2021,
     "Genres": "Action, Thriller, Sci-Fi",
-    "Num Votes": 280635,
+    "Num Votes": 290203,
     "Release Date": "2021-10-01",
     "Directors": "Andy Serkis"
   },
@@ -1227,7 +1595,7 @@
     "Runtime (mins)": 112,
     "Year": 2018,
     "Genres": "Action, Sci-Fi, Adventure",
-    "Num Votes": 567958,
+    "Num Votes": 581337,
     "Release Date": "2018-10-05",
     "Directors": "Ruben Fleischer"
   },
@@ -1243,7 +1611,7 @@
     "Runtime (mins)": 118,
     "Year": 2021,
     "Genres": "Action, Comedy, Thriller",
-    "Num Votes": 333524,
+    "Num Votes": 341930,
     "Release Date": "2021-11-12",
     "Directors": "Rawson Marshall Thurber"
   },
@@ -1259,7 +1627,7 @@
     "Runtime (mins)": 132,
     "Year": 2021,
     "Genres": "Action, Adventure, Fantasy, Sci-Fi",
-    "Num Votes": 454574,
+    "Num Votes": 466784,
     "Release Date": "2021-09-03",
     "Directors": "Destin Daniel Cretton"
   },
@@ -1275,7 +1643,7 @@
     "Runtime (mins)": 90,
     "Year": 1982,
     "Genres": "Drama, Comedy",
-    "Num Votes": 119595,
+    "Num Votes": 121324,
     "Release Date": "1982-08-13",
     "Directors": "Amy Heckerling"
   },
@@ -1291,7 +1659,7 @@
     "Runtime (mins)": 155,
     "Year": 2021,
     "Genres": "Sci-Fi, Adventure, Drama, Action",
-    "Num Votes": 933244,
+    "Num Votes": 963833,
     "Release Date": "2021-10-22",
     "Directors": "Denis Villeneuve"
   },
@@ -1307,7 +1675,7 @@
     "Runtime (mins)": 113,
     "Year": 2020,
     "Genres": "Crime, Drama, Thriller, Mystery",
-    "Num Votes": 221099,
+    "Num Votes": 226164,
     "Release Date": "2020-12-25",
     "Directors": "Emerald Fennell"
   },
@@ -1323,7 +1691,7 @@
     "Runtime (mins)": 90,
     "Year": 2021,
     "Genres": "Drama, Thriller, Crime",
-    "Num Votes": 158565,
+    "Num Votes": 163956,
     "Release Date": "2021-10-01",
     "Directors": "Antoine Fuqua"
   },
@@ -1339,7 +1707,7 @@
     "Runtime (mins)": 115,
     "Year": 2021,
     "Genres": "Action, Comedy, Sci-Fi, Adventure, Fantasy, Romance",
-    "Num Votes": 452738,
+    "Num Votes": 466573,
     "Release Date": "2021-08-13",
     "Directors": "Shawn Levy"
   },
@@ -1355,7 +1723,7 @@
     "Runtime (mins)": 112,
     "Year": 2021,
     "Genres": "Musical, Comedy, Fantasy, Romance, Family",
-    "Num Votes": 48310,
+    "Num Votes": 49046,
     "Release Date": "2021-09-03",
     "Directors": "Kay Cannon"
   },
@@ -1371,7 +1739,7 @@
     "Runtime (mins)": 134,
     "Year": 2021,
     "Genres": "Action, Adventure, Sci-Fi",
-    "Num Votes": 443626,
+    "Num Votes": 456512,
     "Release Date": "2021-07-09",
     "Directors": "Cate Shortland"
   },
@@ -1387,7 +1755,7 @@
     "Runtime (mins)": 89,
     "Year": 2009,
     "Genres": "Action, Drama, Thriller",
-    "Num Votes": 27749,
+    "Num Votes": 28100,
     "Release Date": "2009-07-21",
     "Directors": "Kevin Hooks,Brad Turner"
   },
@@ -1403,7 +1771,7 @@
     "Runtime (mins)": 138,
     "Year": 2021,
     "Genres": "Action, Sci-Fi, Adventure, Thriller, Drama",
-    "Num Votes": 236845,
+    "Num Votes": 242752,
     "Release Date": "2021-07-02",
     "Directors": "Chris McKay"
   },
@@ -1419,7 +1787,7 @@
     "Runtime (mins)": 85,
     "Year": 1952,
     "Genres": "Thriller, Drama, Western",
-    "Num Votes": 112662,
+    "Num Votes": 114086,
     "Release Date": "1952-07-30",
     "Directors": "Fred Zinnemann"
   },
@@ -1435,7 +1803,7 @@
     "Runtime (mins)": 96,
     "Year": 1986,
     "Genres": "Horror, Drama, Sci-Fi",
-    "Num Votes": 211543,
+    "Num Votes": 215635,
     "Release Date": "1986-08-15",
     "Directors": "David Cronenberg"
   },
@@ -1451,7 +1819,7 @@
     "Runtime (mins)": 66,
     "Year": 2017,
     "Genres": "Comedy",
-    "Num Votes": 12568,
+    "Num Votes": 12647,
     "Release Date": "2017-03-21",
     "Directors": "Stan Lathan"
   },
@@ -1467,7 +1835,7 @@
     "Runtime (mins)": 53,
     "Year": 2013,
     "Genres": "Comedy",
-    "Num Votes": 1671,
+    "Num Votes": 1691,
     "Release Date": "2013-11-23",
     "Directors": "Liam Lynch"
   },
@@ -1483,7 +1851,7 @@
     "Runtime (mins)": 101,
     "Year": 2021,
     "Genres": "Comedy, Romance",
-    "Num Votes": 3582,
+    "Num Votes": 3744,
     "Release Date": "2021-06-04",
     "Directors": "Kae-Byeok Lee,Kate Jopson"
   },
@@ -1499,7 +1867,7 @@
     "Runtime (mins)": 67,
     "Year": 2019,
     "Genres": "Comedy",
-    "Num Votes": 12910,
+    "Num Votes": 13129,
     "Release Date": "2019-09-10",
     "Directors": "Mike Binder"
   },
@@ -1515,7 +1883,7 @@
     "Runtime (mins)": 65,
     "Year": 2010,
     "Genres": "Comedy",
-    "Num Votes": 5957,
+    "Num Votes": 6064,
     "Release Date": "2010-09-18",
     "Directors": "Shannon Hartman"
   },
@@ -1531,7 +1899,7 @@
     "Runtime (mins)": 72,
     "Year": 2006,
     "Genres": "Comedy",
-    "Num Votes": 4323,
+    "Num Votes": 4358,
     "Release Date": "2023-11-15",
     "Directors": "Michael Drumm"
   },
@@ -1547,7 +1915,7 @@
     "Runtime (mins)": 104,
     "Year": 2021,
     "Genres": "Documentary, Comedy, Biography, History",
-    "Num Votes": 66319,
+    "Num Votes": 67010,
     "Release Date": "2021-05-27",
     "Directors": "Russell Norman,Ben Winston"
   },
@@ -1563,7 +1931,7 @@
     "Runtime (mins)": 134,
     "Year": 2021,
     "Genres": "Comedy, Crime, Drama, Adventure",
-    "Num Votes": 277052,
+    "Num Votes": 283319,
     "Release Date": "2021-05-28",
     "Directors": "Craig Gillespie"
   },
@@ -1579,7 +1947,7 @@
     "Runtime (mins)": 55,
     "Year": 2008,
     "Genres": "Comedy",
-    "Num Votes": 5009,
+    "Num Votes": 5089,
     "Release Date": "2008-08-23",
     "Directors": "Shannon Hartman"
   },
@@ -1595,7 +1963,7 @@
     "Runtime (mins)": 69,
     "Year": 2012,
     "Genres": "Comedy",
-    "Num Votes": 8174,
+    "Num Votes": 8268,
     "Release Date": "2012-08-16",
     "Directors": "Jaime Eliezer Karas"
   },
@@ -1611,7 +1979,7 @@
     "Runtime (mins)": 65,
     "Year": 2019,
     "Genres": "Comedy",
-    "Num Votes": 28448,
+    "Num Votes": 28587,
     "Release Date": "2019-08-26",
     "Directors": "Stan Lathan"
   },
@@ -1627,7 +1995,7 @@
     "Runtime (mins)": 60,
     "Year": 2020,
     "Genres": "Comedy",
-    "Num Votes": 5806,
+    "Num Votes": 5880,
     "Release Date": "2020-05-05",
     "Directors": "Joe DeMaio"
   },
@@ -1643,7 +2011,7 @@
     "Runtime (mins)": 97,
     "Year": 1985,
     "Genres": "Comedy, Drama",
-    "Num Votes": 450898,
+    "Num Votes": 459395,
     "Release Date": "1985-02-15",
     "Directors": "John Hughes"
   },
@@ -1659,7 +2027,7 @@
     "Runtime (mins)": 77,
     "Year": 1990,
     "Genres": "Comedy, Crime, Thriller, Horror",
-    "Num Votes": 2463,
+    "Num Votes": 2509,
     "Release Date": "1990-10-05",
     "Directors": "Jim Wynorski"
   },
@@ -1675,7 +2043,7 @@
     "Runtime (mins)": 117,
     "Year": 2017,
     "Genres": "Crime, Action",
-    "Num Votes": 2533,
+    "Num Votes": 2596,
     "Release Date": "2017-12-01",
     "Directors": "Chang Won Jang"
   },
@@ -1690,8 +2058,8 @@
     "IMDb Rating": 7.1,
     "Runtime (mins)": 112,
     "Year": 2020,
-    "Genres": "Thriller, Mystery, Crime, Sci-Fi",
-    "Num Votes": 47072,
+    "Genres": "Thriller, Mystery, Crime, Sci-Fi, Horror",
+    "Num Votes": 49125,
     "Release Date": "2020-11-27",
     "Directors": "Chung-Hyun Lee"
   },
@@ -1703,11 +2071,11 @@
     "Original Title": "Wonder Woman 1984",
     "URL": "https://www.imdb.com/title/tt7126948",
     "Title Type": "Movie",
-    "IMDb Rating": 5.4,
+    "IMDb Rating": 5.3,
     "Runtime (mins)": 151,
     "Year": 2020,
     "Genres": "Action, Adventure, Fantasy",
-    "Num Votes": 298743,
+    "Num Votes": 303282,
     "Release Date": "2020-12-25",
     "Directors": "Patty Jenkins"
   },
@@ -1723,7 +2091,7 @@
     "Runtime (mins)": 99,
     "Year": 2020,
     "Genres": "Thriller, Action, Crime, Drama",
-    "Num Votes": 59854,
+    "Num Votes": 60906,
     "Release Date": "2020-10-16",
     "Directors": "Mark Williams"
   },
@@ -1739,7 +2107,7 @@
     "Runtime (mins)": 102,
     "Year": 1942,
     "Genres": "Romance, War, Drama",
-    "Num Votes": 624353,
+    "Num Votes": 635134,
     "Release Date": "1943-01-23",
     "Directors": "Michael Curtiz"
   },
@@ -1755,7 +2123,7 @@
     "Runtime (mins)": 96,
     "Year": 2020,
     "Genres": "Action, Thriller, Drama, Crime",
-    "Num Votes": 65161,
+    "Num Votes": 66272,
     "Release Date": "2020-09-25",
     "Directors": "Tate Taylor"
   },
@@ -1771,7 +2139,7 @@
     "Runtime (mins)": 123,
     "Year": 2020,
     "Genres": "Drama, Mystery, Crime, Adventure",
-    "Num Votes": 229340,
+    "Num Votes": 234816,
     "Release Date": "2020-09-23",
     "Directors": "Harry Bradbeer"
   },
@@ -1786,8 +2154,8 @@
     "IMDb Rating": 7.1,
     "Runtime (mins)": 115,
     "Year": 2017,
-    "Genres": "Crime, Action, Comedy, Drama",
-    "Num Votes": 216721,
+    "Genres": "Crime, Action, Comedy, Drama, Thriller",
+    "Num Votes": 221999,
     "Release Date": "2017-09-29",
     "Directors": "Doug Liman"
   },
@@ -1803,7 +2171,7 @@
     "Runtime (mins)": 115,
     "Year": 2020,
     "Genres": "Adventure, Drama, Action, Fantasy",
-    "Num Votes": 162373,
+    "Num Votes": 164669,
     "Release Date": "2020-09-04",
     "Directors": "Niki Caro"
   },
@@ -1819,7 +2187,7 @@
     "Runtime (mins)": 132,
     "Year": 2019,
     "Genres": "Fantasy, Action, Adventure, Comedy",
-    "Num Votes": 395916,
+    "Num Votes": 402023,
     "Release Date": "2019-04-05",
     "Directors": "David F. Sandberg"
   },
@@ -1835,7 +2203,7 @@
     "Runtime (mins)": 105,
     "Year": 2019,
     "Genres": "Comedy, Adventure, Action",
-    "Num Votes": 29170,
+    "Num Votes": 29695,
     "Release Date": "2019-11-29",
     "Directors": "Kevin Smith"
   },
@@ -1851,7 +2219,7 @@
     "Runtime (mins)": 113,
     "Year": 2020,
     "Genres": "Thriller, Sci-Fi, Action, Crime",
-    "Num Votes": 99981,
+    "Num Votes": 101516,
     "Release Date": "2020-08-14",
     "Directors": "Henry Joost,Ariel Schulman"
   },
@@ -1867,7 +2235,7 @@
     "Runtime (mins)": 97,
     "Year": 2006,
     "Genres": "Comedy",
-    "Num Votes": 142201,
+    "Num Votes": 142986,
     "Release Date": "2006-07-21",
     "Directors": "Kevin Smith"
   },
@@ -1883,7 +2251,7 @@
     "Runtime (mins)": 104,
     "Year": 2001,
     "Genres": "Comedy",
-    "Num Votes": 163126,
+    "Num Votes": 164360,
     "Release Date": "2001-08-24",
     "Directors": "Kevin Smith"
   },
@@ -1899,7 +2267,7 @@
     "Runtime (mins)": 125,
     "Year": 2020,
     "Genres": "Action, Thriller",
-    "Num Votes": 189715,
+    "Num Votes": 194535,
     "Release Date": "2020-07-10",
     "Directors": "Gina Prince-Bythewood"
   },
@@ -1915,7 +2283,7 @@
     "Runtime (mins)": 130,
     "Year": 1999,
     "Genres": "Fantasy, Adventure, Drama, Comedy",
-    "Num Votes": 232853,
+    "Num Votes": 235594,
     "Release Date": "1999-11-12",
     "Directors": "Kevin Smith"
   },
@@ -1931,7 +2299,7 @@
     "Runtime (mins)": 109,
     "Year": 2017,
     "Genres": "Action, Comedy",
-    "Num Votes": 10508,
+    "Num Votes": 11049,
     "Release Date": "2017-08-25",
     "Directors": "Joo-hwan Kim"
   },
@@ -1947,7 +2315,7 @@
     "Runtime (mins)": 126,
     "Year": 2017,
     "Genres": "Action, Crime",
-    "Num Votes": 7035,
+    "Num Votes": 7212,
     "Release Date": "2017-02-24",
     "Directors": "Kwang-Hyun Park"
   },
@@ -1963,7 +2331,7 @@
     "Runtime (mins)": 101,
     "Year": 2009,
     "Genres": "Thriller, Mystery, Crime",
-    "Num Votes": 129354,
+    "Num Votes": 131467,
     "Release Date": "2010-06-17",
     "Directors": "Stuart Hazeldine"
   },
@@ -1979,7 +2347,7 @@
     "Runtime (mins)": 101,
     "Year": 2018,
     "Genres": "Thriller, Action",
-    "Num Votes": 72777,
+    "Num Votes": 73850,
     "Release Date": "2018-09-07",
     "Directors": "Pierre Morel"
   },
@@ -1995,7 +2363,7 @@
     "Runtime (mins)": 116,
     "Year": 2000,
     "Genres": "Mystery, Horror",
-    "Num Votes": 171366,
+    "Num Votes": 174825,
     "Release Date": "2000-02-04",
     "Directors": "Wes Craven"
   },
@@ -2011,7 +2379,7 @@
     "Runtime (mins)": 120,
     "Year": 1997,
     "Genres": "Mystery, Horror",
-    "Num Votes": 219545,
+    "Num Votes": 223998,
     "Release Date": "1997-12-12",
     "Directors": "Wes Craven"
   },
@@ -2027,7 +2395,7 @@
     "Runtime (mins)": 111,
     "Year": 1996,
     "Genres": "Mystery, Horror",
-    "Num Votes": 410780,
+    "Num Votes": 420097,
     "Release Date": "1996-12-20",
     "Directors": "Wes Craven"
   },
@@ -2043,7 +2411,7 @@
     "Runtime (mins)": 109,
     "Year": 2010,
     "Genres": "Comedy, Action, Adventure",
-    "Num Votes": 215201,
+    "Num Votes": 219332,
     "Release Date": "2010-06-23",
     "Directors": "James Mangold"
   },
@@ -2059,7 +2427,7 @@
     "Runtime (mins)": 113,
     "Year": 1997,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 145692,
+    "Num Votes": 146690,
     "Release Date": "1997-04-18",
     "Directors": "Kevin Smith"
   },
@@ -2075,7 +2443,7 @@
     "Runtime (mins)": 118,
     "Year": 2017,
     "Genres": "Action, Comedy, Thriller, Crime",
-    "Num Votes": 253477,
+    "Num Votes": 256584,
     "Release Date": "2017-08-18",
     "Directors": "Patrick Hughes"
   },
@@ -2091,7 +2459,7 @@
     "Runtime (mins)": 113,
     "Year": 2019,
     "Genres": "Action, Crime",
-    "Num Votes": 425385,
+    "Num Votes": 436880,
     "Release Date": "2020-01-24",
     "Directors": "Guy Ritchie"
   },
@@ -2107,7 +2475,7 @@
     "Runtime (mins)": 94,
     "Year": 1995,
     "Genres": "Romance, Comedy",
-    "Num Votes": 130847,
+    "Num Votes": 132258,
     "Release Date": "1995-10-20",
     "Directors": "Kevin Smith"
   },
@@ -2123,7 +2491,7 @@
     "Runtime (mins)": 89,
     "Year": 2013,
     "Genres": "Sci-Fi, Thriller, Mystery",
-    "Num Votes": 155731,
+    "Num Votes": 161503,
     "Release Date": "2014-08-06",
     "Directors": "James Ward Byrkit"
   },
@@ -2139,7 +2507,7 @@
     "Runtime (mins)": 79,
     "Year": 1954,
     "Genres": "Sci-Fi, Horror",
-    "Num Votes": 35964,
+    "Num Votes": 36627,
     "Release Date": "1954-03-05",
     "Directors": "Jack Arnold"
   },
@@ -2155,7 +2523,7 @@
     "Runtime (mins)": 95,
     "Year": 2019,
     "Genres": "Thriller, Horror, Mystery, Comedy, Action",
-    "Num Votes": 207952,
+    "Num Votes": 218180,
     "Release Date": "2019-08-21",
     "Directors": "Matt Bettinelli-Olpin,Tyler Gillett"
   },
@@ -2171,7 +2539,7 @@
     "Runtime (mins)": 113,
     "Year": 2014,
     "Genres": "Action, Sci-Fi, Adventure",
-    "Num Votes": 762637,
+    "Num Votes": 777518,
     "Release Date": "2014-06-06",
     "Directors": "Doug Liman"
   },
@@ -2187,7 +2555,7 @@
     "Runtime (mins)": 144,
     "Year": 2015,
     "Genres": "Sci-Fi, Adventure, Drama",
-    "Num Votes": 956232,
+    "Num Votes": 972344,
     "Release Date": "2015-10-02",
     "Directors": "Ridley Scott"
   },
@@ -2203,7 +2571,7 @@
     "Runtime (mins)": 129,
     "Year": 2019,
     "Genres": "Action, Adventure, Sci-Fi, Comedy, Fantasy",
-    "Num Votes": 584724,
+    "Num Votes": 602376,
     "Release Date": "2019-07-02",
     "Directors": "Jon Watts"
   },
@@ -2218,8 +2586,8 @@
     "IMDb Rating": 8.4,
     "Runtime (mins)": 181,
     "Year": 2019,
-    "Genres": "Action, Sci-Fi, Adventure, Drama",
-    "Num Votes": 1328331,
+    "Genres": "Action, Sci-Fi, Adventure",
+    "Num Votes": 1367958,
     "Release Date": "2019-04-26",
     "Directors": "Anthony Russo,Joe Russo"
   },
@@ -2235,7 +2603,7 @@
     "Runtime (mins)": 118,
     "Year": 2018,
     "Genres": "Action, Adventure, Sci-Fi, Comedy",
-    "Num Votes": 465836,
+    "Num Votes": 475745,
     "Release Date": "2018-07-06",
     "Directors": "Peyton Reed"
   },
@@ -2251,7 +2619,7 @@
     "Runtime (mins)": 149,
     "Year": 2018,
     "Genres": "Action, Sci-Fi, Adventure",
-    "Num Votes": 1262471,
+    "Num Votes": 1296592,
     "Release Date": "2018-04-27",
     "Directors": "Anthony Russo,Joe Russo"
   },
@@ -2267,7 +2635,7 @@
     "Runtime (mins)": 130,
     "Year": 2017,
     "Genres": "Action, Sci-Fi, Adventure, Comedy, Fantasy",
-    "Num Votes": 843206,
+    "Num Votes": 860473,
     "Release Date": "2017-11-03",
     "Directors": "Taika Waititi"
   },
@@ -2283,7 +2651,7 @@
     "Runtime (mins)": 134,
     "Year": 2018,
     "Genres": "Action, Adventure, Sci-Fi",
-    "Num Votes": 861925,
+    "Num Votes": 879198,
     "Release Date": "2018-02-16",
     "Directors": "Ryan Coogler"
   },
@@ -2299,7 +2667,7 @@
     "Runtime (mins)": 115,
     "Year": 2016,
     "Genres": "Fantasy, Adventure, Action, Sci-Fi",
-    "Num Votes": 831970,
+    "Num Votes": 847354,
     "Release Date": "2016-11-04",
     "Directors": "Scott Derrickson"
   },
@@ -2315,7 +2683,7 @@
     "Runtime (mins)": 133,
     "Year": 2017,
     "Genres": "Action, Sci-Fi, Adventure",
-    "Num Votes": 745533,
+    "Num Votes": 761864,
     "Release Date": "2017-07-07",
     "Directors": "Jon Watts"
   },
@@ -2331,7 +2699,7 @@
     "Runtime (mins)": 147,
     "Year": 2016,
     "Genres": "Action, Sci-Fi",
-    "Num Votes": 876803,
+    "Num Votes": 893543,
     "Release Date": "2016-05-06",
     "Directors": "Anthony Russo,Joe Russo"
   },
@@ -2347,7 +2715,7 @@
     "Runtime (mins)": 117,
     "Year": 2015,
     "Genres": "Action, Sci-Fi, Comedy",
-    "Num Votes": 741978,
+    "Num Votes": 754975,
     "Release Date": "2015-07-17",
     "Directors": "Peyton Reed"
   },
@@ -2363,7 +2731,7 @@
     "Runtime (mins)": 141,
     "Year": 2015,
     "Genres": "Action, Adventure, Sci-Fi",
-    "Num Votes": 947995,
+    "Num Votes": 964808,
     "Release Date": "2015-05-01",
     "Directors": "Joss Whedon"
   },
@@ -2379,7 +2747,7 @@
     "Runtime (mins)": 136,
     "Year": 2017,
     "Genres": "Action, Sci-Fi, Adventure, Comedy",
-    "Num Votes": 783756,
+    "Num Votes": 799181,
     "Release Date": "2017-05-05",
     "Directors": "James Gunn"
   },
@@ -2395,7 +2763,7 @@
     "Runtime (mins)": 121,
     "Year": 2014,
     "Genres": "Sci-Fi, Action, Adventure, Comedy",
-    "Num Votes": 1303660,
+    "Num Votes": 1322358,
     "Release Date": "2014-08-01",
     "Directors": "James Gunn"
   },
@@ -2411,7 +2779,7 @@
     "Runtime (mins)": 136,
     "Year": 2014,
     "Genres": "Action, Adventure, Sci-Fi, Thriller",
-    "Num Votes": 922115,
+    "Num Votes": 939612,
     "Release Date": "2014-04-04",
     "Directors": "Anthony Russo,Joe Russo"
   },
@@ -2426,8 +2794,8 @@
     "IMDb Rating": 6.7,
     "Runtime (mins)": 112,
     "Year": 2013,
-    "Genres": "Action, Adventure",
-    "Num Votes": 743255,
+    "Genres": "Action, Adventure, Fantasy, Sci-Fi",
+    "Num Votes": 754916,
     "Release Date": "2013-11-08",
     "Directors": "Alan Taylor"
   },
@@ -2443,7 +2811,7 @@
     "Runtime (mins)": 130,
     "Year": 2013,
     "Genres": "Action, Adventure, Sci-Fi",
-    "Num Votes": 921699,
+    "Num Votes": 936171,
     "Release Date": "2013-05-03",
     "Directors": "Shane Black"
   },
@@ -2459,7 +2827,7 @@
     "Runtime (mins)": 143,
     "Year": 2012,
     "Genres": "Action, Sci-Fi",
-    "Num Votes": 1492719,
+    "Num Votes": 1514465,
     "Release Date": "2012-05-04",
     "Directors": "Joss Whedon"
   },
@@ -2475,7 +2843,7 @@
     "Runtime (mins)": 115,
     "Year": 2011,
     "Genres": "Action, Fantasy",
-    "Num Votes": 922949,
+    "Num Votes": 937467,
     "Release Date": "2011-05-06",
     "Directors": "Kenneth Branagh"
   },
@@ -2491,7 +2859,7 @@
     "Runtime (mins)": 124,
     "Year": 2010,
     "Genres": "Action, Sci-Fi",
-    "Num Votes": 891651,
+    "Num Votes": 907216,
     "Release Date": "2010-05-07",
     "Directors": "Jon Favreau"
   },
@@ -2507,7 +2875,7 @@
     "Runtime (mins)": 126,
     "Year": 2008,
     "Genres": "Action, Sci-Fi, Adventure",
-    "Num Votes": 1157592,
+    "Num Votes": 1179756,
     "Release Date": "2008-05-02",
     "Directors": "Jon Favreau"
   },
@@ -2523,7 +2891,7 @@
     "Runtime (mins)": 132,
     "Year": 2019,
     "Genres": "Drama",
-    "Num Votes": 58202,
+    "Num Votes": 59646,
     "Release Date": "2019-10-11",
     "Directors": "Mehmet Ada Öztekin"
   },
@@ -2535,11 +2903,11 @@
     "Original Title": "Captain Marvel",
     "URL": "https://www.imdb.com/title/tt4154664",
     "Title Type": "Movie",
-    "IMDb Rating": 6.8,
+    "IMDb Rating": 6.7,
     "Runtime (mins)": 123,
     "Year": 2019,
     "Genres": "Action, Adventure, Sci-Fi",
-    "Num Votes": 629021,
+    "Num Votes": 640095,
     "Release Date": "2019-03-08",
     "Directors": "Anna Boden,Ryan Fleck"
   },
@@ -2555,7 +2923,7 @@
     "Runtime (mins)": 124,
     "Year": 2011,
     "Genres": "Action, Adventure, Sci-Fi",
-    "Num Votes": 920787,
+    "Num Votes": 937331,
     "Release Date": "2011-07-22",
     "Directors": "Joe Johnston"
   },
@@ -2571,7 +2939,7 @@
     "Runtime (mins)": 92,
     "Year": 1994,
     "Genres": "Comedy",
-    "Num Votes": 235661,
+    "Num Votes": 237360,
     "Release Date": "1994-11-09",
     "Directors": "Kevin Smith"
   },
@@ -2587,7 +2955,7 @@
     "Runtime (mins)": 101,
     "Year": 1978,
     "Genres": "Horror, Thriller",
-    "Num Votes": 32301,
+    "Num Votes": 32982,
     "Release Date": "1978-11-22",
     "Directors": "Meir Zarchi"
   },
@@ -2603,7 +2971,7 @@
     "Runtime (mins)": 142,
     "Year": 1994,
     "Genres": "Romance, Drama",
-    "Num Votes": 2343641,
+    "Num Votes": 2392615,
     "Release Date": "1994-07-06",
     "Directors": "Robert Zemeckis"
   },
@@ -2615,11 +2983,11 @@
     "Original Title": "Vertigo",
     "URL": "https://www.imdb.com/title/tt0052357",
     "Title Type": "Movie",
-    "IMDb Rating": 8.3,
+    "IMDb Rating": 8.2,
     "Runtime (mins)": 128,
     "Year": 1958,
     "Genres": "Romance, Thriller, Mystery",
-    "Num Votes": 440122,
+    "Num Votes": 447073,
     "Release Date": "1958-05-28",
     "Directors": "Alfred Hitchcock"
   },
@@ -2635,7 +3003,7 @@
     "Runtime (mins)": 132,
     "Year": 1935,
     "Genres": "History, Romance, Biography, Drama, Adventure",
-    "Num Votes": 25458,
+    "Num Votes": 25895,
     "Release Date": "1936-01-12",
     "Directors": "Frank Lloyd"
   },
@@ -2651,7 +3019,7 @@
     "Runtime (mins)": 92,
     "Year": 2011,
     "Genres": "Comedy, Romance",
-    "Num Votes": 216084,
+    "Num Votes": 218201,
     "Release Date": "2011-06-24",
     "Directors": "Jake Kasdan"
   },
@@ -2667,7 +3035,7 @@
     "Runtime (mins)": 81,
     "Year": 1995,
     "Genres": "Animation, Adventure, Comedy, Family, Fantasy",
-    "Num Votes": 1107191,
+    "Num Votes": 1128323,
     "Release Date": "1995-11-22",
     "Directors": "John Lasseter"
   },
@@ -2683,7 +3051,7 @@
     "Runtime (mins)": 112,
     "Year": 2011,
     "Genres": "Comedy, Drama",
-    "Num Votes": 963676,
+    "Num Votes": 984180,
     "Release Date": "2011-11-02",
     "Directors": "Olivier Nakache,Éric Toledano"
   },
@@ -2699,7 +3067,7 @@
     "Runtime (mins)": 92,
     "Year": 1988,
     "Genres": "Fantasy, Comedy",
-    "Num Votes": 397908,
+    "Num Votes": 405058,
     "Release Date": "1988-03-30",
     "Directors": "Tim Burton"
   },
@@ -2715,7 +3083,7 @@
     "Runtime (mins)": 180,
     "Year": 2013,
     "Genres": "Drama, Romance",
-    "Num Votes": 167139,
+    "Num Votes": 169336,
     "Release Date": "2013-10-09",
     "Directors": "Abdellatif Kechiche"
   },
@@ -2730,8 +3098,8 @@
     "IMDb Rating": 8.6,
     "Runtime (mins)": 118,
     "Year": 1991,
-    "Genres": "Crime, Drama, Thriller",
-    "Num Votes": 1608157,
+    "Genres": "Crime, Drama, Horror, Thriller",
+    "Num Votes": 1645711,
     "Release Date": "1991-02-14",
     "Directors": "Jonathan Demme"
   },
@@ -2747,7 +3115,7 @@
     "Runtime (mins)": 106,
     "Year": 1985,
     "Genres": "Horror",
-    "Num Votes": 83259,
+    "Num Votes": 84655,
     "Release Date": "1985-08-02",
     "Directors": "Tom Holland"
   },
@@ -2763,7 +3131,7 @@
     "Runtime (mins)": 136,
     "Year": 1999,
     "Genres": "Action, Sci-Fi",
-    "Num Votes": 2125316,
+    "Num Votes": 2165907,
     "Release Date": "1999-03-31",
     "Directors": "Lana Wachowski,Lilly Wachowski"
   },
@@ -2779,7 +3147,7 @@
     "Runtime (mins)": 65,
     "Year": 1999,
     "Genres": "Documentary, Comedy",
-    "Num Votes": 7625,
+    "Num Votes": 7685,
     "Release Date": "1999-07-10",
     "Directors": "Keith Truesdell"
   },
@@ -2795,7 +3163,7 @@
     "Runtime (mins)": 91,
     "Year": 2001,
     "Genres": "Adventure, Drama, Comedy",
-    "Num Votes": 62568,
+    "Num Votes": 63649,
     "Release Date": "2001-04-11",
     "Directors": "Dennie Gordon"
   },
@@ -2811,7 +3179,7 @@
     "Runtime (mins)": 103,
     "Year": 1993,
     "Genres": "Comedy",
-    "Num Votes": 205770,
+    "Num Votes": 209970,
     "Release Date": "1993-09-24",
     "Directors": "Richard Linklater"
   },
@@ -2827,7 +3195,7 @@
     "Runtime (mins)": 73,
     "Year": 2018,
     "Genres": "Comedy, Music",
-    "Num Votes": 6034,
+    "Num Votes": 6092,
     "Release Date": "2018-10-23",
     "Directors": "Steven Brill,Nicholaus Goossen"
   },
@@ -2843,7 +3211,7 @@
     "Runtime (mins)": 80,
     "Year": 2014,
     "Genres": "Comedy",
-    "Num Votes": 9280,
+    "Num Votes": 9436,
     "Release Date": "2014-12-05",
     "Directors": "Jaime Eliezer Karas"
   },
@@ -2859,7 +3227,7 @@
     "Runtime (mins)": 91,
     "Year": 1980,
     "Genres": "Horror, Thriller",
-    "Num Votes": 6153,
+    "Num Votes": 6258,
     "Release Date": "1985-02-22",
     "Directors": "Ruggero Deodato"
   },
@@ -2875,7 +3243,7 @@
     "Runtime (mins)": 94,
     "Year": 1987,
     "Genres": "Thriller, Horror",
-    "Num Votes": 146066,
+    "Num Votes": 148677,
     "Release Date": "1987-09-18",
     "Directors": "Clive Barker"
   },
@@ -2891,7 +3259,7 @@
     "Runtime (mins)": 60,
     "Year": 2004,
     "Genres": "Comedy",
-    "Num Votes": 9275,
+    "Num Votes": 9345,
     "Release Date": "2004-09-04",
     "Directors": "Stan Lathan"
   },
@@ -2907,7 +3275,7 @@
     "Runtime (mins)": 75,
     "Year": 1963,
     "Genres": "Thriller, Horror",
-    "Num Votes": 9489,
+    "Num Votes": 9738,
     "Release Date": "1963-08-31",
     "Directors": "Francis Ford Coppola"
   },
@@ -2923,7 +3291,7 @@
     "Runtime (mins)": 94,
     "Year": 1980,
     "Genres": "Thriller, Horror",
-    "Num Votes": 4388,
+    "Num Votes": 4470,
     "Release Date": "1980-08-29",
     "Directors": "Armand Mastroianni"
   },
@@ -2939,7 +3307,7 @@
     "Runtime (mins)": 82,
     "Year": 1986,
     "Genres": "Horror, Comedy, Fantasy",
-    "Num Votes": 12143,
+    "Num Votes": 12307,
     "Release Date": "1986-01-17",
     "Directors": "John Carl Buechler"
   },
@@ -2955,7 +3323,7 @@
     "Runtime (mins)": 62,
     "Year": 2017,
     "Genres": "Comedy",
-    "Num Votes": 6204,
+    "Num Votes": 6264,
     "Release Date": "2017-09-19",
     "Directors": "Michael Bonfiglio"
   },
@@ -2971,7 +3339,7 @@
     "Runtime (mins)": 119,
     "Year": 1935,
     "Genres": "History, Romance, Adventure, Action",
-    "Num Votes": 16502,
+    "Num Votes": 16780,
     "Release Date": "1935-12-28",
     "Directors": "Michael Curtiz"
   },
@@ -2987,7 +3355,7 @@
     "Runtime (mins)": 84,
     "Year": 1983,
     "Genres": "Horror",
-    "Num Votes": 3969,
+    "Num Votes": 4134,
     "Release Date": "1983-07-14",
     "Directors": "Andrew Davis"
   },
@@ -3003,7 +3371,7 @@
     "Runtime (mins)": 81,
     "Year": 1989,
     "Genres": "Comedy, Mystery, Horror",
-    "Num Votes": 8923,
+    "Num Votes": 9089,
     "Release Date": "1989-01-27",
     "Directors": "Bob Balaban"
   },
@@ -3019,7 +3387,7 @@
     "Runtime (mins)": 56,
     "Year": 1925,
     "Genres": "Romance, Comedy",
-    "Num Votes": 12094,
+    "Num Votes": 12494,
     "Release Date": "1925-03-15",
     "Directors": "Buster Keaton"
   },
@@ -3035,7 +3403,7 @@
     "Runtime (mins)": 97,
     "Year": 1986,
     "Genres": "Romance, Drama, Comedy",
-    "Num Votes": 91420,
+    "Num Votes": 92743,
     "Release Date": "1986-02-28",
     "Directors": "Howard Deutch"
   },
@@ -3051,7 +3419,7 @@
     "Runtime (mins)": 83,
     "Year": 1989,
     "Genres": "Thriller, Horror",
-    "Num Votes": 11803,
+    "Num Votes": 12422,
     "Release Date": "1989-01-13",
     "Directors": "Scott Spiegel"
   },
@@ -3067,7 +3435,7 @@
     "Runtime (mins)": 83,
     "Year": 1988,
     "Genres": "Thriller, Action, Crime, Horror",
-    "Num Votes": 5868,
+    "Num Votes": 5952,
     "Release Date": "1991-03-26",
     "Directors": "William Wesley"
   },
@@ -3083,7 +3451,7 @@
     "Runtime (mins)": 97,
     "Year": 1984,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 4704,
+    "Num Votes": 4790,
     "Release Date": "1984-12-07",
     "Directors": "Larry Stewart,Peter Crane"
   },
@@ -3099,7 +3467,7 @@
     "Runtime (mins)": 84,
     "Year": 1988,
     "Genres": "Thriller, Horror",
-    "Num Votes": 4501,
+    "Num Votes": 4575,
     "Release Date": "1988-04-08",
     "Directors": "Andrew Fleming"
   },
@@ -3115,7 +3483,7 @@
     "Runtime (mins)": 97,
     "Year": 1986,
     "Genres": "Mystery, Thriller",
-    "Num Votes": 55224,
+    "Num Votes": 56543,
     "Release Date": "1986-02-21",
     "Directors": "Robert Harmon"
   },
@@ -3131,7 +3499,7 @@
     "Runtime (mins)": 88,
     "Year": 1982,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 2590,
+    "Num Votes": 2640,
     "Release Date": "1982-04-02",
     "Directors": "Stephen Carpenter,Jeffrey Obrow"
   },
@@ -3147,7 +3515,7 @@
     "Runtime (mins)": 82,
     "Year": 1987,
     "Genres": "Horror",
-    "Num Votes": 6059,
+    "Num Votes": 6189,
     "Release Date": "1987-05-01",
     "Directors": "John Grissmer"
   },
@@ -3163,7 +3531,7 @@
     "Runtime (mins)": 74,
     "Year": 1986,
     "Genres": "Horror",
-    "Num Votes": 4195,
+    "Num Votes": 4360,
     "Release Date": "1986-10-10",
     "Directors": "Carol Frank"
   },
@@ -3179,7 +3547,7 @@
     "Runtime (mins)": 97,
     "Year": 1987,
     "Genres": "Thriller, Horror",
-    "Num Votes": 8233,
+    "Num Votes": 8475,
     "Release Date": "1987-10-16",
     "Directors": "Bruce Pittman"
   },
@@ -3195,7 +3563,7 @@
     "Runtime (mins)": 111,
     "Year": 2009,
     "Genres": "Comedy, Drama, Music, Family, Romance",
-    "Num Votes": 15362,
+    "Num Votes": 15469,
     "Release Date": "2009-08-14",
     "Directors": "Todd Graff"
   },
@@ -3211,7 +3579,7 @@
     "Runtime (mins)": 113,
     "Year": 1994,
     "Genres": "Comedy",
-    "Num Votes": 16295,
+    "Num Votes": 16468,
     "Release Date": "1994-03-04",
     "Directors": "Jonathan Lynn"
   },
@@ -3227,7 +3595,7 @@
     "Runtime (mins)": 117,
     "Year": 2002,
     "Genres": "Comedy, Sci-Fi, Drama",
-    "Num Votes": 63146,
+    "Num Votes": 63507,
     "Release Date": "2002-08-23",
     "Directors": "Andrew Niccol"
   },
@@ -3243,7 +3611,7 @@
     "Runtime (mins)": 90,
     "Year": 2008,
     "Genres": "Drama, Comedy, Music, Romance",
-    "Num Votes": 96126,
+    "Num Votes": 96586,
     "Release Date": "2008-10-03",
     "Directors": "Peter Sollett"
   },
@@ -3259,7 +3627,7 @@
     "Runtime (mins)": 95,
     "Year": 2004,
     "Genres": "Romance, Comedy",
-    "Num Votes": 30007,
+    "Num Votes": 30222,
     "Release Date": "2004-01-23",
     "Directors": "Robert Luketic"
   },
@@ -3275,7 +3643,7 @@
     "Runtime (mins)": 106,
     "Year": 2003,
     "Genres": "Comedy",
-    "Num Votes": 233162,
+    "Num Votes": 235723,
     "Release Date": "2003-04-11",
     "Directors": "Peter Segal"
   },
@@ -3291,7 +3659,7 @@
     "Runtime (mins)": 91,
     "Year": 1980,
     "Genres": "Thriller, Comedy, Horror",
-    "Num Votes": 6549,
+    "Num Votes": 6741,
     "Release Date": "1980-09-19",
     "Directors": "Charles Kaufman"
   },
@@ -3307,7 +3675,7 @@
     "Runtime (mins)": 89,
     "Year": 1988,
     "Genres": "Thriller, Comedy, Horror",
-    "Num Votes": 4091,
+    "Num Votes": 4242,
     "Release Date": "1988-06-21",
     "Directors": "John Quinn"
   },
@@ -3323,7 +3691,7 @@
     "Runtime (mins)": 87,
     "Year": 1990,
     "Genres": "Comedy, Horror",
-    "Num Votes": 3599,
+    "Num Votes": 3681,
     "Release Date": "1990-09-07",
     "Directors": "Sally Mattison"
   },
@@ -3338,8 +3706,8 @@
     "IMDb Rating": 6,
     "Runtime (mins)": 92,
     "Year": 1982,
-    "Genres": "Thriller, Horror",
-    "Num Votes": 7326,
+    "Genres": "Thriller, Drama, Horror",
+    "Num Votes": 7485,
     "Release Date": "1982-11-19",
     "Directors": "Jack Sholder"
   },
@@ -3355,7 +3723,7 @@
     "Runtime (mins)": 101,
     "Year": 1986,
     "Genres": "Comedy, Horror",
-    "Num Votes": 40316,
+    "Num Votes": 41182,
     "Release Date": "1986-08-22",
     "Directors": "Tobe Hooper"
   },
@@ -3371,7 +3739,7 @@
     "Runtime (mins)": 77,
     "Year": 1987,
     "Genres": "Musical, Horror, Comedy",
-    "Num Votes": 7952,
+    "Num Votes": 8190,
     "Release Date": "1987-10-16",
     "Directors": "Deborah Brock"
   },
@@ -3387,7 +3755,7 @@
     "Runtime (mins)": 86,
     "Year": 1981,
     "Genres": "Mystery, Horror, Comedy",
-    "Num Votes": 5598,
+    "Num Votes": 5715,
     "Release Date": "1981-08-07",
     "Directors": "Mickey Rose,Michael Ritchie"
   },
@@ -3402,8 +3770,8 @@
     "IMDb Rating": 7.1,
     "Runtime (mins)": 96,
     "Year": 1970,
-    "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 25376,
+    "Genres": "Horror, Drama, Thriller, Mystery",
+    "Num Votes": 25940,
     "Release Date": "1970-06-12",
     "Directors": "Dario Argento"
   },
@@ -3419,7 +3787,7 @@
     "Runtime (mins)": 84,
     "Year": 1981,
     "Genres": "Thriller, Horror",
-    "Num Votes": 3345,
+    "Num Votes": 3441,
     "Release Date": "1981-03-27",
     "Directors": "Ken Wiederhorn"
   },
@@ -3435,7 +3803,7 @@
     "Runtime (mins)": 110,
     "Year": 1973,
     "Genres": "Drama, Mystery, Horror, Thriller",
-    "Num Votes": 65436,
+    "Num Votes": 66490,
     "Release Date": "1974-01",
     "Directors": "Nicolas Roeg"
   },
@@ -3451,7 +3819,7 @@
     "Runtime (mins)": 89,
     "Year": 1980,
     "Genres": "Thriller, Horror",
-    "Num Votes": 86560,
+    "Num Votes": 88219,
     "Release Date": "1980-02-08",
     "Directors": "John Carpenter"
   },
@@ -3467,7 +3835,7 @@
     "Runtime (mins)": 96,
     "Year": 1939,
     "Genres": "Adventure, Drama, Western",
-    "Num Votes": 55712,
+    "Num Votes": 56858,
     "Release Date": "1939-03-03",
     "Directors": "John Ford"
   },
@@ -3483,7 +3851,7 @@
     "Runtime (mins)": 95,
     "Year": 1925,
     "Genres": "Adventure, Drama, Western, Romance, Comedy",
-    "Num Votes": 122173,
+    "Num Votes": 124805,
     "Release Date": "1925-08-16",
     "Directors": "Charles Chaplin"
   },
@@ -3499,7 +3867,7 @@
     "Runtime (mins)": 90,
     "Year": 1977,
     "Genres": "Thriller, Horror",
-    "Num Votes": 40684,
+    "Num Votes": 41359,
     "Release Date": "1977-07-22",
     "Directors": "Wes Craven"
   },
@@ -3515,7 +3883,7 @@
     "Runtime (mins)": 45,
     "Year": 1924,
     "Genres": "Action, Romance, Comedy",
-    "Num Votes": 60306,
+    "Num Votes": 62751,
     "Release Date": "1924-05-11",
     "Directors": "Buster Keaton"
   },
@@ -3527,11 +3895,11 @@
     "Original Title": "You Better Watch Out",
     "URL": "https://www.imdb.com/title/tt0081793",
     "Title Type": "Movie",
-    "IMDb Rating": 5.5,
+    "IMDb Rating": 5.6,
     "Runtime (mins)": 100,
     "Year": 1980,
     "Genres": "Thriller, Horror",
-    "Num Votes": 9130,
+    "Num Votes": 9228,
     "Release Date": "1980-11",
     "Directors": "Lewis Jackson"
   },
@@ -3547,7 +3915,7 @@
     "Runtime (mins)": 77,
     "Year": 1986,
     "Genres": "Sci-Fi, Horror",
-    "Num Votes": 18295,
+    "Num Votes": 18833,
     "Release Date": "1987-03-20",
     "Directors": "Jim Wynorski"
   },
@@ -3563,7 +3931,7 @@
     "Runtime (mins)": 127,
     "Year": 1975,
     "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 44629,
+    "Num Votes": 45534,
     "Release Date": "1976-06-11",
     "Directors": "Dario Argento"
   },
@@ -3579,7 +3947,7 @@
     "Runtime (mins)": 89,
     "Year": 1987,
     "Genres": "Horror, Thriller",
-    "Num Votes": 19381,
+    "Num Votes": 19904,
     "Release Date": "1987-06-05",
     "Directors": "Joseph Ruben"
   },
@@ -3595,7 +3963,7 @@
     "Runtime (mins)": 90,
     "Year": 1979,
     "Genres": "Horror",
-    "Num Votes": 13819,
+    "Num Votes": 14234,
     "Release Date": "1979-03-16",
     "Directors": "David Schmoeller"
   },
@@ -3611,7 +3979,7 @@
     "Runtime (mins)": 86,
     "Year": 1988,
     "Genres": "Fantasy, Horror",
-    "Num Votes": 29367,
+    "Num Votes": 29799,
     "Release Date": "1989-01-13",
     "Directors": "Stan Winston"
   },
@@ -3627,7 +3995,7 @@
     "Runtime (mins)": 107,
     "Year": 1980,
     "Genres": "Mystery, Horror",
-    "Num Votes": 41921,
+    "Num Votes": 42700,
     "Release Date": "1980-03-28",
     "Directors": "Peter Medak"
   },
@@ -3643,7 +4011,7 @@
     "Runtime (mins)": 119,
     "Year": 1998,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 235572,
+    "Num Votes": 238539,
     "Release Date": "1998-12-18",
     "Directors": "Nora Ephron"
   },
@@ -3659,7 +4027,7 @@
     "Runtime (mins)": 105,
     "Year": 1993,
     "Genres": "Romance, Drama, Comedy",
-    "Num Votes": 196461,
+    "Num Votes": 199591,
     "Release Date": "1993-06-25",
     "Directors": "Nora Ephron"
   },
@@ -3675,7 +4043,7 @@
     "Runtime (mins)": 95,
     "Year": 1989,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 252019,
+    "Num Votes": 256831,
     "Release Date": "1989-07-21",
     "Directors": "Rob Reiner"
   },
@@ -3691,7 +4059,7 @@
     "Runtime (mins)": 97,
     "Year": 1995,
     "Genres": "Romance, Comedy",
-    "Num Votes": 258503,
+    "Num Votes": 265138,
     "Release Date": "1995-07-19",
     "Directors": "Amy Heckerling"
   },
@@ -3707,7 +4075,7 @@
     "Runtime (mins)": 75,
     "Year": 1988,
     "Genres": "Horror, Comedy",
-    "Num Votes": 4187,
+    "Num Votes": 4272,
     "Release Date": "1988-03",
     "Directors": "Fred Olen Ray"
   },
@@ -3723,7 +4091,7 @@
     "Runtime (mins)": 110,
     "Year": 1983,
     "Genres": "Thriller, Horror",
-    "Num Votes": 96322,
+    "Num Votes": 97900,
     "Release Date": "1983-12-09",
     "Directors": "John Carpenter"
   },
@@ -3739,7 +4107,7 @@
     "Runtime (mins)": 105,
     "Year": 2009,
     "Genres": "Comedy, Romance",
-    "Num Votes": 220432,
+    "Num Votes": 222166,
     "Release Date": "2009-03-20",
     "Directors": "John Hamburg"
   },
@@ -3755,7 +4123,7 @@
     "Runtime (mins)": 84,
     "Year": 1985,
     "Genres": "Comedy, Sci-Fi, Horror",
-    "Num Votes": 74112,
+    "Num Votes": 75362,
     "Release Date": "1985-10-18",
     "Directors": "Stuart Gordon"
   },
@@ -3771,7 +4139,7 @@
     "Runtime (mins)": 83,
     "Year": 1974,
     "Genres": "Horror",
-    "Num Votes": 195015,
+    "Num Votes": 199745,
     "Release Date": "1974-10-11",
     "Directors": "Tobe Hooper"
   },
@@ -3787,7 +4155,7 @@
     "Runtime (mins)": 85,
     "Year": 1982,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 13111,
+    "Num Votes": 13421,
     "Release Date": "1982-03-04",
     "Directors": "Lucio Fulci"
   },
@@ -3803,7 +4171,7 @@
     "Runtime (mins)": 101,
     "Year": 1980,
     "Genres": "Thriller, Comedy, Horror",
-    "Num Votes": 14158,
+    "Num Votes": 14416,
     "Release Date": "1980-10-24",
     "Directors": "Kevin Connor"
   },
@@ -3819,7 +4187,7 @@
     "Runtime (mins)": 86,
     "Year": 1984,
     "Genres": "Thriller, Horror",
-    "Num Votes": 6586,
+    "Num Votes": 6717,
     "Release Date": "1984-10-05",
     "Directors": "Buddy Cooper,John Douglass"
   },
@@ -3835,7 +4203,7 @@
     "Runtime (mins)": 87,
     "Year": 1979,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 2222,
+    "Num Votes": 2310,
     "Release Date": "1980-01-18",
     "Directors": "Denny Harris"
   },
@@ -3847,11 +4215,11 @@
     "Original Title": "The Crowd",
     "URL": "https://www.imdb.com/title/tt0018806",
     "Title Type": "Movie",
-    "IMDb Rating": 8.1,
+    "IMDb Rating": 8,
     "Runtime (mins)": 98,
     "Year": 1928,
     "Genres": "Romance, Drama",
-    "Num Votes": 9508,
+    "Num Votes": 9718,
     "Release Date": "1928-03-03",
     "Directors": "King Vidor"
   },
@@ -3866,8 +4234,8 @@
     "IMDb Rating": 8.1,
     "Runtime (mins)": 74,
     "Year": 1923,
-    "Genres": "Thriller, Action, Comedy",
-    "Num Votes": 23661,
+    "Genres": "Thriller, Action, Romance, Comedy",
+    "Num Votes": 24090,
     "Release Date": "1923-04-01",
     "Directors": "Fred C. Newmeyer,Sam Taylor"
   },
@@ -3879,11 +4247,11 @@
     "Original Title": "Curtains",
     "URL": "https://www.imdb.com/title/tt0085385",
     "Title Type": "Movie",
-    "IMDb Rating": 5.6,
+    "IMDb Rating": 5.5,
     "Runtime (mins)": 89,
     "Year": 1983,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 6111,
+    "Num Votes": 6348,
     "Release Date": "1983-03-04",
     "Directors": "Richard Ciupka"
   },
@@ -3899,7 +4267,7 @@
     "Runtime (mins)": 90,
     "Year": 1986,
     "Genres": "Thriller, Horror",
-    "Num Votes": 7327,
+    "Num Votes": 7495,
     "Release Date": "1986-11-14",
     "Directors": "George Dugdale,Mark Ezra,Peter Mackenzie Litten"
   },
@@ -3915,7 +4283,7 @@
     "Runtime (mins)": 78,
     "Year": 1926,
     "Genres": "Action, Adventure, Drama, War, Comedy",
-    "Num Votes": 101294,
+    "Num Votes": 103366,
     "Release Date": "1927-01-02",
     "Directors": "Clyde Bruckman,Buster Keaton"
   },
@@ -3931,7 +4299,7 @@
     "Runtime (mins)": 91,
     "Year": 1982,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 10497,
+    "Num Votes": 10748,
     "Release Date": "1983-01-21",
     "Directors": "Mark Rosman"
   },
@@ -3947,7 +4315,7 @@
     "Runtime (mins)": 103,
     "Year": 1982,
     "Genres": "Thriller, Horror",
-    "Num Votes": 5063,
+    "Num Votes": 5177,
     "Release Date": "1982-05-28",
     "Directors": "Jean-Claude Lord"
   },
@@ -3963,7 +4331,7 @@
     "Runtime (mins)": 113,
     "Year": 2007,
     "Genres": "Comedy",
-    "Num Votes": 654915,
+    "Num Votes": 667469,
     "Release Date": "2007-08-17",
     "Directors": "Greg Mottola"
   },
@@ -3979,7 +4347,7 @@
     "Runtime (mins)": 92,
     "Year": 2010,
     "Genres": "Comedy, Romance, Drama",
-    "Num Votes": 428171,
+    "Num Votes": 433210,
     "Release Date": "2010-09-17",
     "Directors": "Will Gluck"
   },
@@ -3995,7 +4363,7 @@
     "Runtime (mins)": 110,
     "Year": 1978,
     "Genres": "Musical, Comedy, Romance",
-    "Num Votes": 310342,
+    "Num Votes": 316238,
     "Release Date": "1978-06-16",
     "Directors": "Randal Kleiser"
   },
@@ -4011,7 +4379,7 @@
     "Runtime (mins)": 85,
     "Year": 1982,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 13521,
+    "Num Votes": 13855,
     "Release Date": "1983-09-23",
     "Directors": "Juan Piquer Simón"
   },
@@ -4027,7 +4395,7 @@
     "Runtime (mins)": 107,
     "Year": 1976,
     "Genres": "Thriller, Crime, Drama, Mystery, Horror",
-    "Num Votes": 13696,
+    "Num Votes": 14259,
     "Release Date": "1976-11-13",
     "Directors": "Alfred Sole"
   },
@@ -4043,7 +4411,7 @@
     "Runtime (mins)": 88,
     "Year": 1981,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 3417,
+    "Num Votes": 3516,
     "Release Date": "1981-09-11",
     "Directors": "Ken Hughes"
   },
@@ -4059,7 +4427,7 @@
     "Runtime (mins)": 101,
     "Year": 1981,
     "Genres": "Thriller, Horror",
-    "Num Votes": 9210,
+    "Num Votes": 9419,
     "Release Date": "1981-08-28",
     "Directors": "Tom DeSimone"
   },
@@ -4075,7 +4443,7 @@
     "Runtime (mins)": 90,
     "Year": 1987,
     "Genres": "Thriller, Drama, Horror",
-    "Num Votes": 9893,
+    "Num Votes": 10149,
     "Release Date": "1987-08-21",
     "Directors": "Michele Soavi"
   },
@@ -4091,7 +4459,7 @@
     "Runtime (mins)": 97,
     "Year": 1979,
     "Genres": "Mystery, Horror, Thriller",
-    "Num Votes": 14922,
+    "Num Votes": 15228,
     "Release Date": "1979-10-26",
     "Directors": "Fred Walton"
   },
@@ -4107,7 +4475,7 @@
     "Runtime (mins)": 98,
     "Year": 1974,
     "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 52172,
+    "Num Votes": 53034,
     "Release Date": "1974-12-20",
     "Directors": "Bob Clark"
   },
@@ -4123,7 +4491,7 @@
     "Runtime (mins)": 86,
     "Year": 2014,
     "Genres": "Thriller, Horror, Mystery",
-    "Num Votes": 17785,
+    "Num Votes": 18090,
     "Release Date": "2014-10-17",
     "Directors": "Alfonso Gomez-Rejon"
   },
@@ -4139,7 +4507,7 @@
     "Runtime (mins)": 90,
     "Year": 1976,
     "Genres": "Crime, Horror, Drama, Mystery, Thriller",
-    "Num Votes": 10301,
+    "Num Votes": 10558,
     "Release Date": "1976-12-24",
     "Directors": "Charles B. Pierce"
   },
@@ -4155,7 +4523,7 @@
     "Runtime (mins)": 88,
     "Year": 1981,
     "Genres": "Thriller, Horror",
-    "Num Votes": 7166,
+    "Num Votes": 7394,
     "Release Date": "1983-02-18",
     "Directors": "Joe Giannone"
   },
@@ -4171,7 +4539,7 @@
     "Runtime (mins)": 89,
     "Year": 1981,
     "Genres": "Thriller, Horror",
-    "Num Votes": 3581,
+    "Num Votes": 3682,
     "Release Date": "1982-07-16",
     "Directors": "Boaz Davidson"
   },
@@ -4187,7 +4555,7 @@
     "Runtime (mins)": 107,
     "Year": 2005,
     "Genres": "Mystery, Thriller, Crime",
-    "Num Votes": 19039,
+    "Num Votes": 19232,
     "Release Date": "2005-10-07",
     "Directors": "Atom Egoyan"
   },
@@ -4203,7 +4571,7 @@
     "Runtime (mins)": 87,
     "Year": 1980,
     "Genres": "Thriller, Drama, Crime, Horror",
-    "Num Votes": 21151,
+    "Num Votes": 21536,
     "Release Date": "1981-03-06",
     "Directors": "William Lustig"
   },
@@ -4219,7 +4587,7 @@
     "Runtime (mins)": 90,
     "Year": 1981,
     "Genres": "Thriller, Horror",
-    "Num Votes": 7413,
+    "Num Votes": 7549,
     "Release Date": "1981-11-27",
     "Directors": "Jeff Lieberman"
   },
@@ -4235,7 +4603,7 @@
     "Runtime (mins)": 85,
     "Year": 1988,
     "Genres": "Mystery, Crime, Horror, Action",
-    "Num Votes": 21427,
+    "Num Votes": 22113,
     "Release Date": "1988-05-13",
     "Directors": "William Lustig"
   },
@@ -4251,7 +4619,7 @@
     "Runtime (mins)": 98,
     "Year": 2013,
     "Genres": "Animation, Comedy, Family, Sci-Fi, Adventure, Crime",
-    "Num Votes": 439071,
+    "Num Votes": 445940,
     "Release Date": "2013-07-03",
     "Directors": "Pierre Coffin,Chris Renaud"
   },
@@ -4267,7 +4635,7 @@
     "Runtime (mins)": 85,
     "Year": 1981,
     "Genres": "Thriller, Horror",
-    "Num Votes": 5960,
+    "Num Votes": 6092,
     "Release Date": "1981-04-28",
     "Directors": "Ed Hunt"
   },
@@ -4283,7 +4651,7 @@
     "Runtime (mins)": 96,
     "Year": 1981,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 5435,
+    "Num Votes": 5638,
     "Release Date": "1981-05-01",
     "Directors": "Herb Freed"
   },
@@ -4299,7 +4667,7 @@
     "Runtime (mins)": 85,
     "Year": 1986,
     "Genres": "Sci-Fi, Horror",
-    "Num Votes": 32823,
+    "Num Votes": 33387,
     "Release Date": "1986-10-24",
     "Directors": "Stuart Gordon"
   },
@@ -4315,7 +4683,7 @@
     "Runtime (mins)": 101,
     "Year": 2011,
     "Genres": "Drama, Romance, Thriller, Mystery",
-    "Num Votes": 35202,
+    "Num Votes": 35649,
     "Release Date": "2011-12-02",
     "Directors": "Julia Leigh"
   },
@@ -4331,7 +4699,7 @@
     "Runtime (mins)": 96,
     "Year": 1981,
     "Genres": "Horror",
-    "Num Votes": 17102,
+    "Num Votes": 17380,
     "Release Date": "1981-03-13",
     "Directors": "Tobe Hooper"
   },
@@ -4347,7 +4715,7 @@
     "Runtime (mins)": 84,
     "Year": 1971,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 13465,
+    "Num Votes": 13815,
     "Release Date": "1972-05-03",
     "Directors": "Mario Bava"
   },
@@ -4363,7 +4731,7 @@
     "Runtime (mins)": 97,
     "Year": 1981,
     "Genres": "Horror",
-    "Num Votes": 4651,
+    "Num Votes": 4763,
     "Release Date": "1981-10-23",
     "Directors": "Romano Scavolini"
   },
@@ -4379,7 +4747,7 @@
     "Runtime (mins)": 101,
     "Year": 1960,
     "Genres": "Drama, Horror, Thriller",
-    "Num Votes": 41388,
+    "Num Votes": 42188,
     "Release Date": "1960-05-16",
     "Directors": "Michael Powell"
   },
@@ -4395,7 +4763,7 @@
     "Runtime (mins)": 98,
     "Year": 1974,
     "Genres": "Drama",
-    "Num Votes": 1281,
+    "Num Votes": 1318,
     "Release Date": "1974-09-10",
     "Directors": "Donald Wrye"
   },
@@ -4411,7 +4779,7 @@
     "Runtime (mins)": 93,
     "Year": 1984,
     "Genres": "Crime, Drama, Thriller, Action",
-    "Num Votes": 5937,
+    "Num Votes": 6051,
     "Release Date": "1984-10-05",
     "Directors": "Danny Steinmann,Tom DeSimone"
   },
@@ -4427,7 +4795,7 @@
     "Runtime (mins)": 95,
     "Year": 1983,
     "Genres": "Thriller, Crime, Action, Drama",
-    "Num Votes": 2705,
+    "Num Votes": 2755,
     "Release Date": "1983-05-27",
     "Directors": "Paul Nicholas"
   },
@@ -4443,7 +4811,7 @@
     "Runtime (mins)": 97,
     "Year": 1980,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 14479,
+    "Num Votes": 14788,
     "Release Date": "1980-10-03",
     "Directors": "Roger Spottiswoode"
   },
@@ -4459,7 +4827,7 @@
     "Runtime (mins)": 89,
     "Year": 1981,
     "Genres": "Thriller, Horror",
-    "Num Votes": 4841,
+    "Num Votes": 4953,
     "Release Date": "1981-06-05",
     "Directors": "Jimmy Huston"
   },
@@ -4475,7 +4843,7 @@
     "Runtime (mins)": 100,
     "Year": 1934,
     "Genres": "Biography, History, War, Drama",
-    "Num Votes": 4792,
+    "Num Votes": 4973,
     "Release Date": "1934-10-05",
     "Directors": "Cecil B. DeMille"
   },
@@ -4490,8 +4858,8 @@
     "IMDb Rating": 6.7,
     "Runtime (mins)": 75,
     "Year": 1934,
-    "Genres": "Mystery, Crime, Thriller",
-    "Num Votes": 22059,
+    "Genres": "Mystery, Crime, Drama, Thriller",
+    "Num Votes": 22608,
     "Release Date": "1935-03-21",
     "Directors": "Alfred Hitchcock"
   },
@@ -4507,7 +4875,7 @@
     "Runtime (mins)": 77,
     "Year": 1934,
     "Genres": "Musical, Family, Fantasy, Comedy",
-    "Num Votes": 7846,
+    "Num Votes": 7935,
     "Release Date": "1934-12-14",
     "Directors": "Gus Meins,Charley Rogers"
   },
@@ -4523,7 +4891,7 @@
     "Runtime (mins)": 65,
     "Year": 1934,
     "Genres": "Thriller, Romance, Crime, Horror",
-    "Num Votes": 13541,
+    "Num Votes": 13792,
     "Release Date": "1934-05-07",
     "Directors": "Edgar G. Ulmer"
   },
@@ -4539,7 +4907,7 @@
     "Runtime (mins)": 73,
     "Year": 1934,
     "Genres": "Action, Drama, War, Adventure",
-    "Num Votes": 3685,
+    "Num Votes": 3820,
     "Release Date": "1934-02-16",
     "Directors": "John Ford"
   },
@@ -4555,7 +4923,7 @@
     "Runtime (mins)": 93,
     "Year": 1934,
     "Genres": "Romance, Crime, Drama",
-    "Num Votes": 4971,
+    "Num Votes": 5061,
     "Release Date": "1934-05-04",
     "Directors": "W.S. Van Dyke,Jack Conway,George Cukor"
   },
@@ -4571,7 +4939,7 @@
     "Runtime (mins)": 91,
     "Year": 1986,
     "Genres": "Drama, Thriller, Sci-Fi, Horror",
-    "Num Votes": 9070,
+    "Num Votes": 9229,
     "Release Date": "1986-10-10",
     "Directors": "Wes Craven"
   },
@@ -4587,7 +4955,7 @@
     "Runtime (mins)": 104,
     "Year": 1934,
     "Genres": "History, Romance, War, Drama",
-    "Num Votes": 7477,
+    "Num Votes": 7592,
     "Release Date": "1934-09-07",
     "Directors": "Josef von Sternberg"
   },
@@ -4603,7 +4971,7 @@
     "Runtime (mins)": 97,
     "Year": 1934,
     "Genres": "Drama, Adventure",
-    "Num Votes": 4916,
+    "Num Votes": 4995,
     "Release Date": "1935-02-07",
     "Directors": "Harold Young"
   },
@@ -4619,7 +4987,7 @@
     "Runtime (mins)": 89,
     "Year": 1934,
     "Genres": "Comedy, Romance, Drama",
-    "Num Votes": 17933,
+    "Num Votes": 18206,
     "Release Date": "1947-06-21",
     "Directors": "Jean Vigo"
   },
@@ -4635,7 +5003,7 @@
     "Runtime (mins)": 105,
     "Year": 1934,
     "Genres": "Romance, Comedy",
-    "Num Votes": 115503,
+    "Num Votes": 117152,
     "Release Date": "1934-02-22",
     "Directors": "Frank Capra"
   },
@@ -4651,7 +5019,7 @@
     "Runtime (mins)": 91,
     "Year": 1934,
     "Genres": "Romance, Crime, Mystery, Comedy",
-    "Num Votes": 33481,
+    "Num Votes": 33965,
     "Release Date": "1934-05-25",
     "Directors": "W.S. Van Dyke"
   },
@@ -4667,7 +5035,7 @@
     "Runtime (mins)": 83,
     "Year": 1934,
     "Genres": "Romance, Film-Noir, Drama",
-    "Num Votes": 8681,
+    "Num Votes": 8833,
     "Release Date": "1934-07-20",
     "Directors": "John Cromwell"
   },
@@ -4683,7 +5051,7 @@
     "Runtime (mins)": 111,
     "Year": 1934,
     "Genres": "Romance, Comedy, Drama",
-    "Num Votes": 5814,
+    "Num Votes": 6013,
     "Release Date": "1934-11-26",
     "Directors": "John M. Stahl"
   },
@@ -4699,7 +5067,7 @@
     "Runtime (mins)": 65,
     "Year": 1923,
     "Genres": "Thriller, Romance, Comedy",
-    "Num Votes": 12857,
+    "Num Votes": 13132,
     "Release Date": "1923-11-19",
     "Directors": "John G. Blystone,Buster Keaton"
   },
@@ -4715,7 +5083,7 @@
     "Runtime (mins)": 65,
     "Year": 1996,
     "Genres": "Documentary, Music",
-    "Num Votes": 2375,
+    "Num Votes": 2431,
     "Release Date": "1996-10-12",
     "Directors": "Michael Lindsay-Hogg"
   },
@@ -4731,7 +5099,7 @@
     "Runtime (mins)": 90,
     "Year": 1973,
     "Genres": "Documentary, Music",
-    "Num Votes": 803,
+    "Num Votes": 812,
     "Release Date": "1974-01-01",
     "Directors": "Rollin Binzer"
   },
@@ -4747,7 +5115,7 @@
     "Runtime (mins)": 92,
     "Year": 1980,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 22193,
+    "Num Votes": 22732,
     "Release Date": "1980-07-18",
     "Directors": "Paul Lynch"
   },
@@ -4759,11 +5127,11 @@
     "Original Title": "The Burning",
     "URL": "https://www.imdb.com/title/tt0082118",
     "Title Type": "Movie",
-    "IMDb Rating": 6.3,
+    "IMDb Rating": 6.2,
     "Runtime (mins)": 91,
     "Year": 1981,
     "Genres": "Horror",
-    "Num Votes": 23394,
+    "Num Votes": 23924,
     "Release Date": "1981-05-08",
     "Directors": "Tony Maylam"
   },
@@ -4779,7 +5147,7 @@
     "Runtime (mins)": 89,
     "Year": 1981,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 13573,
+    "Num Votes": 13824,
     "Release Date": "1981-11-10",
     "Directors": "Joseph Zito"
   },
@@ -4795,7 +5163,7 @@
     "Runtime (mins)": 110,
     "Year": 1981,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 11754,
+    "Num Votes": 11984,
     "Release Date": "1981-05-15",
     "Directors": "J. Lee Thompson"
   },
@@ -4811,7 +5179,7 @@
     "Runtime (mins)": 114,
     "Year": 1928,
     "Genres": "History, Biography, Drama",
-    "Num Votes": 63471,
+    "Num Votes": 65608,
     "Release Date": "1928-10-25",
     "Directors": "Carl Theodor Dreyer"
   },
@@ -4827,7 +5195,7 @@
     "Runtime (mins)": 111,
     "Year": 2012,
     "Genres": "Documentary, Music, Biography",
-    "Num Votes": 2781,
+    "Num Votes": 2795,
     "Release Date": "2012-10-18",
     "Directors": "Brett Morgen"
   },
@@ -4843,7 +5211,7 @@
     "Runtime (mins)": 100,
     "Year": 1989,
     "Genres": "Adventure, Thriller, Horror",
-    "Num Votes": 45140,
+    "Num Votes": 46098,
     "Release Date": "1989-07-28",
     "Directors": "Rob Hedden"
   },
@@ -4859,7 +5227,7 @@
     "Runtime (mins)": 86,
     "Year": 1986,
     "Genres": "Thriller, Horror",
-    "Num Votes": 53709,
+    "Num Votes": 54797,
     "Release Date": "1986-08-01",
     "Directors": "Tom McLoughlin"
   },
@@ -4875,7 +5243,7 @@
     "Runtime (mins)": 91,
     "Year": 1984,
     "Genres": "Thriller, Horror",
-    "Num Votes": 62132,
+    "Num Votes": 63447,
     "Release Date": "1984-04-13",
     "Directors": "Joseph Zito"
   },
@@ -4891,7 +5259,7 @@
     "Runtime (mins)": 87,
     "Year": 1981,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 81637,
+    "Num Votes": 83314,
     "Release Date": "1981-05-01",
     "Directors": "Steve Miner"
   },
@@ -4907,7 +5275,7 @@
     "Runtime (mins)": 95,
     "Year": 1980,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 164594,
+    "Num Votes": 167829,
     "Release Date": "1980-05-09",
     "Directors": "Sean S. Cunningham"
   },
@@ -4923,7 +5291,7 @@
     "Runtime (mins)": 91,
     "Year": 1970,
     "Genres": "Documentary, Music, Thriller",
-    "Num Votes": 13225,
+    "Num Votes": 13427,
     "Release Date": "1971-05-13",
     "Directors": "Albert Maysles,David Maysles,Charlotte Zwerin"
   },
@@ -4939,7 +5307,7 @@
     "Runtime (mins)": 68,
     "Year": 1921,
     "Genres": "Family, Drama, Comedy",
-    "Num Votes": 139484,
+    "Num Votes": 141986,
     "Release Date": "1921-02-06",
     "Directors": "Charles Chaplin"
   },
@@ -4955,7 +5323,7 @@
     "Runtime (mins)": 94,
     "Year": 1927,
     "Genres": "Romance, Drama",
-    "Num Votes": 54934,
+    "Num Votes": 55590,
     "Release Date": "1927-11-04",
     "Directors": "F.W. Murnau"
   },
@@ -4967,11 +5335,11 @@
     "Original Title": "7th Heaven",
     "URL": "https://www.imdb.com/title/tt0018379",
     "Title Type": "Movie",
-    "IMDb Rating": 7.6,
+    "IMDb Rating": 7.5,
     "Runtime (mins)": 110,
     "Year": 1927,
     "Genres": "Romance, Drama",
-    "Num Votes": 4337,
+    "Num Votes": 4464,
     "Release Date": "1927-10-30",
     "Directors": "Frank Borzage"
   },
@@ -4987,7 +5355,7 @@
     "Runtime (mins)": 144,
     "Year": 1927,
     "Genres": "Action, Romance, Drama, War",
-    "Num Votes": 15127,
+    "Num Votes": 15539,
     "Release Date": "1929-01-05",
     "Directors": "William A. Wellman,Harry d'Abbadie d'Arrast"
   },
@@ -5003,7 +5371,7 @@
     "Runtime (mins)": 115,
     "Year": 2003,
     "Genres": "Romance, Drama",
-    "Num Votes": 135998,
+    "Num Votes": 138277,
     "Release Date": "2004-02-20",
     "Directors": "Bernardo Bertolucci"
   },
@@ -5019,7 +5387,7 @@
     "Runtime (mins)": 89,
     "Year": 2015,
     "Genres": "Animation, Comedy, Family, Fantasy, Adventure, Romance",
-    "Num Votes": 150045,
+    "Num Votes": 153856,
     "Release Date": "2015-09-25",
     "Directors": "Genndy Tartakovsky"
   },
@@ -5035,7 +5403,7 @@
     "Runtime (mins)": 91,
     "Year": 2012,
     "Genres": "Animation, Comedy, Family, Fantasy",
-    "Num Votes": 292849,
+    "Num Votes": 299116,
     "Release Date": "2012-09-28",
     "Directors": "Genndy Tartakovsky"
   },
@@ -5047,11 +5415,11 @@
     "Original Title": "The Gay Divorcee",
     "URL": "https://www.imdb.com/title/tt0025164",
     "Title Type": "Movie",
-    "IMDb Rating": 7.4,
+    "IMDb Rating": 7.3,
     "Runtime (mins)": 107,
     "Year": 1934,
     "Genres": "Musical, Romance, Comedy",
-    "Num Votes": 8929,
+    "Num Votes": 9093,
     "Release Date": "1934-10-12",
     "Directors": "Mark Sandrich"
   },
@@ -5067,7 +5435,7 @@
     "Runtime (mins)": 75,
     "Year": 1998,
     "Genres": "Comedy",
-    "Num Votes": 6314,
+    "Num Votes": 6331,
     "Release Date": "1998-08-09",
     "Directors": "Marty Callner"
   },
@@ -5083,7 +5451,7 @@
     "Runtime (mins)": 109,
     "Year": 2004,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 248263,
+    "Num Votes": 253780,
     "Release Date": "2004-04-09",
     "Directors": "Luke Greenfield"
   },
@@ -5099,7 +5467,7 @@
     "Runtime (mins)": 100,
     "Year": 1998,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 80945,
+    "Num Votes": 82449,
     "Release Date": "1998-11-13",
     "Directors": "Danny Cannon"
   },
@@ -5115,7 +5483,7 @@
     "Runtime (mins)": 101,
     "Year": 1997,
     "Genres": "Mystery, Horror",
-    "Num Votes": 163598,
+    "Num Votes": 168072,
     "Release Date": "1997-10-17",
     "Directors": "Jim Gillespie"
   },
@@ -5131,7 +5499,7 @@
     "Runtime (mins)": 113,
     "Year": 2012,
     "Genres": "Comedy",
-    "Num Votes": 227605,
+    "Num Votes": 229880,
     "Release Date": "2012-04-06",
     "Directors": "Jon Hurwitz,Hayden Schlossberg"
   },
@@ -5147,7 +5515,7 @@
     "Runtime (mins)": 96,
     "Year": 2003,
     "Genres": "Comedy",
-    "Num Votes": 221480,
+    "Num Votes": 224159,
     "Release Date": "2003-08-01",
     "Directors": "Jesse Dylan"
   },
@@ -5159,11 +5527,11 @@
     "Original Title": "American Pie 2",
     "URL": "https://www.imdb.com/title/tt0252866",
     "Title Type": "Movie",
-    "IMDb Rating": 6.4,
+    "IMDb Rating": 6.5,
     "Runtime (mins)": 108,
     "Year": 2001,
     "Genres": "Comedy",
-    "Num Votes": 276075,
+    "Num Votes": 280075,
     "Release Date": "2001-08-10",
     "Directors": "J.B. Rogers"
   },
@@ -5179,7 +5547,7 @@
     "Runtime (mins)": 95,
     "Year": 1999,
     "Genres": "Comedy",
-    "Num Votes": 446327,
+    "Num Votes": 453758,
     "Release Date": "1999-07-09",
     "Directors": "Paul Weitz"
   },
@@ -5195,7 +5563,7 @@
     "Runtime (mins)": 108,
     "Year": 2000,
     "Genres": "War, Romance, Drama",
-    "Num Votes": 117018,
+    "Num Votes": 120236,
     "Release Date": "2001-02-02",
     "Directors": "Giuseppe Tornatore"
   },
@@ -5211,7 +5579,7 @@
     "Runtime (mins)": 109,
     "Year": 2013,
     "Genres": "Drama, Romance",
-    "Num Votes": 177257,
+    "Num Votes": 180065,
     "Release Date": "2013-06-14",
     "Directors": "Richard Linklater"
   },
@@ -5227,7 +5595,7 @@
     "Runtime (mins)": 117,
     "Year": 2013,
     "Genres": "Comedy, Action, Crime",
-    "Num Votes": 184073,
+    "Num Votes": 185566,
     "Release Date": "2013-06-28",
     "Directors": "Paul Feig"
   },
@@ -5243,7 +5611,7 @@
     "Runtime (mins)": 109,
     "Year": 2015,
     "Genres": "Mystery, Romance, Drama, Comedy, Adventure",
-    "Num Votes": 109490,
+    "Num Votes": 110216,
     "Release Date": "2015-07-24",
     "Directors": "Jake Schreier"
   },
@@ -5259,7 +5627,7 @@
     "Runtime (mins)": 132,
     "Year": 1965,
     "Genres": "Drama, Western",
-    "Num Votes": 284243,
+    "Num Votes": 290341,
     "Release Date": "1967-05-10",
     "Directors": "Sergio Leone"
   },
@@ -5275,7 +5643,7 @@
     "Runtime (mins)": 109,
     "Year": 1996,
     "Genres": "Crime, Thriller",
-    "Num Votes": 63177,
+    "Num Votes": 64635,
     "Release Date": "1996-10-04",
     "Directors": "Lana Wachowski,Lilly Wachowski"
   },
@@ -5291,7 +5659,7 @@
     "Runtime (mins)": 97,
     "Year": 2013,
     "Genres": "Horror, Thriller",
-    "Num Votes": 45378,
+    "Num Votes": 46082,
     "Release Date": "2013-09-24",
     "Directors": "Don Mancini"
   },
@@ -5307,7 +5675,7 @@
     "Runtime (mins)": 87,
     "Year": 2004,
     "Genres": "Horror, Comedy, Thriller",
-    "Num Votes": 51797,
+    "Num Votes": 52591,
     "Release Date": "2004-11-12",
     "Directors": "Don Mancini"
   },
@@ -5323,7 +5691,7 @@
     "Runtime (mins)": 89,
     "Year": 1998,
     "Genres": "Thriller, Horror, Comedy",
-    "Num Votes": 66752,
+    "Num Votes": 67807,
     "Release Date": "1998-10-16",
     "Directors": "Ronny Yu"
   },
@@ -5339,7 +5707,7 @@
     "Runtime (mins)": 90,
     "Year": 1991,
     "Genres": "Thriller, Horror",
-    "Num Votes": 48342,
+    "Num Votes": 49231,
     "Release Date": "1991-08-30",
     "Directors": "Jack Bender"
   },
@@ -5355,7 +5723,7 @@
     "Runtime (mins)": 84,
     "Year": 1990,
     "Genres": "Thriller, Horror",
-    "Num Votes": 60421,
+    "Num Votes": 61575,
     "Release Date": "1990-11-09",
     "Directors": "John Lafia"
   },
@@ -5371,7 +5739,7 @@
     "Runtime (mins)": 87,
     "Year": 1988,
     "Genres": "Thriller, Horror",
-    "Num Votes": 123152,
+    "Num Votes": 125762,
     "Release Date": "1988-11-09",
     "Directors": "Tom Holland"
   },
@@ -5387,7 +5755,7 @@
     "Runtime (mins)": 87,
     "Year": 1995,
     "Genres": "Thriller, Horror",
-    "Num Votes": 43908,
+    "Num Votes": 44592,
     "Release Date": "1995-09-29",
     "Directors": "Joe Chappelle"
   },
@@ -5403,7 +5771,7 @@
     "Runtime (mins)": 80,
     "Year": 1956,
     "Genres": "Drama, Sci-Fi, Horror",
-    "Num Votes": 56809,
+    "Num Votes": 57721,
     "Release Date": "1956-02-05",
     "Directors": "Don Siegel"
   },
@@ -5419,7 +5787,7 @@
     "Runtime (mins)": 95,
     "Year": 1988,
     "Genres": "Thriller, Sci-Fi, Horror",
-    "Num Votes": 46127,
+    "Num Votes": 47128,
     "Release Date": "1988-08-05",
     "Directors": "Chuck Russell"
   },
@@ -5435,7 +5803,7 @@
     "Runtime (mins)": 88,
     "Year": 1973,
     "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 98111,
+    "Num Votes": 100464,
     "Release Date": "1974-08-07",
     "Directors": "Robin Hardy"
   },
@@ -5451,7 +5819,7 @@
     "Runtime (mins)": 95,
     "Year": 1992,
     "Genres": "Romance, Comedy, Drama",
-    "Num Votes": 15571,
+    "Num Votes": 15951,
     "Release Date": "1994-02-04",
     "Directors": "Bigas Luna"
   },
@@ -5467,7 +5835,7 @@
     "Runtime (mins)": 84,
     "Year": 2006,
     "Genres": "Comedy",
-    "Num Votes": 455500,
+    "Num Votes": 462183,
     "Release Date": "2006-11-03",
     "Directors": "Larry Charles"
   },
@@ -5483,7 +5851,7 @@
     "Runtime (mins)": 81,
     "Year": 1992,
     "Genres": "Comedy, Horror",
-    "Num Votes": 200354,
+    "Num Votes": 202938,
     "Release Date": "1993-02-19",
     "Directors": "Sam Raimi"
   },
@@ -5499,7 +5867,7 @@
     "Runtime (mins)": 79,
     "Year": 1984,
     "Genres": "Thriller, Horror",
-    "Num Votes": 19958,
+    "Num Votes": 20247,
     "Release Date": "1984-11-09",
     "Directors": "Charles E. Sellier Jr."
   },
@@ -5515,7 +5883,7 @@
     "Runtime (mins)": 84,
     "Year": 1987,
     "Genres": "Comedy, Horror",
-    "Num Votes": 187805,
+    "Num Votes": 190289,
     "Release Date": "1987-03-13",
     "Directors": "Sam Raimi"
   },
@@ -5531,7 +5899,7 @@
     "Runtime (mins)": 102,
     "Year": 1938,
     "Genres": "Comedy",
-    "Num Votes": 67607,
+    "Num Votes": 68546,
     "Release Date": "1938-02-18",
     "Directors": "Howard Hawks"
   },
@@ -5547,7 +5915,7 @@
     "Runtime (mins)": 96,
     "Year": 1989,
     "Genres": "Thriller, Horror",
-    "Num Votes": 49072,
+    "Num Votes": 49776,
     "Release Date": "1989-10-13",
     "Directors": "Dominique Othenin-Girard"
   },
@@ -5563,7 +5931,7 @@
     "Runtime (mins)": 88,
     "Year": 1988,
     "Genres": "Thriller, Horror",
-    "Num Votes": 61090,
+    "Num Votes": 61910,
     "Release Date": "1988-10-21",
     "Directors": "Dwight H. Little"
   },
@@ -5579,7 +5947,7 @@
     "Runtime (mins)": 98,
     "Year": 1982,
     "Genres": "Sci-Fi, Mystery, Thriller, Horror",
-    "Num Votes": 63845,
+    "Num Votes": 64674,
     "Release Date": "1982-10-22",
     "Directors": "Tommy Lee Wallace"
   },
@@ -5595,7 +5963,7 @@
     "Runtime (mins)": 80,
     "Year": 1989,
     "Genres": "Comedy, Horror",
-    "Num Votes": 9834,
+    "Num Votes": 10008,
     "Release Date": "1989-08-04",
     "Directors": "Michael A. Simpson"
   },
@@ -5611,7 +5979,7 @@
     "Runtime (mins)": 80,
     "Year": 1988,
     "Genres": "Comedy, Horror",
-    "Num Votes": 13974,
+    "Num Votes": 14238,
     "Release Date": "1990-03-03",
     "Directors": "Michael A. Simpson"
   },
@@ -5627,7 +5995,7 @@
     "Runtime (mins)": 92,
     "Year": 1981,
     "Genres": "Horror",
-    "Num Votes": 106053,
+    "Num Votes": 107521,
     "Release Date": "1981-10-30",
     "Directors": "Rick Rosenthal"
   },
@@ -5643,7 +6011,7 @@
     "Runtime (mins)": 91,
     "Year": 1978,
     "Genres": "Thriller, Horror",
-    "Num Votes": 320269,
+    "Num Votes": 324899,
     "Release Date": "1978-10-27",
     "Directors": "John Carpenter"
   },
@@ -5659,7 +6027,7 @@
     "Runtime (mins)": 89,
     "Year": 1986,
     "Genres": "Mystery, Horror",
-    "Num Votes": 18938,
+    "Num Votes": 19489,
     "Release Date": "1986-03-28",
     "Directors": "Fred Walton"
   },
@@ -5675,7 +6043,7 @@
     "Runtime (mins)": 84,
     "Year": 1983,
     "Genres": "Horror",
-    "Num Votes": 40382,
+    "Num Votes": 41462,
     "Release Date": "1983-11-18",
     "Directors": "Robert Hiltzik"
   },
@@ -5687,11 +6055,11 @@
     "Original Title": "My Bloody Valentine",
     "URL": "https://www.imdb.com/title/tt0082782",
     "Title Type": "Movie",
-    "IMDb Rating": 6.2,
+    "IMDb Rating": 6.3,
     "Runtime (mins)": 90,
     "Year": 1981,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 26035,
+    "Num Votes": 26773,
     "Release Date": "1981-02-11",
     "Directors": "George Mihalka"
   },
@@ -5707,7 +6075,7 @@
     "Runtime (mins)": 77,
     "Year": 1982,
     "Genres": "Horror",
-    "Num Votes": 19349,
+    "Num Votes": 19938,
     "Release Date": "1982-11-12",
     "Directors": "Amy Holden Jones"
   },
@@ -5723,7 +6091,7 @@
     "Runtime (mins)": 117,
     "Year": 1977,
     "Genres": "Horror",
-    "Num Votes": 29357,
+    "Num Votes": 29767,
     "Release Date": "1977-06-17",
     "Directors": "John Boorman,Rospo Pallenberg"
   },
@@ -5739,7 +6107,7 @@
     "Runtime (mins)": 114,
     "Year": 1939,
     "Genres": "Romance, Drama",
-    "Num Votes": 11833,
+    "Num Votes": 12027,
     "Release Date": "1939-07-28",
     "Directors": "Sam Wood,Sidney Franklin"
   },
@@ -5755,7 +6123,7 @@
     "Runtime (mins)": 94,
     "Year": 2004,
     "Genres": "Horror, Drama, Thriller",
-    "Num Votes": 11965,
+    "Num Votes": 12125,
     "Release Date": "2004-08-27",
     "Directors": "Grant Harvey"
   },
@@ -5771,7 +6139,7 @@
     "Runtime (mins)": 94,
     "Year": 2004,
     "Genres": "Thriller, Horror",
-    "Num Votes": 15831,
+    "Num Votes": 16082,
     "Release Date": "2004-01-30",
     "Directors": "Brett Sullivan"
   },
@@ -5787,7 +6155,7 @@
     "Runtime (mins)": 99,
     "Year": 1964,
     "Genres": "Drama, Western",
-    "Num Votes": 240547,
+    "Num Votes": 245548,
     "Release Date": "1967-01-18",
     "Directors": "Sergio Leone"
   },
@@ -5803,7 +6171,7 @@
     "Runtime (mins)": 90,
     "Year": 2009,
     "Genres": "Documentary, Horror",
-    "Num Votes": 3219,
+    "Num Votes": 3238,
     "Release Date": "2009-02-13",
     "Directors": "Daniel Farrands"
   },
@@ -5819,7 +6187,7 @@
     "Runtime (mins)": 239,
     "Year": 2010,
     "Genres": "Documentary, Horror",
-    "Num Votes": 5328,
+    "Num Votes": 5388,
     "Release Date": "2010-05-04",
     "Directors": "Daniel Farrands,Andrew Kasch"
   },
@@ -5835,7 +6203,7 @@
     "Runtime (mins)": 93,
     "Year": 1999,
     "Genres": "Drama, Comedy",
-    "Num Votes": 240558,
+    "Num Votes": 244133,
     "Release Date": "1999-06-25",
     "Directors": "Dennis Dugan"
   },
@@ -5851,7 +6219,7 @@
     "Runtime (mins)": 107,
     "Year": 2006,
     "Genres": "Comedy, Drama, Romance, Fantasy",
-    "Num Votes": 367376,
+    "Num Votes": 373246,
     "Release Date": "2006-06-23",
     "Directors": "Frank Coraci"
   },
@@ -5867,7 +6235,7 @@
     "Runtime (mins)": 114,
     "Year": 2001,
     "Genres": "Fantasy, Romance, Drama, Comedy",
-    "Num Votes": 148339,
+    "Num Votes": 150407,
     "Release Date": "2001-11-09",
     "Directors": "Bobby Farrelly,Peter Farrelly"
   },
@@ -5883,7 +6251,7 @@
     "Runtime (mins)": 106,
     "Year": 2006,
     "Genres": "Comedy, Romance, Drama",
-    "Num Votes": 141223,
+    "Num Votes": 142562,
     "Release Date": "2006-06-02",
     "Directors": "Peyton Reed"
   },
@@ -5899,7 +6267,7 @@
     "Runtime (mins)": 108,
     "Year": 2006,
     "Genres": "Comedy, Family, Fantasy, Adventure",
-    "Num Votes": 389049,
+    "Num Votes": 395403,
     "Release Date": "2006-12-22",
     "Directors": "Shawn Levy"
   },
@@ -5911,11 +6279,11 @@
     "Original Title": "White Chicks",
     "URL": "https://www.imdb.com/title/tt0381707",
     "Title Type": "Movie",
-    "IMDb Rating": 5.8,
+    "IMDb Rating": 5.9,
     "Runtime (mins)": 109,
     "Year": 2004,
     "Genres": "Crime, Comedy",
-    "Num Votes": 173299,
+    "Num Votes": 180133,
     "Release Date": "2004-06-23",
     "Directors": "Keenen Ivory Wayans"
   },
@@ -5931,7 +6299,7 @@
     "Runtime (mins)": 108,
     "Year": 2000,
     "Genres": "Horror, Drama, Fantasy, Thriller",
-    "Num Votes": 54644,
+    "Num Votes": 55518,
     "Release Date": "2001-05-11",
     "Directors": "John Fawcett"
   },
@@ -5947,7 +6315,7 @@
     "Runtime (mins)": 95,
     "Year": 2010,
     "Genres": "Horror, Mystery, Crime, Drama",
-    "Num Votes": 110243,
+    "Num Votes": 111825,
     "Release Date": "2010-04-30",
     "Directors": "Samuel Bayer"
   },
@@ -5963,7 +6331,7 @@
     "Runtime (mins)": 97,
     "Year": 2009,
     "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 120891,
+    "Num Votes": 122574,
     "Release Date": "2009-02-13",
     "Directors": "Marcus Nispel"
   },
@@ -5979,7 +6347,7 @@
     "Runtime (mins)": 97,
     "Year": 2003,
     "Genres": "Action, Horror",
-    "Num Votes": 130828,
+    "Num Votes": 132303,
     "Release Date": "2003-08-15",
     "Directors": "Ronny Yu"
   },
@@ -5995,8 +6363,8 @@
     "Runtime (mins)": 94,
     "Year": 1922,
     "Genres": "Fantasy, Horror",
-    "Num Votes": 115385,
-    "Release Date": "1922-05-18",
+    "Num Votes": 119434,
+    "Release Date": "1922-12-19",
     "Directors": "F.W. Murnau"
   },
   {
@@ -6011,7 +6379,7 @@
     "Runtime (mins)": 73,
     "Year": 1932,
     "Genres": "Fantasy, Horror",
-    "Num Votes": 31507,
+    "Num Votes": 32009,
     "Release Date": "1932-12-22",
     "Directors": "Karl Freund"
   },
@@ -6027,7 +6395,7 @@
     "Runtime (mins)": 75,
     "Year": 1935,
     "Genres": "Drama, Sci-Fi, Horror",
-    "Num Votes": 55279,
+    "Num Votes": 56055,
     "Release Date": "1935-05-06",
     "Directors": "James Whale"
   },
@@ -6043,7 +6411,7 @@
     "Runtime (mins)": 71,
     "Year": 1933,
     "Genres": "Sci-Fi, Horror",
-    "Num Votes": 41627,
+    "Num Votes": 42282,
     "Release Date": "1933-11-13",
     "Directors": "James Whale"
   },
@@ -6059,7 +6427,7 @@
     "Runtime (mins)": 92,
     "Year": 2001,
     "Genres": "Thriller, Action, Sci-Fi, Horror",
-    "Num Votes": 63546,
+    "Num Votes": 64579,
     "Release Date": "2002-04-26",
     "Directors": "James Isaac"
   },
@@ -6075,7 +6443,7 @@
     "Runtime (mins)": 71,
     "Year": 2011,
     "Genres": "Documentary, Horror",
-    "Num Votes": 431,
+    "Num Votes": 437,
     "Release Date": "2011-04-29",
     "Directors": "Arlene Marechal"
   },
@@ -6091,7 +6459,7 @@
     "Runtime (mins)": 104,
     "Year": 1939,
     "Genres": "Romance, Drama",
-    "Num Votes": 12815,
+    "Num Votes": 13055,
     "Release Date": "1939-04-22",
     "Directors": "Edmund Goulding"
   },
@@ -6099,7 +6467,7 @@
     "Const": "tt0107254",
     "Your Rating": 2,
     "Date Rated": "2015-05-18",
-    "Title": "Jason Goes to Hell",
+    "Title": "Jason Goes to Hell: The Final Friday",
     "Original Title": "Jason Goes to Hell: The Final Friday",
     "URL": "https://www.imdb.com/title/tt0107254",
     "Title Type": "Movie",
@@ -6107,7 +6475,7 @@
     "Runtime (mins)": 87,
     "Year": 1993,
     "Genres": "Thriller, Fantasy, Horror",
-    "Num Votes": 38411,
+    "Num Votes": 39222,
     "Release Date": "1993-08-13",
     "Directors": "Adam Marcus"
   },
@@ -6123,7 +6491,7 @@
     "Runtime (mins)": 88,
     "Year": 1988,
     "Genres": "Thriller, Horror",
-    "Num Votes": 44381,
+    "Num Votes": 45337,
     "Release Date": "1988-05-13",
     "Directors": "John Carl Buechler"
   },
@@ -6139,7 +6507,7 @@
     "Runtime (mins)": 92,
     "Year": 1985,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 46154,
+    "Num Votes": 47179,
     "Release Date": "1985-03-22",
     "Directors": "Danny Steinmann"
   },
@@ -6155,7 +6523,7 @@
     "Runtime (mins)": 95,
     "Year": 1982,
     "Genres": "Thriller, Horror",
-    "Num Votes": 63320,
+    "Num Votes": 64630,
     "Release Date": "1982-08-13",
     "Directors": "Steve Miner"
   },
@@ -6171,7 +6539,7 @@
     "Runtime (mins)": 96,
     "Year": 1987,
     "Genres": "Fantasy, Horror",
-    "Num Votes": 94200,
+    "Num Votes": 95767,
     "Release Date": "1987-02-27",
     "Directors": "Chuck Russell"
   },
@@ -6187,7 +6555,7 @@
     "Runtime (mins)": 112,
     "Year": 1994,
     "Genres": "Fantasy, Mystery, Thriller, Horror",
-    "Num Votes": 66488,
+    "Num Votes": 67357,
     "Release Date": "1994-10-14",
     "Directors": "Wes Craven"
   },
@@ -6203,7 +6571,7 @@
     "Runtime (mins)": 93,
     "Year": 2013,
     "Genres": "Biography, Drama",
-    "Num Votes": 43464,
+    "Num Votes": 43900,
     "Release Date": "2013-08-08",
     "Directors": "Rob Epstein,Jeffrey Friedman"
   },
@@ -6219,7 +6587,7 @@
     "Runtime (mins)": 89,
     "Year": 1991,
     "Genres": "Fantasy, Horror",
-    "Num Votes": 52884,
+    "Num Votes": 53672,
     "Release Date": "1991-09-13",
     "Directors": "Rachel Talalay"
   },
@@ -6235,7 +6603,7 @@
     "Runtime (mins)": 89,
     "Year": 1989,
     "Genres": "Fantasy, Horror",
-    "Num Votes": 52778,
+    "Num Votes": 53602,
     "Release Date": "1989-08-11",
     "Directors": "Stephen Hopkins"
   },
@@ -6251,7 +6619,7 @@
     "Runtime (mins)": 99,
     "Year": 2009,
     "Genres": "Thriller, Mystery, Sci-Fi, Fantasy",
-    "Num Votes": 136676,
+    "Num Votes": 141289,
     "Release Date": "2009-10-16",
     "Directors": "Christopher Smith"
   },
@@ -6267,7 +6635,7 @@
     "Runtime (mins)": 93,
     "Year": 1988,
     "Genres": "Horror",
-    "Num Votes": 64191,
+    "Num Votes": 65196,
     "Release Date": "1988-08-19",
     "Directors": "Renny Harlin"
   },
@@ -6283,7 +6651,7 @@
     "Runtime (mins)": 109,
     "Year": 2011,
     "Genres": "Comedy, Romance",
-    "Num Votes": 405146,
+    "Num Votes": 410594,
     "Release Date": "2011-07-22",
     "Directors": "Will Gluck"
   },
@@ -6299,7 +6667,7 @@
     "Runtime (mins)": 87,
     "Year": 1985,
     "Genres": "Horror",
-    "Num Votes": 80965,
+    "Num Votes": 82336,
     "Release Date": "1985-11-01",
     "Directors": "Jack Sholder"
   },
@@ -6315,7 +6683,7 @@
     "Runtime (mins)": 91,
     "Year": 1984,
     "Genres": "Horror",
-    "Num Votes": 274456,
+    "Num Votes": 279207,
     "Release Date": "1984-11-16",
     "Directors": "Wes Craven"
   },
@@ -6331,7 +6699,7 @@
     "Runtime (mins)": 95,
     "Year": 2010,
     "Genres": "Animation, Family, Comedy, Sci-Fi, Crime, Adventure",
-    "Num Votes": 602989,
+    "Num Votes": 612837,
     "Release Date": "2010-07-09",
     "Directors": "Pierre Coffin,Chris Renaud"
   },
@@ -6347,7 +6715,7 @@
     "Runtime (mins)": 92,
     "Year": 2003,
     "Genres": "Romance, Comedy",
-    "Num Votes": 8041,
+    "Num Votes": 8192,
     "Release Date": "2003-05-09",
     "Directors": "Mark Herman"
   },
@@ -6363,7 +6731,7 @@
     "Runtime (mins)": 98,
     "Year": 2007,
     "Genres": "Drama, Crime, Biography, Horror",
-    "Num Votes": 38441,
+    "Num Votes": 39109,
     "Release Date": "2007-12-07",
     "Directors": "Tommy O'Haver"
   },
@@ -6379,7 +6747,7 @@
     "Runtime (mins)": 73,
     "Year": 1942,
     "Genres": "Thriller, Fantasy, Horror",
-    "Num Votes": 27063,
+    "Num Votes": 27555,
     "Release Date": "1942-12-25",
     "Directors": "Jacques Tourneur"
   },
@@ -6395,7 +6763,7 @@
     "Runtime (mins)": 122,
     "Year": 2004,
     "Genres": "Documentary, Drama, War",
-    "Num Votes": 133399,
+    "Num Votes": 133954,
     "Release Date": "2004-06-25",
     "Directors": "Michael Moore"
   },
@@ -6411,7 +6779,7 @@
     "Runtime (mins)": 91,
     "Year": 2007,
     "Genres": "Drama, Thriller, Crime, Horror",
-    "Num Votes": 30394,
+    "Num Votes": 30990,
     "Release Date": "2008-10-17",
     "Directors": "Gregory Wilson"
   },
@@ -6427,7 +6795,7 @@
     "Runtime (mins)": 100,
     "Year": 2003,
     "Genres": "Drama",
-    "Num Votes": 101804,
+    "Num Votes": 104020,
     "Release Date": "2003-09-19",
     "Directors": "Catherine Hardwicke"
   },
@@ -6443,7 +6811,7 @@
     "Runtime (mins)": 100,
     "Year": 2013,
     "Genres": "Drama, Horror, Thriller",
-    "Num Votes": 151321,
+    "Num Votes": 152802,
     "Release Date": "2013-10-18",
     "Directors": "Kimberly Peirce"
   },
@@ -6459,7 +6827,7 @@
     "Runtime (mins)": 98,
     "Year": 1976,
     "Genres": "Mystery, Horror",
-    "Num Votes": 215750,
+    "Num Votes": 219166,
     "Release Date": "1976-11-16",
     "Directors": "Brian De Palma"
   },
@@ -6475,7 +6843,7 @@
     "Runtime (mins)": 89,
     "Year": 1996,
     "Genres": "Comedy",
-    "Num Votes": 5427,
+    "Num Votes": 5507,
     "Release Date": "1996-08-23",
     "Directors": "Arthur Hiller"
   },
@@ -6491,7 +6859,7 @@
     "Runtime (mins)": 77,
     "Year": 2002,
     "Genres": "Adventure, Family, Comedy, Fantasy",
-    "Num Votes": 59816,
+    "Num Votes": 60485,
     "Release Date": "2002-07-19",
     "Directors": "Rob Minkoff"
   },
@@ -6507,8 +6875,8 @@
     "Runtime (mins)": 111,
     "Year": 2007,
     "Genres": "Animation, Comedy, Family, Fantasy, Adventure",
-    "Num Votes": 867761,
-    "Release Date": "2007-06-27",
+    "Num Votes": 892461,
+    "Release Date": "2007-06-29",
     "Directors": "Brad Bird,Jan Pinkava"
   },
   {
@@ -6523,7 +6891,7 @@
     "Runtime (mins)": 84,
     "Year": 1999,
     "Genres": "Family, Comedy, Adventure, Fantasy",
-    "Num Votes": 153670,
+    "Num Votes": 155999,
     "Release Date": "1999-12-17",
     "Directors": "Rob Minkoff"
   },
@@ -6539,7 +6907,7 @@
     "Runtime (mins)": 88,
     "Year": 2012,
     "Genres": "Animation, Comedy, Adventure, Family",
-    "Num Votes": 231925,
+    "Num Votes": 235940,
     "Release Date": "2012-07-13",
     "Directors": "Steve Martino,Michael Thurmeier"
   },
@@ -6555,7 +6923,7 @@
     "Runtime (mins)": 101,
     "Year": 2012,
     "Genres": "Animation, Comedy, Family, Adventure, Fantasy, Sci-Fi, Sport",
-    "Num Votes": 473712,
+    "Num Votes": 481881,
     "Release Date": "2012-11-02",
     "Directors": "Rich Moore"
   },
@@ -6571,7 +6939,7 @@
     "Runtime (mins)": 91,
     "Year": 2013,
     "Genres": "Animation, Comedy, Adventure, Family, History, Fantasy, Sci-Fi",
-    "Num Votes": 26946,
+    "Num Votes": 27392,
     "Release Date": "2013-11-01",
     "Directors": "Jimmy Hayward"
   },
@@ -6587,7 +6955,7 @@
     "Runtime (mins)": 59,
     "Year": 2004,
     "Genres": "Biography",
-    "Num Votes": 112,
+    "Num Votes": 113,
     "Release Date": "2004-02-26",
     "Directors": "Chris Rodley"
   },
@@ -6596,14 +6964,14 @@
     "Your Rating": 9,
     "Date Rated": "2014-07-06",
     "Title": "Au hasard Balthazar",
-    "Original Title": "Au Hasard Balthazar",
+    "Original Title": "Au hasard Balthazar",
     "URL": "https://www.imdb.com/title/tt0060138",
     "Title Type": "Movie",
     "IMDb Rating": 7.7,
     "Runtime (mins)": 95,
     "Year": 1966,
     "Genres": "Drama",
-    "Num Votes": 23629,
+    "Num Votes": 24116,
     "Release Date": "1966-05-25",
     "Directors": "Robert Bresson"
   },
@@ -6619,7 +6987,7 @@
     "Runtime (mins)": 90,
     "Year": 1960,
     "Genres": "Horror, Drama",
-    "Num Votes": 36754,
+    "Num Votes": 37432,
     "Release Date": "1962-10-24",
     "Directors": "Georges Franju"
   },
@@ -6635,7 +7003,7 @@
     "Runtime (mins)": 111,
     "Year": 2011,
     "Genres": "Thriller, Action, Drama, Adventure",
-    "Num Votes": 209681,
+    "Num Votes": 211746,
     "Release Date": "2011-04-08",
     "Directors": "Joe Wright"
   },
@@ -6651,7 +7019,7 @@
     "Runtime (mins)": 113,
     "Year": 1983,
     "Genres": "Crime, Thriller, Mystery, Horror",
-    "Num Votes": 32776,
+    "Num Votes": 33442,
     "Release Date": "1983-06-03",
     "Directors": "Richard Franklin"
   },
@@ -6667,7 +7035,7 @@
     "Runtime (mins)": 105,
     "Year": 2005,
     "Genres": "Comedy, Romance",
-    "Num Votes": 46807,
+    "Num Votes": 47325,
     "Release Date": "2005-03-25",
     "Directors": "Kevin Rodney Sullivan"
   },
@@ -6683,7 +7051,7 @@
     "Runtime (mins)": 92,
     "Year": 1996,
     "Genres": "Romance, Comedy",
-    "Num Votes": 4390,
+    "Num Votes": 4426,
     "Release Date": "1996-03-08",
     "Directors": "Eric Schaeffer"
   },
@@ -6699,7 +7067,7 @@
     "Runtime (mins)": 16,
     "Year": 1929,
     "Genres": "Short, Fantasy, Horror",
-    "Num Votes": 54893,
+    "Num Votes": 55564,
     "Release Date": "1929-06-06",
     "Directors": "Luis Buñuel"
   },
@@ -6715,7 +7083,7 @@
     "Runtime (mins)": 109,
     "Year": 2008,
     "Genres": "Drama, Music, Biography",
-    "Num Votes": 23590,
+    "Num Votes": 23909,
     "Release Date": "2008-12-05",
     "Directors": "Darnell Martin"
   },
@@ -6731,7 +7099,7 @@
     "Runtime (mins)": 94,
     "Year": 2009,
     "Genres": "Action, Sci-Fi",
-    "Num Votes": 4528,
+    "Num Votes": 4568,
     "Release Date": "2009-11-03",
     "Directors": "Ernie Barbarash"
   },
@@ -6747,7 +7115,7 @@
     "Runtime (mins)": 86,
     "Year": 2003,
     "Genres": "Mystery, Fantasy, Thriller, Horror",
-    "Num Votes": 34216,
+    "Num Votes": 34618,
     "Release Date": "2003-01-24",
     "Directors": "Jonathan Liebesman"
   },
@@ -6763,7 +7131,7 @@
     "Runtime (mins)": 96,
     "Year": 1957,
     "Genres": "Crime, Drama",
-    "Num Votes": 906933,
+    "Num Votes": 934115,
     "Release Date": "1957-04-10",
     "Directors": "Sidney Lumet"
   },
@@ -6779,7 +7147,7 @@
     "Runtime (mins)": 111,
     "Year": 2002,
     "Genres": "History, War, Drama",
-    "Num Votes": 26075,
+    "Num Votes": 26311,
     "Release Date": "2002-04-19",
     "Directors": "Paul Greengrass"
   },
@@ -6795,7 +7163,7 @@
     "Runtime (mins)": 104,
     "Year": 2006,
     "Genres": "Drama, Comedy, Romance",
-    "Num Votes": 42454,
+    "Num Votes": 42567,
     "Release Date": "2006-09-15",
     "Directors": "Tony Goldwyn"
   },
@@ -6811,7 +7179,7 @@
     "Runtime (mins)": 124,
     "Year": 1999,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 358769,
+    "Num Votes": 367757,
     "Release Date": "1999-05-28",
     "Directors": "Roger Michell"
   },
@@ -6827,7 +7195,7 @@
     "Runtime (mins)": 81,
     "Year": 2003,
     "Genres": "Musical, Comedy, Romance, Music",
-    "Num Votes": 27151,
+    "Num Votes": 27209,
     "Release Date": "2003-06-20",
     "Directors": "Robert Iscove"
   },
@@ -6843,7 +7211,7 @@
     "Runtime (mins)": 120,
     "Year": 2008,
     "Genres": "Drama, Romance, Crime",
-    "Num Votes": 890158,
+    "Num Votes": 897104,
     "Release Date": "2008-12-25",
     "Directors": "Danny Boyle,Loveleen Tandan"
   },
@@ -6859,7 +7227,7 @@
     "Runtime (mins)": 88,
     "Year": 2000,
     "Genres": "Comedy",
-    "Num Votes": 298776,
+    "Num Votes": 305067,
     "Release Date": "2000-07-07",
     "Directors": "Keenen Ivory Wayans"
   },
@@ -6875,7 +7243,7 @@
     "Runtime (mins)": 96,
     "Year": 1968,
     "Genres": "Thriller, Horror",
-    "Num Votes": 143961,
+    "Num Votes": 145930,
     "Release Date": "1968-10-04",
     "Directors": "George A. Romero"
   },
@@ -6891,7 +7259,7 @@
     "Runtime (mins)": 99,
     "Year": 2005,
     "Genres": "Horror, Adventure, Thriller",
-    "Num Votes": 256806,
+    "Num Votes": 261640,
     "Release Date": "2006-08-04",
     "Directors": "Neil Marshall"
   },
@@ -6907,7 +7275,7 @@
     "Runtime (mins)": 96,
     "Year": 2007,
     "Genres": "Comedy, Drama",
-    "Num Votes": 559020,
+    "Num Votes": 563936,
     "Release Date": "2007-12-25",
     "Directors": "Jason Reitman"
   },
@@ -6919,11 +7287,11 @@
     "Original Title": "10 Things I Hate About You",
     "URL": "https://www.imdb.com/title/tt0147800",
     "Title Type": "Movie",
-    "IMDb Rating": 7.3,
+    "IMDb Rating": 7.4,
     "Runtime (mins)": 97,
     "Year": 1999,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 409104,
+    "Num Votes": 422750,
     "Release Date": "1999-03-31",
     "Directors": "Gil Junger"
   },
@@ -6939,7 +7307,7 @@
     "Runtime (mins)": 135,
     "Year": 2002,
     "Genres": "Drama",
-    "Num Votes": 186810,
+    "Num Votes": 188291,
     "Release Date": "2003-01-10",
     "Directors": "Spike Lee"
   },
@@ -6955,7 +7323,7 @@
     "Runtime (mins)": 108,
     "Year": 2005,
     "Genres": "Romance, Family, Drama",
-    "Num Votes": 34736,
+    "Num Votes": 35045,
     "Release Date": "2005-09-16",
     "Directors": "Lasse Hallström"
   },
@@ -6971,7 +7339,7 @@
     "Runtime (mins)": 80,
     "Year": 2004,
     "Genres": "Drama, Romance",
-    "Num Votes": 297994,
+    "Num Votes": 303862,
     "Release Date": "2004-07-30",
     "Directors": "Richard Linklater"
   },
@@ -6986,8 +7354,8 @@
     "IMDb Rating": 8.1,
     "Runtime (mins)": 101,
     "Year": 1995,
-    "Genres": "Romance, Drama",
-    "Num Votes": 353180,
+    "Genres": "Comedy, Romance, Drama",
+    "Num Votes": 361554,
     "Release Date": "1995-01-27",
     "Directors": "Richard Linklater"
   },
@@ -7003,7 +7371,7 @@
     "Runtime (mins)": 90,
     "Year": 1999,
     "Genres": "Comedy, Drama",
-    "Num Votes": 15203,
+    "Num Votes": 15297,
     "Release Date": "2000-05-19",
     "Directors": "John Swanbeck"
   },
@@ -7019,7 +7387,7 @@
     "Runtime (mins)": 119,
     "Year": 2005,
     "Genres": "Drama, Horror, Thriller",
-    "Num Votes": 143473,
+    "Num Votes": 145466,
     "Release Date": "2005-09-09",
     "Directors": "Scott Derrickson"
   },
@@ -7035,7 +7403,7 @@
     "Runtime (mins)": 108,
     "Year": 2009,
     "Genres": "Comedy, Romance, Drama",
-    "Num Votes": 375509,
+    "Num Votes": 382568,
     "Release Date": "2009-06-19",
     "Directors": "Anne Fletcher"
   },
@@ -7051,7 +7419,7 @@
     "Runtime (mins)": 84,
     "Year": 2007,
     "Genres": "Comedy, Sport",
-    "Num Votes": 12174,
+    "Num Votes": 12229,
     "Release Date": "2007-10-19",
     "Directors": "Tom Brady"
   },
@@ -7067,7 +7435,7 @@
     "Runtime (mins)": 86,
     "Year": 2011,
     "Genres": "Drama",
-    "Num Votes": 4084,
+    "Num Votes": 4132,
     "Release Date": "2011-04-23",
     "Directors": "Shari Springer Berman,Robert Pulcini"
   },
@@ -7083,7 +7451,7 @@
     "Runtime (mins)": 170,
     "Year": 2004,
     "Genres": "Biography, Drama",
-    "Num Votes": 391800,
+    "Num Votes": 396486,
     "Release Date": "2004-12-25",
     "Directors": "Martin Scorsese"
   },
@@ -7099,7 +7467,7 @@
     "Runtime (mins)": 107,
     "Year": 2008,
     "Genres": "Crime, Drama, Comedy, Thriller",
-    "Num Votes": 474120,
+    "Num Votes": 480922,
     "Release Date": "2008-02-29",
     "Directors": "Martin McDonagh"
   },
@@ -7115,7 +7483,7 @@
     "Runtime (mins)": 103,
     "Year": 2010,
     "Genres": "Drama, Romance",
-    "Num Votes": 155753,
+    "Num Votes": 157118,
     "Release Date": "2010-10-15",
     "Directors": "Mark Romanek"
   },
@@ -7131,7 +7499,7 @@
     "Runtime (mins)": 110,
     "Year": 2010,
     "Genres": "Action, Comedy, Romance",
-    "Num Votes": 136387,
+    "Num Votes": 137648,
     "Release Date": "2010-03-19",
     "Directors": "Andy Tennant"
   },
@@ -7147,7 +7515,7 @@
     "Runtime (mins)": 110,
     "Year": 1962,
     "Genres": "Adventure, Thriller, Action",
-    "Num Votes": 184435,
+    "Num Votes": 186985,
     "Release Date": "1962-10-10",
     "Directors": "Terence Young"
   },
@@ -7163,7 +7531,7 @@
     "Runtime (mins)": 99,
     "Year": 2008,
     "Genres": "Documentary, Crime",
-    "Num Votes": 5271,
+    "Num Votes": 5299,
     "Release Date": "2008-12-11",
     "Directors": "Marina Zenovich"
   },
@@ -7179,7 +7547,7 @@
     "Runtime (mins)": 109,
     "Year": 2003,
     "Genres": "Music, Comedy",
-    "Num Votes": 341386,
+    "Num Votes": 346701,
     "Release Date": "2003-10-03",
     "Directors": "Richard Linklater"
   },
@@ -7195,7 +7563,7 @@
     "Runtime (mins)": 145,
     "Year": 2000,
     "Genres": "History, Drama, Thriller",
-    "Num Votes": 64208,
+    "Num Votes": 65034,
     "Release Date": "2001-01-12",
     "Directors": "Roger Donaldson"
   },
@@ -7211,7 +7579,7 @@
     "Runtime (mins)": 82,
     "Year": 2010,
     "Genres": "Comedy, Horror",
-    "Num Votes": 52726,
+    "Num Votes": 53391,
     "Release Date": "2010-08-18",
     "Directors": "Jason Friedberg,Aaron Seltzer"
   },
@@ -7227,7 +7595,7 @@
     "Runtime (mins)": 95,
     "Year": 2005,
     "Genres": "Music, Romance, Comedy, Crime, Drama",
-    "Num Votes": 8685,
+    "Num Votes": 8705,
     "Release Date": "2005-11-23",
     "Directors": "Ron Underwood"
   },
@@ -7243,7 +7611,7 @@
     "Runtime (mins)": 124,
     "Year": 2000,
     "Genres": "Drama, Sport, Thriller, Adventure, Action",
-    "Num Votes": 66541,
+    "Num Votes": 67429,
     "Release Date": "2000-12-08",
     "Directors": "Martin Campbell"
   },
@@ -7259,7 +7627,7 @@
     "Runtime (mins)": 138,
     "Year": 1997,
     "Genres": "Crime, Drama, Thriller, Mystery",
-    "Num Votes": 635068,
+    "Num Votes": 643871,
     "Release Date": "1997-09-19",
     "Directors": "Curtis Hanson"
   },
@@ -7275,7 +7643,7 @@
     "Runtime (mins)": 134,
     "Year": 2007,
     "Genres": "Drama, Romance",
-    "Num Votes": 5695,
+    "Num Votes": 5732,
     "Release Date": "2007-03-14",
     "Directors": "François Ozon"
   },
@@ -7291,7 +7659,7 @@
     "Runtime (mins)": 90,
     "Year": 2007,
     "Genres": "Thriller, Crime, Drama",
-    "Num Votes": 399,
+    "Num Votes": 407,
     "Release Date": "2007-05-20",
     "Directors": "Robert Malenfant"
   },
@@ -7307,7 +7675,7 @@
     "Runtime (mins)": 89,
     "Year": 2006,
     "Genres": "Comedy, Romance",
-    "Num Votes": 89836,
+    "Num Votes": 90863,
     "Release Date": "2006-07-28",
     "Directors": "Betty Thomas"
   },
@@ -7323,7 +7691,7 @@
     "Runtime (mins)": 110,
     "Year": 2006,
     "Genres": "Comedy, Fantasy, Family, Romance",
-    "Num Votes": 46331,
+    "Num Votes": 46999,
     "Release Date": "2006-03-03",
     "Directors": "Elizabeth Allen Rosenbaum"
   },
@@ -7339,7 +7707,7 @@
     "Runtime (mins)": 87,
     "Year": 2008,
     "Genres": "Comedy, Sci-Fi",
-    "Num Votes": 95736,
+    "Num Votes": 96628,
     "Release Date": "2008-08-29",
     "Directors": "Jason Friedberg,Aaron Seltzer"
   },
@@ -7355,7 +7723,7 @@
     "Runtime (mins)": 104,
     "Year": 1996,
     "Genres": "Drama, Comedy",
-    "Num Votes": 7079,
+    "Num Votes": 7189,
     "Release Date": "1997-01-24",
     "Directors": "Albert Brooks"
   },
@@ -7371,7 +7739,7 @@
     "Runtime (mins)": 100,
     "Year": 2008,
     "Genres": "Crime, Drama, Thriller, Action, Mystery",
-    "Num Votes": 131575,
+    "Num Votes": 132393,
     "Release Date": "2008-10-17",
     "Directors": "John Moore"
   },
@@ -7383,11 +7751,11 @@
     "Original Title": "(500) Days of Summer",
     "URL": "https://www.imdb.com/title/tt1022603",
     "Title Type": "Movie",
-    "IMDb Rating": 7.7,
+    "IMDb Rating": 7.6,
     "Runtime (mins)": 95,
     "Year": 2009,
     "Genres": "Comedy, Drama, Romance",
-    "Num Votes": 581272,
+    "Num Votes": 594223,
     "Release Date": "2009-08-07",
     "Directors": "Marc Webb"
   },
@@ -7403,25 +7771,9 @@
     "Runtime (mins)": 106,
     "Year": 2008,
     "Genres": "Comedy, Romance",
-    "Num Votes": 45983,
+    "Num Votes": 46478,
     "Release Date": "2008-02-27",
     "Directors": "Dany Boon"
-  },
-  {
-    "Const": "tt0477311",
-    "Your Rating": 6,
-    "Date Rated": "2013-10-07",
-    "Title": "To Let",
-    "Original Title": "Películas para no dormir: Para entrar a vivir",
-    "URL": "https://www.imdb.com/title/tt0477311",
-    "Title Type": "TV Movie",
-    "IMDb Rating": 6.2,
-    "Runtime (mins)": 68,
-    "Year": 2006,
-    "Genres": "Horror, Thriller, Drama",
-    "Num Votes": 3041,
-    "Release Date": "2007-01-19",
-    "Directors": "Jaume Balagueró"
   },
   {
     "Const": "tt0449467",
@@ -7435,7 +7787,7 @@
     "Runtime (mins)": 143,
     "Year": 2006,
     "Genres": "Drama",
-    "Num Votes": 321876,
+    "Num Votes": 324426,
     "Release Date": "2006-11-10",
     "Directors": "Alejandro G. Iñárritu"
   },
@@ -7451,7 +7803,7 @@
     "Runtime (mins)": 104,
     "Year": 2008,
     "Genres": "Sci-Fi, Drama, Thriller, Adventure",
-    "Num Votes": 181520,
+    "Num Votes": 183480,
     "Release Date": "2008-12-12",
     "Directors": "Scott Derrickson"
   },
@@ -7467,7 +7819,7 @@
     "Runtime (mins)": 122,
     "Year": 2008,
     "Genres": "Drama, Romance",
-    "Num Votes": 24709,
+    "Num Votes": 25051,
     "Release Date": "2008-09-26",
     "Directors": "Alex Kendrick"
   },
@@ -7483,7 +7835,7 @@
     "Runtime (mins)": 113,
     "Year": 2006,
     "Genres": "Fantasy, Drama, Romance, Comedy",
-    "Num Votes": 239303,
+    "Num Votes": 241434,
     "Release Date": "2006-11-10",
     "Directors": "Marc Forster"
   },
@@ -7499,7 +7851,7 @@
     "Runtime (mins)": 116,
     "Year": 1970,
     "Genres": "Adventure, Romance, Drama, War, Western",
-    "Num Votes": 31713,
+    "Num Votes": 32478,
     "Release Date": "1970-06-16",
     "Directors": "Don Siegel"
   },
@@ -7515,7 +7867,7 @@
     "Runtime (mins)": 120,
     "Year": 2010,
     "Genres": "Drama, Biography",
-    "Num Votes": 780171,
+    "Num Votes": 794177,
     "Release Date": "2010-10-01",
     "Directors": "David Fincher"
   },
@@ -7531,7 +7883,7 @@
     "Runtime (mins)": 90,
     "Year": 2004,
     "Genres": "Comedy, Drama",
-    "Num Votes": 1293,
+    "Num Votes": 1311,
     "Release Date": "2007-03-30",
     "Directors": "Tom Cairns"
   },
@@ -7547,7 +7899,7 @@
     "Runtime (mins)": 108,
     "Year": 2000,
     "Genres": "Romance, Comedy",
-    "Num Votes": 364488,
+    "Num Votes": 369310,
     "Release Date": "2000-10-06",
     "Directors": "Jay Roach"
   },
@@ -7563,7 +7915,7 @@
     "Runtime (mins)": 94,
     "Year": 2013,
     "Genres": "Thriller, Horror",
-    "Num Votes": 6817,
+    "Num Votes": 6946,
     "Release Date": "2013-03-13",
     "Directors": "Malik Bader"
   },
@@ -7575,11 +7927,11 @@
     "Original Title": "The Devil Wears Prada",
     "URL": "https://www.imdb.com/title/tt0458352",
     "Title Type": "Movie",
-    "IMDb Rating": 6.9,
+    "IMDb Rating": 7,
     "Runtime (mins)": 109,
     "Year": 2006,
     "Genres": "Drama, Comedy",
-    "Num Votes": 491451,
+    "Num Votes": 503180,
     "Release Date": "2006-06-30",
     "Directors": "David Frankel"
   },
@@ -7595,7 +7947,7 @@
     "Runtime (mins)": 90,
     "Year": 2008,
     "Genres": "Crime, Drama, Mystery, Thriller",
-    "Num Votes": 365,
+    "Num Votes": 371,
     "Release Date": "2008-03-01",
     "Directors": "Robert Malenfant"
   },
@@ -7611,7 +7963,7 @@
     "Runtime (mins)": 98,
     "Year": 2008,
     "Genres": "Animation, Sci-Fi, Adventure, Family",
-    "Num Votes": 1243128,
+    "Num Votes": 1267988,
     "Release Date": "2008-06-27",
     "Directors": "Andrew Stanton"
   },
@@ -7627,7 +7979,7 @@
     "Runtime (mins)": 99,
     "Year": 2008,
     "Genres": "Comedy, Family, Fantasy, Romance, Adventure, Sci-Fi",
-    "Num Votes": 103088,
+    "Num Votes": 104160,
     "Release Date": "2008-12-25",
     "Directors": "Adam Shankman"
   },
@@ -7643,7 +7995,7 @@
     "Runtime (mins)": 140,
     "Year": 2003,
     "Genres": "Sport, History, Drama",
-    "Num Votes": 77939,
+    "Num Votes": 78692,
     "Release Date": "2003-07-25",
     "Directors": "Gary Ross"
   },
@@ -7659,7 +8011,7 @@
     "Runtime (mins)": 86,
     "Year": 2008,
     "Genres": "Animation, Adventure, Family, Comedy, Fantasy, Drama, Music",
-    "Num Votes": 153438,
+    "Num Votes": 155135,
     "Release Date": "2008-03-14",
     "Directors": "Jimmy Hayward,Steve Martino"
   },
@@ -7675,7 +8027,7 @@
     "Runtime (mins)": 72,
     "Year": 2008,
     "Genres": "Drama",
-    "Num Votes": 1991,
+    "Num Votes": 2011,
     "Release Date": "2008-11-21",
     "Directors": "Lance Daly"
   },
@@ -7691,7 +8043,7 @@
     "Runtime (mins)": 95,
     "Year": 2006,
     "Genres": "Drama, Family, Adventure",
-    "Num Votes": 8669,
+    "Num Votes": 8765,
     "Release Date": "2006-10-20",
     "Directors": "Michael Mayer"
   },
@@ -7707,7 +8059,7 @@
     "Runtime (mins)": 123,
     "Year": 2007,
     "Genres": "Drama, Romance, Mystery, War",
-    "Num Votes": 309145,
+    "Num Votes": 316190,
     "Release Date": "2008-01-11",
     "Directors": "Joe Wright"
   },
@@ -7723,7 +8075,7 @@
     "Runtime (mins)": 88,
     "Year": 2006,
     "Genres": "Drama, Biography, Romance",
-    "Num Votes": 32769,
+    "Num Votes": 33100,
     "Release Date": "2007-03-09",
     "Directors": "Chris Noonan"
   },
@@ -7739,7 +8091,7 @@
     "Runtime (mins)": 86,
     "Year": 2008,
     "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 150289,
+    "Num Votes": 152063,
     "Release Date": "2008-05-30",
     "Directors": "Bryan Bertino"
   },
@@ -7751,11 +8103,11 @@
     "Original Title": "Bring It On",
     "URL": "https://www.imdb.com/title/tt0204946",
     "Title Type": "Movie",
-    "IMDb Rating": 6.1,
+    "IMDb Rating": 6.2,
     "Runtime (mins)": 98,
     "Year": 2000,
     "Genres": "Sport, Romance, Comedy",
-    "Num Votes": 109052,
+    "Num Votes": 110662,
     "Release Date": "2000-08-25",
     "Directors": "Peyton Reed"
   },
@@ -7767,11 +8119,11 @@
     "Original Title": "All Good Things",
     "URL": "https://www.imdb.com/title/tt1175709",
     "Title Type": "Movie",
-    "IMDb Rating": 6.3,
+    "IMDb Rating": 6.2,
     "Runtime (mins)": 101,
     "Year": 2010,
     "Genres": "Drama, Mystery, Thriller, Crime, Romance",
-    "Num Votes": 61946,
+    "Num Votes": 62680,
     "Release Date": "2010-12-03",
     "Directors": "Andrew Jarecki"
   },
@@ -7787,7 +8139,7 @@
     "Runtime (mins)": 114,
     "Year": 2005,
     "Genres": "Drama, Romance, Thriller",
-    "Num Votes": 19182,
+    "Num Votes": 19312,
     "Release Date": "2005-12-09",
     "Directors": "David Jacobson"
   },
@@ -7803,7 +8155,7 @@
     "Runtime (mins)": 158,
     "Year": 2009,
     "Genres": "Action, Sci-Fi, Adventure",
-    "Num Votes": 406842,
+    "Num Votes": 411922,
     "Release Date": "2009-11-13",
     "Directors": "Roland Emmerich"
   },
@@ -7819,7 +8171,7 @@
     "Runtime (mins)": 104,
     "Year": 2010,
     "Genres": "Comedy, Romance",
-    "Num Votes": 53218,
+    "Num Votes": 53967,
     "Release Date": "2010-04-23",
     "Directors": "Alan Poul"
   },
@@ -7835,7 +8187,7 @@
     "Runtime (mins)": 102,
     "Year": 1995,
     "Genres": "Romance, Drama",
-    "Num Votes": 37462,
+    "Num Votes": 38010,
     "Release Date": "1995-08-11",
     "Directors": "Alfonso Arau"
   },
@@ -7851,7 +8203,7 @@
     "Runtime (mins)": 99,
     "Year": 2004,
     "Genres": "Action, Comedy, Fantasy",
-    "Num Votes": 155158,
+    "Num Votes": 157831,
     "Release Date": "2005-04-22",
     "Directors": "Stephen Chow"
   },
@@ -7867,7 +8219,7 @@
     "Runtime (mins)": 97,
     "Year": 2010,
     "Genres": "Drama, Thriller, Crime",
-    "Num Votes": 96774,
+    "Num Votes": 98031,
     "Release Date": "2010-05-26",
     "Directors": "Gregor Jordan"
   },
@@ -7883,7 +8235,7 @@
     "Runtime (mins)": 121,
     "Year": 2004,
     "Genres": "Drama, War, History, Biography",
-    "Num Votes": 380800,
+    "Num Votes": 384948,
     "Release Date": "2005-02-04",
     "Directors": "Terry George"
   },
@@ -7899,7 +8251,7 @@
     "Runtime (mins)": 103,
     "Year": 1996,
     "Genres": "Adventure, Family, Crime, Comedy",
-    "Num Votes": 120027,
+    "Num Votes": 121559,
     "Release Date": "1996-11-27",
     "Directors": "Stephen Herek"
   },
@@ -7915,7 +8267,7 @@
     "Runtime (mins)": 165,
     "Year": 2000,
     "Genres": "History, Drama, War, Action",
-    "Num Votes": 301194,
+    "Num Votes": 304912,
     "Release Date": "2000-06-28",
     "Directors": "Roland Emmerich"
   },
@@ -7931,7 +8283,7 @@
     "Runtime (mins)": 110,
     "Year": 2000,
     "Genres": "Crime, Drama, Romance, Comedy",
-    "Num Votes": 36557,
+    "Num Votes": 36776,
     "Release Date": "2000-09-08",
     "Directors": "Neil LaBute"
   },
@@ -7947,7 +8299,7 @@
     "Runtime (mins)": 95,
     "Year": 2009,
     "Genres": "Comedy, Romance",
-    "Num Votes": 3565,
+    "Num Votes": 3597,
     "Release Date": "2010-04-16",
     "Directors": "Brian Herzlinger"
   },
@@ -7963,7 +8315,7 @@
     "Runtime (mins)": 125,
     "Year": 2010,
     "Genres": "Comedy, Romance",
-    "Num Votes": 126808,
+    "Num Votes": 128065,
     "Release Date": "2010-02-12",
     "Directors": "Garry Marshall"
   },
@@ -7979,7 +8331,7 @@
     "Runtime (mins)": 136,
     "Year": 2011,
     "Genres": "Action, Adventure, Fantasy",
-    "Num Votes": 579672,
+    "Num Votes": 589164,
     "Release Date": "2011-05-20",
     "Directors": "Rob Marshall"
   },
@@ -7995,7 +8347,7 @@
     "Runtime (mins)": 169,
     "Year": 2007,
     "Genres": "Action, Adventure, Fantasy",
-    "Num Votes": 711722,
+    "Num Votes": 722402,
     "Release Date": "2007-05-25",
     "Directors": "Gore Verbinski"
   },
@@ -8011,7 +8363,7 @@
     "Runtime (mins)": 123,
     "Year": 2000,
     "Genres": "Drama",
-    "Num Votes": 125679,
+    "Num Votes": 126685,
     "Release Date": "2000-10-20",
     "Directors": "Mimi Leder"
   },
@@ -8027,7 +8379,7 @@
     "Runtime (mins)": 140,
     "Year": 2006,
     "Genres": "Drama, War, Action, Romance, History",
-    "Num Votes": 45220,
+    "Num Votes": 45602,
     "Release Date": "2006-09-22",
     "Directors": "Tony Bill"
   },
@@ -8043,7 +8395,7 @@
     "Runtime (mins)": 122,
     "Year": 2007,
     "Genres": "Thriller, Crime, Drama",
-    "Num Votes": 1103488,
+    "Num Votes": 1129918,
     "Release Date": "2007-11-21",
     "Directors": "Ethan Coen,Joel Coen"
   },
@@ -8059,7 +8411,7 @@
     "Runtime (mins)": 133,
     "Year": 2010,
     "Genres": "Drama, Adventure, History",
-    "Num Votes": 124027,
+    "Num Votes": 125051,
     "Release Date": "2011-01-21",
     "Directors": "Peter Weir"
   },
@@ -8075,7 +8427,7 @@
     "Runtime (mins)": 96,
     "Year": 2009,
     "Genres": "Animation, Drama, Family, Fantasy, Adventure, Comedy",
-    "Num Votes": 134819,
+    "Num Votes": 135995,
     "Release Date": "2009-11-06",
     "Directors": "Robert Zemeckis"
   },
@@ -8091,7 +8443,7 @@
     "Runtime (mins)": 110,
     "Year": 2006,
     "Genres": "Comedy, Romance",
-    "Num Votes": 84956,
+    "Num Votes": 85809,
     "Release Date": "2006-07-14",
     "Directors": "Anthony Russo,Joe Russo"
   },
@@ -8107,7 +8459,7 @@
     "Runtime (mins)": 92,
     "Year": 2008,
     "Genres": "Action, Comedy, Fantasy, Drama",
-    "Num Votes": 523477,
+    "Num Votes": 528746,
     "Release Date": "2008-07-02",
     "Directors": "Peter Berg"
   },
@@ -8123,7 +8475,7 @@
     "Runtime (mins)": 99,
     "Year": 2004,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 393390,
+    "Num Votes": 400624,
     "Release Date": "2004-02-13",
     "Directors": "Peter Segal"
   },
@@ -8139,7 +8491,7 @@
     "Runtime (mins)": 122,
     "Year": 2007,
     "Genres": "Crime, Drama, Thriller",
-    "Num Votes": 64381,
+    "Num Votes": 65097,
     "Release Date": "2007-09-14",
     "Directors": "Neil Jordan"
   },
@@ -8155,7 +8507,7 @@
     "Runtime (mins)": 103,
     "Year": 2002,
     "Genres": "Romance, Comedy",
-    "Num Votes": 28560,
+    "Num Votes": 32752,
     "Release Date": "2002-04-26",
     "Directors": "Stephen Herek"
   },
@@ -8171,7 +8523,7 @@
     "Runtime (mins)": 107,
     "Year": 1999,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 99746,
+    "Num Votes": 100869,
     "Release Date": "1999-04-09",
     "Directors": "Raja Gosnell"
   },
@@ -8187,7 +8539,7 @@
     "Runtime (mins)": 124,
     "Year": 2007,
     "Genres": "Drama",
-    "Num Votes": 100692,
+    "Num Votes": 101372,
     "Release Date": "2007-03-23",
     "Directors": "Mike Binder"
   },
@@ -8199,11 +8551,11 @@
     "Original Title": "Volcano",
     "URL": "https://www.imdb.com/title/tt0120461",
     "Title Type": "Movie",
-    "IMDb Rating": 5.5,
+    "IMDb Rating": 5.6,
     "Runtime (mins)": 104,
     "Year": 1997,
     "Genres": "Sci-Fi, Drama, Thriller, Action",
-    "Num Votes": 84003,
+    "Num Votes": 85021,
     "Release Date": "1997-04-25",
     "Directors": "Mick Jackson"
   },
@@ -8219,7 +8571,7 @@
     "Runtime (mins)": 114,
     "Year": 2004,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 40715,
+    "Num Votes": 41164,
     "Release Date": "2004-08-20",
     "Directors": "Renny Harlin"
   },
@@ -8235,7 +8587,7 @@
     "Runtime (mins)": 96,
     "Year": 2006,
     "Genres": "Comedy, Romance, Sci-Fi",
-    "Num Votes": 67866,
+    "Num Votes": 68473,
     "Release Date": "2006-07-21",
     "Directors": "Ivan Reitman"
   },
@@ -8251,7 +8603,7 @@
     "Runtime (mins)": 97,
     "Year": 2006,
     "Genres": "Family, Comedy, Fantasy, Adventure",
-    "Num Votes": 47755,
+    "Num Votes": 48519,
     "Release Date": "2006-12-15",
     "Directors": "Gary Winick"
   },
@@ -8267,7 +8619,7 @@
     "Runtime (mins)": 114,
     "Year": 2008,
     "Genres": "Drama, Comedy",
-    "Num Votes": 23609,
+    "Num Votes": 23886,
     "Release Date": "2008-09-12",
     "Directors": "Diane English"
   },
@@ -8283,7 +8635,7 @@
     "Runtime (mins)": 121,
     "Year": 1997,
     "Genres": "Crime, Adventure, Romance, Thriller, Action",
-    "Num Votes": 87645,
+    "Num Votes": 88519,
     "Release Date": "1997-06-13",
     "Directors": "Jan de Bont"
   },
@@ -8299,7 +8651,7 @@
     "Runtime (mins)": 109,
     "Year": 1997,
     "Genres": "Romance, Drama, Comedy",
-    "Num Votes": 40498,
+    "Num Votes": 40927,
     "Release Date": "1997-02-14",
     "Directors": "Andy Tennant"
   },
@@ -8315,7 +8667,7 @@
     "Runtime (mins)": 118,
     "Year": 2010,
     "Genres": "Fantasy, Adventure, Family",
-    "Num Votes": 207651,
+    "Num Votes": 209958,
     "Release Date": "2010-02-12",
     "Directors": "Chris Columbus"
   },
@@ -8331,7 +8683,7 @@
     "Runtime (mins)": 98,
     "Year": 2000,
     "Genres": "Romance, Comedy",
-    "Num Votes": 30885,
+    "Num Votes": 31322,
     "Release Date": "2000-07-21",
     "Directors": "Amy Heckerling"
   },
@@ -8347,7 +8699,7 @@
     "Runtime (mins)": 88,
     "Year": 2007,
     "Genres": "Comedy, Sport",
-    "Num Votes": 95532,
+    "Num Votes": 96821,
     "Release Date": "2007-08-03",
     "Directors": "Akiva Schaffer"
   },
@@ -8363,7 +8715,7 @@
     "Runtime (mins)": 91,
     "Year": 2006,
     "Genres": "Animation, Family, Comedy, Mystery",
-    "Num Votes": 144912,
+    "Num Votes": 147958,
     "Release Date": "2006-07-21",
     "Directors": "Gil Kenan"
   },
@@ -8379,7 +8731,7 @@
     "Runtime (mins)": 102,
     "Year": 2006,
     "Genres": "Horror, Thriller",
-    "Num Votes": 52250,
+    "Num Votes": 52670,
     "Release Date": "2006-10-13",
     "Directors": "Takashi Shimizu"
   },
@@ -8395,7 +8747,7 @@
     "Runtime (mins)": 96,
     "Year": 2004,
     "Genres": "Comedy",
-    "Num Votes": 244594,
+    "Num Votes": 248371,
     "Release Date": "2004-08-27",
     "Directors": "Jared Hess"
   },
@@ -8411,7 +8763,7 @@
     "Runtime (mins)": 108,
     "Year": 2002,
     "Genres": "Drama, Thriller, Action",
-    "Num Votes": 79045,
+    "Num Votes": 79657,
     "Release Date": "2002-02-08",
     "Directors": "Andrew Davis"
   },
@@ -8427,7 +8779,7 @@
     "Runtime (mins)": 84,
     "Year": 2003,
     "Genres": "Thriller, Horror",
-    "Num Votes": 137344,
+    "Num Votes": 140503,
     "Release Date": "2003-05-30",
     "Directors": "Rob Schmidt"
   },
@@ -8443,7 +8795,7 @@
     "Runtime (mins)": 113,
     "Year": 2007,
     "Genres": "Horror, Thriller",
-    "Num Votes": 194077,
+    "Num Votes": 196166,
     "Release Date": "2007-10-19",
     "Directors": "David Slade"
   },
@@ -8459,7 +8811,7 @@
     "Runtime (mins)": 98,
     "Year": 1998,
     "Genres": "Thriller, Crime, Comedy, Action",
-    "Num Votes": 306397,
+    "Num Votes": 313655,
     "Release Date": "1998-09-18",
     "Directors": "Brett Ratner"
   },
@@ -8475,7 +8827,7 @@
     "Runtime (mins)": 93,
     "Year": 1999,
     "Genres": "Crime, Thriller, Comedy, Action",
-    "Num Votes": 90808,
+    "Num Votes": 91945,
     "Release Date": "1999-09-17",
     "Directors": "Les Mayfield"
   },
@@ -8491,7 +8843,7 @@
     "Runtime (mins)": 94,
     "Year": 2007,
     "Genres": "Horror, Mystery, Thriller",
-    "Num Votes": 2469,
+    "Num Votes": 2498,
     "Release Date": "2008-10-08",
     "Directors": "Robert Kurtzman"
   },
@@ -8507,7 +8859,7 @@
     "Runtime (mins)": 95,
     "Year": 2005,
     "Genres": "Horror, Comedy, Thriller, Action",
-    "Num Votes": 34764,
+    "Num Votes": 35236,
     "Release Date": "2007-01-18",
     "Directors": "John Gulager"
   },
@@ -8523,7 +8875,7 @@
     "Runtime (mins)": 88,
     "Year": 2005,
     "Genres": "Comedy, Horror, Thriller, Drama",
-    "Num Votes": 1519,
+    "Num Votes": 1566,
     "Release Date": "2005-10-14",
     "Directors": "Kelsey T. Howard"
   },
@@ -8539,7 +8891,7 @@
     "Runtime (mins)": 109,
     "Year": 1982,
     "Genres": "Mystery, Sci-Fi, Horror",
-    "Num Votes": 489522,
+    "Num Votes": 502022,
     "Release Date": "1982-06-25",
     "Directors": "John Carpenter"
   },
@@ -8555,7 +8907,7 @@
     "Runtime (mins)": 146,
     "Year": 1980,
     "Genres": "Drama, Horror",
-    "Num Votes": 1150568,
+    "Num Votes": 1173072,
     "Release Date": "1980-06-13",
     "Directors": "Stanley Kubrick"
   },
@@ -8571,7 +8923,7 @@
     "Runtime (mins)": 101,
     "Year": 2005,
     "Genres": "Comedy, Romance",
-    "Num Votes": 66852,
+    "Num Votes": 67610,
     "Release Date": "2005-05-13",
     "Directors": "Robert Luketic"
   },
@@ -8587,7 +8939,7 @@
     "Runtime (mins)": 142,
     "Year": 2004,
     "Genres": "Mystery, Family, Adventure, Fantasy",
-    "Num Votes": 719058,
+    "Num Votes": 733133,
     "Release Date": "2004-06-04",
     "Directors": "Alfonso Cuarón"
   },
@@ -8603,7 +8955,7 @@
     "Runtime (mins)": 178,
     "Year": 1966,
     "Genres": "Adventure, Drama, Western",
-    "Num Votes": 840570,
+    "Num Votes": 859718,
     "Release Date": "1967-12-29",
     "Directors": "Sergio Leone"
   },
@@ -8619,7 +8971,7 @@
     "Runtime (mins)": 87,
     "Year": 2009,
     "Genres": "Animation, Adventure, Comedy, Crime, Family, Drama",
-    "Num Votes": 281383,
+    "Num Votes": 288729,
     "Release Date": "2009-11-25",
     "Directors": "Wes Anderson"
   },
@@ -8635,7 +8987,7 @@
     "Runtime (mins)": 90,
     "Year": 2001,
     "Genres": "Animation, Fantasy, Comedy, Family, Adventure, Romance",
-    "Num Votes": 761176,
+    "Num Votes": 777713,
     "Release Date": "2001-05-18",
     "Directors": "Andrew Adamson,Vicky Jenson"
   },
@@ -8651,7 +9003,7 @@
     "Runtime (mins)": 85,
     "Year": 1981,
     "Genres": "Horror",
-    "Num Votes": 240270,
+    "Num Votes": 243631,
     "Release Date": "1983-04-15",
     "Directors": "Sam Raimi"
   },
@@ -8667,7 +9019,7 @@
     "Runtime (mins)": 106,
     "Year": 1997,
     "Genres": "Sci-Fi, Drama, Thriller",
-    "Num Votes": 332492,
+    "Num Votes": 337411,
     "Release Date": "1997-10-24",
     "Directors": "Andrew Niccol"
   },
@@ -8683,7 +9035,7 @@
     "Runtime (mins)": 114,
     "Year": 2007,
     "Genres": "Drama, Music",
-    "Num Votes": 112413,
+    "Num Votes": 113155,
     "Release Date": "2007-11-21",
     "Directors": "Kirsten Sheridan"
   },
@@ -8699,7 +9051,7 @@
     "Runtime (mins)": 108,
     "Year": 2006,
     "Genres": "Comedy, Sport",
-    "Num Votes": 205285,
+    "Num Votes": 207954,
     "Release Date": "2006-08-04",
     "Directors": "Adam McKay"
   },
@@ -8715,7 +9067,7 @@
     "Runtime (mins)": 119,
     "Year": 2001,
     "Genres": "Romance, Drama",
-    "Num Votes": 96248,
+    "Num Votes": 97091,
     "Release Date": "2001-02-16",
     "Directors": "Pat O'Connor"
   },
@@ -8731,7 +9083,7 @@
     "Runtime (mins)": 89,
     "Year": 2007,
     "Genres": "Horror, Thriller",
-    "Num Votes": 69107,
+    "Num Votes": 69810,
     "Release Date": "2007-03-23",
     "Directors": "Martin Weisz"
   },
@@ -8747,7 +9099,7 @@
     "Runtime (mins)": 107,
     "Year": 2006,
     "Genres": "Horror, Thriller",
-    "Num Votes": 188500,
+    "Num Votes": 190902,
     "Release Date": "2006-03-10",
     "Directors": "Alexandre Aja"
   },
@@ -8763,7 +9115,7 @@
     "Runtime (mins)": 94,
     "Year": 2007,
     "Genres": "Action, Thriller, Crime",
-    "Num Votes": 181935,
+    "Num Votes": 183577,
     "Release Date": "2007-11-21",
     "Directors": "Xavier Gens"
   },
@@ -8779,7 +9131,7 @@
     "Runtime (mins)": 101,
     "Year": 2001,
     "Genres": "Sci-Fi, Comedy",
-    "Num Votes": 138570,
+    "Num Votes": 139916,
     "Release Date": "2001-06-08",
     "Directors": "Ivan Reitman"
   },
@@ -8795,7 +9147,7 @@
     "Runtime (mins)": 103,
     "Year": 1995,
     "Genres": "Romance, Comedy",
-    "Num Votes": 39188,
+    "Num Votes": 39526,
     "Release Date": "1995-07-12",
     "Directors": "Chris Columbus"
   },
@@ -8811,7 +9163,7 @@
     "Runtime (mins)": 90,
     "Year": 2001,
     "Genres": "Mystery, Horror",
-    "Num Votes": 148324,
+    "Num Votes": 151345,
     "Release Date": "2001-08-31",
     "Directors": "Victor Salva"
   },
@@ -8827,7 +9179,7 @@
     "Runtime (mins)": 100,
     "Year": 2003,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 9670,
+    "Num Votes": 9838,
     "Release Date": "2003-12-12",
     "Directors": "Troy Byer"
   },
@@ -8843,7 +9195,7 @@
     "Runtime (mins)": 100,
     "Year": 2005,
     "Genres": "Drama, Mystery",
-    "Num Votes": 46773,
+    "Num Votes": 47073,
     "Release Date": "2005-10-07",
     "Directors": "John Madden"
   },
@@ -8859,7 +9211,7 @@
     "Runtime (mins)": 112,
     "Year": 1954,
     "Genres": "Drama, Mystery, Thriller",
-    "Num Votes": 539721,
+    "Num Votes": 550047,
     "Release Date": "1954-09-01",
     "Directors": "Alfred Hitchcock"
   },
@@ -8875,7 +9227,7 @@
     "Runtime (mins)": 123,
     "Year": 2007,
     "Genres": "Drama, Crime, Biography",
-    "Num Votes": 87208,
+    "Num Votes": 90070,
     "Release Date": "2007-01-05",
     "Directors": "Richard LaGravenese"
   },
@@ -8891,7 +9243,7 @@
     "Runtime (mins)": 70,
     "Year": 1931,
     "Genres": "Drama, Thriller, Sci-Fi, Horror",
-    "Num Votes": 82708,
+    "Num Votes": 83949,
     "Release Date": "1931-11-21",
     "Directors": "James Whale"
   },
@@ -8903,11 +9255,11 @@
     "Original Title": "Dracula",
     "URL": "https://www.imdb.com/title/tt0021814",
     "Title Type": "Movie",
-    "IMDb Rating": 7.4,
+    "IMDb Rating": 7.3,
     "Runtime (mins)": 75,
     "Year": 1931,
     "Genres": "Fantasy, Drama, Horror",
-    "Num Votes": 61455,
+    "Num Votes": 62357,
     "Release Date": "1931-02-14",
     "Directors": "Tod Browning,Karl Freund"
   },
@@ -8923,7 +9275,7 @@
     "Runtime (mins)": 93,
     "Year": 2006,
     "Genres": "Horror, Action",
-    "Num Votes": 10526,
+    "Num Votes": 10638,
     "Release Date": "2006-08-11",
     "Directors": "M.J. Bassett"
   },
@@ -8939,7 +9291,7 @@
     "Runtime (mins)": 116,
     "Year": 1994,
     "Genres": "Adventure, Thriller, Action",
-    "Num Votes": 403403,
+    "Num Votes": 410511,
     "Release Date": "1994-06-10",
     "Directors": "Jan de Bont"
   },
@@ -8955,7 +9307,7 @@
     "Runtime (mins)": 84,
     "Year": 1991,
     "Genres": "Animation, Musical, Fantasy, Romance, Family",
-    "Num Votes": 489062,
+    "Num Votes": 494617,
     "Release Date": "1991-11-22",
     "Directors": "Gary Trousdale,Kirk Wise"
   },
@@ -8971,7 +9323,7 @@
     "Runtime (mins)": 119,
     "Year": 1963,
     "Genres": "Drama, Mystery, Romance, Horror",
-    "Num Votes": 211094,
+    "Num Votes": 213921,
     "Release Date": "1963-03-29",
     "Directors": "Alfred Hitchcock"
   },
@@ -8986,8 +9338,8 @@
     "IMDb Rating": 8.5,
     "Runtime (mins)": 109,
     "Year": 1960,
-    "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 743361,
+    "Genres": "Mystery, Thriller, Horror, Drama",
+    "Num Votes": 756440,
     "Release Date": "1960-09-08",
     "Directors": "Alfred Hitchcock"
   },
@@ -9003,7 +9355,7 @@
     "Runtime (mins)": 85,
     "Year": 2008,
     "Genres": "Sci-Fi, Horror, Thriller, Action",
-    "Num Votes": 430242,
+    "Num Votes": 435078,
     "Release Date": "2008-01-18",
     "Directors": "Matt Reeves"
   },
@@ -9019,7 +9371,7 @@
     "Runtime (mins)": 86,
     "Year": 2006,
     "Genres": "Musical, Music, Drama, Romance",
-    "Num Votes": 122769,
+    "Num Votes": 123537,
     "Release Date": "2007-06-15",
     "Directors": "John Carney"
   },
@@ -9035,7 +9387,7 @@
     "Runtime (mins)": 90,
     "Year": 1985,
     "Genres": "Thriller, Adventure, Action",
-    "Num Votes": 179746,
+    "Num Votes": 182602,
     "Release Date": "1985-10-04",
     "Directors": "Mark L. Lester"
   },
@@ -9051,7 +9403,7 @@
     "Runtime (mins)": 91,
     "Year": 2006,
     "Genres": "Animation, Comedy, Family, Adventure",
-    "Num Votes": 304619,
+    "Num Votes": 309020,
     "Release Date": "2006-03-31",
     "Directors": "Carlos Saldanha"
   },
@@ -9067,8 +9419,8 @@
     "Runtime (mins)": 81,
     "Year": 2002,
     "Genres": "Animation, Adventure, Comedy, Family",
-    "Num Votes": 536463,
-    "Release Date": "2002-03-27",
+    "Num Votes": 545646,
+    "Release Date": "2002-03-15",
     "Directors": "Chris Wedge,Carlos Saldanha"
   },
   {
@@ -9083,7 +9435,7 @@
     "Runtime (mins)": 141,
     "Year": 2008,
     "Genres": "Drama, Mystery, Thriller, Biography, Crime, History",
-    "Num Votes": 269187,
+    "Num Votes": 271307,
     "Release Date": "2008-10-31",
     "Directors": "Clint Eastwood"
   },
@@ -9095,11 +9447,11 @@
     "Original Title": "Showtime",
     "URL": "https://www.imdb.com/title/tt0284490",
     "Title Type": "Movie",
-    "IMDb Rating": 5.5,
+    "IMDb Rating": 5.6,
     "Runtime (mins)": 95,
     "Year": 2002,
     "Genres": "Crime, Comedy, Action",
-    "Num Votes": 65967,
+    "Num Votes": 66444,
     "Release Date": "2002-03-15",
     "Directors": "Tom Dey"
   },
@@ -9115,7 +9467,7 @@
     "Runtime (mins)": 88,
     "Year": 2001,
     "Genres": "Crime, Thriller, Comedy, Action",
-    "Num Votes": 8876,
+    "Num Votes": 8922,
     "Release Date": "2001-01-12",
     "Directors": "George Gallo"
   },
@@ -9131,7 +9483,7 @@
     "Runtime (mins)": 98,
     "Year": 2009,
     "Genres": "Adventure, Sci-Fi, Thriller, Fantasy, Family, Action",
-    "Num Votes": 64226,
+    "Num Votes": 64947,
     "Release Date": "2009-03-13",
     "Directors": "Andy Fickman"
   },
@@ -9147,7 +9499,7 @@
     "Runtime (mins)": 113,
     "Year": 2000,
     "Genres": "Sport, Biography, Comedy, Drama",
-    "Num Votes": 238096,
+    "Num Votes": 241393,
     "Release Date": "2000-09-29",
     "Directors": "Boaz Yakin"
   },
@@ -9163,7 +9515,7 @@
     "Runtime (mins)": 112,
     "Year": 1999,
     "Genres": "Sci-Fi, Romance, Drama, Comedy",
-    "Num Votes": 73588,
+    "Num Votes": 74713,
     "Release Date": "1999-02-12",
     "Directors": "Hugh Wilson"
   },
@@ -9179,7 +9531,7 @@
     "Runtime (mins)": 113,
     "Year": 1999,
     "Genres": "Crime, Romance, Action, Thriller",
-    "Num Votes": 126211,
+    "Num Votes": 127406,
     "Release Date": "1999-04-30",
     "Directors": "Jon Amiel"
   },
@@ -9195,7 +9547,7 @@
     "Runtime (mins)": 84,
     "Year": 2006,
     "Genres": "Adventure, Comedy, Sci-Fi, Thriller",
-    "Num Votes": 195491,
+    "Num Votes": 201990,
     "Release Date": "2007-01-25",
     "Directors": "Mike Judge"
   },
@@ -9211,7 +9563,7 @@
     "Runtime (mins)": 94,
     "Year": 2009,
     "Genres": "Animation, Comedy, Adventure, Family",
-    "Num Votes": 272567,
+    "Num Votes": 276993,
     "Release Date": "2009-07-01",
     "Directors": "Carlos Saldanha,Michael Thurmeier"
   },
@@ -9227,7 +9579,7 @@
     "Runtime (mins)": 96,
     "Year": 2007,
     "Genres": "Sci-Fi, Action, Thriller",
-    "Num Votes": 169359,
+    "Num Votes": 171302,
     "Release Date": "2007-04-27",
     "Directors": "Lee Tamahori"
   },
@@ -9243,7 +9595,7 @@
     "Runtime (mins)": 83,
     "Year": 1981,
     "Genres": "Animation, Adventure, Drama, Family",
-    "Num Votes": 105125,
+    "Num Votes": 106897,
     "Release Date": "1981-07-10",
     "Directors": "Ted Berman,Richard Rich,Art Stevens,David Hand,Wolfgang Reitherman"
   },
@@ -9259,7 +9611,7 @@
     "Runtime (mins)": 91,
     "Year": 2011,
     "Genres": "Horror",
-    "Num Votes": 946,
+    "Num Votes": 966,
     "Release Date": "2011-03-01",
     "Directors": "Jude Gerard Prest"
   },
@@ -9275,7 +9627,7 @@
     "Runtime (mins)": 107,
     "Year": 2010,
     "Genres": "Biography, Drama",
-    "Num Votes": 33958,
+    "Num Votes": 35027,
     "Release Date": "2010-02-06",
     "Directors": "Mick Jackson"
   },
@@ -9291,7 +9643,7 @@
     "Runtime (mins)": 80,
     "Year": 2003,
     "Genres": "Romance, Comedy",
-    "Num Votes": 4523,
+    "Num Votes": 4574,
     "Release Date": "2003-04-16",
     "Directors": "Linda Mendoza"
   },
@@ -9307,7 +9659,7 @@
     "Runtime (mins)": 82,
     "Year": 2003,
     "Genres": "Fantasy, Family, Comedy, Adventure",
-    "Num Votes": 90025,
+    "Num Votes": 91443,
     "Release Date": "2003-11-21",
     "Directors": "Bo Welch"
   },
@@ -9323,7 +9675,7 @@
     "Runtime (mins)": 93,
     "Year": 1972,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 21849,
+    "Num Votes": 22399,
     "Release Date": "1973-03-26",
     "Directors": "Brian De Palma"
   },
@@ -9339,7 +9691,7 @@
     "Runtime (mins)": 129,
     "Year": 1992,
     "Genres": "Music, Romance, Thriller, Drama",
-    "Num Votes": 152238,
+    "Num Votes": 154558,
     "Release Date": "1992-11-25",
     "Directors": "Mick Jackson"
   },
@@ -9355,7 +9707,7 @@
     "Runtime (mins)": 123,
     "Year": 2009,
     "Genres": "Biography, Drama, Romance",
-    "Num Votes": 131451,
+    "Num Votes": 132857,
     "Release Date": "2009-08-07",
     "Directors": "Nora Ephron"
   },
@@ -9371,7 +9723,7 @@
     "Runtime (mins)": 123,
     "Year": 2006,
     "Genres": "Drama, Biography, History, Thriller",
-    "Num Votes": 199578,
+    "Num Votes": 201825,
     "Release Date": "2007-01-19",
     "Directors": "Kevin Macdonald"
   },
@@ -9387,8 +9739,8 @@
     "Runtime (mins)": 93,
     "Year": 1997,
     "Genres": "Sci-Fi, Comedy, Family",
-    "Num Votes": 96604,
-    "Release Date": "1997-11-04",
+    "Num Votes": 97749,
+    "Release Date": "1997-11-26",
     "Directors": "Les Mayfield"
   },
   {
@@ -9403,7 +9755,7 @@
     "Runtime (mins)": 92,
     "Year": 2001,
     "Genres": "Animation, Adventure, Comedy, Family, Fantasy",
-    "Num Votes": 1013480,
+    "Num Votes": 1033508,
     "Release Date": "2001-11-23",
     "Directors": "Pete Docter,David Silverman,Lee Unkrich"
   },
@@ -9419,7 +9771,7 @@
     "Runtime (mins)": 100,
     "Year": 2006,
     "Genres": "Comedy",
-    "Num Votes": 31172,
+    "Num Votes": 31399,
     "Release Date": "2006-09-29",
     "Directors": "Todd Phillips"
   },
@@ -9435,7 +9787,7 @@
     "Runtime (mins)": 92,
     "Year": 2000,
     "Genres": "Fantasy, Romance, Comedy",
-    "Num Votes": 11058,
+    "Num Votes": 11121,
     "Release Date": "2000-09-22",
     "Directors": "Fina Torres"
   },
@@ -9451,7 +9803,7 @@
     "Runtime (mins)": 100,
     "Year": 1997,
     "Genres": "Romance, Comedy",
-    "Num Votes": 26124,
+    "Num Votes": 26342,
     "Release Date": "1997-05-23",
     "Directors": "Griffin Dunne"
   },
@@ -9467,7 +9819,7 @@
     "Runtime (mins)": 113,
     "Year": 1984,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 3492,
+    "Num Votes": 3535,
     "Release Date": "1984-09-28",
     "Directors": "Charles Shyer"
   },
@@ -9483,7 +9835,7 @@
     "Runtime (mins)": 138,
     "Year": 2010,
     "Genres": "Thriller, Mystery, Drama",
-    "Num Votes": 1521690,
+    "Num Votes": 1559836,
     "Release Date": "2010-02-19",
     "Directors": "Martin Scorsese"
   },
@@ -9499,7 +9851,7 @@
     "Runtime (mins)": 97,
     "Year": 2004,
     "Genres": "Comedy, Thriller, Crime, Action",
-    "Num Votes": 45839,
+    "Num Votes": 46328,
     "Release Date": "2004-10-06",
     "Directors": "Tim Story"
   },
@@ -9515,7 +9867,7 @@
     "Runtime (mins)": 85,
     "Year": 1998,
     "Genres": "Fantasy, Comedy, Family",
-    "Num Votes": 104184,
+    "Num Votes": 105339,
     "Release Date": "1998-06-26",
     "Directors": "Betty Thomas"
   },
@@ -9531,7 +9883,7 @@
     "Runtime (mins)": 95,
     "Year": 2005,
     "Genres": "Comedy, Crime",
-    "Num Votes": 3964,
+    "Num Votes": 3991,
     "Release Date": "2005-04-22",
     "Directors": "Jeffrey W. Byrd"
   },
@@ -9546,8 +9898,8 @@
     "IMDb Rating": 7,
     "Runtime (mins)": 93,
     "Year": 1997,
-    "Genres": "Mystery, Crime, Drama, Thriller",
-    "Num Votes": 64488,
+    "Genres": "Mystery, Crime, Drama, Action, Thriller",
+    "Num Votes": 66327,
     "Release Date": "1997-05-02",
     "Directors": "Jonathan Mostow"
   },
@@ -9563,7 +9915,7 @@
     "Runtime (mins)": 127,
     "Year": 1995,
     "Genres": "Drama, Action, Thriller",
-    "Num Votes": 141135,
+    "Num Votes": 142852,
     "Release Date": "1995-03-10",
     "Directors": "Wolfgang Petersen"
   },
@@ -9579,7 +9931,7 @@
     "Runtime (mins)": 120,
     "Year": 1992,
     "Genres": "Adventure, Crime, Comedy, Family",
-    "Num Votes": 424463,
+    "Num Votes": 431151,
     "Release Date": "1992-11-20",
     "Directors": "Chris Columbus"
   },
@@ -9595,7 +9947,7 @@
     "Runtime (mins)": 93,
     "Year": 2007,
     "Genres": "Comedy, Romance",
-    "Num Votes": 6237,
+    "Num Votes": 6274,
     "Release Date": "2008-01-10",
     "Directors": "Scott Marshall"
   },
@@ -9611,7 +9963,7 @@
     "Runtime (mins)": 103,
     "Year": 2006,
     "Genres": "Comedy, Romance",
-    "Num Votes": 51127,
+    "Num Votes": 51745,
     "Release Date": "2006-10-06",
     "Directors": "Greg Coolidge"
   },
@@ -9627,7 +9979,7 @@
     "Runtime (mins)": 136,
     "Year": 2004,
     "Genres": "Drama, Crime, Thriller, Biography, History, Horror",
-    "Num Votes": 3723,
+    "Num Votes": 3759,
     "Release Date": "2004-05-16",
     "Directors": "John Gray"
   },
@@ -9643,7 +9995,7 @@
     "Runtime (mins)": 161,
     "Year": 2002,
     "Genres": "Mystery, Family, Adventure, Fantasy",
-    "Num Votes": 719392,
+    "Num Votes": 733364,
     "Release Date": "2002-11-15",
     "Directors": "Chris Columbus"
   },
@@ -9659,7 +10011,7 @@
     "Runtime (mins)": 152,
     "Year": 2001,
     "Genres": "Family, Adventure, Fantasy",
-    "Num Votes": 892112,
+    "Num Votes": 908934,
     "Release Date": "2001-11-16",
     "Directors": "Chris Columbus"
   },
@@ -9675,7 +10027,7 @@
     "Runtime (mins)": 105,
     "Year": 2007,
     "Genres": "Comedy, Drama, Romance",
-    "Num Votes": 65368,
+    "Num Votes": 66315,
     "Release Date": "2007-08-24",
     "Directors": "Shari Springer Berman,Robert Pulcini"
   },
@@ -9691,7 +10043,7 @@
     "Runtime (mins)": 97,
     "Year": 2010,
     "Genres": "Action, War, Drama, History",
-    "Num Votes": 87670,
+    "Num Votes": 88307,
     "Release Date": "2010-07-30",
     "Directors": "Neil Marshall"
   },
@@ -9707,7 +10059,7 @@
     "Runtime (mins)": 109,
     "Year": 1993,
     "Genres": "Drama, Horror, Thriller, Mystery",
-    "Num Votes": 28875,
+    "Num Votes": 29362,
     "Release Date": "1993-02-05",
     "Directors": "George Sluizer"
   },
@@ -9723,7 +10075,7 @@
     "Runtime (mins)": 94,
     "Year": 2010,
     "Genres": "Drama, Biography",
-    "Num Votes": 410857,
+    "Num Votes": 415529,
     "Release Date": "2011-01-28",
     "Directors": "Danny Boyle"
   },
@@ -9739,7 +10091,7 @@
     "Runtime (mins)": 90,
     "Year": 2006,
     "Genres": "Thriller",
-    "Num Votes": 410,
+    "Num Votes": 413,
     "Release Date": "2006-09-11",
     "Directors": "Pritesh Chheda"
   },
@@ -9755,7 +10107,7 @@
     "Runtime (mins)": 83,
     "Year": 2000,
     "Genres": "Mystery, Sci-Fi, Comedy",
-    "Num Votes": 148293,
+    "Num Votes": 149817,
     "Release Date": "2000-12-15",
     "Directors": "Danny Leiner"
   },
@@ -9771,7 +10123,7 @@
     "Runtime (mins)": 102,
     "Year": 2001,
     "Genres": "Drama, Romance",
-    "Num Votes": 26013,
+    "Num Votes": 26212,
     "Release Date": "2001-05-18",
     "Directors": "Luis Mandoki"
   },
@@ -9787,7 +10139,7 @@
     "Runtime (mins)": 110,
     "Year": 2008,
     "Genres": "Comedy, Action, Crime",
-    "Num Votes": 63063,
+    "Num Votes": 63462,
     "Release Date": "2008-03-21",
     "Directors": "Steven Brill"
   },
@@ -9803,7 +10155,7 @@
     "Runtime (mins)": 100,
     "Year": 2002,
     "Genres": "Action, Sci-Fi, Family, Comedy, Adventure",
-    "Num Votes": 75614,
+    "Num Votes": 76771,
     "Release Date": "2002-08-07",
     "Directors": "Robert Rodriguez"
   },
@@ -9819,7 +10171,7 @@
     "Runtime (mins)": 75,
     "Year": 2008,
     "Genres": "Action, Comedy, Sci-Fi",
-    "Num Votes": 78502,
+    "Num Votes": 80519,
     "Release Date": "2008-03-28",
     "Directors": "Craig Mazin"
   },
@@ -9835,7 +10187,7 @@
     "Runtime (mins)": 92,
     "Year": 2012,
     "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 64313,
+    "Num Votes": 64916,
     "Release Date": "2012-08-31",
     "Directors": "Ole Bornedal"
   },
@@ -9851,7 +10203,7 @@
     "Runtime (mins)": 81,
     "Year": 2002,
     "Genres": "Crime, Thriller",
-    "Num Votes": 292399,
+    "Num Votes": 295522,
     "Release Date": "2003-04-04",
     "Directors": "Joel Schumacher"
   },
@@ -9867,7 +10219,7 @@
     "Runtime (mins)": 107,
     "Year": 1996,
     "Genres": "Drama, Mystery, Thriller, Horror",
-    "Num Votes": 15789,
+    "Num Votes": 16047,
     "Release Date": "1996-03-22",
     "Directors": "Jeremiah S. Chechik"
   },
@@ -9883,7 +10235,7 @@
     "Runtime (mins)": 105,
     "Year": 1984,
     "Genres": "Fantasy, Comedy, Action, Sci-Fi",
-    "Num Votes": 465794,
+    "Num Votes": 472388,
     "Release Date": "1984-06-08",
     "Directors": "Ivan Reitman"
   },
@@ -9899,7 +10251,7 @@
     "Runtime (mins)": 137,
     "Year": 2004,
     "Genres": "Thriller, Crime, Action",
-    "Num Votes": 828421,
+    "Num Votes": 840711,
     "Release Date": "2004-04-16",
     "Directors": "Quentin Tarantino"
   },
@@ -9915,7 +10267,7 @@
     "Runtime (mins)": 111,
     "Year": 2003,
     "Genres": "Action, Thriller, Crime",
-    "Num Votes": 1233515,
+    "Num Votes": 1256515,
     "Release Date": "2003-10-10",
     "Directors": "Quentin Tarantino"
   },
@@ -9931,7 +10283,7 @@
     "Runtime (mins)": 143,
     "Year": 2003,
     "Genres": "Fantasy, Action, Adventure",
-    "Num Votes": 1248996,
+    "Num Votes": 1273146,
     "Release Date": "2003-07-09",
     "Directors": "Gore Verbinski"
   },
@@ -9947,7 +10299,7 @@
     "Runtime (mins)": 151,
     "Year": 2006,
     "Genres": "Adventure, Fantasy, Action",
-    "Num Votes": 788385,
+    "Num Votes": 800977,
     "Release Date": "2006-07-07",
     "Directors": "Gore Verbinski"
   },
@@ -9956,14 +10308,14 @@
     "Your Rating": 10,
     "Date Rated": "2013-04-10",
     "Title": "Goodfellas",
-    "Original Title": "Goodfellas",
+    "Original Title": "GoodFellas",
     "URL": "https://www.imdb.com/title/tt0099685",
     "Title Type": "Movie",
     "IMDb Rating": 8.7,
     "Runtime (mins)": 145,
     "Year": 1990,
     "Genres": "Biography, Crime, Drama",
-    "Num Votes": 1304761,
+    "Num Votes": 1334273,
     "Release Date": "1990-09-21",
     "Directors": "Martin Scorsese"
   },
@@ -9979,7 +10331,7 @@
     "Runtime (mins)": 84,
     "Year": 2000,
     "Genres": "Comedy",
-    "Num Votes": 14020,
+    "Num Votes": 14193,
     "Release Date": "2000-10-13",
     "Directors": "Reginald Hudlin"
   },
@@ -9991,11 +10343,11 @@
     "Original Title": "War of the Worlds",
     "URL": "https://www.imdb.com/title/tt0407304",
     "Title Type": "Movie",
-    "IMDb Rating": 6.5,
+    "IMDb Rating": 6.6,
     "Runtime (mins)": 117,
     "Year": 2005,
     "Genres": "Sci-Fi, Adventure, Action",
-    "Num Votes": 485910,
+    "Num Votes": 492469,
     "Release Date": "2005-06-29",
     "Directors": "Steven Spielberg"
   },
@@ -10011,7 +10363,7 @@
     "Runtime (mins)": 123,
     "Year": 2009,
     "Genres": "Thriller, Mystery, Horror",
-    "Num Votes": 262470,
+    "Num Votes": 268452,
     "Release Date": "2009-07-24",
     "Directors": "Jaume Collet-Serra"
   },
@@ -10027,7 +10379,7 @@
     "Runtime (mins)": 97,
     "Year": 2004,
     "Genres": "Comedy",
-    "Num Votes": 455029,
+    "Num Votes": 464695,
     "Release Date": "2004-04-30",
     "Directors": "Mark Waters"
   },
@@ -10043,7 +10395,7 @@
     "Runtime (mins)": 98,
     "Year": 2008,
     "Genres": "Comedy",
-    "Num Votes": 327756,
+    "Num Votes": 332207,
     "Release Date": "2008-07-25",
     "Directors": "Adam McKay"
   },
@@ -10059,7 +10411,7 @@
     "Runtime (mins)": 103,
     "Year": 1990,
     "Genres": "Comedy, Family",
-    "Num Votes": 688997,
+    "Num Votes": 699377,
     "Release Date": "1990-11-16",
     "Directors": "Chris Columbus"
   },
@@ -10075,7 +10427,7 @@
     "Runtime (mins)": 95,
     "Year": 2001,
     "Genres": "Fantasy, Comedy, Adventure",
-    "Num Votes": 44252,
+    "Num Votes": 44876,
     "Release Date": "2001-11-21",
     "Directors": "Gil Junger"
   },
@@ -10091,7 +10443,7 @@
     "Runtime (mins)": 95,
     "Year": 2007,
     "Genres": "Drama, Sport, Biography",
-    "Num Votes": 4368,
+    "Num Votes": 4389,
     "Release Date": "2007-06-01",
     "Directors": "Davis Guggenheim"
   },
@@ -10107,7 +10459,7 @@
     "Runtime (mins)": 95,
     "Year": 2009,
     "Genres": "Comedy, Romance",
-    "Num Votes": 21106,
+    "Num Votes": 21264,
     "Release Date": "2009-06-05",
     "Directors": "Donald Petrie"
   },
@@ -10123,7 +10475,7 @@
     "Runtime (mins)": 93,
     "Year": 2005,
     "Genres": "Horror, Mystery, Thriller, Drama, Fantasy",
-    "Num Votes": 11604,
+    "Num Votes": 11705,
     "Release Date": "2006-01-26",
     "Directors": "John Fawcett"
   },
@@ -10139,7 +10491,7 @@
     "Runtime (mins)": 131,
     "Year": 2004,
     "Genres": "Comedy, Romance, Drama",
-    "Num Votes": 89873,
+    "Num Votes": 90974,
     "Release Date": "2004-12-17",
     "Directors": "James L. Brooks"
   },
@@ -10151,11 +10503,11 @@
     "Original Title": "Red Eye",
     "URL": "https://www.imdb.com/title/tt0421239",
     "Title Type": "Movie",
-    "IMDb Rating": 6.5,
+    "IMDb Rating": 6.4,
     "Runtime (mins)": 85,
     "Year": 2005,
     "Genres": "Thriller",
-    "Num Votes": 152031,
+    "Num Votes": 156838,
     "Release Date": "2005-08-19",
     "Directors": "Wes Craven"
   },
@@ -10171,7 +10523,7 @@
     "Runtime (mins)": 116,
     "Year": 2000,
     "Genres": "Comedy",
-    "Num Votes": 256563,
+    "Num Votes": 259716,
     "Release Date": "2000-06-23",
     "Directors": "Bobby Farrelly,Peter Farrelly"
   },
@@ -10183,11 +10535,11 @@
     "Original Title": "Final Destination 3",
     "URL": "https://www.imdb.com/title/tt0414982",
     "Title Type": "Movie",
-    "IMDb Rating": 5.8,
+    "IMDb Rating": 5.9,
     "Runtime (mins)": 93,
     "Year": 2006,
     "Genres": "Horror, Thriller",
-    "Num Votes": 159450,
+    "Num Votes": 173406,
     "Release Date": "2006-02-10",
     "Directors": "James Wong"
   },
@@ -10203,7 +10555,7 @@
     "Runtime (mins)": 98,
     "Year": 2000,
     "Genres": "Thriller, Horror",
-    "Num Votes": 292362,
+    "Num Votes": 315088,
     "Release Date": "2000-03-17",
     "Directors": "James Wong"
   },
@@ -10219,7 +10571,7 @@
     "Runtime (mins)": 95,
     "Year": 2008,
     "Genres": "Drama, Romance",
-    "Num Votes": 37796,
+    "Num Votes": 38023,
     "Release Date": "2008-09-13",
     "Directors": "Todd Kessler"
   },
@@ -10235,7 +10587,7 @@
     "Runtime (mins)": 90,
     "Year": 2005,
     "Genres": "Horror",
-    "Num Votes": 119543,
+    "Num Votes": 120617,
     "Release Date": "2005-04-15",
     "Directors": "Andrew Douglas"
   },
@@ -10251,7 +10603,7 @@
     "Runtime (mins)": 93,
     "Year": 1997,
     "Genres": "Comedy",
-    "Num Votes": 54374,
+    "Num Votes": 54938,
     "Release Date": "1997-02-14",
     "Directors": "Stephen Kessler"
   },
@@ -10267,7 +10619,7 @@
     "Runtime (mins)": 93,
     "Year": 2007,
     "Genres": "Comedy, Sport",
-    "Num Votes": 180635,
+    "Num Votes": 182026,
     "Release Date": "2007-03-30",
     "Directors": "Josh Gordon,Will Speck"
   },
@@ -10283,7 +10635,7 @@
     "Runtime (mins)": 121,
     "Year": 2009,
     "Genres": "Thriller, Sci-Fi, Mystery",
-    "Num Votes": 253539,
+    "Num Votes": 256889,
     "Release Date": "2009-03-20",
     "Directors": "Alex Proyas"
   },
@@ -10297,9 +10649,9 @@
     "Title Type": "Movie",
     "IMDb Rating": 7.1,
     "Runtime (mins)": 103,
-    "Year": 1988,
+    "Year": 1989,
     "Genres": "Crime, Comedy",
-    "Num Votes": 121074,
+    "Num Votes": 123045,
     "Release Date": "1989-03-31",
     "Directors": "Michael Lehmann"
   },
@@ -10315,7 +10667,7 @@
     "Runtime (mins)": 130,
     "Year": 1993,
     "Genres": "Crime, Action, Mystery, Drama, Thriller",
-    "Num Votes": 328848,
+    "Num Votes": 334985,
     "Release Date": "1993-08-06",
     "Directors": "Andrew Davis"
   },
@@ -10331,7 +10683,7 @@
     "Runtime (mins)": 92,
     "Year": 2009,
     "Genres": "Horror, Thriller",
-    "Num Votes": 6583,
+    "Num Votes": 6672,
     "Release Date": "2009-09-26",
     "Directors": "Donald P. Borchers"
   },
@@ -10347,7 +10699,7 @@
     "Runtime (mins)": 88,
     "Year": 2009,
     "Genres": "Comedy, Action, Horror",
-    "Num Votes": 638881,
+    "Num Votes": 647969,
     "Release Date": "2009-10-02",
     "Directors": "Ruben Fleischer"
   },
@@ -10363,7 +10715,7 @@
     "Runtime (mins)": 150,
     "Year": 1997,
     "Genres": "Mystery, Thriller, Sci-Fi, Drama",
-    "Num Votes": 300499,
+    "Num Votes": 304521,
     "Release Date": "1997-07-11",
     "Directors": "Robert Zemeckis"
   },
@@ -10379,8 +10731,8 @@
     "Runtime (mins)": 86,
     "Year": 2005,
     "Genres": "Animation, Family, Comedy, Adventure",
-    "Num Votes": 452232,
-    "Release Date": "2005-06-24",
+    "Num Votes": 461121,
+    "Release Date": "2005-05-27",
     "Directors": "Eric Darnell,Tom McGrath"
   },
   {
@@ -10395,7 +10747,7 @@
     "Runtime (mins)": 102,
     "Year": 2009,
     "Genres": "Comedy, Horror",
-    "Num Votes": 159112,
+    "Num Votes": 162678,
     "Release Date": "2009-09-18",
     "Directors": "Karyn Kusama"
   },
@@ -10411,7 +10763,7 @@
     "Runtime (mins)": 139,
     "Year": 2006,
     "Genres": "Adventure, Drama, Thriller, Action",
-    "Num Votes": 340413,
+    "Num Votes": 346398,
     "Release Date": "2006-12-08",
     "Directors": "Mel Gibson"
   },
@@ -10427,7 +10779,7 @@
     "Runtime (mins)": 119,
     "Year": 1994,
     "Genres": "Drama, Crime, Thriller, Mystery",
-    "Num Votes": 75736,
+    "Num Votes": 77274,
     "Release Date": "1994-07-20",
     "Directors": "Joel Schumacher"
   },
@@ -10443,7 +10795,7 @@
     "Runtime (mins)": 85,
     "Year": 2007,
     "Genres": "Horror, Thriller",
-    "Num Votes": 110090,
+    "Num Votes": 111199,
     "Release Date": "2007-04-20",
     "Directors": "Nimród Antal"
   },
@@ -10459,7 +10811,7 @@
     "Runtime (mins)": 93,
     "Year": 2005,
     "Genres": "Horror, Mystery",
-    "Num Votes": 284905,
+    "Num Votes": 288952,
     "Release Date": "2005-10-28",
     "Directors": "Darren Lynn Bousman"
   },
@@ -10475,7 +10827,7 @@
     "Runtime (mins)": 127,
     "Year": 2007,
     "Genres": "Thriller, Drama",
-    "Num Votes": 321385,
+    "Num Votes": 325590,
     "Release Date": "2007-05-31",
     "Directors": "Quentin Tarantino"
   },
@@ -10491,7 +10843,7 @@
     "Runtime (mins)": 105,
     "Year": 2007,
     "Genres": "Horror, Comedy, Action, Thriller",
-    "Num Votes": 227143,
+    "Num Votes": 229234,
     "Release Date": "2007-04-06",
     "Directors": "Robert Rodriguez"
   },
@@ -10507,7 +10859,7 @@
     "Runtime (mins)": 116,
     "Year": 1985,
     "Genres": "Comedy, Sci-Fi, Adventure",
-    "Num Votes": 1356864,
+    "Num Votes": 1385786,
     "Release Date": "1985-07-03",
     "Directors": "Robert Zemeckis"
   },
@@ -10523,7 +10875,7 @@
     "Runtime (mins)": 117,
     "Year": 2003,
     "Genres": "Fantasy, Adventure, Action",
-    "Num Votes": 147402,
+    "Num Votes": 148994,
     "Release Date": "2003-07-25",
     "Directors": "Jan de Bont"
   },
@@ -10539,7 +10891,7 @@
     "Runtime (mins)": 113,
     "Year": 2004,
     "Genres": "Sci-Fi, Drama, Thriller",
-    "Num Votes": 535285,
+    "Num Votes": 542338,
     "Release Date": "2004-01-23",
     "Directors": "Eric Bress,J. Mackye Gruber"
   },
@@ -10555,7 +10907,7 @@
     "Runtime (mins)": 129,
     "Year": 1997,
     "Genres": "Drama, Thriller, Mystery",
-    "Num Votes": 446428,
+    "Num Votes": 454955,
     "Release Date": "1997-09-12",
     "Directors": "David Fincher"
   },
@@ -10571,7 +10923,7 @@
     "Runtime (mins)": 110,
     "Year": 2006,
     "Genres": "Thriller, Crime, Drama",
-    "Num Votes": 330552,
+    "Num Votes": 333530,
     "Release Date": "2006-04-07",
     "Directors": "Paul McGuigan"
   },
@@ -10587,7 +10939,7 @@
     "Runtime (mins)": 135,
     "Year": 2000,
     "Genres": "Drama, Action, Thriller",
-    "Num Votes": 59723,
+    "Num Votes": 60169,
     "Release Date": "2000-12-08",
     "Directors": "Taylor Hackford"
   },
@@ -10603,7 +10955,7 @@
     "Runtime (mins)": 120,
     "Year": 2004,
     "Genres": "Comedy, Action, Family, Western, Adventure",
-    "Num Votes": 96739,
+    "Num Votes": 97794,
     "Release Date": "2004-06-16",
     "Directors": "Frank Coraci"
   },
@@ -10619,7 +10971,7 @@
     "Runtime (mins)": 102,
     "Year": 2007,
     "Genres": "Comedy, Romance",
-    "Num Votes": 81890,
+    "Num Votes": 84531,
     "Release Date": "2007-02-09",
     "Directors": "Brian Robbins"
   },
@@ -10635,7 +10987,7 @@
     "Runtime (mins)": 105,
     "Year": 1995,
     "Genres": "Crime, Thriller, Comedy",
-    "Num Votes": 91791,
+    "Num Votes": 94232,
     "Release Date": "1995-10-20",
     "Directors": "Barry Sonnenfeld"
   },
@@ -10651,7 +11003,7 @@
     "Runtime (mins)": 74,
     "Year": 1998,
     "Genres": "Documentary",
-    "Num Votes": 835,
+    "Num Votes": 860,
     "Release Date": "1998-06-13",
     "Directors": "Nick Freand Jones"
   },
@@ -10667,7 +11019,7 @@
     "Runtime (mins)": 91,
     "Year": 2004,
     "Genres": "Comedy, Crime, Family, Romance, Adventure",
-    "Num Votes": 25434,
+    "Num Votes": 25792,
     "Release Date": "2004-05-07",
     "Directors": "Dennie Gordon"
   },
@@ -10683,7 +11035,7 @@
     "Runtime (mins)": 98,
     "Year": 1997,
     "Genres": "Adventure, Action, Sci-Fi, Comedy",
-    "Num Votes": 631271,
+    "Num Votes": 642772,
     "Release Date": "1997-07-02",
     "Directors": "Barry Sonnenfeld"
   },
@@ -10699,7 +11051,7 @@
     "Runtime (mins)": 98,
     "Year": 2003,
     "Genres": "Horror",
-    "Num Votes": 155964,
+    "Num Votes": 157896,
     "Release Date": "2003-10-17",
     "Directors": "Marcus Nispel"
   },
@@ -10715,7 +11067,7 @@
     "Runtime (mins)": 89,
     "Year": 1997,
     "Genres": "Adventure, Horror, Action, Thriller",
-    "Num Votes": 115126,
+    "Num Votes": 116977,
     "Release Date": "1997-04-11",
     "Directors": "Luis Llosa"
   },
@@ -10731,7 +11083,7 @@
     "Runtime (mins)": 132,
     "Year": 2005,
     "Genres": "Thriller, Action, Drama, Sci-Fi",
-    "Num Votes": 1204882,
+    "Num Votes": 1218877,
     "Release Date": "2006-03-17",
     "Directors": "James McTeigue"
   },
@@ -10747,7 +11099,7 @@
     "Runtime (mins)": 152,
     "Year": 1967,
     "Genres": "Musical, Comedy, Romance, Adventure, Family, Fantasy",
-    "Num Votes": 10564,
+    "Num Votes": 10713,
     "Release Date": "1967-12-19",
     "Directors": "Richard Fleischer"
   },
@@ -10763,7 +11115,7 @@
     "Runtime (mins)": 127,
     "Year": 2007,
     "Genres": "Adventure, Fantasy, Romance",
-    "Num Votes": 290198,
+    "Num Votes": 293079,
     "Release Date": "2007-08-10",
     "Directors": "Matthew Vaughn"
   },
@@ -10779,7 +11131,7 @@
     "Runtime (mins)": 97,
     "Year": 1998,
     "Genres": "Music, Romance, Comedy",
-    "Num Votes": 166413,
+    "Num Votes": 168787,
     "Release Date": "1998-02-13",
     "Directors": "Frank Coraci"
   },
@@ -10795,7 +11147,7 @@
     "Runtime (mins)": 115,
     "Year": 1982,
     "Genres": "Adventure, Sci-Fi, Family",
-    "Num Votes": 449616,
+    "Num Votes": 455484,
     "Release Date": "1982-06-11",
     "Directors": "Steven Spielberg"
   },
@@ -10811,7 +11163,7 @@
     "Runtime (mins)": 101,
     "Year": 1994,
     "Genres": "Crime, Comedy, Fantasy",
-    "Num Votes": 439260,
+    "Num Votes": 449744,
     "Release Date": "1994-07-29",
     "Directors": "Chuck Russell"
   },
@@ -10826,8 +11178,8 @@
     "IMDb Rating": 7.1,
     "Runtime (mins)": 125,
     "Year": 1993,
-    "Genres": "Drama, Comedy",
-    "Num Votes": 301011,
+    "Genres": "Family, Drama, Comedy",
+    "Num Votes": 305623,
     "Release Date": "1993-11-24",
     "Directors": "Chris Columbus"
   },
@@ -10843,7 +11195,7 @@
     "Runtime (mins)": 119,
     "Year": 1998,
     "Genres": "Romance, Comedy",
-    "Num Votes": 336312,
+    "Num Votes": 340346,
     "Release Date": "1998-07-15",
     "Directors": "Bobby Farrelly,Peter Farrelly"
   },
@@ -10859,7 +11211,7 @@
     "Runtime (mins)": 99,
     "Year": 2005,
     "Genres": "Horror, Thriller",
-    "Num Votes": 80890,
+    "Num Votes": 82073,
     "Release Date": "2005-12-25",
     "Directors": "Greg McLean"
   },
@@ -10875,7 +11227,7 @@
     "Runtime (mins)": 115,
     "Year": 2005,
     "Genres": "Musical, Adventure, Comedy, Family, Fantasy",
-    "Num Votes": 545337,
+    "Num Votes": 553414,
     "Release Date": "2005-07-15",
     "Directors": "Tim Burton"
   },
@@ -10891,7 +11243,7 @@
     "Runtime (mins)": 92,
     "Year": 2007,
     "Genres": "Comedy, Family",
-    "Num Votes": 23030,
+    "Num Votes": 23350,
     "Release Date": "2007-04-04",
     "Directors": "Steve Carr"
   },
@@ -10907,7 +11259,7 @@
     "Runtime (mins)": 104,
     "Year": 2005,
     "Genres": "Comedy",
-    "Num Votes": 82885,
+    "Num Votes": 83510,
     "Release Date": "2005-08-05",
     "Directors": "Jay Chandrasekhar"
   },
@@ -10923,7 +11275,7 @@
     "Runtime (mins)": 86,
     "Year": 2006,
     "Genres": "Comedy",
-    "Num Votes": 4522,
+    "Num Votes": 4585,
     "Release Date": "2006-05-01",
     "Directors": "Greg Glienna"
   },
@@ -10939,7 +11291,7 @@
     "Runtime (mins)": 102,
     "Year": 2008,
     "Genres": "Comedy",
-    "Num Votes": 95151,
+    "Num Votes": 95562,
     "Release Date": "2008-02-22",
     "Directors": "Michel Gondry"
   },
@@ -10955,7 +11307,7 @@
     "Runtime (mins)": 93,
     "Year": 2004,
     "Genres": "Drama, Crime, Comedy",
-    "Num Votes": 26600,
+    "Num Votes": 26851,
     "Release Date": "2004-01-30",
     "Directors": "Brian Robbins"
   },
@@ -10971,7 +11323,7 @@
     "Runtime (mins)": 95,
     "Year": 2007,
     "Genres": "Crime, Drama, Thriller",
-    "Num Votes": 34147,
+    "Num Votes": 34505,
     "Release Date": "2007-08-23",
     "Directors": "Mike Barker"
   },
@@ -10987,7 +11339,7 @@
     "Runtime (mins)": 96,
     "Year": 2005,
     "Genres": "Comedy, Romance",
-    "Num Votes": 130900,
+    "Num Votes": 132245,
     "Release Date": "2005-11-23",
     "Directors": "Roger Kumble"
   },
@@ -11003,7 +11355,7 @@
     "Runtime (mins)": 119,
     "Year": 2000,
     "Genres": "Thriller, Drama, Romance, Adventure",
-    "Num Votes": 259051,
+    "Num Votes": 262182,
     "Release Date": "2000-02-11",
     "Directors": "Danny Boyle"
   },
@@ -11019,7 +11371,7 @@
     "Runtime (mins)": 103,
     "Year": 2007,
     "Genres": "Horror, Sci-Fi, Thriller",
-    "Num Votes": 22146,
+    "Num Votes": 22283,
     "Release Date": "2008-07-04",
     "Directors": "David Bruckner,Dan Bush,Jacob Gentry"
   },
@@ -11035,7 +11387,7 @@
     "Runtime (mins)": 109,
     "Year": 2009,
     "Genres": "Horror, Thriller, Mystery",
-    "Num Votes": 95061,
+    "Num Votes": 96442,
     "Release Date": "2010-10-01",
     "Directors": "Christian Alvart"
   },
@@ -11051,7 +11403,7 @@
     "Runtime (mins)": 109,
     "Year": 2002,
     "Genres": "Drama",
-    "Num Votes": 18117,
+    "Num Votes": 18252,
     "Release Date": "2002-11-22",
     "Directors": "Michael Hoffman"
   },
@@ -11067,7 +11419,7 @@
     "Runtime (mins)": 123,
     "Year": 1994,
     "Genres": "Horror, Drama, Fantasy",
-    "Num Votes": 358845,
+    "Num Votes": 364484,
     "Release Date": "1994-11-11",
     "Directors": "Neil Jordan"
   },
@@ -11083,7 +11435,7 @@
     "Runtime (mins)": 90,
     "Year": 2000,
     "Genres": "Thriller, Mystery, Adventure, Fantasy, Horror",
-    "Num Votes": 40856,
+    "Num Votes": 41234,
     "Release Date": "2000-10-27",
     "Directors": "Joe Berlinger"
   },
@@ -11099,7 +11451,7 @@
     "Runtime (mins)": 127,
     "Year": 2000,
     "Genres": "Romance, Comedy, Fantasy",
-    "Num Votes": 228673,
+    "Num Votes": 231912,
     "Release Date": "2000-12-15",
     "Directors": "Nancy Meyers"
   },
@@ -11115,7 +11467,7 @@
     "Runtime (mins)": 178,
     "Year": 1995,
     "Genres": "Biography, Drama, War",
-    "Num Votes": 1118490,
+    "Num Votes": 1133652,
     "Release Date": "1995-05-24",
     "Directors": "Mel Gibson"
   },
@@ -11131,7 +11483,7 @@
     "Runtime (mins)": 98,
     "Year": 2006,
     "Genres": "Comedy, Crime",
-    "Num Votes": 61970,
+    "Num Votes": 63348,
     "Release Date": "2006-07-14",
     "Directors": "Keenen Ivory Wayans"
   },
@@ -11147,7 +11499,7 @@
     "Runtime (mins)": 95,
     "Year": 2005,
     "Genres": "Comedy, Family, Adventure, Romance, Fantasy",
-    "Num Votes": 35326,
+    "Num Votes": 35887,
     "Release Date": "2005-01-21",
     "Directors": "Brian Levant"
   },
@@ -11163,7 +11515,7 @@
     "Runtime (mins)": 101,
     "Year": 2006,
     "Genres": "Comedy, Drama",
-    "Num Votes": 531460,
+    "Num Votes": 540085,
     "Release Date": "2006-08-18",
     "Directors": "Jonathan Dayton,Valerie Faris"
   },
@@ -11179,7 +11531,7 @@
     "Runtime (mins)": 105,
     "Year": 2005,
     "Genres": "Comedy",
-    "Num Votes": 19277,
+    "Num Votes": 19740,
     "Release Date": "2005-03-30",
     "Directors": "Bille Woodruff"
   },
@@ -11195,7 +11547,7 @@
     "Runtime (mins)": 149,
     "Year": 1996,
     "Genres": "Crime, Drama, Thriller",
-    "Num Votes": 187815,
+    "Num Votes": 191250,
     "Release Date": "1996-07-24",
     "Directors": "Joel Schumacher"
   },
@@ -11211,7 +11563,7 @@
     "Runtime (mins)": 93,
     "Year": 2007,
     "Genres": "Horror, Mystery, Thriller",
-    "Num Votes": 169711,
+    "Num Votes": 171997,
     "Release Date": "2007-10-26",
     "Directors": "Darren Lynn Bousman"
   },
@@ -11227,7 +11579,7 @@
     "Runtime (mins)": 128,
     "Year": 2010,
     "Genres": "Mystery, Thriller, Drama, Crime",
-    "Num Votes": 173136,
+    "Num Votes": 174504,
     "Release Date": "2010-03-19",
     "Directors": "Roman Polanski"
   },
@@ -11243,7 +11595,7 @@
     "Runtime (mins)": 102,
     "Year": 1939,
     "Genres": "Musical, Family, Adventure, Fantasy",
-    "Num Votes": 444862,
+    "Num Votes": 452657,
     "Release Date": "1939-08-25",
     "Directors": "Victor Fleming,King Vidor"
   },
@@ -11259,7 +11611,7 @@
     "Runtime (mins)": 136,
     "Year": 2004,
     "Genres": "Western, Biography, Sport, Drama, Adventure, Action",
-    "Num Votes": 86836,
+    "Num Votes": 87473,
     "Release Date": "2004-03-05",
     "Directors": "Joe Johnston"
   },
@@ -11275,7 +11627,7 @@
     "Runtime (mins)": 95,
     "Year": 2005,
     "Genres": "Comedy, Romance, Fantasy, Drama",
-    "Num Votes": 119552,
+    "Num Votes": 122557,
     "Release Date": "2005-09-16",
     "Directors": "Mark Waters"
   },
@@ -11291,7 +11643,7 @@
     "Runtime (mins)": 100,
     "Year": 2005,
     "Genres": "Comedy, Crime",
-    "Num Votes": 25763,
+    "Num Votes": 26072,
     "Release Date": "2005-02-25",
     "Directors": "Stephen Herek"
   },
@@ -11307,7 +11659,7 @@
     "Runtime (mins)": 90,
     "Year": 2009,
     "Genres": "Comedy, Sport",
-    "Num Votes": 46614,
+    "Num Votes": 47043,
     "Release Date": "2009-02-20",
     "Directors": "Will Gluck"
   },
@@ -11323,7 +11675,7 @@
     "Runtime (mins)": 95,
     "Year": 2003,
     "Genres": "Romance, Comedy",
-    "Num Votes": 75659,
+    "Num Votes": 76356,
     "Release Date": "2003-01-10",
     "Directors": "Shawn Levy"
   },
@@ -11339,7 +11691,7 @@
     "Runtime (mins)": 82,
     "Year": 2002,
     "Genres": "Drama, Comedy",
-    "Num Votes": 52637,
+    "Num Votes": 53101,
     "Release Date": "2002-01-11",
     "Directors": "Jake Kasdan"
   },
@@ -11355,7 +11707,7 @@
     "Runtime (mins)": 126,
     "Year": 2007,
     "Genres": "Drama, Romance, Comedy",
-    "Num Votes": 221142,
+    "Num Votes": 222690,
     "Release Date": "2007-12-21",
     "Directors": "Richard LaGravenese"
   },
@@ -11371,7 +11723,7 @@
     "Runtime (mins)": 90,
     "Year": 2006,
     "Genres": "Animation, Comedy, Family, Adventure, Drama",
-    "Num Votes": 35829,
+    "Num Votes": 36800,
     "Release Date": "2006-08-04",
     "Directors": "Steve Oedekerk"
   },
@@ -11387,7 +11739,7 @@
     "Runtime (mins)": 83,
     "Year": 1998,
     "Genres": "Animation, Family, Comedy, Adventure",
-    "Num Votes": 166472,
+    "Num Votes": 168130,
     "Release Date": "1998-10-02",
     "Directors": "Eric Darnell,Tim Johnson,Lawrence Guterman"
   },
@@ -11403,7 +11755,7 @@
     "Runtime (mins)": 97,
     "Year": 2003,
     "Genres": "Fantasy, Family, Music, Romance, Comedy",
-    "Num Votes": 158385,
+    "Num Votes": 161914,
     "Release Date": "2003-08-06",
     "Directors": "Mark Waters"
   },
@@ -11419,7 +11771,7 @@
     "Runtime (mins)": 99,
     "Year": 2009,
     "Genres": "Horror",
-    "Num Votes": 222745,
+    "Num Votes": 225047,
     "Release Date": "2009-05-29",
     "Directors": "Sam Raimi"
   },
@@ -11435,7 +11787,7 @@
     "Runtime (mins)": 88,
     "Year": 2001,
     "Genres": "Adventure, Sci-Fi, Comedy, Family, Action",
-    "Num Votes": 130462,
+    "Num Votes": 132320,
     "Release Date": "2001-03-30",
     "Directors": "Robert Rodriguez"
   },
@@ -11451,7 +11803,7 @@
     "Runtime (mins)": 86,
     "Year": 1999,
     "Genres": "Crime, Thriller, Comedy",
-    "Num Votes": 29976,
+    "Num Votes": 30560,
     "Release Date": "1999-02-19",
     "Directors": "Darren Stein"
   },
@@ -11467,7 +11819,7 @@
     "Runtime (mins)": 98,
     "Year": 1993,
     "Genres": "Thriller, War, Action",
-    "Num Votes": 25927,
+    "Num Votes": 26356,
     "Release Date": "1993-01-29",
     "Directors": "Luis Llosa"
   },
@@ -11483,7 +11835,7 @@
     "Runtime (mins)": 93,
     "Year": 2007,
     "Genres": "Comedy, Drama",
-    "Num Votes": 3537,
+    "Num Votes": 3567,
     "Release Date": "2008-06-13",
     "Directors": "Christian Charles"
   },
@@ -11499,7 +11851,7 @@
     "Runtime (mins)": 86,
     "Year": 2007,
     "Genres": "Adventure, Comedy, Fantasy",
-    "Num Votes": 110850,
+    "Num Votes": 111828,
     "Release Date": "2007-01-26",
     "Directors": "Jason Friedberg,Aaron Seltzer"
   },
@@ -11515,7 +11867,7 @@
     "Runtime (mins)": 81,
     "Year": 1999,
     "Genres": "Mystery, Horror",
-    "Num Votes": 298381,
+    "Num Votes": 303701,
     "Release Date": "1999-07-30",
     "Directors": "Daniel Myrick,Eduardo Sánchez"
   },
@@ -11531,7 +11883,7 @@
     "Runtime (mins)": 93,
     "Year": 2007,
     "Genres": "Comedy",
-    "Num Votes": 11573,
+    "Num Votes": 11686,
     "Release Date": "2007-09-07",
     "Directors": "Bob Odenkirk"
   },
@@ -11547,7 +11899,7 @@
     "Runtime (mins)": 102,
     "Year": 1991,
     "Genres": "Family, Comedy, Romance, Drama",
-    "Num Votes": 92030,
+    "Num Votes": 93918,
     "Release Date": "1991-11-27",
     "Directors": "Howard Zieff"
   },
@@ -11563,7 +11915,7 @@
     "Runtime (mins)": 86,
     "Year": 2002,
     "Genres": "Comedy",
-    "Num Votes": 4572,
+    "Num Votes": 4594,
     "Release Date": "2002-11-01",
     "Directors": "Andrew Gurland"
   },
@@ -11579,7 +11931,7 @@
     "Runtime (mins)": 114,
     "Year": 1999,
     "Genres": "Comedy, Drama",
-    "Num Votes": 18996,
+    "Num Votes": 19169,
     "Release Date": "1999-11-12",
     "Directors": "Wayne Wang"
   },
@@ -11595,7 +11947,7 @@
     "Runtime (mins)": 104,
     "Year": 2003,
     "Genres": "Horror",
-    "Num Votes": 72848,
+    "Num Votes": 74063,
     "Release Date": "2003-08-29",
     "Directors": "Victor Salva"
   },
@@ -11611,7 +11963,7 @@
     "Runtime (mins)": 115,
     "Year": 2008,
     "Genres": "Drama, Family",
-    "Num Votes": 170907,
+    "Num Votes": 172495,
     "Release Date": "2008-12-25",
     "Directors": "David Frankel"
   },
@@ -11627,7 +11979,7 @@
     "Runtime (mins)": 114,
     "Year": 2003,
     "Genres": "Comedy, Adventure, Action",
-    "Num Votes": 114431,
+    "Num Votes": 115477,
     "Release Date": "2003-02-07",
     "Directors": "David Dobkin"
   },
@@ -11643,7 +11995,7 @@
     "Runtime (mins)": 110,
     "Year": 2000,
     "Genres": "Adventure, Comedy, Western, Action",
-    "Num Votes": 137878,
+    "Num Votes": 139316,
     "Release Date": "2000-05-26",
     "Directors": "Tom Dey"
   },
@@ -11659,7 +12011,7 @@
     "Runtime (mins)": 115,
     "Year": 2004,
     "Genres": "Comedy, Romance",
-    "Num Votes": 293118,
+    "Num Votes": 296233,
     "Release Date": "2004-12-22",
     "Directors": "Jay Roach"
   },
@@ -11675,7 +12027,7 @@
     "Runtime (mins)": 116,
     "Year": 2003,
     "Genres": "Thriller, Crime, Comedy, Drama",
-    "Num Votes": 141123,
+    "Num Votes": 142558,
     "Release Date": "2003-09-12",
     "Directors": "Ridley Scott"
   },
@@ -11691,7 +12043,7 @@
     "Runtime (mins)": 136,
     "Year": 2005,
     "Genres": "Drama, Music, Biography, Romance",
-    "Num Votes": 271566,
+    "Num Votes": 275173,
     "Release Date": "2005-11-18",
     "Directors": "James Mangold"
   },
@@ -11707,7 +12059,7 @@
     "Runtime (mins)": 108,
     "Year": 2004,
     "Genres": "Fantasy, Family, Comedy, Adventure",
-    "Num Votes": 225043,
+    "Num Votes": 227011,
     "Release Date": "2004-12-17",
     "Directors": "Brad Silberling"
   },
@@ -11723,7 +12075,7 @@
     "Runtime (mins)": 102,
     "Year": 2008,
     "Genres": "Comedy, Music",
-    "Num Votes": 40562,
+    "Num Votes": 40775,
     "Release Date": "2008-08-20",
     "Directors": "Peter Cattaneo"
   },
@@ -11739,7 +12091,7 @@
     "Runtime (mins)": 84,
     "Year": 2006,
     "Genres": "Horror, Thriller, Action",
-    "Num Votes": 29656,
+    "Num Votes": 30095,
     "Release Date": "2006-05-19",
     "Directors": "Gregory Dark"
   },
@@ -11755,7 +12107,7 @@
     "Runtime (mins)": 90,
     "Year": 2008,
     "Genres": "Action, Sci-Fi, Adventure, Thriller",
-    "Num Votes": 99238,
+    "Num Votes": 99909,
     "Release Date": "2008-08-29",
     "Directors": "Mathieu Kassovitz"
   },
@@ -11771,7 +12123,7 @@
     "Runtime (mins)": 96,
     "Year": 2010,
     "Genres": "Drama, Thriller",
-    "Num Votes": 58086,
+    "Num Votes": 58725,
     "Release Date": "2010-08-12",
     "Directors": "Paul T. Scheuring"
   },
@@ -11787,7 +12139,7 @@
     "Runtime (mins)": 120,
     "Year": 2001,
     "Genres": "Drama, Action, Crime, Thriller",
-    "Num Votes": 52508,
+    "Num Votes": 52863,
     "Release Date": "2001-03-09",
     "Directors": "John Herzfeld"
   },
@@ -11803,7 +12155,7 @@
     "Runtime (mins)": 94,
     "Year": 2009,
     "Genres": "Animation, Sci-Fi, Family, Comedy, Adventure, Fantasy, Action",
-    "Num Votes": 180876,
+    "Num Votes": 183499,
     "Release Date": "2009-03-27",
     "Directors": "Rob Letterman,Conrad Vernon"
   },
@@ -11819,7 +12171,7 @@
     "Runtime (mins)": 132,
     "Year": 2004,
     "Genres": "Drama, Sport",
-    "Num Votes": 739053,
+    "Num Votes": 749008,
     "Release Date": "2005-01-28",
     "Directors": "Clint Eastwood"
   },
@@ -11835,7 +12187,7 @@
     "Runtime (mins)": 103,
     "Year": 1999,
     "Genres": "Romance, Comedy",
-    "Num Votes": 107812,
+    "Num Votes": 108986,
     "Release Date": "1999-05-07",
     "Directors": "Alexander Payne"
   },
@@ -11851,7 +12203,7 @@
     "Runtime (mins)": 83,
     "Year": 2005,
     "Genres": "Thriller, Horror, Mystery, Drama",
-    "Num Votes": 27290,
+    "Num Votes": 27513,
     "Release Date": "2006-05-05",
     "Directors": "Courtney Solomon"
   },
@@ -11867,7 +12219,7 @@
     "Runtime (mins)": 87,
     "Year": 2007,
     "Genres": "Animation, Comedy, Adventure",
-    "Num Votes": 355709,
+    "Num Votes": 358218,
     "Release Date": "2007-07-27",
     "Directors": "David Silverman"
   },
@@ -11883,7 +12235,7 @@
     "Runtime (mins)": 142,
     "Year": 2012,
     "Genres": "Adventure, Sci-Fi, Thriller, Action",
-    "Num Votes": 1030060,
+    "Num Votes": 1048011,
     "Release Date": "2012-03-23",
     "Directors": "Gary Ross"
   },
@@ -11899,7 +12251,7 @@
     "Runtime (mins)": 93,
     "Year": 2006,
     "Genres": "Comedy",
-    "Num Votes": 142111,
+    "Num Votes": 143108,
     "Release Date": "2006-08-18",
     "Directors": "Steve Pink"
   },
@@ -11915,7 +12267,7 @@
     "Runtime (mins)": 116,
     "Year": 2003,
     "Genres": "Romance, Comedy",
-    "Num Votes": 289536,
+    "Num Votes": 300756,
     "Release Date": "2003-02-07",
     "Directors": "Donald Petrie"
   },
@@ -11931,7 +12283,7 @@
     "Runtime (mins)": 104,
     "Year": 2001,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 405267,
+    "Num Votes": 412020,
     "Release Date": "2001-08-10",
     "Directors": "Alejandro Amenábar"
   },
@@ -11947,7 +12299,7 @@
     "Runtime (mins)": 104,
     "Year": 2007,
     "Genres": "Horror, Mystery, Fantasy",
-    "Num Votes": 301834,
+    "Num Votes": 305758,
     "Release Date": "2007-06-22",
     "Directors": "Mikael Håfström"
   },
@@ -11963,7 +12315,7 @@
     "Runtime (mins)": 90,
     "Year": 2003,
     "Genres": "Thriller, Mystery",
-    "Num Votes": 276071,
+    "Num Votes": 281498,
     "Release Date": "2003-04-25",
     "Directors": "James Mangold"
   },
@@ -11979,7 +12331,7 @@
     "Runtime (mins)": 93,
     "Year": 1999,
     "Genres": "Mystery, Thriller, Horror",
-    "Num Votes": 61552,
+    "Num Votes": 62106,
     "Release Date": "1999-10-29",
     "Directors": "William Malone"
   },
@@ -11995,7 +12347,7 @@
     "Runtime (mins)": 91,
     "Year": 2001,
     "Genres": "Fantasy, Horror",
-    "Num Votes": 96748,
+    "Num Votes": 97905,
     "Release Date": "2001-10-26",
     "Directors": "Steve Beck"
   },
@@ -12011,7 +12363,7 @@
     "Runtime (mins)": 91,
     "Year": 2004,
     "Genres": "Horror, Mystery, Thriller",
-    "Num Votes": 153617,
+    "Num Votes": 155077,
     "Release Date": "2004-10-22",
     "Directors": "Takashi Shimizu"
   },
@@ -12027,7 +12379,7 @@
     "Runtime (mins)": 96,
     "Year": 2007,
     "Genres": "Family, Drama, Fantasy",
-    "Num Votes": 179548,
+    "Num Votes": 183422,
     "Release Date": "2007-02-16",
     "Directors": "Gabor Csupo"
   },
@@ -12043,7 +12395,7 @@
     "Runtime (mins)": 122,
     "Year": 2001,
     "Genres": "Crime, Drama, Thriller",
-    "Num Votes": 489518,
+    "Num Votes": 498363,
     "Release Date": "2001-10-05",
     "Directors": "Antoine Fuqua"
   },
@@ -12059,7 +12411,7 @@
     "Runtime (mins)": 122,
     "Year": 2000,
     "Genres": "Music, Comedy, Adventure, Drama",
-    "Num Votes": 300921,
+    "Num Votes": 305601,
     "Release Date": "2000-09-22",
     "Directors": "Cameron Crowe"
   },
@@ -12075,7 +12427,7 @@
     "Runtime (mins)": 122,
     "Year": 1973,
     "Genres": "Horror",
-    "Num Votes": 471584,
+    "Num Votes": 480385,
     "Release Date": "1973-12-26",
     "Directors": "William Friedkin"
   }

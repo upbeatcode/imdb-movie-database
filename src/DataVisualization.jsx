@@ -90,9 +90,9 @@ const DataVisualization = ({ data }) => {
 
   const getTimelineData = () => {
     return data
-      .filter((movie) => movie.dataRated)
+      .filter((movie) => movie.dateRated)
       .map((movie) => ({
-        date: new Date(movie.dataRated).toLocaleDateString(),
+        date: new Date(movie.dateRated).toLocaleDateString(),
         rating: movie.myRating,
         title: movie.title
       }))
@@ -280,7 +280,7 @@ DataVisualization.propTypes = {
     PropTypes.shape({
       id: PropTypes.string,
       myRating: PropTypes.number.isRequired,
-      dataRated: PropTypes.string, // Optional - used in timeline chart
+      dateRated: PropTypes.string, // Optional - used in timeline chart
       title: PropTypes.string.isRequired,
       imdbRating: PropTypes.number,
       runtime: PropTypes.number,

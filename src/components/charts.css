@@ -582,3 +582,11 @@
     padding: 15px 20px;
   }
 }
+
+/* Style for no data message in charts */
+.no-data-message {
+  color: #a0aec0; /* Light gray text, consistent with other secondary text */
+  text-align: center;
+  padding: 2rem;
+  font-style: italic;
+}

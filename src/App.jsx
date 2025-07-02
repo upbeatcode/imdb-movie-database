@@ -69,11 +69,11 @@ function App() {
 
       let matchesDateRatedYear = true;
       if (activeFilters.dateRatedYear !== null) {
-        // Use dataRated consistently
+        // Use dateRated consistently
         matchesDateRatedYear = false;
-        if (movie.dataRated) {
+        if (movie.dateRated) {
           try {
-            const ratedYear = new Date(movie.dataRated).getFullYear();
+            const ratedYear = new Date(movie.dateRated).getFullYear();
             matchesDateRatedYear =
               !isNaN(ratedYear) && ratedYear === activeFilters.dateRatedYear;
           } catch (error) {

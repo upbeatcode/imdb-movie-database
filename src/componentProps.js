@@ -49,7 +49,7 @@ export const YearPageProps = {
     PropTypes.shape({
       id: PropTypes.string,
       myRating: PropTypes.number,
-      dataRated: PropTypes.string,
+      dateRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
       runtime: PropTypes.string,
@@ -67,7 +67,7 @@ export const GenrePageProps = {
     PropTypes.shape({
       id: PropTypes.string,
       myRating: PropTypes.number,
-      dataRated: PropTypes.string,
+      dateRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
       runtime: PropTypes.string,
@@ -85,7 +85,7 @@ export const DecadePageProps = {
     PropTypes.shape({
       id: PropTypes.string,
       myRating: PropTypes.number,
-      dataRated: PropTypes.string,
+      dateRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
       runtime: PropTypes.string,
@@ -103,7 +103,7 @@ export const RatingPageProps = {
     PropTypes.shape({
       id: PropTypes.string,
       myRating: PropTypes.number,
-      dataRated: PropTypes.string,
+      dateRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
       runtime: PropTypes.string,
@@ -121,7 +121,7 @@ export const DateRatedPageProps = {
     PropTypes.shape({
       id: PropTypes.string,
       myRating: PropTypes.number,
-      dataRated: PropTypes.string,
+      dateRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
       runtime: PropTypes.string,
@@ -139,7 +139,7 @@ export const DataVisualizationProps = {
     PropTypes.shape({
       id: PropTypes.string,
       myRating: PropTypes.number,
-      dataRated: PropTypes.string,
+      dateRated: PropTypes.string,
       title: PropTypes.string,
       imdbRating: PropTypes.number,
       runtime: PropTypes.string,
@@ -157,7 +157,7 @@ export const MovieTableProps = {
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       myRating: PropTypes.number.isRequired,
-      dataRated: PropTypes.string,
+      dateRated: PropTypes.string,
       title: PropTypes.string.isRequired,
       imdbRating: PropTypes.number.isRequired,
       runtime: PropTypes.string.isRequired,

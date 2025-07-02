@@ -86,13 +86,13 @@ export function DateRatedPage() {
   const { year } = useParams();
   const yearNum = parseInt(year);
   const filteredMovies = data.filter((movie) => {
-    // Use dataRated consistently
-    if (movie.dataRated) {
+    // Use dateRated consistently
+    if (movie.dateRated) {
       try {
-        const ratedYear = new Date(movie.dataRated).getFullYear();
+        const ratedYear = new Date(movie.dateRated).getFullYear();
         return !isNaN(ratedYear) && ratedYear === yearNum;
       } catch (error) {
-        console.error('Invalid date format:', movie.dataRated);
+        console.error('Invalid date format:', movie.dateRated);
         console.error(error);
         // If the date format is invalid, we skip this movie
         return false;

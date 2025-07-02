@@ -12,6 +12,7 @@
 @import './components/pagination.css';
 @import './components/charts.css';
 @import './components/navigation.css';
+@import './components/histogram.css';
 
 /* Pages */
 @import './pages/analytics.css';

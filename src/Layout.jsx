@@ -119,8 +119,8 @@ function RatingTabs({ currentRating, onSelect }) {
 function DateRatedTabs({ currentDateRatedYear, onSelect }) {
   const years = new Set();
   data.forEach((movie) => {
-    if (movie.dataRated) {
-      const year = new Date(movie.dataRated).getFullYear();
+    if (movie.dateRated) {
+      const year = new Date(movie.dateRated).getFullYear();
       years.add(year);
     }
   });

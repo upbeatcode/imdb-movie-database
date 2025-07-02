@@ -20,7 +20,7 @@ const MovieTable = ({ data }) => {
     const aValue = a[sortConfig.key];
     const bValue = b[sortConfig.key];
 
-    if (sortConfig.key === 'dataRated' || sortConfig.key === 'releaseDate') {
+    if (sortConfig.key === 'dateRated' || sortConfig.key === 'releaseDate') {
       return sortConfig.direction === 'asc'
         ? new Date(aValue) - new Date(bValue)
         : new Date(bValue) - new Date(aValue);
@@ -121,9 +121,9 @@ const MovieTable = ({ data }) => {
               </th>
               <th
                 style={{ width: '10%' }}
-                onClick={() => handleSort('dataRated')}
+                onClick={() => handleSort('dateRated')}
               >
-                Date Rated{getSortIndicator('dataRated')}
+                Date Rated{getSortIndicator('dateRated')}
               </th>
               <th
                 style={{ width: '10%' }}
@@ -152,7 +152,7 @@ const MovieTable = ({ data }) => {
                 <td>{formatRuntime(movie.runtime)}</td>
                 <td>{movie.imdbRating}</td>
                 <td>{movie.myRating}</td>
-                <td>{movie.dataRated}</td>
+                <td>{movie.dateRated}</td>
                 <td>{formatNumber(movie.numVotes)}</td>
                 <td>{formatDate(movie.releaseDate)}</td>
               </tr>
@@ -211,7 +211,7 @@ const MovieTable = ({ data }) => {
                 <strong>My Rating:</strong> {selectedMovie.myRating}
               </p>
               <p>
-                <strong>Date Rated:</strong> {selectedMovie.dataRated}
+                <strong>Date Rated:</strong> {selectedMovie.dateRated}
               </p>
               <p>
                 <strong>Release Date:</strong>{' '}

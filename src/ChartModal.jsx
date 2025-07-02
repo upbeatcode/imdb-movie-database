@@ -156,7 +156,7 @@ ChartModal.propTypes = {
       year: PropTypes.number,
       myRating: PropTypes.number,
       genres: PropTypes.arrayOf(PropTypes.string),
-      dataRated: PropTypes.string
+      dateRated: PropTypes.string
     })
   ).isRequired
 };

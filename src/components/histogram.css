@@ -1,0 +1,304 @@
+/* Rating Distribution Histogram Styles */
+.rating-histogram-container {
+  margin: 30px 0;
+  padding: 25px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+/* Controls Section */
+.histogram-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+}
+
+.bin-size-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bin-size-control label {
+  font-weight: 600;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.bin-size-select {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bin-size-select:hover {
+  background-color: #444;
+  border-color: #007bff;
+}
+
+.bin-size-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Insights Panel */
+.insights-panel {
+  margin-bottom: 25px;
+}
+
+.insight-card {
+  background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+.insight-card h4 {
+  margin: 0 0 15px 0;
+  color: #007bff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.insight-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.stat-label {
+  font-weight: 500;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.stat-value {
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Chart Container */
+.histogram-chart {
+  margin: 25px 0;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* Custom Tooltip Styles */
+.custom-tooltip {
+  background-color: rgba(30, 30, 30, 0.95);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-label {
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+.tooltip-frequency,
+.tooltip-normal {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+/* Chart Description */
+.chart-description {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.chart-description p {
+  margin: 0;
+  color: #ddd;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.chart-description strong {
+  color: #007bff;
+}
+
+/* No Data State */
+.no-data {
+  text-align: center;
+  padding: 40px 20px;
+  color: #888;
+}
+
+.no-data p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Recharts Custom Styles */
+.recharts-tooltip-wrapper {
+  z-index: 100;
+}
+
+.recharts-legend-wrapper {
+  padding-top: 20px !important;
+}
+
+.recharts-legend-item-text {
+  color: #ddd !important;
+  font-size: 14px !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: #ddd !important;
+  font-size: 12px !important;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #444 !important;
+  stroke-opacity: 0.6 !important;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .rating-histogram-container {
+    margin: 20px 0;
+    padding: 15px;
+  }
+
+  .histogram-controls {
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  .bin-size-control {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .bin-size-select {
+    width: 150px;
+  }
+
+  .insight-stats {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .stat-item {
+    padding: 8px 12px;
+  }
+
+  .stat-label,
+  .stat-value {
+    font-size: 13px;
+  }
+
+  .histogram-chart {
+    padding: 10px;
+    margin: 15px 0;
+  }
+
+  .chart-description {
+    padding: 12px;
+  }
+
+  .chart-description p {
+    font-size: 13px;
+  }
+
+  .insight-card h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rating-histogram-container {
+    padding: 12px;
+  }
+
+  .histogram-controls {
+    padding: 10px;
+  }
+
+  .bin-size-control label {
+    font-size: 13px;
+  }
+
+  .bin-size-select {
+    width: 130px;
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .insight-card {
+    padding: 15px;
+  }
+
+  .stat-item {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .histogram-chart {
+    padding: 8px;
+  }
+}
+
+/* Animation for smooth transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rating-histogram-container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Hover effects */
+.stat-item:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
+  transition: all 0.3s ease;
+}
+
+.insight-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}

@@ -109,15 +109,15 @@ export const getUniqueRatings = (movies) => {
 export const getUniqueDateRatedYears = (movies) => {
   const years = new Set();
   movies.forEach((movie) => {
-    // Use dataRated consistently (matches the data source)
-    if (movie.dataRated) {
+    // Use dateRated consistently (matches the data source)
+    if (movie.dateRated) {
       try {
-        const year = new Date(movie.dataRated).getFullYear(); // Extract the year from the date
+        const year = new Date(movie.dateRated).getFullYear(); // Extract the year from the date
         if (!isNaN(year)) { // Check if the year is a valid number
           years.add(year);
         }
       } catch (error) {
-        console.error("Invalid date format:", movie.dataRated);
+        console.error("Invalid date format:", movie.dateRated);
         console.error(error);
       }
     }
